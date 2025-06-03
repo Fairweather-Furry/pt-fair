@@ -88,36 +88,43 @@
                     },
                     {
                         "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
                         "access_rules": ["$john_gutter_s1"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
                         "access_rules": ["$john_gutter_s2"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
                         "access_rules": ["$john_gutter_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
                         "access_rules": ["$john_gutter_tre"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: John Gutted",
+                        "visibility_rules": ["op_task"],
                         "access_rules": ["$john_gutter_ct1"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Primate Rage",
+                        "visibility_rules": ["op_task"],
                         "access_rules": ["$john_gutter_ct2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Let's Make This Quick",
+                        "visibility_rules": ["op_task"],
                         "access_rules": ["$john_gutter_ct3"],
                         "item_count": 1
                     }
