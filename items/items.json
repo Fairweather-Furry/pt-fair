@@ -6,6 +6,184 @@
         "codes": "grab"
     },
     {
+        "name": "Mach 4",
+        "type": "toggle",
+        "img": "images/Mach4.png",
+        "codes": "mach4"
+    },
+    {
+        "name": "Uppercut",
+        "type": "toggle",
+        "img": "images/UpperCut.png",
+        "codes": "ucut"
+    },
+    {
+        "name": "Super Jump",
+        "type": "toggle",
+        "img": "images/SJump.png",
+        "codes": "sjump"
+    },
+    {
+        "name": "Taunt",
+        "type": "toggle",
+        "img": "images/Taunt.png",
+        "codes": "taunt"
+    },
+    {
+        "name": "Super Taunt",
+        "type": "toggle",
+        "img": "images/STaunt.png",
+        "codes": "staunt"
+    },
+    {
+        "name": "Bodyslam",
+        "type": "toggle",
+        "img": "images/Slam.png",
+        "codes": "bodyslam"
+    },
+    {
+        "name": "Breakdance",
+        "type": "toggle",
+        "img": "images/Toppin.png",
+        "codes": "bdance"
+    },
+    {
+        "name": "Wallclimb",
+        "type": "toggle",
+        "img": "images/WallClimb.png",
+        "codes": "wclimb"
+    },
+    {
+        "name": "Double Jump",
+        "type": "toggle",
+        "img": "images/DJump.png",
+        "codes": "djump"
+    },
+    {
+        "name": "Rat Kick",
+        "type": "toggle",
+        "img": "images/Kick.png",
+        "codes": "rkick"
+    },
+    {
+        "name": "Spin Attack",
+        "type": "toggle",
+        "img": "images/Spin.png",
+        "codes": "spin"
+    },
+    {
+        "name": "Wallbounce",
+        "type": "toggle",
+        "img": "images/WallClimb.png",
+        "codes": "wbounce"
+    },
+    {
+        "name": "Tornado",
+        "type": "toggle",
+        "img": "images/Tornado.png",
+        "codes": "nado"
+    },
+    {
+        "name": "Crusher",
+        "type": "toggle",
+        "img": "images/Crusher.png",
+        "codes": "crush"
+    },
+    {
+        "name": "Bomb",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "bomb"
+    },
+
+    {
+        "name": "Ball",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "ball"
+    },
+    {
+        "name": "Knight",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "knight"
+    },
+    {
+        "name": "Fire Mouth",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "fmouth"
+    },
+    {
+        "name": "Ghost",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "ghost"
+    },
+    {
+        "name": "Mort",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "mort"
+    },
+    {
+        "name": "Weenie",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "weenie"
+    },
+    {
+        "name": "Barrel",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "barrel"
+    },
+    {
+        "name": "Anti-Grav Bubble",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "antigbubble"
+    },
+    {
+        "name": "Rocket",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "rocket"
+    },
+    {
+        "name": "Pizzabox",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "pbox"
+    },
+    {
+        "name": "Sticky Cheese",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "scheese"
+    },
+    {
+        "name": "Satan's Choice",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "schoice"
+    },
+    {
+        "name": "Shotgun",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "sgun"
+    },
+    {
+        "name": "Revolver",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "revolve"
+    },
+
+
+
+    {
         "name": "Floor Keys",
         "type": "progressive",
         "codes": "prog_key",
