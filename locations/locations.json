@@ -48,7 +48,7 @@
                     {
                         "map": "map",
                         "x": 895,
-                        "y": 1511
+                        "y": 1530
                     }
                 ]
             },
@@ -85,6 +85,48 @@
                         "name": "Pineapple Toppin",
                         "access_rules": ["$john_gutter_pin"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "access_rules": ["$john_gutter_s1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "access_rules": ["$john_gutter_s2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "access_rules": ["$john_gutter_s3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "access_rules": ["$john_gutter_tre"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: John Gutted",
+                        "access_rules": ["$john_gutter_ct1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Primate Rage",
+                        "access_rules": ["$john_gutter_ct2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Let's Make This Quick",
+                        "access_rules": ["$john_gutter_ct3"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 120,
+                        "y": 1530
                     }
                 ]
             }
