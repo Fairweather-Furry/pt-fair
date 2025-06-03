@@ -24,7 +24,7 @@
         "name": "Toppins",
         "type": "consumable",
         "initial_quantity": 0,
-        "img": "images/Toppin",
+        "img": "images/Toppin.png",
         "codes": "toppins"
     }
 ]
