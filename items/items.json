@@ -1,6 +1,6 @@
 [
     {
-        "name": "Peppino & Noise Grab",
+        "name": "Grab",
         "type": "toggle",
         "img": "images/Grab.png",
         "codes": "grab"
@@ -44,7 +44,7 @@
     {
         "name": "Breakdance",
         "type": "toggle",
-        "img": "images/Toppin.png",
+        "img": "images/BDance.png",
         "codes": "bdance"
     },
     {
@@ -188,31 +188,31 @@
         "stages": [
             {
                 "name": "No Keys",
-                "img": "images/OpenWorld.png",
+                "img": "images/Key0.png",
                 "codes": "prog_key_0",
                 "inheret_codes": true
             },
             {
                 "name": "1 Key",
-                "img": "images/OpenWorld.png",
+                "img": "images/Key1.png",
                 "codes": "prog_key_1",
                 "inheret_codes": true
             },
             {
                 "name": "2 Keys",
-                "img": "images/OpenWorld.png",
+                "img": "images/Key2.png",
                 "codes": "prog_key_2",
                 "inheret_codes": true
             },
             {
                 "name": "3 Keys",
-                "img": "images/OpenWorld.png",
+                "img": "images/Key3.png",
                 "codes": "prog_key_3",
                 "inheret_codes": true
             },
             {
                 "name": "4 Keys",
-                "img": "images/OpenWorld.png",
+                "img": "images/Key4.png",
                 "codes": "prog_key_4",
                 "inheret_codes": true
             }
