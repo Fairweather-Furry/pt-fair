@@ -1,7 +1,7 @@
 [
     {
         "name": "Overworld",
-		"chest_unopened_img": "images/a.png",
+		"chest_unopened_img": "images/ToppinCage.png",
 		"chest_opened_img": "images/Toppin.png",
         "children": [
             {
