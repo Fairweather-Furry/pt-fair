@@ -197,6 +197,24 @@
                 "img": "images/OpenWorld.png",
                 "codes": "prog_key_1",
                 "inheret_codes": true
+            },
+            {
+                "name": "2 Keys",
+                "img": "images/OpenWorld.png",
+                "codes": "prog_key_2",
+                "inheret_codes": true
+            },
+            {
+                "name": "3 Keys",
+                "img": "images/OpenWorld.png",
+                "codes": "prog_key_3",
+                "inheret_codes": true
+            },
+            {
+                "name": "4 Keys",
+                "img": "images/OpenWorld.png",
+                "codes": "prog_key_4",
+                "inheret_codes": true
             }
 
         ]
