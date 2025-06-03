@@ -6,7 +6,7 @@
         "children": [
             {
                 "name": "Tutorial",
-                "access_rules": [],
+                "access_rules": ["$not_swap"],
                 "sections": [
                     {
                         "name": "Complete",

@@ -8,6 +8,12 @@ function has(item, amount)
   end
 end
 
+function not_swap()
+  return(
+    not has("op_swap")
+  )
+end
+
 function tutorial_com()
   return(
     (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
