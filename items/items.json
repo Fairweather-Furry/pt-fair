@@ -225,5 +225,149 @@
         "initial_quantity": 0,
         "img": "images/Toppin.png",
         "codes": "toppins"
+    },
+    {
+        "name": "Character",
+        "type": "progressive",
+        "codes": "op_char",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Peppino",
+                "img": "images/Normal.png",
+                "codes": "op_pepp",
+                "inheret_codes": false
+            },
+            {
+                "name": "The Noise",
+                "img": "images/Noise.png",
+                "codes": "op_noise",
+                "inheret_codes": false
+            },
+            {
+                "name": "Swap",
+                "img": "images/Swap.png",
+                "codes": "op_swap",
+                "inheret_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Treasure Checks",
+        "type": "toggle",
+        "img": "images/Treasure.png",
+        "codes": "op_treasure"
+    },
+    {
+        "name": "Secret Checks",
+        "type": "toggle",
+        "img": "images/Secret.png",
+        "codes": "op_secret"
+    },
+    {
+        "name": "S Rank Checks",
+        "type": "toggle",
+        "img": "images/SRank.png",
+        "codes": "op_srank"
+    },
+    {
+        "name": "P Rank Checks",
+        "type": "toggle",
+        "img": "images/PRank.png",
+        "codes": "op_prank"
+    },
+    {
+        "name": "Chef Task Checks",
+        "type": "toggle",
+        "img": "images/ChefTask.png",
+        "codes": "op_task"
+    },
+    {
+        "name": "Open World",
+        "type": "progressive",
+        "codes": "op_oworld",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Open World - Off",
+                "img": "images/Key.png",
+                "codes": "op_oworld_off",
+                "inheret_codes": false
+            },
+            {
+                "name": "Open World - On",
+                "img": "images/Open_World.png",
+                "codes": "op_oworld_on",
+                "inheret_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bonus Ladders",
+        "type": "progressive",
+        "codes": "op_ladder",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Bonus Ladders - 0",
+                "img": "images/Ladder0.png",
+                "codes": "op_ladder0",
+                "inheret_codes": false
+            },
+            {
+                "name": "Bonus Ladders - 1",
+                "img": "images/Ladder1.png",
+                "codes": "op_ladder1",
+                "inheret_codes": false
+            },
+            {
+                "name": "Bonus Ladders - 2",
+                "img": "images/Ladder2.png",
+                "codes": "op_ladder2",
+                "inheret_codes": true
+            },
+            {
+                "name": "Bonus Ladders - 3",
+                "img": "images/Ladder3.png",
+                "codes": "op_ladder3",
+                "inheret_codes": true
+            },
+            {
+                "name": "Bonus Ladders - 4",
+                "img": "images/Ladder4.png",
+                "codes": "op_ladder4",
+                "inheret_codes": true
+            },
+            {
+                "name": "Bonus Ladders - 5",
+                "img": "images/Ladder5.png",
+                "codes": "op_ladder5",
+                "inheret_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Difficulty",
+        "type": "progressive",
+        "codes": "op_diff",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Difficulty - Normal",
+                "img": "images/Normal.png",
+                "codes": "op_diff_norm",
+                "inheret_codes": false
+            },
+            {
+                "name": "Difficulty - Expert",
+                "img": "images/Expert.png",
+                "codes": "op_diff_exp",
+                "inheret_codes": false
+            }
+        ]
     }
 ]
