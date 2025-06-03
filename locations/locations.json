@@ -51,6 +51,42 @@
                         "y": 1511
                     }
                 ]
+            },
+            {
+                "name": "John Gutter",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": ["$john_gutter_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": ["$john_gutter_mus"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "access_rules": ["$john_gutter_che"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": ["$john_gutter_tom"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": ["$john_gutter_sau"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": ["$john_gutter_pin"],
+                        "item_count": 1
+                    }
+                ]
             }
         ]
     }

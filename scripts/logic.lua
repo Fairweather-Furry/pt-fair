@@ -17,7 +17,7 @@ end
 function tutorial_com()
   return(
     (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("climb") and("grab")) or
+    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and("grab")) or
     (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
     (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("crush"))))
   )
@@ -26,7 +26,7 @@ end
 function tutorial_com20()
   return(
     (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("climb") and("grab")) or
+    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and("grab")) or
     (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
     (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("crush"))))
   )
@@ -40,28 +40,82 @@ end
 
 function tutorial_che()
   return(
-    (has("op_pepp") and has("op_diff_exp") and has("slam") and (has("sjump") or has("climb"))) or 
-    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("climb"))
+    (has("op_pepp") and has("op_diff_exp") and has("slam") and (has("sjump") or has("wclimb"))) or 
+    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("wclimb"))
   )
 end
 
 function tutorial_tom()
   return(
-    (has("op_pepp") and has("op_diff_exp") and has("slam") and (has("sjump") or has("climb"))) or 
-    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("climb"))
+    (has("op_pepp") and has("op_diff_exp") and has("slam") and (has("sjump") or has("wclimb"))) or 
+    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("wclimb"))
   )
 end
 
 function tutorial_sau()
   return (
     (has("op_pepp") and has("op_diff_exp") and has("slam") and has("sjump")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("climb"))
+    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("wclimb"))
   )
 end
 
 function tutorial_pin()
   return(
     (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("climb") and("grab"))
+    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and("grab"))
+  )
+end
+
+function john_gutter_com()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("wclimb"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("sjump")) or
+    (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("ucut") or has("crush") or has("wbounce"))) or
+    (has("op_noise") and has("op_diff_norm") and has("sjump")) or
+  )
+end
+
+function john_gutter_mus()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("wclimb") or has("ucut") or has("grab") or has("bodyslam"))) or
+    (has("op_pepp") and has("op_diff_norm") and (has("sjump") or has("wclimb") or has("ucut"))) or
+    (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("ucut") or has("crush") or has("wbounce") or has("grab") or has("bodyslam"))) or
+    (has("op_noise") and has("op_diff_norm") and (has("sjump") or has("wbounce") or has("crush") or has("ucut"))) or
+  )
+end
+
+function john_gutter_che()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("wclimb") or has("ucut") or has("grab"))) or
+    (has("op_pepp") and has("op_diff_norm") and (has("sjump") or has("wclimb") or has("ucut"))) or
+    (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("ucut") or has("crush") or has("wbounce") or has("grab") or has("bodyslam"))) or
+    (has("op_noise") and has("op_diff_norm") and (has("sjump") or has("wbounce") or has("crush") or has("ucut"))) or
+  )
+end
+
+function john_gutter_tom()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("wclimb") or has("ucut") or has("grab"))) or
+    (has("op_pepp") and has("op_diff_norm") and (has("sjump") or has("wclimb") or has("ucut"))) or
+    (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("ucut") or has("crush") or has("wbounce") or has("grab") or has("bodyslam"))) or
+    (has("op_noise") and has("op_diff_norm") and (has("sjump") or has("wbounce") or has("crush") or has("ucut"))) or
+  )
+end
+
+function john_gutter_sau()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("wclimb"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("sjump")) or
+    (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("ucut") or has("crush") or has("wbounce"))) or
+    (has("op_noise") and has("op_diff_norm") and has("sjump")) or
+  )
+end
+
+function john_gutter_pin()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("wclimb"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("sjump")) or
+    (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("ucut") or has("crush") or has("wbounce"))) or
+    (has("op_noise") and has("op_diff_norm") and has("sjump")) or
   )
 end
