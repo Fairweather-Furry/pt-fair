@@ -95,7 +95,6 @@
         "img": "images/Bomb.png",
         "codes": "bomb"
     },
-
     {
         "name": "Ball",
         "type": "toggle",
@@ -180,9 +179,6 @@
         "img": "images/Bomb.png",
         "codes": "revolve"
     },
-
-
-
     {
         "name": "Floor Keys",
         "type": "progressive",
@@ -195,7 +191,7 @@
                 "img": "images/OpenWorld.png",
                 "codes": "prog_key_0",
                 "inheret_codes": true
-            }
+            },
             {
                 "name": "1 Key",
                 "img": "images/OpenWorld.png",
