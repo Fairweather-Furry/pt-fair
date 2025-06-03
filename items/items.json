@@ -196,6 +196,13 @@
                 "codes": "prog_key_0",
                 "inheret_codes": true
             }
+            {
+                "name": "1 Key",
+                "img": "images/OpenWorld.png",
+                "codes": "prog_key_1",
+                "inheret_codes": true
+            }
+
         ]
     },
     {
