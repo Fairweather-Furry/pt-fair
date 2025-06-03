@@ -1,0 +1,14 @@
+{
+  "name": "Pizza Tower Randomizer AP",
+  "game_name": "Pizza Tower",
+  "package_version": "0.0 AP",
+  "package_uid": "pt_fair",
+  "author": "Fairweather, BowserCrusher, Dewutt",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": ["ap"]
+    }
+  },
+  "versions_url": ""
+}
