@@ -22,16 +22,16 @@ end
 
 function tutorial_che_tom()
   return(
-    (has("op_pepp") and has("op_diff_exp") and has("slam") and (has("sjump") or has("wclimb"))) or 
-    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("wclimb"))
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and (has("sjump") or has("wclimb"))) or 
+    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb"))
   )
 end
 
 
 function tutorial_sau()
   return (
-    (has("op_pepp") and has("op_diff_exp") and has("slam") and has("sjump")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("slam") and has("wclimb"))
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump")) or 
+    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb"))
   )
 end
 
@@ -45,8 +45,8 @@ end
 function tutorial_com()
   return(
     tutorial_pin() or
-    (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
-    (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("crush"))))
+    (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("bodyslam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
+    (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("bodyslam")) or (has("sjump") and has("nado")) or (has("crush"))))
   )
 end
 
@@ -136,6 +136,15 @@ function pizzascape_ct1()
     (has("op_pepp") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
     (has("op_pepp") and has("op_diff_norm") and has("wclimb") and has("grab")) or
     (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
-    (has("op_noise") and has("op_diff_norm") and has("grab") and (has("ucut") or has("sjump") or has("wbounce") or has("crush"))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and (has("ucut") or has("sjump") or has("wbounce") or has("crush")))
+  )
+end
+
+function ancient_cheese_com()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and ((has("ucut") and has("wclimb")) or (has("ucut") and has("sjump")) or (has("grab") and has("wclimb")) or (has("grab") and has("sjump")))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("sjump") or has("wclimb"))) or
+    (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab")) or () or () or ())) or 
+
   )
 end
