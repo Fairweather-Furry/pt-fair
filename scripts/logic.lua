@@ -94,3 +94,48 @@ function john_gutter_ct3()
     (has("op_noise") and has("op_diff_norm") and has("sjump"))
   )
 end
+
+function pizzascape_com()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or has("ucut") or (has("grab") and has("wclimb")))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("climb")) or
+    (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("grab")) or has("ucut") or (has("grab") and has("wbounce")) or (has("grab") and has("crush")))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("ucut") or has("wbounce") or has("crush"))) 
+  )
+end
+
+function pizzascape_tom_sau_pin_s1_s2_ct3()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab")) or
+    (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab"))
+  )
+end
+
+function pizzascape_s3()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and ((has("ucut") and has("sjump")) or (has("ucut") and has("wclimb")) or (has("grab") and has("sjump")) or (has("grab") and has("wclimb")))) or
+    (has("op_pepp") and has("op_diff_exp") and has("grab") and has("sjump")) or
+    (has("op_noise") and has("op_diff_exp") and ((has("grab") and has("sjump")) or has("ucut") or (has("grab") and has("wbounce")) or (has("grab") and has("crush")))) or
+    (has("op_noise") and has("op_diff_norm") ((has("grab") and has("sjump")) or (has("grab") and has("crush"))))
+  )
+end
+
+function pizzascape_tre()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and ((has("ucut") and has("sjump")) or (has("ucut") and has("wclimb")) or (has("grab") and has("sjump")) or (has("grab") and has("wclimb")))) or
+    (has("op_pepp") and has("op_diff_exp") and has("grab") and (has("sjump") or has("wclimb"))) or
+    (has("op_noise") and has("op_diff_exp") and ((has("grab") and has("sjump")) or has("ucut") or (has("grab") and has("wbounce")) or (has("grab") and has("crush")))) or
+    (has("op_noise") and has("op_diff_norm") ((has("grab") and has("sjump")) or (has("grab") and has("crush"))))
+  )
+end
+
+function pizzascape_ct1()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("wclimb") and has("grab")) or
+    (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and (has("ucut") or has("sjump") or has("wbounce") or has("crush"))) or
+  )
+end
