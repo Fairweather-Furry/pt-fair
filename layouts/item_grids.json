@@ -9,7 +9,7 @@
                 "item_margin": "1,1",
                 "item_size": "4,4",
                 "rows": [
-                    ["toppins"],
+                    ["toppins", "prog_key", "portal"],
                     ["grab","mach4","ucut"],
                     ["sjump","taunt","staunt"],
                     ["bodyslam","bdance","wclimb"],

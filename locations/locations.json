@@ -117,12 +117,12 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"]
+                        "access_rules": ["$john_gutter_exp_pepp_com,portal", "$john_gutter_exp_noise_com,portal"]
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"]
+                        "access_rules": ["$john_gutter_exp_pepp_com,portal", "$john_gutter_exp_noise_com,portal"]
                     },
                     {
                         "name": "Chef Task: John Gutted",

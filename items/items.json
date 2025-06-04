@@ -227,6 +227,12 @@
         "codes": "toppins"
     },
     {
+        "name": "Lap 2 Portals",
+        "type": "toggle",
+        "img": "images/Portal.png",
+        "codes": "portal"
+    },
+    {
         "name": "Character",
         "type": "progressive",
         "codes": "op_char",
