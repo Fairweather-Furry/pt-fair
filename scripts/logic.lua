@@ -272,3 +272,57 @@ function ancient_cheese_exp_noise_s2()
     has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("sjump") or has("wbounce") or has("crush"))))
   )
 end
+
+function bloodsauce_dungeon_pepp_com()
+  return(
+    has("op_pepp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function bloodsauce_dungeon_pepp_pin()
+  return(
+    has("op_pepp") and has("bodyslam")
+  )
+end
+
+function bloodsauce_dungeon_pepp_s2()
+  return(
+    has("op_pepp") and has("bodyslam") and has("sjump")
+  )
+end
+
+function bloodsauce_dungeon_norm_pepp_mus()
+  return(
+    has("op_pepp") and has("op_diff_norm") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function bloodsauce_dungeon_noise_com()
+  return(
+    has("op_noise") and has("sjump") and (has("bodyslam") or has("nado") or has("crush"))
+  )
+end
+
+function bloodsauce_dungeon_noise_pin()
+  return(
+    has("op_noise") and (has("bodyslam") or has("nado") or has("crush"))
+  )
+end
+
+function bloodsauce_dungeon_norm_noise_mus()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("sjump")  or has("wbounce") or has("ucut") or has("crush"))
+  )
+end
+
+function bloodsauce_dungeon_exp_noise_com()
+  return(
+    bloodsauce_dungeon_noise_com() or (has("op_noise") and has("op_diff_exp") and (has("sjump") and has("wbounce")))
+  )
+end
+
+function bloodsauce_dungeon_exp_noise_pin()
+  return(
+    bloodsauce_dungeon_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
+  )
+end
