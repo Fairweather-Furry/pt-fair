@@ -338,6 +338,100 @@
                         "y": 1530
                     }
                 ]
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "access_rules": ["sjump", "wclimb", "op_noise,ucut", "crush", "wbounce"],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": ["$ancient_cheese_exp_pepp_com", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "access_rules": ["$ancient_cheese_exp_pepp_che", "$ancient_cheese_norm_noise_che", "$ancient_cheese_exp_noise_che"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": ["$ancient_cheese_exp_pepp_pin", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": ["$ancient_cheese_exp_pepp_pin", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_s2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": ["$ancient_cheese_exp_pepp_pin", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_s2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$ancient_cheese_exp_pepp_com,portal", "$ancient_cheese_norm_noise_com,portal", "$ancient_cheese_exp_noise_com,portal"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$ancient_cheese_exp_pepp_com,portal", "$ancient_cheese_norm_noise_com,portal", "$ancient_cheese_exp_noise_com,portal"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Eruption Man",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$ancient_cheese_exp_pepp_com", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Very Very Hot Sauce",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_s2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Unsliced Pizzaman",
+                        "visibility_rules": ["op_task"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
             }
         ]
     }
