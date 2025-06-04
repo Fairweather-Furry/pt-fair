@@ -280,7 +280,7 @@
     {
         "name": "Chef Task Checks",
         "type": "toggle",
-        "img": "images/ChefTask.png",
+        "img": "images/ChefTasks.png",
         "codes": "op_task"
     },
     {
