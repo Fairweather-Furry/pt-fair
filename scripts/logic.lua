@@ -344,3 +344,57 @@ function pepperman_norm_noise()
     pepperman_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
   )
 end
+
+function reach_elevator_1()
+  return(
+    has("sjump") or has("wclimb") or (has("op_noise") and has("ucut")) or  has("crush") or has("wbounce") or has("op_ladder1")
+  )
+end
+
+function oregano_desert_pepp_com()
+  return(
+    has("op_pepp") and has("wclimb")
+  )
+end
+
+function oregano_desert_pepp_che()
+  return(
+    oregano_desert_pepp_com() or (has("op_pepp") and has("sjump"))
+  )
+end
+
+function oregano_desert_exp_pepp_com()
+  return(
+    oregano_desert_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and (has("sjump") or has("ucut")))
+  )
+end
+
+function oregano_desert_exp_pepp_che()
+  return(
+    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and (has("ucut") and has("grab")))
+  )
+end
+
+function oregano_desert_exp_pepp_mus()
+  return(
+    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+  )
+end
+
+function oregano_desert_noise_s1()
+  return(
+    has("op_noise") and has("wbounce")
+  )
+end
+
+function oregano_desert_noise_com()
+  return(
+    oregano_desert_noise_s1() or (has("op_noise") and (has("sjump") or has("ucut") or has("crush")))
+  )
+end
+
+function oregano_desert_exp_noise_s1()
+  return(
+    oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("crush")))
+  )
+end
