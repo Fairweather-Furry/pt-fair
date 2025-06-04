@@ -20,26 +20,31 @@
                     },
                     {
                         "name": "Mushroom Toppin",
+                        "visibility_rules": ["$not_noise"],
                         "access_rules": ["$tutorial_mus"],
 						"item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
+                        "visibility_rules": ["$not_noise"],
                         "access_rules": ["$tutorial_che_tom"],
 						"item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
+                        "visibility_rules": ["$not_noise"],
                         "access_rules": ["$tutorial_che_tom"],
 						"item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
+                        "visibility_rules": ["$not_noise"],
                         "access_rules": ["$tutorial_sau"],
 						"item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
+                        "visibility_rules": ["$not_noise"],
                         "access_rules": ["$tutorial_pin"],
 						"item_count": 1
                     }

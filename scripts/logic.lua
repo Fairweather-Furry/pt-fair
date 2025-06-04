@@ -14,6 +14,12 @@ function not_swap()
   )
 end
 
+function not_noise()
+  return(
+    not has("op_noise")
+  )
+end
+
 function tutorial_mus()
   return(
     (has("op_pepp") and has("bodyslam"))
