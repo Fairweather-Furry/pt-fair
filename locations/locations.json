@@ -156,7 +156,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$pizzascape_com"],
+                        "access_rules": ["$pizzascape_exp_pepp_com", "$pizzascape_norm_noise_com", "$pizzascape_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -169,57 +169,59 @@
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$pizzascape_tom_sau_pin_s1_s2_ct3"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$pizzascape_tom_sau_pin_s1_s2_ct3"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$pizzascape_tom_sau_pin_s1_s2_ct3"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_tom_sau_pin_s1_s2_ct3"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_tom_sau_pin_s1_s2_ct3"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_s3"],
+                        "access_rules": ["$pizzascape_exp_pepp_s3", "$pizzascape_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$pizzascape_tre"],
+                        "access_rules": ["$pizzascape_exp_pepp_tre", "$pizzascape_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pizzascape_com,$pizzascape_tom_sau_pin_s1_s2_ct3,$pizzascape_s3"]
+                        "access_rules": ["$pizzascape_exp_pepp_com,portal", "$pizzascape_exp_noise_com,portal"],
+                        "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascape_com,$pizzascape_tom_sau_pin_s1_s2_ct3,$pizzascape_s3"]
+                        "access_rules": ["$pizzascape_exp_pepp_com,portal", "$pizzascape_exp_noise_com"],
+                        "item_count": 1
                     },
                     {
                         "name": "Chef Task: Shining Armor",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascape_ct1"],
+                        "access_rules": ["$pizzascape_pepp_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp", "$pizzascape_norm_noise_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -231,7 +233,7 @@
                     {
                         "name": "Chef Task: Spherical",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascape_tom_sau_pin_s1_s2_ct3"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_pepp_pin"],
                         "item_count": 1
                     }
                 ],
