@@ -304,7 +304,7 @@
             },
             {
                 "name": "Open World - On",
-                "img": "images/Open_World.png",
+                "img": "images/OpenWorld.png",
                 "codes": "op_oworld_on",
                 "inheret_codes": false
             }
