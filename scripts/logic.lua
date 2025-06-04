@@ -14,15 +14,6 @@ function not_swap()
   )
 end
 
-function tutorial_com()
-  return(
-    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and("grab")) or
-    (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
-    (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("crush"))))
-  )
-end
-
 function tutorial_mus()
   return(
     (has("op_pepp") and has("bodyslam"))
@@ -48,6 +39,14 @@ function tutorial_pin()
   return(
     (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
     (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and("grab"))
+  )
+end
+
+function tutorial_com()
+  return(
+    tutorial_pin() or
+    (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
+    (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("slam")) or (has("sjump") and has("nado")) or (has("crush"))))
   )
 end
 
