@@ -1,0 +1,16 @@
+{
+    "map_layout": {
+		"type": "tabbed",
+		"dock": "top",
+		"tabs": [
+			{
+				"title": "Overview",
+				"icon": "images/map.png",
+				"content": {
+					"type": "map",
+					"maps": ["map"]
+					}
+			}
+		]
+    }
+}

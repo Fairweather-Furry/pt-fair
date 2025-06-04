@@ -1,0 +1,39 @@
+{
+    "item_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,1",
+                "item_size": "4,4",
+                "rows": [
+                    ["toppins"],
+                    ["grab","mach4","ucut"],
+                    ["sjump","taunt","staunt"],
+                    ["bodyslam","bdance","wclimb"],
+                    ["djump","rkick","spin"],
+                    ["wbounce","nado","crush"],
+                    ["bomb"]
+                ]
+            }		
+        ]
+    },
+    "ap_options": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_size": "4,4",
+                "h_alignment": "center",
+                "rows": [
+                    ["op_char","op_treasure","op_secret"],
+                    ["op_srank","op_prank","op_task"],
+                    ["op_oworld","op_ladder","op_diff"]
+                ]
+            }
+        ]
+    }
+}
