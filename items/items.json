@@ -74,7 +74,7 @@
     {
         "name": "Wallbounce",
         "type": "toggle",
-        "img": "images/WallClimb.png",
+        "img": "images/Bounce.png",
         "codes": "wbounce"
     },
     {
