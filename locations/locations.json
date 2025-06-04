@@ -303,12 +303,12 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$ancient_cheese_com_ct1,$ancient_cheese_s2_tre,$ancient_cheese_s3"]
+                        "access_rules": ["$ancient_cheese_com_ct1,$ancient_cheese_s2_tre_ct2,$ancient_cheese_s3"]
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$ancient_cheese_com_ct1,$ancient_cheese_s2_tre,$ancient_cheese_s3"]
+                        "access_rules": ["$ancient_cheese_com_ct1,$ancient_cheese_s2_tre_ct2,$ancient_cheese_s3"]
                     },
                     {
                         "name": "Chef Task: Thrill Seeker",
