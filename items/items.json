@@ -190,31 +190,31 @@
                 "name": "No Keys",
                 "img": "images/Key0.png",
                 "codes": "prog_key_0",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "1 Key",
                 "img": "images/Key1.png",
                 "codes": "prog_key_1",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "2 Keys",
                 "img": "images/Key2.png",
                 "codes": "prog_key_2",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "3 Keys",
                 "img": "images/Key3.png",
                 "codes": "prog_key_3",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "4 Keys",
                 "img": "images/Key4.png",
                 "codes": "prog_key_4",
-                "inheret_codes": true
+                "inherit_codes": true
             }
 
         ]
@@ -243,19 +243,19 @@
                 "name": "Peppino",
                 "img": "images/Normal.png",
                 "codes": "op_pepp",
-                "inheret_codes": false
+                "inherit_codes": false
             },
             {
                 "name": "The Noise",
                 "img": "images/Noise.png",
                 "codes": "op_noise",
-                "inheret_codes": false
+                "inherit_codes": false
             },
             {
                 "name": "Swap",
                 "img": "images/Swap.png",
                 "codes": "op_swap",
-                "inheret_codes": true
+                "inherit_codes": true
             }
         ]
     },
@@ -300,13 +300,13 @@
                 "name": "Open World - Off",
                 "img": "images/Key.png",
                 "codes": "op_oworld_off",
-                "inheret_codes": false
+                "inherit_codes": false
             },
             {
                 "name": "Open World - On",
                 "img": "images/OpenWorld.png",
                 "codes": "op_oworld_on",
-                "inheret_codes": false
+                "inherit_codes": false
             }
         ]
     },
@@ -321,37 +321,37 @@
                 "name": "Bonus Ladders - 0",
                 "img": "images/Ladder0.png",
                 "codes": "op_ladder0",
-                "inheret_codes": false
+                "inherit_codes": false
             },
             {
                 "name": "Bonus Ladders - 1",
                 "img": "images/Ladder1.png",
                 "codes": "op_ladder1",
-                "inheret_codes": false
+                "inherit_codes": false
             },
             {
                 "name": "Bonus Ladders - 2",
                 "img": "images/Ladder2.png",
                 "codes": "op_ladder2",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "Bonus Ladders - 3",
                 "img": "images/Ladder3.png",
                 "codes": "op_ladder3",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "Bonus Ladders - 4",
                 "img": "images/Ladder4.png",
                 "codes": "op_ladder4",
-                "inheret_codes": true
+                "inherit_codes": true
             },
             {
                 "name": "Bonus Ladders - 5",
                 "img": "images/Ladder5.png",
                 "codes": "op_ladder5",
-                "inheret_codes": true
+                "inherit_codes": true
             }
         ]
     },
@@ -366,13 +366,13 @@
                 "name": "Difficulty - Normal",
                 "img": "images/Normal.png",
                 "codes": "op_diff_norm",
-                "inheret_codes": false
+                "inherit_codes": false
             },
             {
                 "name": "Difficulty - Expert",
                 "img": "images/Expert.png",
                 "codes": "op_diff_exp",
-                "inheret_codes": false
+                "inherit_codes": false
             }
         ]
     }
