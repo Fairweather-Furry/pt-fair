@@ -98,7 +98,7 @@ end
 function pizzascape_com()
   return(
     (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or has("ucut") or (has("grab") and has("wclimb")))) or
-    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("climb")) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("wclimb")) or
     (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("grab")) or has("ucut") or (has("grab") and has("wbounce")) or (has("grab") and has("crush")))) or
     (has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("ucut") or has("wbounce") or has("crush"))) 
   )
@@ -116,7 +116,7 @@ end
 function pizzascape_s3()
   return(
     (has("op_pepp") and has("op_diff_exp") and ((has("ucut") and has("sjump")) or (has("ucut") and has("wclimb")) or (has("grab") and has("sjump")) or (has("grab") and has("wclimb")))) or
-    (has("op_pepp") and has("op_diff_exp") and has("grab") and has("sjump")) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("sjump")) or
     (has("op_noise") and has("op_diff_exp") and ((has("grab") and has("sjump")) or has("ucut") or (has("grab") and has("wbounce")) or (has("grab") and has("crush")))) or
     (has("op_noise") and has("op_diff_norm") ((has("grab") and has("sjump")) or (has("grab") and has("crush"))))
   )
@@ -125,7 +125,7 @@ end
 function pizzascape_tre()
   return(
     (has("op_pepp") and has("op_diff_exp") and ((has("ucut") and has("sjump")) or (has("ucut") and has("wclimb")) or (has("grab") and has("sjump")) or (has("grab") and has("wclimb")))) or
-    (has("op_pepp") and has("op_diff_exp") and has("grab") and (has("sjump") or has("wclimb"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and (has("sjump") or has("wclimb"))) or
     (has("op_noise") and has("op_diff_exp") and ((has("grab") and has("sjump")) or has("ucut") or (has("grab") and has("wbounce")) or (has("grab") and has("crush")))) or
     (has("op_noise") and has("op_diff_norm") ((has("grab") and has("sjump")) or (has("grab") and has("crush"))))
   )
@@ -140,11 +140,56 @@ function pizzascape_ct1()
   )
 end
 
-function ancient_cheese_com()
+function ancient_cheese_com_ct1()
   return(
     (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and ((has("ucut") or has("grab")) and (has("wclimb") or has("sjump")))) or
     (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("sjump") or has("wclimb"))) or
     (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or 
-    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("bounce")) and (has("bodyslam") or has("nado") or has("crush"))))
+    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush"))))
+  )
+end
+
+function ancient_cheese_che()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("ucut") or has("grab"))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab")) or
+    (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("grab"))) or 
+    (has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("ucut") or has("wbounce") or has("crush")))
+  )
+end
+
+function ancient_cheese_tom()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wclimb") or has("sjump"))))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("wclimb") or has("sjump"))) or
+    (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))) 
+  )
+end
+
+function ancient_cheese_sau_pin()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and ((has("ucut")) or (has("grab") and (has("wclimb") or has("sjump"))))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("wclimb") or has("sjump"))) or
+    (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))) 
+  )
+end
+
+function ancient_cheese_s2_tre_ct2()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wclimb") or has("sjump"))))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("wclimb") or has("sjump"))) or
+    (has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("sjump") or has("wbounce") or has("crush"))))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))) 
+  )
+end
+
+function ancient_cheese_s3()
+  return(
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and (has("ucut") or (has("grab") and (has("wclimb") or has("sjump"))))) or
+    (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("wclimb") or has("sjump"))) or
+    (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or
+    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))) 
   )
 end
