@@ -43,8 +43,8 @@ end
 
 function tutorial_pin()
   return(
-    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and("grab")) or 
-    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and("grab"))
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and has("grab")) or 
+    (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("wclimb") and has("grab"))
   )
 end
 
