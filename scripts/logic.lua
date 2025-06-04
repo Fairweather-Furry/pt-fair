@@ -142,9 +142,9 @@ end
 
 function ancient_cheese_com()
   return(
-    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and ((has("ucut") and has("wclimb")) or (has("ucut") and has("sjump")) or (has("grab") and has("wclimb")) or (has("grab") and has("sjump")))) or
+    (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and ((has("ucut") or has("grab")) and (has("wclimb") or has("sjump")))) or
     (has("op_pepp") and has("op_diff_norm") and has("grab") and has("bodyslam") and (has("sjump") or has("wclimb"))) or
-    (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab")) or () or () or ())) or 
-
+    (has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or 
+    (has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("bounce")) and (has("bodyslam") or has("nado") or has("crush"))))
   )
 end
