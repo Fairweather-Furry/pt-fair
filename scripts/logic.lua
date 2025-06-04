@@ -45,11 +45,15 @@ function tutorial_pin()
   )
 end
 
+function tutorial_noise()
+  return(
+    has("op_noise") and ((has("sjump") and has("bodyslam")) or (has("sjump") and has("nado")) or (has("crush")) or (has("sjump") and has("wbounce") and has("op_diff_exp"))) 
+  )
+end
+
 function tutorial_com()
   return(
-    tutorial_pin() or
-    (has("op_noise") and has("op_diff_exp") and ((has("sjump") and has("bodyslam")) or (has("sjump") and has("nado")) or (has("sjump") and has("wbounce")) or (has("crush")))) or
-    (has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("bodyslam")) or (has("sjump") and has("nado")) or (has("crush"))))
+    tutorial_pin() or tutorial_noise()
   )
 end
 
@@ -103,7 +107,7 @@ end
 
 function john_gutter_exp_noise_com()
   return (
-    john_gutter_noise_com() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("crush") or has("bounce")))
+    john_gutter_noise_com() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("crush") or has("wbounce")))
   )
 end
 
