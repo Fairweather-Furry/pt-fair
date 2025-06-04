@@ -54,7 +54,6 @@
             },
             {
                 "name": "John Gutter",
-                "access_rules": [],
                 "sections": [
                     {
                         "name": "Complete",
@@ -149,7 +148,6 @@
             },
             {
                 "name": "Pizzascape",
-                "access_rules": [],
                 "sections": [
                     {
                         "name": "Complete",
@@ -158,12 +156,10 @@
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -253,7 +249,6 @@
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -279,7 +274,6 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -325,7 +319,6 @@
                     {
                         "name": "Chef Task: Delicacy",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
                         "item_count": 1
                     }
                 ],
