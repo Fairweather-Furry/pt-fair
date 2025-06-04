@@ -326,3 +326,21 @@ function bloodsauce_dungeon_exp_noise_pin()
     bloodsauce_dungeon_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
   )
 end
+
+function pepperman_pepp()
+  return(
+    has("op_pepp") and has("grab")
+  )
+end
+
+function pepperman_noise()
+  return(
+    has("op_noise") and has("bomb")
+  )
+end
+
+function pepperman_norm_noise()
+  return(
+    pepperman_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
+  )
+end
