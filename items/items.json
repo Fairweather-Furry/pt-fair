@@ -254,7 +254,7 @@
             {
                 "name": "Swap",
                 "img": "images/Swap.png",
-                "codes": "op_swap",
+                "codes": "op_pepp, op_noise, op_swap",
                 "inherit_codes": true
             }
         ]
