@@ -131,15 +131,15 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Primate Rage",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Chef Task: Let's Make This Quick",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$john_gutter_exp_pepp_com,op_diff_exp", "$john_gutter_pepp_com,mach4", "$john_gutter_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Primate Rage",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
@@ -408,15 +408,15 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Eruption Man",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_s2", "$bloodsauce_dungeon_exp_noise_com"],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Chef Task: Very Very Hot Sauce",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Eruption Man",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_s2", "$bloodsauce_dungeon_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -666,7 +666,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Alive and Well",
+                        "name": "Chef Task: Ghosted",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
                         "item_count": 1
@@ -678,7 +678,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Ghosted",
+                        "name": "Chef Task: Alive and Well",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
                         "item_count": 1
@@ -763,12 +763,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Good Egg",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Chef Task: No One Is Safe",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$fun_farm_pepp_ct2", "$fun_farm_noise_ct2"],
@@ -778,6 +772,12 @@
                         "name": "Chef Task: Cube Menace",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$fun_farm_pepp_che", "$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Good Egg",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
                         "item_count": 1
                     }
                 ],
