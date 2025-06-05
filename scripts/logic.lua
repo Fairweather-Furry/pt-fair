@@ -20,6 +20,17 @@ function not_noise()
   )
 end
 
+function calculate_floor_cost(floor_percentage)
+  local toppins_req = (Tracker:ProviderCountForCode(floor_percentage) / 100) * Tracker:ProviderCountForCode("op_toppin_count")
+  print(toppins_req)
+  print(Tracker:ProviderCountForCode("toppins"))
+  if Tracker:ProviderCountForCode("toppins") >= toppins_req then
+    return true
+  else
+    return false
+  end
+end
+
 function tutorial_mus()
   return(
     (has("op_pepp") and has("bodyslam"))

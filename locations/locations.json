@@ -436,6 +436,7 @@
             },
             {
                 "name": "Pepperman",
+                "access_rules": ["$calculate_floor_cost|op_f1_cost"],
                 "sections": [
                     {
                         "name": "Defeated",
@@ -898,13 +899,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     }
                 ],
@@ -1326,25 +1327,25 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: Denoise",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     }
                 ],
@@ -1361,7 +1362,7 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$", "$pepperman_normnoise"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
@@ -1370,13 +1371,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     }
                 ],
@@ -1815,25 +1816,25 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: Faker",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     }
                 ],
@@ -2160,25 +2161,25 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: Face Off",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": [],
                         "item_count": 1 
                     }
                 ],
@@ -2220,19 +2221,19 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": [],
                         "item_count": 1 
                     }
                 ],
