@@ -398,3 +398,27 @@ function oregano_desert_exp_noise_s1()
     oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("crush")))
   )
 end
+
+function wasteyard_pepp_com()
+  return(
+    has("op_pepp") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function wasteyard_exp_pepp_pin()
+  return(
+    wasteyard_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+  )
+end
+
+function wasteyard_noise_s1()
+  return(
+    has("op_noise") and (has("sjump") or has("crush") or has("wbounce"))
+  )
+end
+
+function wasteyard_noise_com()
+  return(
+    wasteyard_noise_s1() or (has("op_noise") and has("ucut"))
+  )
+end

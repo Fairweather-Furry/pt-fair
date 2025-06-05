@@ -215,7 +215,7 @@
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascape_exp_pepp_com,portal", "$pizzascape_exp_noise_com"],
+                        "access_rules": ["$pizzascape_exp_pepp_com,portal", "$pizzascape_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
@@ -470,6 +470,35 @@
                 ]
             },
             {
+                "name": "Floor 1",
+                "visibility_rules": ["op_task"],
+                "sections": [
+                    {
+                        "name": "S Ranked #1",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$john_gutter_exp_pepp_com,$pizzascape_exp_pepp_com,$ancient_cheese_exp_pepp_com,$bloodsauce_dungeon_pepp_com,portal", 
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_norm_noise_com,bloodsauce_dungeon_pepp_com,portal",
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,bloodsauce_dungeon_pepp_com,portal"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Ranked #1",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$john_gutter_exp_pepp_com,$pizzascape_exp_pepp_com,$ancient_cheese_exp_pepp_com,$bloodsauce_dungeon_pepp_com,portal", 
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_norm_noise_com,bloodsauce_dungeon_pepp_com,portal",
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,bloodsauce_dungeon_pepp_com,portal"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 27,
+                        "y": 1360
+                    }
+                ]
+            },
+            {
                 "name": "Oregano Desert",
                 "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld_on"],
                 "sections": [
@@ -562,6 +591,102 @@
                     {
                         "map": "map",
                         "x": 131,
+                        "y": 1186
+                    }
+                ]
+            },
+            {
+                "name": "Wasteyard",
+                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld_on"],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "access_rules": ["$wasteyard_pepp_com", "op_diff_exp", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_s1", "$wasteyard_noise_com,op_diff_exp"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$wasteyard_pepp_com,portal", "$wasteyard_noise_com,portal"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$wasteyard_pepp_com,portal", "$wasteyard_noise_com,portal"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Alive and Well",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Pretend Ghost",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task: Ghosted",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 279,
                         "y": 1186
                     }
                 ]
