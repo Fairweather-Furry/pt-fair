@@ -1435,7 +1435,7 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["prog_key_2"],
+                        "access_rules": ["prog_key_3"],
                         "item_count": 1 
                     }
                 ],
