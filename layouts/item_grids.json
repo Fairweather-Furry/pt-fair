@@ -29,7 +29,9 @@
                 "item_size": "4,4",
                 "h_alignment": "center",
                 "rows": [
-                    ["op_char","op_treasure","op_secret"],
+                    ["op_char","op_toppin_cost","op_f1_cost"],
+                    ["op_f2_cost","op_f3_cost","op_f4_cost"],
+                    ["op_f5_cost","op_treasure","op_secret"],
                     ["op_srank","op_prank","op_task"],
                     ["op_oworld","op_ladder","op_diff"]
                 ]

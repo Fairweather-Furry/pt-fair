@@ -260,6 +260,48 @@
         ]
     },
     {
+        "name": "Toppin Count",
+        "type": "consumable",
+        "initial_quantity": 95,
+        "img": "images/Toppin.png",
+        "codes": "op_toppin_cost"
+    },
+    {
+        "name": "Floor 1 Cost",
+        "type": "consumable",
+        "initial_quantity": 11,
+        "img": "images/Floor1Cost.png",
+        "codes": "op_f1_cost"
+    },
+    {
+        "name": "Floor 2 Cost",
+        "type": "consumable",
+        "initial_quantity": 27,
+        "img": "images/Floor2Cost.png",
+        "codes": "op_f2_cost"
+    },
+    {
+        "name": "Floor 3 Cost",
+        "type": "consumable",
+        "initial_quantity": 48,
+        "img": "images/Floor3Cost.png",
+        "codes": "op_f3_cost"
+    },
+    {
+        "name": "Floor 4 Cost",
+        "type": "consumable",
+        "initial_quantity": 69,
+        "img": "images/Floor4Cost.png",
+        "codes": "op_f4_cost"
+    },
+    {
+        "name": "Floor 5 Cost",
+        "type": "consumable",
+        "initial_quantity": 91,
+        "img": "images/Floor5Cost.png",
+        "codes": "op_f5_cost"
+    },
+    {
         "name": "Treasure Checks",
         "type": "toggle",
         "img": "images/Treasure.png",
