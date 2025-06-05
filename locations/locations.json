@@ -690,7 +690,1559 @@
                         "y": 1186
                     }
                 ]
-            }
+            },
+            {
+                "name": "Fun Farm",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Fast Food Saloon",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "The Vigilante",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 667,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Floor 2",
+                "visibility_rules": ["op_task"],
+                "sections": [
+                    {
+                        "name": "S Ranked #1",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Ranked #1",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 27,
+                        "y": 1360
+                    }
+                ]
+            },
+            {
+                "name": "Crust Cove",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Gnome Forest",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Deep Dish 9",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "GOLF",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "The Noise",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 667,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "The Doise",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 667,
+                        "y": 1530
+                    }
+                ]
+            },
+	    {
+                "name": "Floor 3",
+                "visibility_rules": ["op_task"],
+                "sections": [
+                    {
+                        "name": "S Ranked #1",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Ranked #1",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 27,
+                        "y": 1360
+                    }
+                ]
+            },
+            {
+                "name": "The Pig City",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Peppibot Factory",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Oh Shit!",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Fake Peppino",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 667,
+                        "y": 1530
+                    }
+                ]
+            },
+	    {
+                "name": "Floor 4",
+                "visibility_rules": ["op_task"],
+                "sections": [
+                    {
+                        "name": "S Ranked #1",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Ranked #1",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 27,
+                        "y": 1360
+                    }
+                ]
+            },
+            {
+                "name": "Pizascare",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Don't Make A Sound",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "WAR",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Complete",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mushroom Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cheese Toppin",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tomato Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sausage Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pineapple Toppin",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 1",
+                        "visibility_rules": ["op_secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 2",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Secret 3",
+                        "visibility_rules": ["op_secret"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treasure",
+                        "visibility_rules": ["op_treasure"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 526,
+                        "y": 1530
+                    }
+                ]
+            },
+            {
+                "name": "Pizzaface",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 667,
+                        "y": 1530
+                    }
+                ]
+            },
+	    {
+                "name": "Floor 5",
+                "visibility_rules": ["op_task"],
+                "sections": [
+                    {
+                        "name": "S Ranked #1",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Ranked #1",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": [],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 27,
+                        "y": 1360
+                    }
+                ]
+            },
+            {
+                "name": "The Crumbling Tower of Pizza",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Chef Task",
+                        "visibility_rules": ["op_task"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "S Rank",
+                        "visibility_rules": ["op_srank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "P Rank",
+                        "visibility_rules": ["op_prank"],
+                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 667,
+                        "y": 1530
+                    }
+                ]
+            },
+
+
+
+
+	    
+
+            
         ]
     }
 ]
