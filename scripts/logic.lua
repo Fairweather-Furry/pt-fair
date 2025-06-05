@@ -22,8 +22,6 @@ end
 
 function calculate_floor_cost(floor_percentage)
   local toppins_req = (Tracker:ProviderCountForCode(floor_percentage) / 100) * Tracker:ProviderCountForCode("op_toppin_count")
-  print(toppins_req)
-  print(Tracker:ProviderCountForCode("toppins"))
   if Tracker:ProviderCountForCode("toppins") >= toppins_req then
     return true
   else
@@ -431,5 +429,53 @@ end
 function wasteyard_noise_com()
   return(
     wasteyard_noise_s1() or (has("op_noise") and has("ucut"))
+  )
+end
+
+function fun_farm_pepp_com()
+  return(
+    has("op_pepp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function fun_farm_pepp_che()
+  return(
+    fun_farm_pepp_com() or (has("op_pepp") and has("bodyslam") and has("ucut"))
+  )
+end
+
+function fun_farm_pepp_ct2()
+  return(
+    fun_farm_pepp_com() and has("staunt")
+  )
+end
+
+function fun_farm_exp_pepp_com()
+  return(
+    fun_farm_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and has("bodyslam") and has("ucut"))
+  )
+end
+
+function fun_farm_noise_com()
+  return(
+    has("op_noise") and (has("crush") or (has("bodyslam") and (has("wbounce") or has("ucut") or has("sjump"))))
+  )
+end
+
+function fun_farm_noise_ct2()
+  return(
+    fun_farm_noise_com() and has("staunt")
+  )
+end
+
+function fun_farm_norm_noise_sau()
+  return(
+    (fun_farm_noise_com() and has("op_diff_norm")) or (has("op_noise") and has("op_diff_norm") and has("nado") and (has("wbounce") or has("ucut") or has("sjump")))
+  )
+end
+
+function fun_farm_exp_noise_sau()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
   )
 end
