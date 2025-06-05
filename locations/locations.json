@@ -760,19 +760,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: No One Is Safe",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Cube Menace",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Good Egg",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -855,19 +855,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Non-Alcoholic",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Already Pressed",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Royal Flush",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -890,7 +890,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: The Ugly",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1 
@@ -1010,19 +1010,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Blowback",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: X",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Demolitian Expert",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1105,19 +1105,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Bee Nice",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Lumberjack",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Bullseye",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1200,19 +1200,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Turbo Tunnel",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Man Meteor",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Blast'Em Asteroids",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1295,19 +1295,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Primo Golf",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Nice Shot",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Helpful Burger",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1330,7 +1330,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Denoised",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
@@ -1365,7 +1365,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Denoised",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
@@ -1485,19 +1485,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Pan Fried",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Strike!",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Say Oink!",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1580,19 +1580,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Unflattering",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Whoop This!",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: There Can Only Be Once",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1675,19 +1675,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Can't Fool Me",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Food Clan",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Penny Pincher",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1770,19 +1770,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Frozen Nuggets",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Season's Greeting",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Ice Climber",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1805,7 +1805,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Faker",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
@@ -1925,19 +1925,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Cross To Bare",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Haunted Playground",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Skullsplitter",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -2020,19 +2020,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: And This... Is My Gun On A Stick!",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Let Them Sleep",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Jumpscared",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -2115,19 +2115,19 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Decorated Veteran",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Sharpshooter",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Trip to The Warzone",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -2150,7 +2150,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task",
+                        "name": "Chef Task: Face Off",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
@@ -2206,12 +2206,6 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
-                        "item_count": 1 
-                    },
-                    {
-                        "name": "Chef Task",
-                        "visibility_rules": ["op_task"],
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
                     },
