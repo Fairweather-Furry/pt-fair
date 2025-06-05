@@ -14,7 +14,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Complete in under 20 minutes",
+                        "name": "Complete in under 2 minutes",
                         "access_rules": ["$tutorial_com"],
                         "item_count": 1
                     },
@@ -787,7 +787,7 @@
                 ]
             },
             {
-                "name": "Fast Food Saloon",
+                "name": "Fastfood Saloon",
                 "access_rules": [],
                 "sections": [
                     {
@@ -921,13 +921,13 @@
                 "visibility_rules": ["op_task"],
                 "sections": [
                     {
-                        "name": "S Ranked #1",
+                        "name": "S Ranked #2",
                         "visibility_rules": ["op_srank"],
                         "access_rules": [],
                         "item_count": 1 
                     },
                     {
-                        "name": "P Ranked #1",
+                        "name": "P Ranked #2",
                         "visibility_rules": ["op_prank"],
                         "access_rules": [],
                         "item_count": 1 
@@ -1388,18 +1388,35 @@
                     }
                 ]
             },
-	    {
+            {
+                "name": "Snotty",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["prog_key_2"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+	        {
                 "name": "Floor 3",
                 "visibility_rules": ["op_task"],
                 "sections": [
                     {
-                        "name": "S Ranked #1",
+                        "name": "S Ranked #3",
                         "visibility_rules": ["op_srank"],
                         "access_rules": [],
                         "item_count": 1 
                     },
                     {
-                        "name": "P Ranked #1",
+                        "name": "P Ranked #3",
                         "visibility_rules": ["op_prank"],
                         "access_rules": [],
                         "item_count": 1 
@@ -1589,7 +1606,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: There Can Only Be Once",
+                        "name": "Chef Task: There Can Only Be One",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1773,7 +1790,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Season's Greeting",
+                        "name": "Chef Task: Season's Greetings",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -1833,13 +1850,13 @@
                 "visibility_rules": ["op_task"],
                 "sections": [
                     {
-                        "name": "S Ranked #1",
+                        "name": "S Ranked #4",
                         "visibility_rules": ["op_srank"],
                         "access_rules": [],
                         "item_count": 1 
                     },
                     {
-                        "name": "P Ranked #1",
+                        "name": "P Ranked #4",
                         "visibility_rules": ["op_prank"],
                         "access_rules": [],
                         "item_count": 1 
@@ -1854,7 +1871,7 @@
                 ]
             },
             {
-                "name": "Pizascare",
+                "name": "Pizzascare",
                 "access_rules": [],
                 "sections": [
                     {
@@ -2029,7 +2046,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Jumpscared",
+                        "name": "Chef Task: Jumpspared",
                         "visibility_rules": ["op_task"],
                         "access_rules": [],
                         "item_count": 1
@@ -2178,13 +2195,13 @@
                 "visibility_rules": ["op_task"],
                 "sections": [
                     {
-                        "name": "S Ranked #1",
+                        "name": "S Ranked #5",
                         "visibility_rules": ["op_srank"],
                         "access_rules": [],
                         "item_count": 1 
                     },
                     {
-                        "name": "P Ranked #1",
+                        "name": "P Ranked #5",
                         "visibility_rules": ["op_prank"],
                         "access_rules": [],
                         "item_count": 1 
@@ -2202,7 +2219,7 @@
                 "name": "The Crumbling Tower of Pizza",
                 "sections": [
                     {
-                        "name": "Defeated",
+                        "name": "Complete",
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
                     },
