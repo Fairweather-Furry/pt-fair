@@ -781,8 +781,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 428,
+                        "y": 1186
                     }
                 ]
             },
@@ -876,8 +876,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 557,
+                        "y": 1186
                     }
                 ]
             },
@@ -898,21 +898,21 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 667,
-                        "y": 1530
+                        "x": 682,
+                        "y": 1186
                     }
                 ]
             },
@@ -937,7 +937,7 @@
                     {
                         "map": "map",
                         "x": 27,
-                        "y": 1360
+                        "y": 1019
                     }
                 ]
             },
@@ -1031,8 +1031,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 118,
+                        "y": 856
                     }
                 ]
             },
@@ -1126,8 +1126,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 268,
+                        "y": 856
                     }
                 ]
             },
@@ -1221,8 +1221,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 412,
+                        "y": 856
                     }
                 ]
             },
@@ -1316,8 +1316,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 544,
+                        "y": 856
                     }
                 ]
             },
@@ -1326,33 +1326,33 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: Denoise",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 667,
-                        "y": 1530
+                        "x": 673,
+                        "y": 856
                     }
                 ]
             },
@@ -1361,7 +1361,7 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$pepperman_normnoise"],
                         "item_count": 1 
                     },
                     {
@@ -1370,38 +1370,21 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 667,
-                        "y": 1530
-                    }
-                ]
-            },
-            {
-                "name": "Snotty",
-                "sections": [
-                    {
-                        "name": "Defeated",
-                        "access_rules": ["prog_key_2"],
-                        "item_count": 1 
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 0,
-                        "y": 0
+                        "x": 673,
+                        "y": 856
                     }
                 ]
             },
@@ -1426,7 +1409,24 @@
                     {
                         "map": "map",
                         "x": 27,
-                        "y": 1360
+                        "y": 688
+                    }
+                ]
+            },
+            {
+                "name": "Snotty",
+                "sections": [
+                    {
+                        "name": "Defeated",
+                        "access_rules": ["prog_key_2"],
+                        "item_count": 1 
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 900,
+                        "y": 515
                     }
                 ]
             },
@@ -1520,8 +1520,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 119,
+                        "y": 523
                     }
                 ]
             },
@@ -1615,8 +1615,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 260,
+                        "y": 523
                     }
                 ]
             },
@@ -1710,8 +1710,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 400,
+                        "y": 523
                     }
                 ]
             },
@@ -1805,8 +1805,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 541,
+                        "y": 523
                     }
                 ]
             },
@@ -1815,33 +1815,33 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: Faker",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 667,
-                        "y": 1530
+                        "x": 682,
+                        "y": 523
                     }
                 ]
             },
@@ -1866,7 +1866,7 @@
                     {
                         "map": "map",
                         "x": 27,
-                        "y": 1360
+                        "y": 355
                     }
                 ]
             },
@@ -1960,8 +1960,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 113,
+                        "y": 184
                     }
                 ]
             },
@@ -2055,8 +2055,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 254,
+                        "y": 184
                     }
                 ]
             },
@@ -2150,8 +2150,8 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 526,
-                        "y": 1530
+                        "x": 404,
+                        "y": 184
                     }
                 ]
             },
@@ -2185,12 +2185,12 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 667,
-                        "y": 1530
+                        "x": 528,
+                        "y": 258
                     }
                 ]
             },
-	    {
+	        {
                 "name": "Floor 5",
                 "visibility_rules": ["op_task"],
                 "sections": [
@@ -2211,7 +2211,7 @@
                     {
                         "map": "map",
                         "x": 27,
-                        "y": 1360
+                        "y": 16
                     }
                 ]
             },
@@ -2220,27 +2220,27 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$", "$"],
                         "item_count": 1 
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 667,
-                        "y": 1530
+                        "x": 646,
+                        "y": 184
                     }
                 ]
             }
