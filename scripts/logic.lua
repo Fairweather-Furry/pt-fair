@@ -479,3 +479,63 @@ function fun_farm_exp_noise_sau()
     has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
   )
 end
+
+function fastfood_saloon_pepp_mus()
+  return(
+    has("op_pepp") and has("sjump")
+  )
+end
+
+function fastfood_saloon_pepp_com()
+  return(
+    fastfood_saloon_pepp_mus() and has("grab")
+  )
+end
+
+function fastfood_saloon_norm_pepp_s3()
+  return(
+    fastfood_saloon_pepp_com() and has("op_diff_norm") and has("wclimb")
+  )
+end
+
+function fastfood_saloon_exp_pepp_mus()
+  return(
+    fastfood_saloon_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and has("wclimb"))
+  )
+end
+
+function fastfood_saloon_exp_pepp_com()
+  return (
+    fastfood_saloon_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and has("wclimb"))
+  )
+end
+
+function fastfood_saloon_exp_pepp_s3()
+  return(
+    has("op_pepp") and has("op_diff_exp") and has("grab") and has("wclimb")
+  )
+end
+
+function fastfood_saloon_noise_mus()
+  return(
+    has("op_noise") and has("sjump")
+  )
+end
+
+function fastfood_saloon_noise_com()
+  return(
+    fastfood_saloon_noise_mus() and has("grab")
+  )
+end
+
+function fastfood_saloon_exp_noise_mus()
+  return(
+    fastfood_saloon_noise_mus() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("crush") or has("wbounce")))
+  )
+end
+
+function fastfood_saloon_exp_noise_com()
+  return(
+    fastfood_saloon_noise_com() or (has("op_noise") and has("op_diff_exp") and has("grab") and (has("ucut") or has("crush") or has("wbounce")))
+  )
+end
