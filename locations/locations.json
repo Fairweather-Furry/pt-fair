@@ -805,6 +805,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -825,6 +826,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -960,6 +962,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -980,6 +983,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1055,6 +1059,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1075,6 +1080,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1150,6 +1156,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1170,6 +1177,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1245,6 +1253,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1265,6 +1274,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1449,6 +1459,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1469,6 +1480,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1544,6 +1556,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1564,6 +1577,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1639,6 +1653,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1659,6 +1674,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1734,6 +1750,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1754,6 +1771,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1889,6 +1907,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1909,6 +1928,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -1984,6 +2004,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -2004,6 +2025,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -2079,6 +2101,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
@@ -2099,6 +2122,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
+                        "access_rules": [],
                         "item_count": 1
                     },
                     {
