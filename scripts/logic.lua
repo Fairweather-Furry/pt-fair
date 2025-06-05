@@ -336,21 +336,21 @@ function bloodsauce_dungeon_exp_noise_pin()
   )
 end
 
-function pepperman_pepp()
+function boss_pepp()
   return(
     has("op_pepp") and has("grab")
   )
 end
 
-function pepperman_noise()
+function boss_noise()
   return(
     has("op_noise") and has("bomb")
   )
 end
 
-function pepperman_norm_noise()
+function boss_norm_noise()
   return(
-    pepperman_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
+    boss_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
   )
 end
 
@@ -537,5 +537,89 @@ end
 function fastfood_saloon_exp_noise_com()
   return(
     fastfood_saloon_noise_com() or (has("op_noise") and has("op_diff_exp") and has("grab") and (has("ucut") or has("crush") or has("wbounce")))
+  )
+end
+
+function reach_elevator_2()
+  return(
+    reach_elevator_1()
+  )
+end
+
+function crust_cove_pepp_com()
+  return(
+    has("op_pepp") and has("wclimb") and has("bodyslam")
+  )
+end
+
+function crust_cove_pepp_che()
+  return(
+    has("op_pepp") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function crust_cove_pepp_s3()
+  return(
+    crust_cove_pepp_com() and has("taunt")
+  )
+end
+
+function crust_cove_pepp_ct1()
+  return(
+    crust_cove_pepp_che() and has("taunt")
+  )
+end
+
+function crust_cove_exp_pepp_com()
+  return(
+    crust_cove_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and has("ucut"))
+  )
+end
+
+function crust_cove_exp_pepp_s3()
+  return(
+    crust_cove_pepp_s3() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and has("ucut") and has("taunt"))
+  )
+end
+
+function crust_cove_exp_pepp_ct1()
+  return(
+    crust_cove_pepp_ct1() and has("bodyslam")
+  )
+end
+
+function crust_cove_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("sjump") or has("crush"))
+  )
+end
+
+function crust_cove_norm_noise_s3()
+  return(
+    crust_cove_norm_noise_com() and has("taunt")
+  )
+end
+
+function crust_cove_norm_noise_ct2()
+  return(
+    has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("bodyslam")) or has("crush"))
+  )
+end
+
+function crust_cove_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and has("sjump") and (has("crush") or has("nado") or has("bodyslam") or has("wbounce"))
+  )
+end
+
+function crust_cove_exp_noise_che()
+  return(
+    has("op_noise") and has("op_diff_exp") and has("sjump")
+  )
+end
+
+function crust_cove_exp_noise_s3()
+  return(
+    crust_cove_exp_noise_com() and has("taunt")
   )
 end

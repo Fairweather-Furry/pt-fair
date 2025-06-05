@@ -440,25 +440,25 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: The Critic",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
+                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
                         "item_count": 1 
                     }
                 ],
@@ -791,7 +791,7 @@
             },
             {
                 "name": "Fastfood Saloon",
-                "access_rules": [],
+                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld_on"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -888,28 +888,29 @@
             },
             {
                 "name": "The Vigilante",
+                "access_rules": ["$reach_elevator_1,prog_key_1,$calculate_floor_cost|op_f2_cost", "$reach_elevator_1,op_oworld_on,$calculate_floor_cost|op_f2_cost"],
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": [],
+                        "access_rules": ["$boss_pepp", "$boss_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: The Ugly",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$boss_pepp", "$boss_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$boss_pepp", "$boss_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$boss_pepp", "$boss_noise"],
                         "item_count": 1 
                     }
                 ],
@@ -924,17 +925,20 @@
             {
                 "name": "Floor 2",
                 "visibility_rules": ["op_task"],
+                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld_on"],
                 "sections": [
                     {
                         "name": "S Ranked #2",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
+                                        "$oregano_desert_noise_com,$wasteyard_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #2",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
+                                        "$oregano_desert_noise_com,$wasteyard_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
                         "item_count": 1 
                     }
                 ],
@@ -948,90 +952,90 @@
             },
             {
                 "name": "Crust Cove",
-                "access_rules": [],
+                "access_rules": ["$reach_elevator_2,prog_key_2", "$reach_elevator_2,op_oworld_on"],
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_s3", "$crust_cove_norm_noise_s3", "$crust_cove_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_norm_noise_com,portal", "$crust_cove_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_norm_noise_com,portal", "$crust_cove_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Blowback",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_ct1", "$crust_cove_norm_noise_s3", "$crust_cove_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: X",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_ct2",  "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Demolitian Expert",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
