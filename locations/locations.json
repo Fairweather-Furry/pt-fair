@@ -1330,7 +1330,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: Denoised",
+                        "name": "Chef Task: Denoise",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
                         "item_count": 1 
@@ -1365,10 +1365,7 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: Denoised",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["$pepperman_pepp", "$pepperman_norm_noise"],
-                        "item_count": 1 
+                        "ref": "Overworld/The Noise/Chef Task: Denoise"
                     },
                     {
                         "name": "S Rank",
@@ -2229,14 +2226,7 @@
                         "y": 1530
                     }
                 ]
-            },
-
-
-
-
-	    
-
-            
+            }
         ]
     }
 ]
