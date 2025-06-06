@@ -659,3 +659,69 @@ function gnome_forest_norm_noise_com()
     gnome_forest_noise_com() or (has("op_noise") and has("op_diff_norm") and has("bodyslam") and (has("sjump") or has("wbounce")))
   )
 end
+
+function deep_dish_9_pepp_com()
+  return(
+    has("op_pepp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function deep_dish_9_norm_pepp_che()
+  return(
+    deep_dish_9_pepp_com() or (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("ucut"))
+  )
+end
+
+function deep_dish_9_norm_pepp_mus()
+  return(
+    has("op_pepp") and has("op_diff_norm") and has("bodyslam")
+  )
+end
+
+function deep_dish_9_noise_mus()
+  return(
+    has("op_noise") and (has("bodyslam") or has("crush") or has("nado"))
+  )
+end
+
+function deep_dish_9_noise_ct3()
+  return(
+    has("op_noise") and has("bodyslam") and (has("sjump") or has("crush") or has("wbounce"))
+  )
+end
+
+function deep_dish_9_norm_noise_che()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("bodyslam") or has("nado")) and (has("sjump") or has("wbounce")))
+  )
+end
+
+function deep_dish_9_norm_noise_com()
+  return(
+    deep_dish_9_norm_noise_che() or (has("op_noise") and has("op_diff_norm") and has("ucut") and (has("bodyslam") or has("nado")))
+  )
+end
+
+function deep_dish_9_exp_noise_tom()
+  return(
+    deep_dish_9_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
+  )
+end
+
+function deep_dish_9_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+  )
+end
+
+function deep_dish_9_exp_noise_pin()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
+  )
+end
+
+function deep_dish_9_exp_noise_ct3()
+  return(
+    deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("ucut") and has("bodyslam"))
+  )
+end
