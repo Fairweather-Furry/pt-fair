@@ -1342,28 +1342,31 @@
             },
             {
                 "name": "The Noise",
+                "visibility_rules": ["op_pepp,$not_swap"],
+                "access_rules": ["$reach_elevator_2,prog_key_2,sjump", "$reach_elevator_2,op_oworld_on,sjump", "$reach_elevator_2,prog_key_2,wclimb", "$reach_elevator_2,op_oworld_on,wclimb", "$reach_elevator_2,prog_key_2,ucut", "$reach_elevator_2,op_oworld_on,ucut", "$reach_elevator_2,prog_key_2,op_ladder2", "$reach_elevator_2,op_oworld_on,op_ladder2"],
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": [],
+                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "Chef Task: Denoise",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp",
+                                        "op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
                         "item_count": 1 
                     }
                 ],
@@ -1377,10 +1380,13 @@
             },
             {
                 "name": "The Doise",
+                "visibility_rules": ["op_noise", "op_swap"],
+                "access_rules": ["$reach_elevator_2,prog_key_2,sjump", "$reach_elevator_2,op_oworld_on,sjump", "$reach_elevator_2,prog_key_2,wclimb", "$reach_elevator_2,op_oworld_on,wclimb", "$reach_elevator_2,prog_key_2,ucut", "$reach_elevator_2,op_oworld_on,ucut", 
+                                "$reach_elevator_2,prog_key_2,crush", "$reach_elevator_2,op_oworld_on,crush", "$reach_elevator_2,prog_key_2,wbounce", "$reach_elevator_2,op_oworld_on,wbounce", "$reach_elevator_2,prog_key_2,op_ladder2", "$reach_elevator_2,op_oworld_on,op_ladder2"],
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": [],
+                        "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
                         "item_count": 1 
                     },
                     {
@@ -1389,13 +1395,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
                         "item_count": 1 
                     }
                 ],
