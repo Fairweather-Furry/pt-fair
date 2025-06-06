@@ -827,3 +827,81 @@ function pig_city_swap_ct2()
     has("op_swap") and has("rkick") and (has("crush") or (has("bodyslam") and (has("djump") or has("wbounce") or has("ucut") or has("sjump"))))
   )
 end
+
+function peppibot_factory_pepp_mus()
+  return(
+    has("op_pepp") and has("sjump")
+  )
+end
+
+function peppibot_factory_norm_pepp_sau()
+  return(
+    peppibot_factory_pepp_mus() and has("op_diff_norm") and has("wclimb")
+  )
+end
+
+function peppibot_factory_norm_pepp_com()
+  return(
+    peppibot_factory_norm_pepp_sau() and has("bodyslam")
+  )
+end
+
+function peppibot_factory_norm_pepp_s2()
+  return(
+    peppibot_factory_norm_pepp_sau() and has("ucut")
+  )
+end
+
+function peppibot_factory_exp_pepp_mus()
+  return(
+    peppibot_factory_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut")))
+  )
+end
+
+function peppibot_factory_exp_pepp_pin()
+  return(
+    (peppibot_factory_pepp_mus() and has("op_diff_exp") and has("ucut")) or (has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut")))
+  )
+end
+
+function peppibot_factory_exp_pepp_com()
+  return(
+    peppibot_factory_exp_pepp_pin() and has("bodyslam")
+  )
+end
+
+function peppibot_factory_exp_pepp_s1()
+  return(
+    peppibot_factory_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and has("wclimb"))
+  )
+end
+
+function peppibot_factory_exp_pepp_tre()
+  return(
+    peppibot_factory_exp_pepp_s1() and has("bodyslam")
+  )
+end
+
+function peppibot_factory_noise_pin()
+  return(
+    has("op_noise") and (has("crush") or has("sjump"))
+  )
+end
+
+function peppibot_factory_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado"))))
+  )
+end
+
+function peppibot_factory_exp_noise_com()
+  return(
+    peppibot_factory_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
+  )
+end
+
+function peppibot_factory_exp_noise_s3()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
+  )
+end
