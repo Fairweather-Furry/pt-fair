@@ -761,3 +761,69 @@ function golf_exp_noise_com()
     golf_exp_noise_tre() or (has("op_noise") and has("op_diff_exp") and has("bodyslam"))
   )
 end
+
+function reach_elevator_3()
+  return(
+    reach_elevator_2() and (has("sjump") or has("ucut") or has("wclimb") or has("crush") or has("wbounce") or has("op_ladder3"))
+  )
+end
+
+function pig_city_pepp_tom()
+  return(
+    has("op_pepp") and has("bodyslam")
+  )
+end
+
+function pig_city_pepp_com()
+  return(
+    pig_city_pepp_tom() and has("djump")
+  )
+end
+
+function pig_city_pepp_che()
+  return(
+    has("op_pepp") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function pig_city_noise_che()
+  return(
+    has("op_noise") and (has("sjump") or has("crush"))
+  )
+end
+
+function pig_city_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
+  )
+end
+
+function pig_city_exp_noise_che()
+  return(
+    pig_city_noise_che() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("wbounce")))
+  )
+end
+
+function pig_city_exp_noise_tom()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("crush") or has("bodyslam"))
+  )
+end
+
+function pig_city_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+  )
+end
+
+function pig_city_exp_noise_ct1()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("crush") or (has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
+  )
+end
+
+function pig_city_swap_ct2()
+  return(
+    has("op_swap") and has("rkick") and (has("crush") or (has("bodyslam") and (has("djump") or has("wbounce") or has("ucut") or has("sjump"))))
+  )
+end
