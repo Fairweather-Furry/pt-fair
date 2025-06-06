@@ -623,3 +623,39 @@ function crust_cove_exp_noise_s3()
     crust_cove_exp_noise_com() and has("taunt")
   )
 end
+
+function gnome_forest_norm_pepp_com()
+  return(
+    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and ((has("spin") or has("rkick")) and (has("sjump") or has("wclimb")))
+  )
+end
+
+function gnome_forest_norm_pepp_pin()
+  return(
+    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and (has("spin") or has("rkick"))
+  )
+end
+
+function gnome_forest_exp_pepp_pin()
+  return(
+    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("djump")
+  )
+end
+
+function gnome_forest_exp_pepp_com()
+  return(
+    gnome_forest_exp_pepp_pin() and (has("sjump") or has("wclimb"))
+  )
+end
+
+function gnome_forest_noise_com()
+  return(
+    has("op_noise") and has("crush")
+  )
+end
+
+function gnome_forest_norm_noise_com()
+  return(
+    gnome_forest_noise_com() or (has("op_noise") and has("op_diff_norm") and has("bodyslam") and (has("sjump") or has("wbounce")))
+  )
+end
