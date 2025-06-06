@@ -1420,13 +1420,19 @@
                     {
                         "name": "S Ranked #3",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
+                                        "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
+                                        "$crust_cove_norm_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
+                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #3",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
+                                        "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
+                                        "$crust_cove_norm_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
+                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
                         "item_count": 1 
                     }
                 ],
