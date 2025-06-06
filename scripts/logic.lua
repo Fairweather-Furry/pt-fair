@@ -725,3 +725,39 @@ function deep_dish_9_exp_noise_ct3()
     deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("ucut") and has("bodyslam"))
   )
 end
+
+function golf_norm_pepp_com()
+  return(
+    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump") or has("ucut"))
+  )
+end
+
+function golf_exp_pepp_com()
+  return(
+    has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("bodyslam") or has("wclimb") or has("ucut"))
+  )
+end
+
+function golf_exp_pepp_tre()
+  return(
+    has("op_pepp") and has("op_diff_exp") and (has("sjump") or (has("wclimb") and has("grab")))
+  )
+end
+
+function golf_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("crush") or has("ucut") or has("wbounce"))
+  )
+end
+
+function golf_exp_noise_tre()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("sjump") or has("wbounce") or has("ucut") or has("crush"))
+  )
+end
+
+function golf_exp_noise_com()
+  return(
+    golf_exp_noise_tre() or (has("op_noise") and has("op_diff_exp") and has("bodyslam"))
+  )
+end
