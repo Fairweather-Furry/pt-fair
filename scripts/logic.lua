@@ -959,3 +959,51 @@ function oh_shit_exp_noise_com()
     has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
   )
 end
+
+function freezerator_pepp_che()
+  return(
+    has("op_pepp") and has("wclimb")
+  )
+end
+
+function freezerator_pepp_mus()
+  return(
+    has("op_pepp") and (has("wclimb") or has("sjump"))
+  )
+end
+
+function freezerator_norm_pepp_com()
+  return(
+    freezerator_pepp_che() and has("op_diff_norm") and has("bodyslam") and has("sjump")
+  )
+end
+
+function freezerator_norm_pepp_s2()
+  return(
+    freezerator_norm_pepp_com() and has("grab") and has("staunt")
+  )
+end
+
+function freezerator_exp_pepp_che()
+  return(
+    freezerator_pepp_che() or (has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("ucut")))
+  )
+end
+
+function freezerator_exp_pepp_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and has("slam") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function freezerator_norm_noise_s2()
+  return (
+    has("op_noise") and has("op_diff_norm") and has("grab")
+  )
+end
+
+function freezerator_exp_noise_s2()
+  return (
+    has("op_noise") and has("op_diff_exp") and has("staunt")
+  )
+end
