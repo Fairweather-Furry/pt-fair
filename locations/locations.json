@@ -444,12 +444,6 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: The Critic",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
-                        "item_count": 1 
-                    },
-                    {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$boss_pepp", "$boss_norm_noise"],
@@ -474,6 +468,11 @@
                 "name": "Floor 1",
                 "visibility_rules": ["op_task"],
                 "sections": [
+                    {
+                        "name": "Chef Task: The Critic",
+                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
+                        "item_count": 1 
+                    },
                     {
                         "name": "S Ranked #1",
                         "visibility_rules": ["op_srank"],
@@ -896,12 +895,6 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: The Ugly",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["$boss_pepp", "$boss_noise"],
-                        "item_count": 1 
-                    },
-                    {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$boss_pepp", "$boss_noise"],
@@ -927,6 +920,11 @@
                 "visibility_rules": ["op_task"],
                 "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld_on"],
                 "sections": [
+                    {
+                        "name": "Chef Task: The Ugly",
+                        "access_rules": ["$boss_pepp", "$boss_noise"],
+                        "item_count": 1 
+                    },
                     {
                         "name": "S Ranked #2",
                         "visibility_rules": ["op_srank"],
@@ -1351,13 +1349,6 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: Denoise",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp",
-                                        "op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
-                        "item_count": 1 
-                    },
-                    {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
@@ -1390,9 +1381,6 @@
                         "item_count": 1 
                     },
                     {
-                        "ref": "Overworld/The Noise/Chef Task: Denoise"
-                    },
-                    {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
@@ -1417,6 +1405,12 @@
                 "name": "Floor 3",
                 "visibility_rules": ["op_task"],
                 "sections": [
+                    {
+                        "name": "Chef Task: Denoise",
+                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp",
+                                        "op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "item_count": 1 
+                    },
                     {
                         "name": "S Ranked #3",
                         "visibility_rules": ["op_srank"],
@@ -1856,12 +1850,6 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: Faker",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": [],
-                        "item_count": 1 
-                    },
-                    {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
                         "access_rules": [],
@@ -1886,6 +1874,11 @@
                 "name": "Floor 4",
                 "visibility_rules": ["op_task"],
                 "sections": [
+                    {
+                        "name": "Chef Task: Faker",
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
                     {
                         "name": "S Ranked #4",
                         "visibility_rules": ["op_srank"],
@@ -2207,12 +2200,6 @@
                         "item_count": 1 
                     },
                     {
-                        "name": "Chef Task: Face Off",
-                        "visibility_rules": ["op_task"],
-                        "access_rules": [],
-                        "item_count": 1 
-                    },
-                    {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
                         "access_rules": [],
@@ -2237,6 +2224,11 @@
                 "name": "Floor 5",
                 "visibility_rules": ["op_task"],
                 "sections": [
+                    {
+                        "name": "Chef Task: Face Off",
+                        "access_rules": [],
+                        "item_count": 1 
+                    },
                     {
                         "name": "S Ranked #5",
                         "visibility_rules": ["op_srank"],
