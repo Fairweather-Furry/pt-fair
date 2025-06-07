@@ -905,3 +905,57 @@ function peppibot_factory_exp_noise_s3()
     has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
   )
 end
+
+function oh_shit_pepp_mus()
+  return(
+    has("op_pepp") and has("bodyslam")
+  )
+end
+
+function oh_shit_pepp_com()
+  return(
+    oh_shit_pepp_mus() and has("wclimb")
+  )
+end
+
+function oh_shit_pepp_che()
+  return(
+    oh_shit_pepp_com() or (has("op_pepp") and has("bodyslam") and (has("sjump") or has("ucut")))
+  )
+end
+
+function oh_shit_pepp_s2()
+  return(
+    (oh_shit_pepp_com() and has("op_diff_norm") and has("taunt")) or (oh_shit_pepp_che() and has("op_diff_exp") and has("taunt"))
+  )
+end
+
+function oh_shit_norm_pepp_s3()
+  return(
+    oh_shit_pepp_com() and has("op_diff_norm") and has("sjump")
+  )
+end
+
+function oh_shit_noise_mus()
+  return(
+    has("op_noise") and (has("bodyslam") or has("nado") or has("crush"))
+  )
+end
+
+function oh_shit_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("crush") or ((has("bodyslam") or has("nado")) and (has("wbounce") or has("sjump") or has("ucut"))))
+  )
+end
+
+function oh_shit_exp_noise_mus()
+  return(
+    oh_shit_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
+  )
+end
+
+function oh_shit_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+  )
+end

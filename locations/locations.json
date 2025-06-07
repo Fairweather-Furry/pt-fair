@@ -1649,60 +1649,60 @@
             },
             {
                 "name": "Oh Shit!",
-                "access_rules": [],
+                "access_rules": ["$reach_elevator_3,prog_key_3", "$reach_elevator_3,op_oworld_on"],
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_mus", "$oh_shit_exp_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_che", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_mus", "$oh_shit_exp_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -1720,19 +1720,19 @@
                     {
                         "name": "Chef Task: Can't Fool Me",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Food Clan",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_s2", "$oh_shit_norm_noise_com,taunt", "$oh_shit_exp_noise_com,taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Penny Pincher",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_norm_pepp_s3", "$oh_shit_pepp_com,op_diff_exp", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
