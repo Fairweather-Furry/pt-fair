@@ -71,6 +71,12 @@ function onClear(slot_data)
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
 		end
 	end
+    Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
+    Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_cost"])
+    Tracker:FindObjectForCode("op_f2_cost").AcquiredCount = tonumber(slot_data["floor_2_cost"])
+    Tracker:FindObjectForCode("op_f3_cost").AcquiredCount = tonumber(slot_data["floor_3_cost"])
+    Tracker:FindObjectForCode("op_f4_cost").AcquiredCount = tonumber(slot_data["floor_4_cost"])
+    Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_cost"])
 end
 
 -- called when an item gets collected
