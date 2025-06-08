@@ -1885,13 +1885,19 @@
                     {
                         "name": "S Ranked #4",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$pig_city_pepp_com,$peppibot_factory_norm_pepp_com,$oh_shit_pepp_com,$freezerator_norm_pepp_com,portal",
+                                        "$pig_city_pepp_com,$peppibot_factory_exp_pepp_com,$oh_shit_pepp_com,$freezerator_exp_pepp_com,portal",
+                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,$op_noise,portal",
+                                        "$pig_city_exp_noise_com,peppibot_factory_exp_noise_com,op_diff_exp,$oh_shit_exp_noise_com,op_noise,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #4",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$pig_city_pepp_com,$peppibot_factory_norm_pepp_com,$oh_shit_pepp_com,$freezerator_norm_pepp_com,portal",
+                                        "$pig_city_pepp_com,$peppibot_factory_exp_pepp_com,$oh_shit_pepp_com,$freezerator_exp_pepp_com,portal",
+                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,$op_noise,portal",
+                                        "$pig_city_exp_noise_com,peppibot_factory_exp_noise_com,op_diff_exp,$oh_shit_exp_noise_com,op_noise,portal"],
                         "item_count": 1 
                     }
                 ],
