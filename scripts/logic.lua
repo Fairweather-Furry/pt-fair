@@ -1019,3 +1019,45 @@ function reach_fake_pepp()
     reach_elevator_3() and calculate_floor_cost("op_f4_cost") and (has("prog_key_3") or has("op_oworld_on")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
   )
 end
+
+function reach_elevator_4()
+  return(
+    reach_elevator_3()
+  )
+end
+
+function pizzascare_pepp_com()
+  return(
+    has("op_pepp") and has("wclimb") and has("bodyslam")
+  )
+end
+
+function pizzascare_pepp_mus()
+  return(
+    pizzascare_pepp_com() or (has("op_pepp") and has("sjump") and has("bodyslam"))
+  )
+end
+
+function pizzascare_exp_pep_com()
+  return(
+    pizzascare_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("sjump") and has("bodyslam"))
+  )
+end
+
+function pizzascare_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("crush") or ((has("sjump") or has("wbounce")) and (has("bodyslam") or has("nado"))))
+  )
+end
+
+function pizzascare_norm_noise_che()
+  return(
+    pizzascare_norm_noise_com() or (has("op_noise") and has("op_diff_norm") and has("ucut") and (has("bodyslam") or has("nado")))
+  )
+end
+
+function pizzascare_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("crush") or has("wbounce") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+  )
+end

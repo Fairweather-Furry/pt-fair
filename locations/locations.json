@@ -1911,90 +1911,90 @@
             },
             {
                 "name": "Pizzascare",
-                "access_rules": [],
+                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld_on,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld_on,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld_on,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld_on,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld_on,wbounce"],
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_pepp_mus", "$pizzascare_norm_noise_che", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_che", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com,portal", "$pizzascare_norm_noise_com,portal", "$pizzascare_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com,portal", "$pizzascare_norm_noise_com,portal", "$pizzascare_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Cross To Bare",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Haunted Playground",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Skullsplitter",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
@@ -2008,7 +2008,7 @@
             },
             {
                 "name": "Don't Make A Sound",
-                "access_rules": [],
+                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld_on,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld_on,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld_on,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld_on,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld_on,wbounce"],
                 "sections": [
                     {
                         "name": "Complete",
