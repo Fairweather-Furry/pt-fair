@@ -762,6 +762,12 @@ function golf_exp_noise_com()
   )
 end
 
+function reach_noise()
+  return(
+    reach_elevator_2() and calculate_floor_cost("op_f3_cost") and (has("prog_key_2") or has("op_oworld_on")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3")) 
+  )
+end
+
 function reach_elevator_3()
   return(
     reach_elevator_2() and (has("sjump") or has("ucut") or has("wclimb") or has("crush") or has("wbounce") or has("op_ladder3"))
@@ -1005,5 +1011,11 @@ end
 function freezerator_exp_noise_s2()
   return (
     has("op_noise") and has("op_diff_exp") and has("staunt")
+  )
+end
+
+function reach_fake_pepp()
+  return(
+    reach_elevator_3() and calculate_floor_cost("op_f4_cost") and (has("prog_key_3") or has("op_oworld_on")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
   )
 end
