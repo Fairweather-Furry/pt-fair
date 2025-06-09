@@ -2254,22 +2254,23 @@
             },
             {
                 "name": "The Crumbling Tower of Pizza",
+                "access_rules": ["op_pepp,grab,$reach_pizzaface", "op_noise,bomb,$reach_pizzaface"],
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": [],
+                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
                     }
                 ],

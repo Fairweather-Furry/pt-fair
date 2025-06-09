@@ -1240,3 +1240,27 @@ function reach_pizzaface()
     reach_elevator_4() and calculate_floor_cost("op_f5_cost") and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("crush") or has("op_ladder5")) 
   )
 end
+
+function crumbling_tower_norm_pepp_com()
+  return(
+    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("sjump") and has("wclimb")
+  )
+end
+
+function crumbling_tower_exp_pepp_com()
+  return(
+    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("grab") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function crumbling_tower_noise_com()
+  return(
+    has("op_noise") and has("grab") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado"))))
+  )
+end
+
+function crumbling_tower_exp_noise_com()
+  return(
+    crumbling_tower_noise_com() or (has("op_noise") and has("op_diff_exp") and has("sjump") and has("grab") and has("wbounce"))
+  )
+end
