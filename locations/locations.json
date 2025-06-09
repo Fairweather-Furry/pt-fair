@@ -2228,13 +2228,19 @@
                     {
                         "name": "S Ranked #5",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com,$dont_make_sound_norm_pepp_com,$war_exp_pepp_com,portal",
+                                        "$pizzascare_exp_pep_com,$dont_make_sound_exp_pepp_com,$war_exp_pepp_com,portal",
+                                        "$pizzascare_exp_noise_com,dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
+                                        "$pizzascare_exp_noise_com,$dont_make_sound_exp_noise_com,$war_exp_noise_com,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #5",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_exp_pep_com,$dont_make_sound_norm_pepp_com,$war_exp_pepp_com,portal",
+                                        "$pizzascare_exp_pep_com,$dont_make_sound_exp_pepp_com,$war_exp_pepp_com,portal",
+                                        "$pizzascare_exp_noise_com,dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
+                                        "$pizzascare_exp_noise_com,$dont_make_sound_exp_noise_com,$war_exp_noise_com,portal"],
                         "item_count": 1 
                     }
                 ],
