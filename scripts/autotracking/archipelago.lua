@@ -64,19 +64,39 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	
-	--print(dump_table(slot_data))
+--	print(dump_table(slot_data))
 
 	for k,v in pairs(slot_data) do
 		if SLOT_CODES[k] then
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
 		end
 	end
-    Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
-    Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_cost"])
-    Tracker:FindObjectForCode("op_f2_cost").AcquiredCount = tonumber(slot_data["floor_2_cost"])
-    Tracker:FindObjectForCode("op_f3_cost").AcquiredCount = tonumber(slot_data["floor_3_cost"])
-    Tracker:FindObjectForCode("op_f4_cost").AcquiredCount = tonumber(slot_data["floor_4_cost"])
-    Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_cost"])
+
+--    if slot_data["toppin_count"] then
+--        Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
+--    end
+    if slot_data["floor_1_toppins"] then
+        Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_toppins"])
+    end
+    if slot_data["floor_2_toppins"] then
+        Tracker:FindObjectForCode("op_f2_cost").AcquiredCount = tonumber(slot_data["floor_2_toppins"])
+    end
+    if slot_data["floor_3_toppins"] then
+        Tracker:FindObjectForCode("op_f3_cost").AcquiredCount = tonumber(slot_data["floor_3_toppins"])
+    end
+    if slot_data["floor_4_toppins"] then
+        Tracker:FindObjectForCode("op_f4_cost").AcquiredCount = tonumber(slot_data["floor_4_toppins"])
+    end
+    if slot_data["floor_5_toppins"] then
+        Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_toppins"])
+    end
+    
+    Tracker:FindObjectForCode("op_oworld").Active = slot_data["open_world"]
+
+--    Tracker:FindObjectForCode("op_f2_cost").AcquiredCount = tonumber(slot_data["floor_2_cost"])
+--    Tracker:FindObjectForCode("op_f3_cost").AcquiredCount = tonumber(slot_data["floor_3_cost"])
+--    Tracker:FindObjectForCode("op_f4_cost").AcquiredCount = tonumber(slot_data["floor_4_cost"])
+--    Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_cost"])
 end
 
 -- called when an item gets collected
