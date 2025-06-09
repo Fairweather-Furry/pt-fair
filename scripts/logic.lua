@@ -1168,3 +1168,69 @@ function dont_make_sound_exp_noise_com()
     has("op_noise") and has("op_diff_exp") and has("sjump") and (has("grab") or has("ucut"))
   )
 end
+
+function war_pepp_com()
+  return(
+    has("op_pepp") and has("grab") and has("sjump") and has("bodyslam")
+  )
+end
+
+function war_pepp_mus()
+  return(
+    has("op_pepp") and has("grab") and (has("sjump") or has("wclimb"))
+  )
+end
+
+function war_norm_pepp_sau()
+  return(
+    war_pepp_mus() and has("op_diff_norm") and has("bodyslam")
+  )
+end
+
+function war_exp_pepp_com()
+  return(
+    war_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and ((has("ucut") and has("sjump")) or (has("wclimb") and (has("grab") or has("ucut")))))
+  )
+end
+
+function war_exp_pepp_che()
+  return(
+    war_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and ((has("grab") and has("bodyslam")) or (has("ucut") and (has("sjump") or has("wclimb") or has("bodyslam")))))
+  )
+end
+
+function war_exp_pepp_pin()
+  return(
+    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and (has("grab") or has("ucut"))
+  )
+end
+
+function war_noise_sau()
+  return(
+    has("op_noise") and has("grab") and (has("bodyslam") or has("crush"))
+  )
+end
+
+function war_noise_che()
+  return(
+    war_noise_sau() or (has("op_noise") and has("grab") and (has("wbounce") or has("sjump")))
+  )
+end
+
+function war_noise_exp_noise_sau()
+  return(
+    war_noise_che() or (has("op_noise") and has("op_diff_exp") and has("ucut") and (has("crush") or has("sjump") or has("wbounce") or has("bodyslam")))
+  )
+end
+
+function war_exp_noise_pin()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("grab") or has("ucut")) and (has("sjump") or has("bodyslam"))
+  )
+end
+
+function war_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado") or has("wbounce")))
+  )
+end
