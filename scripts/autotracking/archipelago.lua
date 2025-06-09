@@ -64,19 +64,42 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	
-	--print(dump_table(slot_data))
+--	print(dump_table(slot_data))
 
 	for k,v in pairs(slot_data) do
 		if SLOT_CODES[k] then
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
 		end
 	end
-    Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
-    Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_cost"])
-    Tracker:FindObjectForCode("op_f2_cost").AcquiredCount = tonumber(slot_data["floor_2_cost"])
-    Tracker:FindObjectForCode("op_f3_cost").AcquiredCount = tonumber(slot_data["floor_3_cost"])
-    Tracker:FindObjectForCode("op_f4_cost").AcquiredCount = tonumber(slot_data["floor_4_cost"])
-    Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_cost"])
+
+--    if slot_data["toppin_count"] then
+--        Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
+--    end
+    if slot_data["floor_1_toppins"] then
+        Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_toppins"])
+    end
+    if slot_data["floor_2_toppins"] then
+        Tracker:FindObjectForCode("op_f2_cost").AcquiredCount = tonumber(slot_data["floor_2_toppins"])
+    end
+    if slot_data["floor_3_toppins"] then
+        Tracker:FindObjectForCode("op_f3_cost").AcquiredCount = tonumber(slot_data["floor_3_toppins"])
+    end
+    if slot_data["floor_4_toppins"] then
+        Tracker:FindObjectForCode("op_f4_cost").AcquiredCount = tonumber(slot_data["floor_4_toppins"])
+    end
+    if slot_data["floor_5_toppins"] then
+        Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_toppins"])
+    end
+    
+    Tracker:FindObjectForCode("op_oworld").Active = slot_data["open_world"]
+--    Not yet implemented in the APWorld slotdata, putting these here for when they are. -Plushie
+--    Tracker:FindObjectForCode("op_diff").Active = slot_data["difficulty"]
+--    Tracker:FindObjectForCode("op_treasure").Active = slot_data["treasure_checks"]
+--    Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
+--    Tracker:FindObjectForCode("op_srank").Active = slot_data["srank_checks"]
+--    Tracker:FindObjectForCode("op_prank").Active = slot_data["prank_checks"]
+--    Tracker:FindObjectForCode("op_task").Active = slot_data["cheftask_checks"]
+
 end
 
 -- called when an item gets collected

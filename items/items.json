@@ -270,40 +270,40 @@
     {
         "name": "Floor 1 Cost",
         "type": "consumable",
-        "max_quantity": 100,
-        "initial_quantity": 11,
+        "max_quantity": 150,
+        "initial_quantity": 10,
         "img": "images/Floor1Cost.png",
         "codes": "op_f1_cost"
     },
     {
         "name": "Floor 2 Cost",
         "type": "consumable",
-        "max_quantity": 100,
-        "initial_quantity": 27,
+        "max_quantity": 150,
+        "initial_quantity": 25,
         "img": "images/Floor2Cost.png",
         "codes": "op_f2_cost"
     },
     {
         "name": "Floor 3 Cost",
         "type": "consumable",
-        "max_quantity": 100,
-        "initial_quantity": 48,
+        "max_quantity": 150,
+        "initial_quantity": 45,
         "img": "images/Floor3Cost.png",
         "codes": "op_f3_cost"
     },
     {
         "name": "Floor 4 Cost",
         "type": "consumable",
-        "max_quantity": 100,
-        "initial_quantity": 69,
+        "max_quantity": 150,
+        "initial_quantity": 65,
         "img": "images/Floor4Cost.png",
         "codes": "op_f4_cost"
     },
     {
         "name": "Floor 5 Cost",
         "type": "consumable",
-        "max_quantity": 100,
-        "initial_quantity": 91,
+        "max_quantity": 150,
+        "initial_quantity": 86,
         "img": "images/Floor5Cost.png",
         "codes": "op_f5_cost"
     },
@@ -340,23 +340,8 @@
     {
         "name": "Open World",
         "type": "progressive",
-        "codes": "op_oworld",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "name": "Open World - Off",
-                "img": "images/Key.png",
-                "codes": "op_oworld_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Open World - On",
-                "img": "images/OpenWorld.png",
-                "codes": "op_oworld_on",
-                "inherit_codes": false
-            }
-        ]
+        "img": "images/OpenWorld.png",
+        "codes": "op_oworld"
     },
     {
         "name": "Bonus Ladders",
