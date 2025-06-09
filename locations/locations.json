@@ -1887,7 +1887,7 @@
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$pig_city_pepp_com,$peppibot_factory_norm_pepp_com,$oh_shit_pepp_com,$freezerator_norm_pepp_com,portal",
                                         "$pig_city_pepp_com,$peppibot_factory_exp_pepp_com,$oh_shit_pepp_com,$freezerator_exp_pepp_com,portal",
-                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,$op_noise,portal",
+                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,op_noise,portal",
                                         "$pig_city_exp_noise_com,peppibot_factory_exp_noise_com,op_diff_exp,$oh_shit_exp_noise_com,op_noise,portal"],
                         "item_count": 1 
                     },
@@ -1896,7 +1896,7 @@
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$pig_city_pepp_com,$peppibot_factory_norm_pepp_com,$oh_shit_pepp_com,$freezerator_norm_pepp_com,portal",
                                         "$pig_city_pepp_com,$peppibot_factory_exp_pepp_com,$oh_shit_pepp_com,$freezerator_exp_pepp_com,portal",
-                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,$op_noise,portal",
+                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,op_noise,portal",
                                         "$pig_city_exp_noise_com,peppibot_factory_exp_noise_com,op_diff_exp,$oh_shit_exp_noise_com,op_noise,portal"],
                         "item_count": 1 
                     }
@@ -1911,7 +1911,7 @@
             },
             {
                 "name": "Pizzascare",
-                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld_on,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld_on,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld_on,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld_on,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld_on,wbounce"],
+                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld_on,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld_on,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld_on,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld_on,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld_on,wbounce", "$reach_elevator_3,prog_key_3,op_ladder5", "$reach_elevator_3,op_oworld_on,op_ladder5"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2008,90 +2008,88 @@
             },
             {
                 "name": "Don't Make A Sound",
-                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld_on,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld_on,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld_on,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld_on,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld_on,wbounce"],
+                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld_on,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld_on,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld_on,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld_on,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld_on,wbounce", "$reach_elevator_3,prog_key_3,op_ladder5", "$reach_elevator_3,op_oworld_on,op_ladder5"],
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_exp_pepp_che", "$dont_make_sound_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_exp_pepp_tom", "$dont_make_sound_norm_noise_tom", "$dont_make_sound_exp_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_pepp_sau,op_diff_norm", "$dont_make_sound_exp_pepp_che,op_diff_exp", "$dont_make_sound_norm_noise_sau", "$dont_make_sound_noise_s3,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_exp_pepp_s2", "$dont_make_sound_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_exp_pepp_s2", "$dont_make_sound_norm_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com,portal", "$dont_make_sound_exp_pepp_com,portal", "$dont_make_sound_norm_noise_com,portal", "$dont_make_sound_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com,portal", "$dont_make_sound_exp_pepp_com,portal", "$dont_make_sound_norm_noise_com,portal", "$dont_make_sound_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: And This... Is My Gun On A Stick!",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Let Them Sleep",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Jumpspared",
                         "visibility_rules": ["op_task"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     }
                 ],

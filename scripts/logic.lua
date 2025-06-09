@@ -1061,3 +1061,111 @@ function pizzascare_exp_noise_com()
     has("op_noise") and has("op_diff_exp") and (has("crush") or has("wbounce") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
   )
 end
+
+function dont_make_sound_pepp_che()
+  return(
+    has("op_pepp") and has("wclimb")
+  )
+end
+
+function dont_make_sound_pepp_tom()
+  return(
+    dont_make_sound_pepp_che() and has("bodyslam")
+  )
+end
+
+function dont_make_sound_pepp_sau()
+  return(
+    dont_make_sound_pepp_tom() or (has("op_pepp") and has("wclimb") and has("sjump"))
+  )
+end
+
+function dont_make_sound_norm_pepp_com()
+  return(
+    dont_make_sound_pepp_sau() and has("op_diff_norm") and has("grab")
+  )
+end
+
+function dont_make_sound_exp_pepp_che()
+  return(
+    dont_make_sound_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("sjump"))
+  )
+end
+
+function dont_make_sound_exp_pepp_tom()
+  return(
+    dont_make_sound_pepp_tom() or (has("op_pepp") and has("op_diff_exp") and has("sjump") and has("bodyslam"))
+  )
+end
+
+function dont_make_sound_exp_pepp_com()
+  return(
+    has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut"))
+  )
+end
+
+function dont_make_sound_exp_pepp_s2()
+  return(
+    dont_make_sound_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("sjump") and has("ucut"))
+  )
+end
+
+function dont_make_sound_noise_che()
+  return(
+    has("op_noise") and (has("sjump") or has("ucut") or has("crush") or has("wbounce"))
+  )
+end
+
+function dont_make_sound_noise_tom()
+  return(
+    has("op_noise") and has("sjump") and (has("bodyslam") or has("nado"))
+  )
+end
+
+function dont_make_sound_noise_s3()
+  return(
+    has("op_noise") and has("sjump")
+  )
+end
+
+function dont_make_sound_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and has("grab") and (has("crush") or (has("bodyslam") and has("sjump")))
+  )
+end
+
+function dont_make_sound_norm_noise_tom()
+  return(
+    (dont_make_sound_noise_tom() and has("op_diff_norm")) or (has("op_noise") and has("op_diff_norm") and has("crush"))
+  )
+end
+
+function dont_make_sound_norm_noise_sau()
+  return(
+    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("sjump") and has("bodyslam")))
+  )
+end
+
+function dont_make_sound_norm_noise_com()
+  return(
+    dont_make_sound_norm_noise_sau() and has("grab")
+  )
+end
+
+function dont_make_sound_norm_noise_s3()
+  return(
+    dont_make_sound_noise_s3() or (has("op_noise") and has("op_diff_norm") and has("crush"))
+  )
+end
+
+function dont_make_sound_exp_noise_tom()
+  return(
+    (dont_make_sound_noise_tom() and has("op_diff_exp")) or (has("op_noise") and has("op_diff_exp") and has("sjump") and (has("crush") or has("wbounce")))
+  )
+end
+
+function dont_make_sound_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and has("sjump") and (has("grab") or has("ucut"))
+  )
+end
