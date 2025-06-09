@@ -2200,22 +2200,11 @@
             },
             {
                 "name": "Pizzaface",
+                "access_rules": ["$reach_elevator_4,prog_key_4,sjump,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,op_oworld,sjump,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,prog_key_4,crush,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,op_oworld,crush,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,prog_key_4,op_ladder5,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,op_oworld,op_ladder5,$calculate_floor_cost|op_f5_cost"],
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": [],
-                        "item_count": 1 
-                    },
-                    {
-                        "name": "S Rank",
-                        "visibility_rules": ["op_srank"],
-                        "access_rules": [],
-                        "item_count": 1 
-                    },
-                    {
-                        "name": "P Rank",
-                        "visibility_rules": ["op_prank"],
-                        "access_rules": [],
+                        "access_rules": ["op_pepp,grab", "op_noise,bomb"],
                         "item_count": 1 
                     }
                 ],
@@ -2233,7 +2222,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: Face Off",
-                        "access_rules": [],
+                        "access_rules": ["op_pepp,grab,$reach_pizzaface", "op_noise,bomb,$reach_pizzaface"],
                         "item_count": 1 
                     },
                     {
