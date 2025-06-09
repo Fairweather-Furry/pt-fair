@@ -20,9 +20,8 @@ function not_noise()
   )
 end
 
-function calculate_floor_cost(floor_percentage)
-  local toppins_req = (Tracker:ProviderCountForCode(floor_percentage) / 100) * Tracker:ProviderCountForCode("op_toppin_count")
-  if Tracker:ProviderCountForCode("toppins") >= toppins_req then
+function calculate_floor_cost(floor_count)
+  if Tracker:ProviderCountForCode("toppins") >= Tracker:ProviderCountForCode(floor_count) then
     return true
   else
     return false
