@@ -763,7 +763,7 @@ end
 
 function reach_noise()
   return(
-    reach_elevator_2() and calculate_floor_cost("op_f3_cost") and (has("prog_key_2") or has("op_oworld_on")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3")) 
+    reach_elevator_2() and calculate_floor_cost("op_f3_cost") and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3")) 
   )
 end
 
@@ -1015,7 +1015,7 @@ end
 
 function reach_fake_pepp()
   return(
-    reach_elevator_3() and calculate_floor_cost("op_f4_cost") and (has("prog_key_3") or has("op_oworld_on")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
+    reach_elevator_3() and calculate_floor_cost("op_f4_cost") and (has("prog_key_3") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
   )
 end
 
@@ -1232,5 +1232,11 @@ end
 function war_exp_noise_com()
   return(
     has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado") or has("wbounce")))
+  )
+end
+
+function reach_pizzaface()
+  return(
+    reach_elevator_4() and calculate_floor_cost("op_f5_cost") and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("crush") or has("op_ladder5")) 
   )
 end
