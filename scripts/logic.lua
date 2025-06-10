@@ -187,7 +187,7 @@ end
 
 function pizzascape_noise_s3()
   return(
-    has("op_noise") and has("grab") and (has("sjump") or has("crush"))
+    has("op_noise") and has("grab") and has("sjump")
   )
 end
 
@@ -211,7 +211,7 @@ end
 
 function pizzascape_exp_noise_s3()
   return(
-    pizzascape_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and has("wbounce"))))
+    pizzascape_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wbounce") or has("crush")))))
   )
 end
 
@@ -253,7 +253,7 @@ end
 
 function ancient_cheese_norm_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))
+    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") and (has("bodyslam") or has("nado") or has("crush")))
   )
 end
 
@@ -421,13 +421,19 @@ end
 
 function wasteyard_noise_s1()
   return(
-    has("op_noise") and (has("sjump") or has("crush") or has("wbounce"))
+    has("op_noise") and (has("sjump") or has("wbounce"))
   )
 end
 
 function wasteyard_noise_com()
   return(
     wasteyard_noise_s1() or (has("op_noise") and has("ucut"))
+  )
+end
+
+function wasteyard_exp_noise_com()
+  return(
+    wasteyard_noise_com() or (has("op_noise") and has("op_diff_exp") and has("crush"))
   )
 end
 
@@ -587,15 +593,9 @@ function crust_cove_exp_pepp_ct1()
   )
 end
 
-function crust_cove_norm_noise_com()
+function crust_cove_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and (has("sjump") or has("crush"))
-  )
-end
-
-function crust_cove_norm_noise_s3()
-  return(
-    crust_cove_norm_noise_com() and has("taunt")
+    has("op_noise") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
   )
 end
 
@@ -607,13 +607,13 @@ end
 
 function crust_cove_exp_noise_com()
   return(
-    has("op_noise") and has("op_diff_exp") and has("sjump") and (has("crush") or has("nado") or has("bodyslam") or has("wbounce"))
+    crust_cove_noise_com() or (has("op_noise") and has("op_diff_exp") and has("sjump") and has("wbounce"))
   )
 end
 
-function crust_cove_exp_noise_che()
+function crust_cove_noise_che()
   return(
-    has("op_noise") and has("op_diff_exp") and has("sjump")
+    has("op_noise") and has("sjump")
   )
 end
 

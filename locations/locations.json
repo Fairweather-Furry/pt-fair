@@ -221,7 +221,7 @@
                     {
                         "name": "Chef Task: Shining Armor",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascape_pepp_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp", "$pizzascape_norm_noise_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp"],
+                        "access_rules": ["$$pizzascape_exp_pepp_pin", "$pizzascape_norm_noise_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -601,7 +601,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -631,7 +631,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_s1", "$wasteyard_noise_com,op_diff_exp"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com", "$wasteyard_noise_com,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -655,25 +655,25 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$wasteyard_pepp_com,portal", "$wasteyard_noise_com,portal"],
+                        "access_rules": ["$wasteyard_pepp_com,portal", "$wasteyard_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$wasteyard_pepp_com,portal", "$wasteyard_noise_com,portal"],
+                        "access_rules": ["$wasteyard_pepp_com,portal", "$wasteyard_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Ghosted",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Pretend Ghost",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -929,14 +929,14 @@
                         "name": "S Ranked #2",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
-                                        "$oregano_desert_noise_com,$wasteyard_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
+                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #2",
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
-                                        "$oregano_desert_noise_com,$wasteyard_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
+                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
                         "item_count": 1 
                     }
                 ],
@@ -954,86 +954,86 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$crust_cove_pepp_che",  "$crust_cove_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com",  "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com",  "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com",  "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$crust_cove_exp_pepp_s3", "$crust_cove_norm_noise_s3", "$crust_cove_exp_noise_s3"],
+                        "access_rules": ["$crust_cove_exp_pepp_s3", "$crust_cove_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_exp_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_norm_noise_com,portal", "$crust_cove_exp_noise_com,portal"],
+                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_norm_noise_com,portal", "$crust_cove_exp_noise_com,portal"],
+                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Blowback",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_exp_pepp_ct1", "$crust_cove_norm_noise_s3", "$crust_cove_exp_noise_s3"],
+                        "access_rules": ["$crust_cove_exp_pepp_ct1", "$crust_cove_noise_che,op_diff_norm,taunt", "$crust_cove_exp_noise_com,op_diff_exp,taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: X",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_ct2",  "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Demolitian Expert",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
