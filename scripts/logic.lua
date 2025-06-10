@@ -647,15 +647,15 @@ function gnome_forest_exp_pepp_com()
   )
 end
 
-function gnome_forest_noise_com()
+function gnome_forest_exp_noise_com()
   return(
-    has("op_noise") and has("crush")
+    has("op_noise") and has("op_diff_exp") and has("crush")
   )
 end
 
 function gnome_forest_norm_noise_com()
   return(
-    gnome_forest_noise_com() or (has("op_noise") and has("op_diff_norm") and has("bodyslam") and (has("sjump") or has("wbounce")))
+    has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("crush") or has("nado")) and (has("sjump") or has("wbounce")))
   )
 end
 

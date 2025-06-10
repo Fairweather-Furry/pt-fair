@@ -1052,68 +1052,68 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com,portal", "$gnome_forest_exp_pepp_com,portal", "$gnome_forest_norm_noise_com,portal"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com,portal", "$gnome_forest_exp_pepp_com,portal", "$gnome_forest_norm_noise_com,portal", "$gnome_forest_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com,portal", "$gnome_forest_exp_pepp_com,portal", "$gnome_forest_norm_noise_com,portal"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com,portal", "$gnome_forest_exp_pepp_com,portal", "$gnome_forest_norm_noise_com,portal", "$gnome_forest_exp_noise_com,portal"],
                         "item_count": 1
                     },
                     {
@@ -1125,7 +1125,7 @@
                     {
                         "name": "Chef Task: Lumberjack",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com", "$gnome_forest_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -1417,7 +1417,7 @@
                         "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
                                         "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
                                         "$crust_cove_norm_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
-                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
+                                        "$crust_cove_exp_noise_com,$gnome_forest_exp_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
                         "item_count": 1 
                     },
                     {
