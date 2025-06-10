@@ -92,13 +92,13 @@ function onClear(slot_data)
     end
     
     Tracker:FindObjectForCode("op_oworld").Active = slot_data["open_world"]
+    Tracker:FindObjectForCode("op_diff").Active = slot_data["difficulty"]
+    Tracker:FindObjectForCode("op_treasure").Active = slot_data["treasure_checks"]
+    Tracker:FindObjectForCode("op_srank").Active = slot_data["srank_checks"]
+    Tracker:FindObjectForCode("op_prank").Active = slot_data["prank_checks"]
+    Tracker:FindObjectForCode("op_task").Active = slot_data["cheftask_checks"]
 --    Not yet implemented in the APWorld slotdata, putting these here for when they are. -Plushie
---    Tracker:FindObjectForCode("op_diff").Active = slot_data["difficulty"]
---    Tracker:FindObjectForCode("op_treasure").Active = slot_data["treasure_checks"]
 --    Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
---    Tracker:FindObjectForCode("op_srank").Active = slot_data["srank_checks"]
---    Tracker:FindObjectForCode("op_prank").Active = slot_data["prank_checks"]
---    Tracker:FindObjectForCode("op_task").Active = slot_data["cheftask_checks"]
 
 end
 
