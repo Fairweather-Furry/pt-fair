@@ -221,7 +221,7 @@
                     {
                         "name": "Chef Task: Shining Armor",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$$pizzascape_exp_pepp_pin", "$pizzascape_norm_noise_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp"],
+                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_norm_noise_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -929,14 +929,14 @@
                         "name": "S Ranked #2",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
-                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
+                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #2",
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
-                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com"],
+                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com,portal"],
                         "item_count": 1 
                     }
                 ],
@@ -1003,7 +1003,7 @@
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_noise_che"],
                         "item_count": 1
                     },
                     {
@@ -1159,7 +1159,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$deep_dish_9_norm_pepp_che", "$deep_dish_9_norm_noise_che", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
+                        "access_rules": ["$deep_dish_9_norm_pepp_che", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -1416,7 +1416,7 @@
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
                                         "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
-                                        "$crust_cove_norm_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
+                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
                                         "$crust_cove_exp_noise_com,$gnome_forest_exp_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
                         "item_count": 1 
                     },
@@ -1425,7 +1425,7 @@
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
                                         "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
-                                        "$crust_cove_norm_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
+                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
                                         "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
                         "item_count": 1 
                     }
@@ -1480,7 +1480,7 @@
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$pig_city_pepp_com", "$pig_city_norm_noise_com", "$pig_city_exp_noise_com"],
+                        "access_rules": ["$pig_city_pepp_com", "$pigcity_norm_noise_sau", "$pig_city_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -1663,7 +1663,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$oh_shit_pepp_che", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$oh_shit_pepp_che", "$oh_shit_norm_noise_che", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -1726,7 +1726,7 @@
                     {
                         "name": "Chef Task: Food Clan",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$oh_shit_pepp_s2", "$oh_shit_norm_noise_com,taunt", "$oh_shit_exp_noise_com,taunt"],
+                        "access_rules": ["$oh_shit_pepp_s2", "$oh_shit_norm_noise_che,taunt", "$oh_shit_exp_noise_com,taunt"],
                         "item_count": 1
                     },
                     {
@@ -2026,7 +2026,7 @@
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$dont_make_sound_exp_pepp_tom", "$dont_make_sound_norm_noise_tom", "$dont_make_sound_exp_noise_tom"],
+                        "access_rules": ["$dont_make_sound_exp_pepp_tom", "$dont_make_sound_exp_noise_tom"],
                         "item_count": 1
                     },
                     {
@@ -2036,7 +2036,7 @@
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_pin", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -2053,7 +2053,7 @@
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$dont_make_sound_exp_pepp_s2", "$dont_make_sound_norm_noise_s3"],
+                        "access_rules": ["$dont_make_sound_exp_pepp_s2", "$dont_make_sound_noise_s3"],
                         "item_count": 1
                     },
                     {
@@ -2077,19 +2077,19 @@
                     {
                         "name": "Chef Task: And This... Is My Gun On A Stick!",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_pin", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Let Them Sleep",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_pin", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Jumpspared",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_pin", "$dont_make_sound_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
@@ -2258,19 +2258,19 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_exp_noise_com"],
+                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com", "$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_exp_noise_com"],
+                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com", "$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_exp_noise_com"],
+                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com","$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
                     }
                 ],

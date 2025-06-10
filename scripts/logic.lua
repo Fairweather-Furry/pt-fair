@@ -55,7 +55,7 @@ end
 
 function tutorial_noise()
   return(
-    has("op_noise") and ((has("sjump") and has("bodyslam")) or (has("sjump") and has("nado")) or (has("crush")) or (has("sjump") and has("wbounce") and has("op_diff_exp"))) 
+    has("op_noise") and ((has("sjump") and (has("bodyslam") or has("nado"))) or (has("crush") and (has("sjump") or has("op_diff_exp"))) or (has("sjump") and has("wbounce") and has("op_diff_exp"))) 
   )
 end
 
@@ -685,21 +685,16 @@ end
 
 function deep_dish_9_noise_ct3()
   return(
-    has("op_noise") and has("bodyslam") and (has("sjump") or has("crush") or has("wbounce"))
-  )
-end
-
-function deep_dish_9_norm_noise_che()
-  return(
-    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("bodyslam") or has("nado")) and (has("sjump") or has("wbounce")))
+    has("op_noise") and has("bodyslam") and (has("sjump") or has("ucut") or has("wbounce"))
   )
 end
 
 function deep_dish_9_norm_noise_com()
   return(
-    deep_dish_9_norm_noise_che() or (has("op_noise") and has("op_diff_norm") and has("ucut") and (has("bodyslam") or has("nado")))
+    has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("nado") or has("crush")) and (has("sjump") or has("wbounce") or has("ucut")))
   )
 end
+
 
 function deep_dish_9_exp_noise_tom()
   return(
@@ -721,7 +716,7 @@ end
 
 function deep_dish_9_exp_noise_ct3()
   return(
-    deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("ucut") and has("bodyslam"))
+    deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("crush") and has("bodyslam"))
   )
 end
 
@@ -793,7 +788,7 @@ end
 
 function pig_city_noise_che()
   return(
-    has("op_noise") and (has("sjump") or has("crush"))
+    has("op_noise") and (has("sjump"))
   )
 end
 
@@ -803,9 +798,15 @@ function pig_city_norm_noise_com()
   )
 end
 
+function pigcity_norm_noise_sau()
+  return(
+    has("op_noise") and has("op_diff_norm") and has("bodyslam") and (has("sjump") or has("wbounce"))
+  )
+end
+
 function pig_city_exp_noise_che()
   return(
-    pig_city_noise_che() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("wbounce")))
+    pig_city_noise_che() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("wbounce") or has("crush")))
   )
 end
 
@@ -889,19 +890,19 @@ end
 
 function peppibot_factory_noise_pin()
   return(
-    has("op_noise") and (has("crush") or has("sjump"))
+    has("op_noise") and has("sjump")
   )
 end
 
 function peppibot_factory_norm_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado"))))
+    has("op_noise") and has("op_diff_norm") and (has("sjump") and (has("bodyslam") or has("nado") or has("crush")))
   )
 end
 
 function peppibot_factory_exp_noise_com()
   return(
-    peppibot_factory_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
+    peppibot_factory_noise_pin() or (has("op_noise") and has("op_diff_exp") and (has("crush") or has("ucut")))
   )
 end
 
@@ -947,9 +948,15 @@ function oh_shit_noise_mus()
   )
 end
 
-function oh_shit_norm_noise_com()
+function oh_shit_norm_noise_che()
   return(
     has("op_noise") and has("op_diff_norm") and (has("crush") or ((has("bodyslam") or has("nado")) and (has("wbounce") or has("sjump") or has("ucut"))))
+  )
+end
+
+function oh_shit_norm_noise_com()
+  return(
+    has("op_noise") and has("op_diff_norm") and (((has("bodyslam") or has("nado") or has("crush")) and (has("wbounce") or has("sjump") or has("ucut"))))
   )
 end
 
@@ -997,7 +1004,7 @@ end
 
 function freezerator_exp_pepp_com()
   return(
-    has("op_noise") and has("op_diff_exp") and has("slam") and (has("sjump") or has("wclimb"))
+    has("op_noise") and has("op_diff_exp") and has("bodyslam") and (has("sjump") or has("wclimb"))
   )
 end
 
@@ -1045,13 +1052,13 @@ end
 
 function pizzascare_norm_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and (has("crush") or ((has("sjump") or has("wbounce")) and (has("bodyslam") or has("nado"))))
+    has("op_noise") and has("op_diff_norm") and (((has("sjump") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush"))))
   )
 end
 
 function pizzascare_norm_noise_che()
   return(
-    pizzascare_norm_noise_com() or (has("op_noise") and has("op_diff_norm") and has("ucut") and (has("bodyslam") or has("nado")))
+    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("sjump") or has("wbounce") or has("ucut") and (has("bodyslam") or has("nado"))))
   )
 end
 
@@ -1117,7 +1124,7 @@ end
 
 function dont_make_sound_noise_tom()
   return(
-    has("op_noise") and has("sjump") and (has("bodyslam") or has("nado"))
+    has("op_noise") and has("sjump") and (has("bodyslam") or has("nado") or has("crush"))
   )
 end
 
@@ -1133,33 +1140,28 @@ function dont_make_sound_norm_noise_com()
   )
 end
 
-function dont_make_sound_norm_noise_tom()
-  return(
-    (dont_make_sound_noise_tom() and has("op_diff_norm")) or (has("op_noise") and has("op_diff_norm") and has("crush"))
-  )
-end
-
 function dont_make_sound_norm_noise_sau()
   return(
-    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("sjump") and has("bodyslam")))
+    has("op_noise") and has("op_diff_norm") and (has("sjump") and (has("crush") or has("bodyslam")))
   )
 end
 
-function dont_make_sound_norm_noise_com()
+function dont_make_sound_norm_noise_pin()
   return(
     dont_make_sound_norm_noise_sau() and has("grab")
   )
 end
 
-function dont_make_sound_norm_noise_s3()
+function dont_make_sound_norm_noise_com()
   return(
-    dont_make_sound_noise_s3() or (has("op_noise") and has("op_diff_norm") and has("crush"))
+    has("op_noise") and has("op_diff_norm") and has("grab") and (has("crush") or (has("sjump") or has("bodyslam")))
   )
 end
 
+
 function dont_make_sound_exp_noise_tom()
   return(
-    (dont_make_sound_noise_tom() and has("op_diff_exp")) or (has("op_noise") and has("op_diff_exp") and has("sjump") and (has("crush") or has("wbounce")))
+    dont_make_sound_noise_tom() or (has("op_noise") and has("op_diff_exp") and has("sjump") and has("wbounce"))
   )
 end
 
@@ -1253,14 +1255,14 @@ function crumbling_tower_exp_pepp_com()
   )
 end
 
-function crumbling_tower_noise_com()
+function crumbling_tower_norm_noise_com()
   return(
-    has("op_noise") and has("grab") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado"))))
+    has("op_noise") and has("op_diff_norm") and has("grab") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
   )
 end
 
 function crumbling_tower_exp_noise_com()
   return(
-    crumbling_tower_noise_com() or (has("op_noise") and has("op_diff_exp") and has("sjump") and has("grab") and has("wbounce"))
+    has("op_noise") and has("op_diff_exp") and has("grab") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado")) or has("wbounce")))
   )
 end
