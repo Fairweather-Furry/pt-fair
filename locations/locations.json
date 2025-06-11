@@ -233,7 +233,7 @@
                     {
                         "name": "Chef Task: Spherical",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_pepp_pin"],
+                        "access_rules": ["grab", "ucut,op_diff_exp"],
                         "item_count": 1
                     }
                 ],
@@ -477,16 +477,16 @@
                         "name": "S Ranked #1",
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$john_gutter_exp_pepp_com,$pizzascape_exp_pepp_com,$ancient_cheese_exp_pepp_com,$bloodsauce_dungeon_pepp_com,portal", 
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_norm_noise_com,bloodsauce_dungeon_pepp_com,portal",
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,bloodsauce_dungeon_pepp_com,portal"],
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_norm_noise_com,$bloodsauce_dungeon_exp_noise_com,portal",
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,$bloodsauce_dungeon_exp_noise_com,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #1",
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$john_gutter_exp_pepp_com,$pizzascape_exp_pepp_com,$ancient_cheese_exp_pepp_com,$bloodsauce_dungeon_pepp_com,portal", 
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_norm_noise_com,bloodsauce_dungeon_pepp_com,portal",
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,bloodsauce_dungeon_pepp_com,portal"],
+                                        "$john_gutter_exp_noise_com,$pizzascape_norm_noise_com,$ancient_cheese_norm_noise_com,$bloodsauce_dungeon_exp_noise_com,portal",
+                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,$bloodsauce_dungeon_exp_noise_com,portal"],
                         "item_count": 1 
                     }
                 ],
@@ -1404,6 +1404,7 @@
 	        {
                 "name": "Floor 3",
                 "visibility_rules": ["op_task"],
+                "access_rules": ["$reach_elevator_2,prog_key_2", "$reach_elevator_2,op_oworld"],
                 "sections": [
                     {
                         "name": "Chef Task: Denoise",
@@ -1875,6 +1876,7 @@
             },
 	    {
                 "name": "Floor 4",
+                "access_rules": ["$reach_elevator_3,prog_key_3", "$reach_elevator_3,op_oworld"],
                 "visibility_rules": ["op_task"],
                 "sections": [
                     {
@@ -2218,6 +2220,7 @@
             },
 	        {
                 "name": "Floor 5",
+                "access_rules": ["$reach_elevator_4,prog_key_4", "$reach_elevator_4,op_oworld"],
                 "visibility_rules": ["op_task"],
                 "sections": [
                     {
@@ -2230,7 +2233,7 @@
                         "visibility_rules": ["op_srank"],
                         "access_rules": ["$pizzascare_exp_pep_com,$dont_make_sound_norm_pepp_com,$war_exp_pepp_com,portal",
                                         "$pizzascare_exp_pep_com,$dont_make_sound_exp_pepp_com,$war_exp_pepp_com,portal",
-                                        "$pizzascare_exp_noise_com,dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
+                                        "$pizzascare_norm_noise_com,$dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
                                         "$pizzascare_exp_noise_com,$dont_make_sound_exp_noise_com,$war_exp_noise_com,portal"],
                         "item_count": 1 
                     },
@@ -2239,7 +2242,7 @@
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$pizzascare_exp_pep_com,$dont_make_sound_norm_pepp_com,$war_exp_pepp_com,portal",
                                         "$pizzascare_exp_pep_com,$dont_make_sound_exp_pepp_com,$war_exp_pepp_com,portal",
-                                        "$pizzascare_exp_noise_com,dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
+                                        "$pizzascare_norm_noise_com,$dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
                                         "$pizzascare_exp_noise_com,$dont_make_sound_exp_noise_com,$war_exp_noise_com,portal"],
                         "item_count": 1 
                     }
