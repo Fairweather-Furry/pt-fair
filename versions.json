@@ -5,7 +5,11 @@
             "download_url": "",
             "sha256": "",
             "changelog": [
-                ""
+                "Initial Release!",
+                "Pack has been created and includes all current locations in-game. Works with APWorld 1.0.1 as of right now.",
+                "For now, the tracker is a main overview of the levels. Tracking of moves, collected toppins, collected floor keys, lap portal activation, and various yaml options are all included.",
+                "If you have secrets as checks, you need to toggle that on manually as of right now.",
+                "TO-DO: Entrance rando logic and options, secrets option auto tracking."
             ]
         }
     ]
