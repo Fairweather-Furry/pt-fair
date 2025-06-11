@@ -2,8 +2,8 @@
     "versions": [
         {
             "package_version": "0.1 AP",
-            "download_url": "",
-            "sha256": "",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.1/pt-fair.zip",
+            "sha256": "a6d9664b057b41ae4bc16ce862c903a3ec38a5d36e89555eda4a87922f1ea1f6",
             "changelog": [
                 "Initial Release!",
                 "Pack has been created and includes all current locations in-game. Works with APWorld 1.0.1 as of right now.",
