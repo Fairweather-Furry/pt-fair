@@ -1,7 +1,6 @@
 # Pizza Tower Poptracker Pack for Archipelago
 
 [Poptracker](https://github.com/black-sliver/PopTracker) pack for the [Archipelago Pizza Tower Multiworld randomizer](https://github.com/unsafetyskizzers/Archipelago/releases)
-Images sourced from the [Pizza Tower Wiki](https://pizzatower.wiki)
 
 ## Quickstart Guide
 - Download [Poptracker](https://github.com/black-sliver/PopTracker/releases)
@@ -10,3 +9,5 @@ Images sourced from the [Pizza Tower Wiki](https://pizzatower.wiki)
 - Launch Poptracker, select the Pizza Tower pack
 - Connect to Archipelago by using the AP button
 - Enjoy!
+
+Images sourced from the [Pizza Tower Wiki](https://pizzatower.wiki).
