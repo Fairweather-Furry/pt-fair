@@ -423,103 +423,103 @@
     },
     {
         "name": "Level 3 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l3.png",
         "codes": "op_l3"
     },
     {
         "name": "Level 4 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l4.png",
         "codes": "op_l4"
     },
     {
         "name": "Level 5 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l5.png",
         "codes": "op_l5"
     },
     {
         "name": "Level 6 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l6.png",
         "codes": "op_l6"
     },
     {
         "name": "Level 7 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l7.png",
         "codes": "op_l7"
     },
     {
         "name": "Level 8 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l8.png",
         "codes": "op_l8"
     },
     {
         "name": "Level 9 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l9.png",
         "codes": "op_l9"
     },
     {
         "name": "Level 10 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l10.png",
         "codes": "op_l10"
     },
     {
         "name": "Level 11 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l11.png",
         "codes": "op_l11"
     },
     {
         "name": "Level 12 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l12.png",
         "codes": "op_l12"
     },
     {
         "name": "Level 13 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l13.png",
         "codes": "op_l13"
     },
     {
         "name": "Level 14 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l14.png",
         "codes": "op_l14"
     },
     {
         "name": "Level 15 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l15.png",
         "codes": "op_l15"
     },
     {
         "name": "Level 16 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l16.png",
         "codes": "op_l16"
     },
     {
         "name": "Level 17 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l17.png",
         "codes": "op_l17"
     },
     {
         "name": "Level 18 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l18.png",
         "codes": "op_l18"
     },
     {
         "name": "Level 19 Entrance",
-        "type": "toggle",
+        "type": "static",
         "img": "images/l19.png",
         "codes": "op_l19"
     },
