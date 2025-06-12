@@ -43,7 +43,7 @@ end
 
 function tutorial_sau()
   return (
-    (has("op_pepp") and has("bodyslam") and (has("sjump") and has("op_diff_exp")) or (has("wclimb") and has("op_diff_norm"))) 
+    (has("op_pepp") and has("bodyslam") and ((has("sjump") and has("op_diff_exp")) or (has("wclimb") and has("op_diff_norm")))) 
   )
 end
 
