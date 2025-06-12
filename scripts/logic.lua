@@ -215,6 +215,12 @@ function pizzascape_exp_noise_s3()
   )
 end
 
+function reach_floor1_upper()
+  return(
+    has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder1") 
+  )
+end
+
 function ancient_cheese_pepp_com()
   return(
     has("op_pepp") and has("grab") and has("bodyslam") and (has("sjump") or has("wclimb"))
@@ -356,6 +362,12 @@ end
 function reach_elevator_1()
   return(
     has("sjump") or has("wclimb") or (has("op_noise") and has("ucut")) or  has("crush") or has("wbounce") or has("op_ladder1")
+  )
+end
+
+function reach_floor2()
+  return(
+    reach_elevator_1() and (has("prog_key_1") or has("op_oworld"))
   )
 end
 
@@ -551,6 +563,12 @@ function reach_elevator_2()
   )
 end
 
+function reach_crust_cove()
+  return(
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld"))
+  )
+end
+
 function crust_cove_pepp_com()
   return(
     has("op_pepp") and has("wclimb") and has("bodyslam")
@@ -623,6 +641,12 @@ function crust_cove_exp_noise_s3()
   )
 end
 
+function reach_gnome_forest()
+  return(
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder2"))
+  )
+end
+
 function gnome_forest_norm_pepp_com()
   return(
     has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and ((has("spin") or has("rkick")) and (has("sjump") or has("wclimb")))
@@ -656,6 +680,12 @@ end
 function gnome_forest_norm_noise_com()
   return(
     has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("crush") or has("nado")) and (has("sjump") or has("wbounce")))
+  )
+end
+
+function reach_deep_dish_9()
+  return(
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("op_ladder2") or has("op_noise"))
   )
 end
 
@@ -720,6 +750,12 @@ function deep_dish_9_exp_noise_ct3()
   )
 end
 
+function reach_golf()
+  return(
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder2") )
+  )
+end
+
 function golf_norm_pepp_com()
   return(
     has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump") or has("ucut"))
@@ -765,6 +801,12 @@ end
 function reach_elevator_3()
   return(
     reach_elevator_2() and (has("sjump") or has("ucut") or has("wclimb") or has("crush") or has("wbounce") or has("op_ladder3"))
+  )
+end
+
+function reach_floor4_lower()
+  return(
+    reach_elevator_3() and (has("prog_key_3") or has("op_oworld"))
   )
 end
 
@@ -972,6 +1014,12 @@ function oh_shit_exp_noise_com()
   )
 end
 
+function reach_freezerator()
+  return(
+    reach_elevator_3() and (has("prog_key_3") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
+  )
+end
+
 function freezerator_pepp_che()
   return(
     has("op_pepp") and has("wclimb")
@@ -1029,6 +1077,12 @@ end
 function reach_elevator_4()
   return(
     reach_elevator_3()
+  )
+end
+
+function reach_floor_5_lower()
+  return(
+    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder5"))
   )
 end
 
@@ -1168,6 +1222,12 @@ end
 function dont_make_sound_exp_noise_com()
   return(
     has("op_noise") and has("op_diff_exp") and has("sjump") and (has("grab") or has("ucut"))
+  )
+end
+
+function reach_war()
+  return(
+    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (has("sjump")  or has("crush") or has("op_ladder5"))
   )
 end
 

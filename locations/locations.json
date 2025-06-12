@@ -247,7 +247,7 @@
             },
             {
                 "name": "Ancient Cheese",
-                "access_rules": ["sjump", "wclimb", "op_noise,ucut", "crush", "wbounce", "op_ladder1"],
+                "access_rules": ["$reach_floor1_upper"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -341,7 +341,7 @@
             },
             {
                 "name": "Bloodsauce Dungeon",
-                "access_rules": ["sjump", "wclimb", "op_noise,ucut", "crush", "wbounce", "op_ladder1"],
+                "access_rules": ["$reach_floor1_upper"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -500,7 +500,7 @@
             },
             {
                 "name": "Oregano Desert",
-                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld"],
+                "access_rules": ["$reach_floor2"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -597,7 +597,7 @@
             },
             {
                 "name": "Wasteyard",
-                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld"],
+                "access_rules": ["$reach_floor2"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -693,7 +693,7 @@
             },
             {
                 "name": "Fun Farm",
-                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld"],
+                "access_rules": ["$reach_floor2"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -790,7 +790,7 @@
             },
             {
                 "name": "Fastfood Saloon",
-                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld"],
+                "access_rules": ["$reach_floor2"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -887,7 +887,7 @@
             },
             {
                 "name": "The Vigilante",
-                "access_rules": ["$reach_elevator_1,prog_key_1,$calculate_floor_cost|op_f2_cost", "$reach_elevator_1,op_oworld,$calculate_floor_cost|op_f2_cost"],
+                "access_rules": ["$reach_floor2,$calculate_floor_cost|op_f2_cost"],
                 "sections": [
                     {
                         "name": "Defeated",
@@ -918,7 +918,7 @@
             {
                 "name": "Floor 2",
                 "visibility_rules": ["op_task"],
-                "access_rules": ["$reach_elevator_1,prog_key_1", "$reach_elevator_1,op_oworld"],
+                "access_rules": ["$reach_floor2"],
                 "sections": [
                     {
                         "name": "Chef Task: The Ugly",
@@ -950,7 +950,7 @@
             },
             {
                 "name": "Crust Cove",
-                "access_rules": ["$reach_elevator_2,prog_key_2", "$reach_elevator_2,op_oworld"],
+                "access_rules": ["$reach_crust_cove"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1047,8 +1047,7 @@
             },
             {
                 "name": "Gnome Forest",
-                "access_rules": ["$reach_elevator_2,prog_key_2,sjump", "$reach_elevator_2,op_oworld,sjump", "$reach_elevator_2,prog_key_2,wclimb", "$reach_elevator_2,op_oworld,wclimb", "$reach_elevator_2,prog_key_2,ucut", "$reach_elevator_2,op_oworld,ucut", 
-                                "$reach_elevator_2,prog_key_2,crush", "$reach_elevator_2,op_oworld,crush", "$reach_elevator_2,prog_key_2,wbounce", "$reach_elevator_2,op_oworld,wbounce", "$reach_elevator_2,prog_key_2,op_ladder2", "$reach_elevator_2,op_oworld,op_ladder2"],
+                "access_rules": ["$reach_gnome_forest"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1145,7 +1144,7 @@
             },
             {
                 "name": "Deep-Dish 9",
-                "access_rules": ["$reach_elevator_2,prog_key_2,sjump", "$reach_elevator_2,op_oworld,sjump", "$reach_elevator_2,prog_key_2,wclimb", "$reach_elevator_2,op_oworld,wclimb",  "$reach_elevator_2,prog_key_2,op_ladder2", "$reach_elevator_2,op_oworld,op_ladder2"],
+                "access_rules": ["$reach_deep_dish_9"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1242,8 +1241,7 @@
             },
             {
                 "name": "GOLF",
-                "access_rules": ["$reach_elevator_2,prog_key_2,sjump", "$reach_elevator_2,op_oworld,sjump", "$reach_elevator_2,prog_key_2,wclimb", "$reach_elevator_2,op_oworld,wclimb", "$reach_elevator_2,prog_key_2,ucut,op_noise", "$reach_elevator_2,op_oworld,ucut,op_noise", 
-                                "$reach_elevator_2,prog_key_2,crush", "$reach_elevator_2,op_oworld,crush", "$reach_elevator_2,prog_key_2,wbounce", "$reach_elevator_2,op_oworld,wbounce", "$reach_elevator_2,prog_key_2,op_ladder2", "$reach_elevator_2,op_oworld,op_ladder2"],
+                "access_rules": ["$reach_golf"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1341,7 +1339,7 @@
             {
                 "name": "The Noise",
                 "visibility_rules": ["op_pepp,$not_swap"],
-                "access_rules": ["$reach_elevator_2,prog_key_2,sjump,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,sjump,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,wclimb,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,wclimb,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,ucut,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,ucut,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,op_ladder3,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,op_ladder3,$calculate_floor_cost|op_f3_cost"],
+                "access_rules": ["$reach_noise"],
                 "sections": [
                     {
                         "name": "Defeated",
@@ -1372,8 +1370,7 @@
             {
                 "name": "The Doise",
                 "visibility_rules": ["op_noise", "op_swap"],
-                "access_rules": ["$reach_elevator_2,prog_key_2,sjump,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,sjump,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,wclimb,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,wclimb,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,ucut,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,ucut,$calculate_floor_cost|op_f3_cost", 
-                                "$reach_elevator_2,prog_key_2,crush,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,crush,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,wbounce,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,wbounce,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,prog_key_2,op_ladder3,$calculate_floor_cost|op_f3_cost", "$reach_elevator_2,op_oworld,op_ladder3,$calculate_floor_cost|op_f3_cost"],
+                "access_rules": ["$reach_noise"],
                 "sections": [
                     {
                         "name": "Defeated",
@@ -1458,7 +1455,7 @@
             },
             {
                 "name": "The Pig City",
-                "access_rules": ["$reach_elevator_3,prog_key_3", "$reach_elevator_3,op_oworld"],
+                "access_rules": ["$reach_floor4_lower"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1553,7 +1550,7 @@
             },
             {
                 "name": "Peppibot Factory",
-                "access_rules": ["$reach_elevator_3,prog_key_3", "$reach_elevator_3,op_oworld"],
+                "access_rules": ["$reach_floor4_lower"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1650,7 +1647,7 @@
             },
             {
                 "name": "Oh Shit!",
-                "access_rules": ["$reach_elevator_3,prog_key_3", "$reach_elevator_3,op_oworld"],
+                "access_rules": ["$reach_floor4_lower"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1747,8 +1744,7 @@
             },
             {
                 "name": "Refrigerator-Refrigerador-Freezerator",
-                "access_rules": ["$reach_elevator_3,prog_key_3,sjump", "$reach_elevator_3,op_oworld,sjump", "$reach_elevator_3,prog_key_3,wclimb", "$reach_elevator_3,op_oworld,wclimb", "$reach_elevator_3,prog_key_3,ucut", "$reach_elevator_3,op_oworld,ucut",
-                                "$reach_elevator_3,prog_key_3,crush", "$reach_elevator_3,op_oworld,crush", "$reach_elevator_3,prog_key_3,wbounce", "$reach_elevator_3,op_oworld,wbounce", "$reach_elevator_3,prog_key_3,op_ladder4", "$reach_elevator_3,op_oworld,op_ladder4"],
+                "access_rules": ["$reach_freezerator"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1845,8 +1841,7 @@
             },
             {
                 "name": "Fake Peppino",
-                "access_rules": ["$reach_elevator_3,prog_key_3,sjump,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,op_oworld,sjump,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,prog_key_3,wclimb,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,op_oworld,wclimb,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,prog_key_3,ucut,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,op_oworld,ucut,$calculate_floor_cost|op_f4_cost",
-                                "$reach_elevator_3,prog_key_3,crush,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,op_oworld,crush,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,prog_key_3,wbounce,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,op_oworld,wbounce,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,prog_key_3,op_ladder4,$calculate_floor_cost|op_f4_cost", "$reach_elevator_3,op_oworld,op_ladder4,$calculate_floor_cost|op_f4_cost"],
+                "access_rules": ["$reach_fake_pepp"],
                 "sections": [
                     {
                         "name": "Defeated",
@@ -1913,7 +1908,7 @@
             },
             {
                 "name": "Pizzascare",
-                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld,wbounce", "$reach_elevator_4,prog_key_4,op_ladder5", "$reach_elevator_4,op_oworld,op_ladder5"],
+                "access_rules": ["$reach_floor_5_lower"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2010,7 +2005,7 @@
             },
             {
                 "name": "Don't Make A Sound",
-                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld,sjump", "$reach_elevator_4,prog_key_4,wclimb", "$reach_elevator_4,op_oworld,wclimb", "$reach_elevator_4,prog_key_4,ucut,op_noise", "$reach_elevator_4,op_oworld,ucut,op_noise","$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld,crush","$reach_elevator_4,prog_key_4,wbounce", "$reach_elevator_4,op_oworld,wbounce", "$reach_elevator_4,prog_key_4,op_ladder5", "$reach_elevator_4,op_oworld,op_ladder5"],
+                "access_rules": ["$reach_floor_5_lower"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2105,7 +2100,7 @@
             },
             {
                 "name": "WAR",
-                "access_rules": ["$reach_elevator_4,prog_key_4,sjump", "$reach_elevator_4,op_oworld,sjump", "$reach_elevator_4,prog_key_4,crush", "$reach_elevator_4,op_oworld,crush", "$reach_elevator_4,prog_key_4,op_ladder5", "$reach_elevator_4,op_oworld,op_ladder5"],
+                "access_rules": ["$reach_war"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2202,7 +2197,7 @@
             },
             {
                 "name": "Pizzaface",
-                "access_rules": ["$reach_elevator_4,prog_key_4,sjump,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,op_oworld,sjump,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,prog_key_4,crush,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,op_oworld,crush,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,prog_key_4,op_ladder5,$calculate_floor_cost|op_f5_cost", "$reach_elevator_4,op_oworld,op_ladder5,$calculate_floor_cost|op_f5_cost"],
+                "access_rules": ["$reach_pizzaface"],
                 "sections": [
                     {
                         "name": "Defeated",
