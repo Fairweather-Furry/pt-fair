@@ -410,6 +410,12 @@
         ]
     },
     {
+        "name": "Level 1 Entrance",
+        "type": "static",
+        "img": "images/l1.png",
+        "codes": "op_l1"
+    },
+    {
         "name": "Level 1 Slot",
         "type": "progressive",
         "codes": "op_lvlslot1",
