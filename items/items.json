@@ -449,7 +449,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_1johngutter",
+                "codes": "op_1oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -539,6 +539,135 @@
         ]
     },
     {
+        "name": "Level 2 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot2",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_2unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_2johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pizza Scape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_2pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Acient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_2ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_2bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_2oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_2wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_2funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_2fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_2crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_2gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_2deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_2golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_2thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_2peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_2ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_2rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_2pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't make a sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_2dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_2war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Level 3 Slot",
         "type": "progressive",
         "codes": "op_lvlslot3",
@@ -578,7 +707,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_3johngutter",
+                "codes": "op_3oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -707,7 +836,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_4johngutter",
+                "codes": "op_4oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -836,7 +965,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_5johngutter",
+                "codes": "op_5oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -965,7 +1094,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_6johngutter",
+                "codes": "op_6oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1094,7 +1223,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_7johngutter",
+                "codes": "op_7oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1223,7 +1352,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_8johngutter",
+                "codes": "op_8oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1352,7 +1481,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_9johngutter",
+                "codes": "op_9joreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1481,7 +1610,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_10johngutter",
+                "codes": "op_10oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1610,7 +1739,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_11johngutter",
+                "codes": "op_11oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1739,7 +1868,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_12johngutter",
+                "codes": "op_12oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1868,7 +1997,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_13johngutter",
+                "codes": "op_13oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -1997,7 +2126,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_14johngutter",
+                "codes": "op_14oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -2126,7 +2255,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_15johngutter",
+                "codes": "op_15oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -2255,7 +2384,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_16johngutter",
+                "codes": "op_16oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -2384,7 +2513,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_17johngutter",
+                "codes": "op_17oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -2513,7 +2642,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_18johngutter",
+                "codes": "op_18joreganodesert",
                 "inherit_codes": false
             },
             {
@@ -2642,7 +2771,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_19johngutter",
+                "codes": "op_19oreganodesert",
                 "inherit_codes": false
             },
             {
