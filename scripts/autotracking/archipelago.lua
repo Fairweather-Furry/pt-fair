@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/start_move_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/ap_slot.lua")
 
 CUR_INDEX = -1
@@ -100,6 +101,10 @@ function onClear(slot_data)
 --    Not yet implemented in the APWorld slotdata, putting these here for when they are. -Plushie
 --    Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
 
+    -- Starting Moves
+    for i, val in pairs(MOVE_MAPPING) do
+        Tracker:FindObjectForCode(val).Active = (slot_data["starting_moves"] >> i) % 2 == 1
+    end
 end
 
 -- called when an item gets collected
