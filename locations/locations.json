@@ -59,6 +59,7 @@
             },
             {
                 "name": "John Gutter",
+                "access_rules": ["$john_gutter_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1908,7 +1909,7 @@
             },
             {
                 "name": "Pizzascare",
-                "access_rules": ["$reach_floor_5_lower"],
+                "access_rules": ["$reach_floor5_lower"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2005,7 +2006,7 @@
             },
             {
                 "name": "Don't Make A Sound",
-                "access_rules": ["$reach_floor_5_lower"],
+                "access_rules": ["$reach_floor5_lower"],
                 "sections": [
                     {
                         "name": "Complete",

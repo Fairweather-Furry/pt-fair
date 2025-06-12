@@ -1080,7 +1080,7 @@ function reach_elevator_4()
   )
 end
 
-function reach_floor_5_lower()
+function reach_floor5_lower()
   return(
     reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder5"))
   )
@@ -1324,5 +1324,22 @@ end
 function crumbling_tower_exp_noise_com()
   return(
     has("op_noise") and has("op_diff_exp") and has("grab") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado")) or has("wbounce")))
+  )
+end
+
+function john_gutter_access()
+  print()
+  return(
+    has("op_1johngutter") or has("op_2johngutter") or 
+    ((has("op_3johngutter") or has("op_4johngutter")) and reach_floor1_upper()) or
+    ((has("op_5johngutter") or has("op_6johngutter") or has("op_7johngutter") or has("op_8johngutter")) and reach_floor2()) or
+    (has("op_9johngutter") and reach_crust_cove()) or 
+    (has("op_10johngutter") and reach_gnome_forest()) or
+    (has("op_11johngutter") and reach_deep_dish_9()) or
+    (has("op_12johngutter") and reach_golf()) or
+    ((has("op_13johngutter") or has("op_14johngutter") or has("op_15johngutter")) and reach_floor4_lower()) or
+    (has("op_16johngutter") and reach_freezerator()) or
+    ((has("op_17johngutter") or has("op_18johngutter")) and reach_floor5_lower()) or
+    (has("op_19johngutter") and reach_war())
   )
 end
