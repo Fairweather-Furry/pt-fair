@@ -33,7 +33,8 @@
                     ["op_f1_cost","op_f2_cost","op_f3_cost"],
                     ["op_f4_cost","op_f5_cost","op_treasure"],
                     ["op_secret","op_srank","op_prank"],
-                    ["op_task","op_diff"]
+                    ["op_task","op_diff"],
+                    ["op_l1", "op_lvlslot1"]
                 ]
             }
         ]
