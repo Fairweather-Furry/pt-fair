@@ -840,7 +840,7 @@ function pig_city_norm_noise_com()
   )
 end
 
-function pigcity_norm_noise_sau()
+function pig_city_norm_noise_sau()
   return(
     has("op_noise") and has("op_diff_norm") and has("bodyslam") and (has("sjump") or has("wbounce"))
   )
@@ -1328,7 +1328,6 @@ function crumbling_tower_exp_noise_com()
 end
 
 function john_gutter_access()
-  print()
   return(
     has("op_1johngutter") or has("op_2johngutter") or 
     ((has("op_3johngutter") or has("op_4johngutter")) and reach_floor1_upper()) or
@@ -1341,5 +1340,293 @@ function john_gutter_access()
     (has("op_16johngutter") and reach_freezerator()) or
     ((has("op_17johngutter") or has("op_18johngutter")) and reach_floor5_lower()) or
     (has("op_19johngutter") and reach_war())
+  )
+end
+
+function pizzascape_access()
+  return(
+    has("op_1pizzascape") or has("op_2pizzascape") or 
+    ((has("op_3pizzascape") or has("op_4pizzascape")) and reach_floor1_upper()) or
+    ((has("op_5pizzascape") or has("op_6pizzascape") or has("op_7pizzascape") or has("op_8pizzascape")) and reach_floor2()) or
+    (has("op_9pizzascape") and reach_crust_cove()) or 
+    (has("op_10pizzascape") and reach_gnome_forest()) or
+    (has("op_11pizzascape") and reach_deep_dish_9()) or
+    (has("op_12pizzascape") and reach_golf()) or
+    ((has("op_13pizzascape") or has("op_14pizzascape") or has("op_15pizzascape")) and reach_floor4_lower()) or
+    (has("op_16pizzascape") and reach_freezerator()) or
+    ((has("op_17pizzascape") or has("op_18pizzascape")) and reach_floor5_lower()) or
+    (has("op_19pizzascape") and reach_war())
+  )
+end
+
+function ancient_cheese_access()
+  return(
+    has("op_1ancientcheese") or has("op_2ancientcheese") or 
+    ((has("op_3ancientcheese") or has("op_4ancientcheese")) and reach_floor1_upper()) or
+    ((has("op_5ancientcheese") or has("op_6ancientcheese") or has("op_7ancientcheese") or has("op_8ancientcheese")) and reach_floor2()) or
+    (has("op_9ancientcheese") and reach_crust_cove()) or 
+    (has("op_10ancientcheese") and reach_gnome_forest()) or
+    (has("op_11ancientcheese") and reach_deep_dish_9()) or
+    (has("op_12ancientcheese") and reach_golf()) or
+    ((has("op_13ancientcheese") or has("op_14ancientcheese") or has("op_15ancientcheese")) and reach_floor4_lower()) or
+    (has("op_16ancientcheese") and reach_freezerator()) or
+    ((has("op_17ancientcheese") or has("op_18ancientcheese")) and reach_floor5_lower()) or
+    (has("op_19ancientcheese") and reach_war())
+  )
+end
+
+function bloodsauce_dungeon_access()
+  return(
+    has("op_1bloodsaucedungeon") or has("op_2bloodsaucedungeon") or 
+    ((has("op_3bloodsaucedungeon") or has("op_4bloodsaucedungeon")) and reach_floor1_upper()) or
+    ((has("op_5bloodsaucedungeon") or has("op_6bloodsaucedungeon") or has("op_7bloodsaucedungeon") or has("op_8bloodsaucedungeon")) and reach_floor2()) or
+    (has("op_9bloodsaucedungeon") and reach_crust_cove()) or 
+    (has("op_10bloodsaucedungeon") and reach_gnome_forest()) or
+    (has("op_11bloodsaucedungeon") and reach_deep_dish_9()) or
+    (has("op_12bloodsaucedungeon") and reach_golf()) or
+    ((has("op_13bloodsaucedungeon") or has("op_14bloodsaucedungeon") or has("op_15bloodsaucedungeon")) and reach_floor4_lower()) or
+    (has("op_16bloodsaucedungeon") and reach_freezerator()) or
+    ((has("op_17bloodsaucedungeon") or has("op_18bloodsaucedungeon")) and reach_floor5_lower()) or
+    (has("op_19bloodsaucedungeon") and reach_war())
+  )
+end
+
+function oregano_desert_access()
+  return(
+    has("op_1oreganodesert") or has("op_2oreganodesert") or 
+    ((has("op_3oreganodesert") or has("op_4oreganodesert")) and reach_floor1_upper()) or
+    ((has("op_5oreganodesert") or has("op_6oreganodesert") or has("op_7oreganodesert") or has("op_8oreganodesert")) and reach_floor2()) or
+    (has("op_9oreganodesert") and reach_crust_cove()) or 
+    (has("op_10oreganodesert") and reach_gnome_forest()) or
+    (has("op_11oreganodesert") and reach_deep_dish_9()) or
+    (has("op_12oreganodesert") and reach_golf()) or
+    ((has("op_13oreganodesert") or has("op_14oreganodesert") or has("op_15oreganodesert")) and reach_floor4_lower()) or
+    (has("op_16oreganodesert") and reach_freezerator()) or
+    ((has("op_17oreganodesert") or has("op_18oreganodesert")) and reach_floor5_lower()) or
+    (has("op_19oreganodesert") and reach_war())
+  )
+end
+
+function wasteyard_access()
+  return(
+    has("op_1wasteyard") or has("op_2wasteyard") or 
+    ((has("op_3wasteyard") or has("op_4wasteyard")) and reach_floor1_upper()) or
+    ((has("op_5wasteyard") or has("op_6wasteyard") or has("op_7wasteyard") or has("op_8wasteyard")) and reach_floor2()) or
+    (has("op_9wasteyard") and reach_crust_cove()) or 
+    (has("op_10wasteyard") and reach_gnome_forest()) or
+    (has("op_11wasteyard") and reach_deep_dish_9()) or
+    (has("op_12wasteyard") and reach_golf()) or
+    ((has("op_13wasteyard") or has("op_14wasteyard") or has("op_15wasteyard")) and reach_floor4_lower()) or
+    (has("op_16wasteyard") and reach_freezerator()) or
+    ((has("op_17wasteyard") or has("op_18wasteyard")) and reach_floor5_lower()) or
+    (has("op_19wasteyard") and reach_war())
+  )
+end
+
+function fun_farm_access()
+  return(
+    has("op_1funfarm") or has("op_2funfarm") or 
+    ((has("op_3funfarm") or has("op_4funfarm")) and reach_floor1_upper()) or
+    ((has("op_5funfarm") or has("op_6funfarm") or has("op_7funfarm") or has("op_8funfarm")) and reach_floor2()) or
+    (has("op_9funfarm") and reach_crust_cove()) or 
+    (has("op_10funfarm") and reach_gnome_forest()) or
+    (has("op_11funfarm") and reach_deep_dish_9()) or
+    (has("op_12funfarm") and reach_golf()) or
+    ((has("op_13funfarm") or has("op_14funfarm") or has("op_15funfarm")) and reach_floor4_lower()) or
+    (has("op_16funfarm") and reach_freezerator()) or
+    ((has("op_17funfarm") or has("op_18funfarm")) and reach_floor5_lower()) or
+    (has("op_19funfarm") and reach_war())
+  )
+end
+
+function fastfood_saloon_access()
+  return(
+    has("op_1fastfoodsaloon") or has("op_2fastfoodsaloon") or 
+    ((has("op_3fastfoodsaloon") or has("op_4fastfoodsaloon")) and reach_floor1_upper()) or
+    ((has("op_5fastfoodsaloon") or has("op_6fastfoodsaloon") or has("op_7fastfoodsaloon") or has("op_8fastfoodsaloon")) and reach_floor2()) or
+    (has("op_9fastfoodsaloon") and reach_crust_cove()) or 
+    (has("op_10fastfoodsaloon") and reach_gnome_forest()) or
+    (has("op_11fastfoodsaloon") and reach_deep_dish_9()) or
+    (has("op_12fastfoodsaloon") and reach_golf()) or
+    ((has("op_13fastfoodsaloon") or has("op_14fastfoodsaloon") or has("op_15fastfoodsaloon")) and reach_floor4_lower()) or
+    (has("op_16fastfoodsaloon") and reach_freezerator()) or
+    ((has("op_17fastfoodsaloon") or has("op_18fastfoodsaloon")) and reach_floor5_lower()) or
+    (has("op_19fastfoodsaloon") and reach_war())
+  )
+end
+
+function crust_cove_access()
+  return(
+    has("op_1crustcove") or has("op_2crustcove") or 
+    ((has("op_3crustcove") or has("op_4crustcove")) and reach_floor1_upper()) or
+    ((has("op_5crustcove") or has("op_6crustcove") or has("op_7crustcove") or has("op_8crustcove")) and reach_floor2()) or
+    (has("op_9crustcove") and reach_crust_cove()) or 
+    (has("op_10crustcove") and reach_gnome_forest()) or
+    (has("op_11crustcove") and reach_deep_dish_9()) or
+    (has("op_12crustcove") and reach_golf()) or
+    ((has("op_13crustcove") or has("op_14crustcove") or has("op_15crustcove")) and reach_floor4_lower()) or
+    (has("op_16crustcove") and reach_freezerator()) or
+    ((has("op_17crustcove") or has("op_18crustcove")) and reach_floor5_lower()) or
+    (has("op_19crustcove") and reach_war())
+  )
+end
+
+function gnome_forest_access()
+  return(
+    has("op_1gnomeforest") or has("op_2gnomeforest") or 
+    ((has("op_3gnomeforest") or has("op_4gnomeforest")) and reach_floor1_upper()) or
+    ((has("op_5gnomeforest") or has("op_6gnomeforest") or has("op_7gnomeforest") or has("op_8gnomeforest")) and reach_floor2()) or
+    (has("op_9gnomeforest") and reach_crust_cove()) or 
+    (has("op_10gnomeforest") and reach_gnome_forest()) or
+    (has("op_11gnomeforest") and reach_deep_dish_9()) or
+    (has("op_12gnomeforest") and reach_golf()) or
+    ((has("op_13gnomeforest") or has("op_14gnomeforest") or has("op_15gnomeforest")) and reach_floor4_lower()) or
+    (has("op_16gnomeforest") and reach_freezerator()) or
+    ((has("op_17gnomeforest") or has("op_18gnomeforest")) and reach_floor5_lower()) or
+    (has("op_19gnomeforest") and reach_war())
+  )
+end
+
+function deep_dish_9_access()
+  return(
+    has("op_1deepdish9") or has("op_2deepdish9") or 
+    ((has("op_3deepdish9") or has("op_4deepdish9")) and reach_floor1_upper()) or
+    ((has("op_5deepdish9") or has("op_6deepdish9") or has("op_7deepdish9") or has("op_8deepdish9")) and reach_floor2()) or
+    (has("op_9deepdish9") and reach_crust_cove()) or 
+    (has("op_10deepdish9") and reach_gnome_forest()) or
+    (has("op_11deepdish9") and reach_deep_dish_9()) or
+    (has("op_12deepdish9") and reach_golf()) or
+    ((has("op_13deepdish9") or has("op_14deepdish9") or has("op_15deepdish9")) and reach_floor4_lower()) or
+    (has("op_16deepdish9") and reach_freezerator()) or
+    ((has("op_17deepdish9") or has("op_18deepdish9")) and reach_floor5_lower()) or
+    (has("op_19deepdish9") and reach_war())
+  )
+end
+
+function golf_access()
+  return(
+    has("op_1golf") or has("op_2golf") or 
+    ((has("op_3golf") or has("op_4golf")) and reach_floor1_upper()) or
+    ((has("op_5golf") or has("op_6golf") or has("op_7golf") or has("op_8golf")) and reach_floor2()) or
+    (has("op_9golf") and reach_crust_cove()) or 
+    (has("op_10golf") and reach_gnome_forest()) or
+    (has("op_11golf") and reach_deep_dish_9()) or
+    (has("op_12golf") and reach_golf()) or
+    ((has("op_13golf") or has("op_14golf") or has("op_15golf")) and reach_floor4_lower()) or
+    (has("op_16golf") and reach_freezerator()) or
+    ((has("op_17golf") or has("op_18golf")) and reach_floor5_lower()) or
+    (has("op_19golf") and reach_war())
+  )
+end
+
+function pig_city_access()
+  return(
+    has("op_1thepigcity") or has("op_2thepigcity") or 
+    ((has("op_3thepigcity") or has("op_4thepigcity")) and reach_floor1_upper()) or
+    ((has("op_5thepigcity") or has("op_6thepigcity") or has("op_7thepigcity") or has("op_8thepigcity")) and reach_floor2()) or
+    (has("op_9thepigcity") and reach_crust_cove()) or 
+    (has("op_10thepigcity") and reach_gnome_forest()) or
+    (has("op_11thepigcity") and reach_deep_dish_9()) or
+    (has("op_12thepigcity") and reach_golf()) or
+    ((has("op_13thepigcity") or has("op_14thepigcity") or has("op_15thepigcity")) and reach_floor4_lower()) or
+    (has("op_16thepigcity") and reach_freezerator()) or
+    ((has("op_17thepigcity") or has("op_18thepigcity")) and reach_floor5_lower()) or
+    (has("op_19thepigcity") and reach_war())
+  )
+end
+
+function peppibot_factory_access()
+  return(
+    has("op_1peppibotfactory") or has("op_2peppibotfactory") or 
+    ((has("op_3peppibotfactory") or has("op_4peppibotfactory")) and reach_floor1_upper()) or
+    ((has("op_5peppibotfactory") or has("op_6peppibotfactory") or has("op_7peppibotfactory") or has("op_8peppibotfactory")) and reach_floor2()) or
+    (has("op_9peppibotfactory") and reach_crust_cove()) or 
+    (has("op_10peppibotfactory") and reach_gnome_forest()) or
+    (has("op_11peppibotfactory") and reach_deep_dish_9()) or
+    (has("op_12peppibotfactory") and reach_golf()) or
+    ((has("op_13peppibotfactory") or has("op_14peppibotfactory") or has("op_15peppibotfactory")) and reach_floor4_lower()) or
+    (has("op_16peppibotfactory") and reach_freezerator()) or
+    ((has("op_17peppibotfactory") or has("op_18peppibotfactory")) and reach_floor5_lower()) or
+    (has("op_19peppibotfactory") and reach_war())
+  )
+end
+
+function oh_shit_access()
+  return(
+    has("op_1ohshit") or has("op_2ohshit") or 
+    ((has("op_3ohshit") or has("op_4ohshit")) and reach_floor1_upper()) or
+    ((has("op_5ohshit") or has("op_6ohshit") or has("op_7ohshit") or has("op_8ohshit")) and reach_floor2()) or
+    (has("op_9ohshit") and reach_crust_cove()) or 
+    (has("op_10ohshit") and reach_gnome_forest()) or
+    (has("op_11ohshit") and reach_deep_dish_9()) or
+    (has("op_12ohshit") and reach_golf()) or
+    ((has("op_13ohshit") or has("op_14ohshit") or has("op_15ohshit")) and reach_floor4_lower()) or
+    (has("op_16ohshit") and reach_freezerator()) or
+    ((has("op_17ohshit") or has("op_18ohshit")) and reach_floor5_lower()) or
+    (has("op_19ohshit") and reach_war())
+  )
+end
+
+function freezerator_access()
+  return(
+    has("op_1rrfreezerator") or has("op_2rrfreezerator") or 
+    ((has("op_3rrfreezerator") or has("op_4rrfreezerator")) and reach_floor1_upper()) or
+    ((has("op_5rrfreezerator") or has("op_6rrfreezerator") or has("op_7rrfreezerator") or has("op_8rrfreezerator")) and reach_floor2()) or
+    (has("op_9rrfreezerator") and reach_crust_cove()) or 
+    (has("op_10rrfreezerator") and reach_gnome_forest()) or
+    (has("op_11rrfreezerator") and reach_deep_dish_9()) or
+    (has("op_12rrfreezerator") and reach_golf()) or
+    ((has("op_13rrfreezerator") or has("op_14rrfreezerator") or has("op_15rrfreezerator")) and reach_floor4_lower()) or
+    (has("op_16rrfreezerator") and reach_freezerator()) or
+    ((has("op_17rrfreezerator") or has("op_18rrfreezerator")) and reach_floor5_lower()) or
+    (has("op_19rrfreezerator") and reach_war())
+  )
+end
+
+function pizzascare_access()
+  return(
+    has("op_1pizzascare") or has("op_2pizzascare") or 
+    ((has("op_3pizzascare") or has("op_4pizzascare")) and reach_floor1_upper()) or
+    ((has("op_5pizzascare") or has("op_6pizzascare") or has("op_7pizzascare") or has("op_8pizzascare")) and reach_floor2()) or
+    (has("op_9pizzascare") and reach_crust_cove()) or 
+    (has("op_10pizzascare") and reach_gnome_forest()) or
+    (has("op_11pizzascare") and reach_deep_dish_9()) or
+    (has("op_12pizzascare") and reach_golf()) or
+    ((has("op_13pizzascare") or has("op_14pizzascare") or has("op_15pizzascare")) and reach_floor4_lower()) or
+    (has("op_16pizzascare") and reach_freezerator()) or
+    ((has("op_17pizzascare") or has("op_18pizzascare")) and reach_floor5_lower()) or
+    (has("op_19pizzascare") and reach_war())
+  )
+end
+
+function dont_make_sound_access()
+  return(
+    has("op_1dontmakeasound") or has("op_2dontmakeasound") or 
+    ((has("op_3dontmakeasound") or has("op_4dontmakeasound")) and reach_floor1_upper()) or
+    ((has("op_5dontmakeasound") or has("op_6dontmakeasound") or has("op_7dontmakeasound") or has("op_8dontmakeasound")) and reach_floor2()) or
+    (has("op_9dontmakeasound") and reach_crust_cove()) or 
+    (has("op_10dontmakeasound") and reach_gnome_forest()) or
+    (has("op_11dontmakeasound") and reach_deep_dish_9()) or
+    (has("op_12dontmakeasound") and reach_golf()) or
+    ((has("op_13dontmakeasound") or has("op_14dontmakeasound") or has("op_15dontmakeasound")) and reach_floor4_lower()) or
+    (has("op_16dontmakeasound") and reach_freezerator()) or
+    ((has("op_17dontmakeasound") or has("op_18dontmakeasound")) and reach_floor5_lower()) or
+    (has("op_19dontmakeasound") and reach_war())
+  )
+end
+
+function war_access()
+  return(
+    has("op_1war") or has("op_2war") or 
+    ((has("op_3war") or has("op_4war")) and reach_floor1_upper()) or
+    ((has("op_5war") or has("op_6war") or has("op_7war") or has("op_8war")) and reach_floor2()) or
+    (has("op_9war") and reach_crust_cove()) or 
+    (has("op_10war") and reach_gnome_forest()) or
+    (has("op_11war") and reach_deep_dish_9()) or
+    (has("op_12war") and reach_golf()) or
+    ((has("op_13war") or has("op_14war") or has("op_15war")) and reach_floor4_lower()) or
+    (has("op_16war") and reach_freezerator()) or
+    ((has("op_17war") or has("op_18war")) and reach_floor5_lower()) or
+    (has("op_19war") and reach_war())
   )
 end

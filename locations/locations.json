@@ -154,6 +154,7 @@
             },
             {
                 "name": "Pizzascape",
+                "access_rules": ["$pizzascape_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -248,7 +249,7 @@
             },
             {
                 "name": "Ancient Cheese",
-                "access_rules": ["$reach_floor1_upper"],
+                "access_rules": ["$ancient_cheese_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -342,7 +343,7 @@
             },
             {
                 "name": "Bloodsauce Dungeon",
-                "access_rules": ["$reach_floor1_upper"],
+                "access_rules": ["$bloodsauce_dungeon_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -501,7 +502,7 @@
             },
             {
                 "name": "Oregano Desert",
-                "access_rules": ["$reach_floor2"],
+                "access_rules": ["$oregano_desert_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -598,7 +599,7 @@
             },
             {
                 "name": "Wasteyard",
-                "access_rules": ["$reach_floor2"],
+                "access_rules": ["$wasteyard_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -694,7 +695,7 @@
             },
             {
                 "name": "Fun Farm",
-                "access_rules": ["$reach_floor2"],
+                "access_rules": ["$fun_farm_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -791,7 +792,7 @@
             },
             {
                 "name": "Fastfood Saloon",
-                "access_rules": ["$reach_floor2"],
+                "access_rules": ["$fastfood_saloon_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -951,7 +952,7 @@
             },
             {
                 "name": "Crust Cove",
-                "access_rules": ["$reach_crust_cove"],
+                "access_rules": ["$crust_cove_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1048,7 +1049,7 @@
             },
             {
                 "name": "Gnome Forest",
-                "access_rules": ["$reach_gnome_forest"],
+                "access_rules": ["$gnome_forest_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1145,7 +1146,7 @@
             },
             {
                 "name": "Deep-Dish 9",
-                "access_rules": ["$reach_deep_dish_9"],
+                "access_rules": ["$deep_dish_9_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1242,7 +1243,7 @@
             },
             {
                 "name": "GOLF",
-                "access_rules": ["$reach_golf"],
+                "access_rules": ["$golf_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1456,7 +1457,7 @@
             },
             {
                 "name": "The Pig City",
-                "access_rules": ["$reach_floor4_lower"],
+                "access_rules": ["$pig_city_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1479,7 +1480,7 @@
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$pig_city_pepp_com", "$pigcity_norm_noise_sau", "$pig_city_exp_noise_com"],
+                        "access_rules": ["$pig_city_pepp_com", "$pig_city_norm_noise_sau", "$pig_city_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -1551,7 +1552,7 @@
             },
             {
                 "name": "Peppibot Factory",
-                "access_rules": ["$reach_floor4_lower"],
+                "access_rules": ["$peppibot_factory_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1648,7 +1649,7 @@
             },
             {
                 "name": "Oh Shit!",
-                "access_rules": ["$reach_floor4_lower"],
+                "access_rules": ["$oh_shit_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1745,7 +1746,7 @@
             },
             {
                 "name": "Refrigerator-Refrigerador-Freezerator",
-                "access_rules": ["$reach_freezerator"],
+                "access_rules": ["$freezerator_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -1909,7 +1910,7 @@
             },
             {
                 "name": "Pizzascare",
-                "access_rules": ["$reach_floor5_lower"],
+                "access_rules": ["$pizzascare_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2006,7 +2007,7 @@
             },
             {
                 "name": "Don't Make A Sound",
-                "access_rules": ["$reach_floor5_lower"],
+                "access_rules": ["$dont_make_sound_access"],
                 "sections": [
                     {
                         "name": "Complete",
@@ -2101,7 +2102,7 @@
             },
             {
                 "name": "WAR",
-                "access_rules": ["$reach_war"],
+                "access_rules": ["$war_access"],
                 "sections": [
                     {
                         "name": "Complete",
