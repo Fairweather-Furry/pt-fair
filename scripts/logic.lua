@@ -341,6 +341,12 @@ function bloodsauce_dungeon_exp_noise_pin()
   )
 end
 
+function reach_pepperman()
+  return(
+    calculate_floor_cost("op_f1_cost")
+  )
+end
+
 function boss_pepp()
   return(
     has("op_pepp") and has("grab")
@@ -554,6 +560,12 @@ end
 function fastfood_saloon_exp_noise_com()
   return(
     fastfood_saloon_noise_com() or (has("op_noise") and has("op_diff_exp") and has("grab") and (has("ucut") or has("crush") or has("wbounce")))
+  )
+end
+
+function reach_vigilante()
+  return(
+    reach_floor2() and calculate_floor_cost("op_f2_cost")
   )
 end
 
@@ -1628,5 +1640,41 @@ function war_access()
     (has("op_16war") and reach_freezerator()) or
     ((has("op_17war") or has("op_18war")) and reach_floor5_lower()) or
     (has("op_19war") and reach_war())
+  )
+end
+
+function pepperman_access()
+  return(
+    (has("op_b1pepperman") and reach_pepperman()) or
+    (has("op_b2pepperman") and reach_vigilante()) or
+    (has("op_b3pepperman") and reach_noise()) or
+    (has("op_b4pepperman") and reach_fake_pepp())
+  )
+end
+
+function vigilante_access()
+  return(
+    (has("op_b1vigilante") and reach_pepperman()) or
+    (has("op_b2vigilante") and reach_vigilante()) or
+    (has("op_b3vigilante") and reach_noise()) or
+    (has("op_b4vigilante") and reach_fake_pepp())
+  )
+end
+
+function noise_access()
+  return(
+    (has("op_b1noise") and reach_pepperman()) or
+    (has("op_b2noise") and reach_vigilante()) or
+    (has("op_b3noise") and reach_noise()) or
+    (has("op_b4noise") and reach_fake_pepp())
+  )
+end
+
+function fake_pepp_access()
+  return(
+    (has("op_b1fakepepp") and reach_pepperman()) or
+    (has("op_b2fakepepp") and reach_vigilante()) or
+    (has("op_b3fakepepp") and reach_noise()) or
+    (has("op_b4fakepepp") and reach_fake_pepp())
   )
 end

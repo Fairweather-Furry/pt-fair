@@ -34,7 +34,7 @@
                     ["op_f4_cost","op_f5_cost","op_treasure"],
                     ["op_secret","op_srank","op_prank"],
                     ["op_task","op_diff"],
-                    ["op_l1", "op_lvlslot1"]
+                    ["op_b1", "op_bossslot1"]
                 ]
             }
         ]

@@ -524,6 +524,30 @@
         "codes": "op_l19"
     },
     {
+        "name": "Boss 1 Entrance",
+        "type": "static",
+        "img": "images/b1.png",
+        "codes": "op_b1"
+    },
+    {
+        "name": "Boss 2 Entrance",
+        "type": "static",
+        "img": "images/b2.png",
+        "codes": "op_b2"
+    },
+    {
+        "name": "Boss 3 Entrance",
+        "type": "static",
+        "img": "images/b3.png",
+        "codes": "op_b3"
+    },
+    {
+        "name": "Boss 4 Entrance",
+        "type": "static",
+        "img": "images/b4.png",
+        "codes": "op_b4"
+    },
+    {
         "name": "Level 1 Slot",
         "type": "progressive",
         "codes": "op_lvlslot1",
@@ -2848,7 +2872,7 @@
     {
         "name": "Level 19 Slot",
         "type": "progressive",
-        "codes": "op_lvlslot10",
+        "codes": "op_lvlslot19",
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2973,6 +2997,161 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Boss 1 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot1",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b1unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b1pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b1vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b1noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b1fakepepp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 2 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot2",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b2unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b2pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b2vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b2noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b2fakepepp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 3 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot3",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b3unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b3pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b3vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b3noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b3fakepepp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 4 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot4",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b4unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b4pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b4vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b4noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b4fakepepp",
+                "inherit_codes": false
+            }
+        ]
     }
-    
 ]
