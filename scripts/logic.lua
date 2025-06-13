@@ -1678,3 +1678,48 @@ function fake_pepp_access()
     (has("op_b4fakepepp") and reach_fake_pepp())
   )
 end
+
+function s_p_ranked(slot)
+  level = Tracker:FindObjectForCode(slot).CurrentStage
+  if level == 1 then
+    return(john_gutter_exp_pepp_com() or john_gutter_exp_noise_com())
+  elseif level == 2 then
+    return(pizzascape_exp_pepp_com() or pizzascape_norm_noise_com() or pizzascape_exp_noise_com())
+  elseif level == 3 then
+    return(ancient_cheese_exp_pepp_com() or ancient_cheese_norm_noise_com() or ancient_cheese_exp_noise_com())
+  elseif level == 4 then
+    return(bloodsauce_dungeon_pepp_com() or bloodsauce_dungeon_exp_noise_com())
+  elseif level == 5 then
+    return(oregano_desert_exp_pepp_com() or oregano_desert_noise_com())
+  elseif level == 6 then
+    return(wasteyard_pepp_com() or wasteyard_exp_noise_com())
+  elseif level == 7 then
+    return(fun_farm_exp_pepp_com() or fun_farm_noise_com())
+  elseif level == 8 then
+    return(fastfood_saloon_exp_pepp_com() or fastfood_saloon_exp_noise_com())
+  elseif level == 9 then
+    return(crust_cove_exp_pepp_com() or crust_cove_exp_noise_com())
+  elseif level == 10 then
+    return(gnome_forest_norm_pepp_com() or gnome_forest_exp_pepp_pin() or gnome_forest_norm_noise_com() or gnome_forest_exp_noise_com())
+  elseif level == 11 then
+    return(deep_dish_9_pepp_com() or deep_dish_9_norm_noise_com() or deep_dish_9_exp_noise_com())
+  elseif level == 12 then
+    return(golf_norm_pepp_com() or golf_exp_pepp_com() or golf_norm_noise_com() or golf_exp_noise_com())
+  elseif level == 13 then
+    return(pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_com())
+  elseif level == 14 then
+    return(peppibot_factory_norm_pepp_com() or peppibot_factory_exp_pepp_com() or peppibot_factory_norm_noise_com() or (peppibot_factory_exp_noise_com() and has("op_diff_exp")))
+  elseif level == 15 then
+    return(oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com())
+  elseif level == 16 then
+    return(freezerator_norm_pepp_com() or freezerator_exp_pepp_com() or has("op_noise"))
+  elseif level == 17 then
+    return(pizzascare_exp_pep_com() or pizzascare_norm_noise_com() or pizzascare_exp_noise_com())
+  elseif level == 18 then
+    return(dont_make_sound_norm_pepp_com() or dont_make_sound_exp_pepp_com() or dont_make_sound_norm_noise_com() or dont_make_sound_exp_noise_com())
+  elseif level == 19 then
+    return(war_exp_pepp_com() or (war_noise_sau() and has("op_diff_norm")) or war_exp_noise_com())
+  else
+    return false
+  end
+end

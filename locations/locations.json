@@ -478,17 +478,13 @@
                     {
                         "name": "S Ranked #1",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,$pizzascape_exp_pepp_com,$ancient_cheese_exp_pepp_com,$bloodsauce_dungeon_pepp_com,portal", 
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_norm_noise_com,$bloodsauce_dungeon_exp_noise_com,portal",
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,$bloodsauce_dungeon_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot1,$s_p_ranked|op_lvlslot2,$s_p_ranked|op_lvlslot3,$s_p_ranked|op_lvlslot4,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #1",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,$pizzascape_exp_pepp_com,$ancient_cheese_exp_pepp_com,$bloodsauce_dungeon_pepp_com,portal", 
-                                        "$john_gutter_exp_noise_com,$pizzascape_norm_noise_com,$ancient_cheese_norm_noise_com,$bloodsauce_dungeon_exp_noise_com,portal",
-                                        "$john_gutter_exp_noise_com,$pizzascape_exp_noise_com,$ancient_cheese_exp_noise_com,$bloodsauce_dungeon_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot1,$s_p_ranked|op_lvlslot2,$s_p_ranked|op_lvlslot3,$s_p_ranked|op_lvlslot4,portal"],
                         "item_count": 1 
                     }
                 ],
@@ -930,15 +926,13 @@
                     {
                         "name": "S Ranked #2",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
-                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot5,$s_p_ranked|op_lvlslot6,$s_p_ranked|op_lvlslot7,$s_p_ranked|op_lvlslot8,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #2",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$oregano_desert_exp_pepp_com,$wasteyard_pepp_com,$fun_farm_exp_pepp_com,$fastfood_saloon_exp_pepp_com,portal",
-                                        "$oregano_desert_noise_com,$wasteyard_exp_noise_com,$fun_farm_noise_com,$fastfood_saloon_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot5,$s_p_ranked|op_lvlslot6,$s_p_ranked|op_lvlslot7,$s_p_ranked|op_lvlslot8,portal"],
                         "item_count": 1 
                     }
                 ],
@@ -1414,19 +1408,13 @@
                     {
                         "name": "S Ranked #3",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
-                                        "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
-                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
-                                        "$crust_cove_exp_noise_com,$gnome_forest_exp_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot9,$s_p_ranked|op_lvlslot10,$s_p_ranked|op_lvlslot11,$s_p_ranked|op_lvlslot12,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #3",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crust_cove_exp_pepp_com,$gnome_forest_norm_pepp_com,$deep_dish_9_pepp_com,$golf_norm_pepp_com,portal", 
-                                        "$crust_cove_exp_pepp_com,$gnome_forest_exp_pepp_pin,$deep_dish_9_pepp_com,$golf_exp_pepp_com,portal", 
-                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_norm_noise_com,$golf_norm_noise_com,portal",
-                                        "$crust_cove_exp_noise_com,$gnome_forest_norm_noise_com,$deep_dish_9_exp_noise_com,$golf_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot9,$s_p_ranked|op_lvlslot10,$s_p_ranked|op_lvlslot11,$s_p_ranked|op_lvlslot12,portal"],
                         "item_count": 1 
                     }
                 ],
@@ -1884,19 +1872,13 @@
                     {
                         "name": "S Ranked #4",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pig_city_pepp_com,$peppibot_factory_norm_pepp_com,$oh_shit_pepp_com,$freezerator_norm_pepp_com,portal",
-                                        "$pig_city_pepp_com,$peppibot_factory_exp_pepp_com,$oh_shit_pepp_com,$freezerator_exp_pepp_com,portal",
-                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,op_noise,portal",
-                                        "$pig_city_exp_noise_com,peppibot_factory_exp_noise_com,op_diff_exp,$oh_shit_exp_noise_com,op_noise,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot13,$s_p_ranked|op_lvlslot14,$s_p_ranked|op_lvlslot15,$s_p_ranked|op_lvlslot16,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #4",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pig_city_pepp_com,$peppibot_factory_norm_pepp_com,$oh_shit_pepp_com,$freezerator_norm_pepp_com,portal",
-                                        "$pig_city_pepp_com,$peppibot_factory_exp_pepp_com,$oh_shit_pepp_com,$freezerator_exp_pepp_com,portal",
-                                        "$pig_city_norm_noise_com,$peppibot_factory_norm_noise_com,$oh_shit_norm_noise_com,op_noise,portal",
-                                        "$pig_city_exp_noise_com,peppibot_factory_exp_noise_com,op_diff_exp,$oh_shit_exp_noise_com,op_noise,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot13,$s_p_ranked|op_lvlslot14,$s_p_ranked|op_lvlslot15,$s_p_ranked|op_lvlslot16,portal"],
                         "item_count": 1 
                     }
                 ],
@@ -2228,19 +2210,13 @@
                     {
                         "name": "S Ranked #5",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pizzascare_exp_pep_com,$dont_make_sound_norm_pepp_com,$war_exp_pepp_com,portal",
-                                        "$pizzascare_exp_pep_com,$dont_make_sound_exp_pepp_com,$war_exp_pepp_com,portal",
-                                        "$pizzascare_norm_noise_com,$dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
-                                        "$pizzascare_exp_noise_com,$dont_make_sound_exp_noise_com,$war_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot17,$s_p_ranked|op_lvlslot18,$s_p_ranked|op_lvlslot19,portal"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #5",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascare_exp_pep_com,$dont_make_sound_norm_pepp_com,$war_exp_pepp_com,portal",
-                                        "$pizzascare_exp_pep_com,$dont_make_sound_exp_pepp_com,$war_exp_pepp_com,portal",
-                                        "$pizzascare_norm_noise_com,$dont_make_sound_norm_noise_com,$war_noise_sau,op_diff_norm,portal",
-                                        "$pizzascare_exp_noise_com,$dont_make_sound_exp_noise_com,$war_exp_noise_com,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot17,$s_p_ranked|op_lvlslot18,$s_p_ranked|op_lvlslot19,portal"],
                         "item_count": 1 
                     }
                 ],
