@@ -551,6 +551,7 @@
         "name": "Level 1 Slot",
         "type": "progressive",
         "codes": "op_lvlslot1",
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -680,6 +681,7 @@
         "name": "Level 2 Slot",
         "type": "progressive",
         "codes": "op_lvlslot2",
+        "initial_stage_idx": 2,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -809,6 +811,7 @@
         "name": "Level 3 Slot",
         "type": "progressive",
         "codes": "op_lvlslot3",
+        "initial_stage_idx": 3,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -938,6 +941,7 @@
         "name": "Level 4 Slot",
         "type": "progressive",
         "codes": "op_lvlslot4",
+        "initial_stage_idx": 4,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1067,6 +1071,7 @@
         "name": "Level 5 Slot",
         "type": "progressive",
         "codes": "op_lvlslot5",
+        "initial_stage_idx": 5,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1196,6 +1201,7 @@
         "name": "Level 6 Slot",
         "type": "progressive",
         "codes": "op_lvlslot6",
+        "initial_stage_idx": 6,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1325,6 +1331,7 @@
         "name": "Level 7 Slot",
         "type": "progressive",
         "codes": "op_lvlslot7",
+        "initial_stage_idx": 7,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1454,6 +1461,7 @@
         "name": "Level 8 Slot",
         "type": "progressive",
         "codes": "op_lvlslot8",
+        "initial_stage_idx": 8,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1582,7 +1590,8 @@
     {
         "name": "Level 9 Slot",
         "type": "progressive",
-        "codes": "op_lvlslot2",
+        "codes": "op_lvlslot9",
+        "initial_stage_idx": 9,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1712,6 +1721,7 @@
         "name": "Level 10 Slot",
         "type": "progressive",
         "codes": "op_lvlslot10",
+        "initial_stage_idx": 10,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1841,6 +1851,7 @@
         "name": "Level 11 Slot",
         "type": "progressive",
         "codes": "op_lvlslot11",
+        "initial_stage_idx": 11,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -1970,6 +1981,7 @@
         "name": "Level 12 Slot",
         "type": "progressive",
         "codes": "op_lvlslot12",
+        "initial_stage_idx": 12,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2099,6 +2111,7 @@
         "name": "Level 13 Slot",
         "type": "progressive",
         "codes": "op_lvlslot13",
+        "initial_stage_idx": 13,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2228,6 +2241,7 @@
         "name": "Level 14 Slot",
         "type": "progressive",
         "codes": "op_lvlslot14",
+        "initial_stage_idx": 14,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2357,6 +2371,7 @@
         "name": "Level 15 Slot",
         "type": "progressive",
         "codes": "op_lvlslot15",
+        "initial_stage_idx": 15,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2486,6 +2501,7 @@
         "name": "Level 16 Slot",
         "type": "progressive",
         "codes": "op_lvlslot16",
+        "initial_stage_idx": 16,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2615,6 +2631,7 @@
         "name": "Level 17 Slot",
         "type": "progressive",
         "codes": "op_lvlslot17",
+        "initial_stage_idx": 17,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2744,6 +2761,7 @@
         "name": "Level 18 Slot",
         "type": "progressive",
         "codes": "op_lvlslot18",
+        "initial_stage_idx": 18,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -2873,6 +2891,7 @@
         "name": "Level 19 Slot",
         "type": "progressive",
         "codes": "op_lvlslot19",
+        "initial_stage_idx": 19,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -3002,6 +3021,7 @@
         "name": "Boss 1 Slot",
         "type": "progressive",
         "codes": "op_bossslot1",
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -3041,6 +3061,7 @@
         "name": "Boss 2 Slot",
         "type": "progressive",
         "codes": "op_bossslot2",
+        "initial_stage_idx": 2,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -3080,6 +3101,7 @@
         "name": "Boss 3 Slot",
         "type": "progressive",
         "codes": "op_bossslot3",
+        "initial_stage_idx": 3,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -3119,6 +3141,7 @@
         "name": "Boss 4 Slot",
         "type": "progressive",
         "codes": "op_bossslot4",
+        "initial_stage_idx": 4,
         "allow_disabled": false,
         "loop": true,
         "stages": [
