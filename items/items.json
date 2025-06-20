@@ -412,7 +412,7 @@
     {
         "name": "Entry Rando Spoiler Toggle",
         "type": "toggle",
-        "img": "images/Mach4.png",
+        "img": "images/Entrance.png",
         "codes": "op_entrandman"
     },
     {
