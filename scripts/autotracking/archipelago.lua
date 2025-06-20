@@ -89,10 +89,6 @@ function onClear(slot_data)
         end
     end
 
---    if slot_data["toppin_count"] then
---        Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
---    end
-
     if slot_data["floor_1_toppins"] then
         Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_toppins"])
     end
@@ -115,8 +111,7 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("op_srank").Active = slot_data["srank_checks"]
     Tracker:FindObjectForCode("op_prank").Active = slot_data["prank_checks"]
     Tracker:FindObjectForCode("op_task").Active = slot_data["cheftask_checks"]
---    Not yet implemented in the APWorld slotdata, putting these here for when they are. -Plushie
---    Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
+    Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
 
 end
 
