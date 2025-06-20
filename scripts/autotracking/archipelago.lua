@@ -72,9 +72,27 @@ function onClear(slot_data)
 		end
 	end
 
+--	print(dump_table(slot_data["rando_levels"]))
+
+    for slt,lvl in pairs(slot_data["rando_levels"]) do
+        if has("op_entrandman") then
+            Tracker:FindObjectForCode(ENTRY_MAPPING[slt][1]).CurrentStage = 0
+        else
+            Tracker:FindObjectForCode(ENTRY_MAPPING[slt][1]).CurrentStage = ENTRY_MAPPING[lvl][2]
+        end
+    end
+    for slt,lvl in pairs(slot_data["rando_bosses"]) do
+        if has("op_entrandman") then
+            Tracker:FindObjectForCode(ENTRY_MAPPING[slt][1]).CurrentStage = 0
+        else
+            Tracker:FindObjectForCode(ENTRY_MAPPING[slt][1]).CurrentStage = ENTRY_MAPPING[lvl][2]
+        end
+    end
+
 --    if slot_data["toppin_count"] then
 --        Tracker:FindObjectForCode("op_toppin_count").AcquiredCount = tonumber(slot_data["toppin_count"])
 --    end
+
     if slot_data["floor_1_toppins"] then
         Tracker:FindObjectForCode("op_f1_cost").AcquiredCount = tonumber(slot_data["floor_1_toppins"])
     end

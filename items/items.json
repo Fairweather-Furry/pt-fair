@@ -410,6 +410,12 @@
         ]
     },
     {
+        "name": "Entry Rando Spoiler Toggle",
+        "type": "toggle",
+        "img": "images/Mach4.png",
+        "codes": "op_entrandman"
+    },
+    {
         "name": "Level 1 Entrance",
         "type": "static",
         "img": "images/l1.png",
