@@ -916,7 +916,7 @@ end
 
 function peppibot_factory_norm_pepp_sau()
   return(
-    peppibot_factory_pepp_mus() and has("op_diff_norm") and has("wclimb")
+    peppibot_factory_pepp_mus() and has("op_diff_norm") and (has("wclimb") or has("ucut"))
   )
 end
 
@@ -958,7 +958,7 @@ end
 
 function peppibot_factory_exp_pepp_tre()
   return(
-    peppibot_factory_exp_pepp_s1() and has("bodyslam")
+    peppibot_factory_exp_pepp_s1() and has("bodyslam") and has("op_diff_exp")
   )
 end
 
