@@ -1240,7 +1240,7 @@ end
 
 function dont_make_sound_norm_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and (has("crush") or (has("sjump") or has("bodyslam")))
+    has("op_noise") and has("op_diff_norm") and has("grab") and (has("crush") or (has("sjump") and has("bodyslam")))
   )
 end
 
