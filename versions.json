@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.2 AP",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.2/pt-fair.zip",
+            "sha256": "7e13e9b592b48908a96077b8b4bb09c85bda8541b0066745d79d38e9ae171d68",
+            "changelog": [
+                "Entrance Rando",
+                "Added Entrance rando.",
+                "READ HERE: A toggle was added to allow you to not spoil the randomized entrances. This only works on connect, turn it on before connecting. You may then use the entrances tab to manually check off your levels. REFRESHING THE PACK DISABLES THIS AND WILL REVEAL YOUR ENTRANCES.",
+                "Multiple function edits for logic.",
+                "Added code to properly check off moves not added to the pool as being already obtained."
+            ]
+        },
+        {
             "package_version": "0.1 AP",
             "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.1/pt-fair.zip",
             "sha256": "a6d9664b057b41ae4bc16ce862c903a3ec38a5d36e89555eda4a87922f1ea1f6",
