@@ -10,12 +10,10 @@
                 "item_size": "4,4",
                 "rows": [
                     ["toppins", "prog_key", "portal"],
-                    ["grab","mach4","ucut"],
-                    ["sjump","taunt","staunt"],
-                    ["bodyslam","bdance","wclimb"],
-                    ["djump","rkick","spin"],
-                    ["wbounce","nado","crush"],
-                    ["bomb"]
+                    ["grab","mach4","ucut","sjump"],
+                    ["taunt","staunt","bodyslam","bdance"],
+                    ["wclimb","djump","rkick","spin"],
+                    ["wbounce","nado","crush","bomb"]
                 ]
             }		
         ]
@@ -29,11 +27,35 @@
                 "item_size": "4,4",
                 "h_alignment": "center",
                 "rows": [
-                    ["op_char","op_oworld","op_ladder"],
-                    ["op_f1_cost","op_f2_cost","op_f3_cost"],
-                    ["op_f4_cost","op_f5_cost","op_treasure"],
-                    ["op_secret","op_srank","op_prank"],
-                    ["op_task","op_diff"]
+                    ["op_char","op_oworld","op_ladder","op_diff"],
+                    ["op_f1_cost","op_f2_cost","op_f3_cost","op_f4_cost"],
+                    ["op_f5_cost","op_task","op_entrandman"],
+                    ["op_secret","op_srank","op_prank","op_treasure"]
+                ]
+            }
+        ]
+    },
+    "entrance_rando": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_size": "4,4",
+                "h_alignment": "center",
+                "rows": [
+                    ["op_l1","op_lvlslot1","op_l2","op_lvlslot2"],
+                    ["op_l3","op_lvlslot3","op_l4","op_lvlslot4"],
+                    ["op_l5","op_lvlslot5","op_l6","op_lvlslot6"],
+                    ["op_l7","op_lvlslot7","op_l8","op_lvlslot8"],
+                    ["op_l9","op_lvlslot9","op_l10","op_lvlslot10"],
+                    ["op_l11","op_lvlslot11","op_l12","op_lvlslot12"],
+                    ["op_l13","op_lvlslot13","op_l14","op_lvlslot14"],
+                    ["op_l15","op_lvlslot15","op_l16","op_lvlslot16"],
+                    ["op_l17","op_lvlslot17","op_l18","op_lvlslot18"],
+                    ["op_l19","op_lvlslot19"],
+                    ["op_b1","op_bossslot1","op_b2","op_bossslot2"],
+                    ["op_b3","op_bossslot3","op_b4","op_bossslot4"]
                 ]
             }
         ]

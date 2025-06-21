@@ -408,5 +408,2779 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Entry Rando Spoiler Toggle",
+        "type": "toggle",
+        "img": "images/Entrance.png",
+        "codes": "op_entrandman"
+    },
+    {
+        "name": "Level 1 Entrance",
+        "type": "static",
+        "img": "images/l1.png",
+        "codes": "op_l1"
+    },
+    {
+        "name": "Level 2 Entrance",
+        "type": "static",
+        "img": "images/l2.png",
+        "codes": "op_l2"
+    },
+    {
+        "name": "Level 3 Entrance",
+        "type": "static",
+        "img": "images/l3.png",
+        "codes": "op_l3"
+    },
+    {
+        "name": "Level 4 Entrance",
+        "type": "static",
+        "img": "images/l4.png",
+        "codes": "op_l4"
+    },
+    {
+        "name": "Level 5 Entrance",
+        "type": "static",
+        "img": "images/l5.png",
+        "codes": "op_l5"
+    },
+    {
+        "name": "Level 6 Entrance",
+        "type": "static",
+        "img": "images/l6.png",
+        "codes": "op_l6"
+    },
+    {
+        "name": "Level 7 Entrance",
+        "type": "static",
+        "img": "images/l7.png",
+        "codes": "op_l7"
+    },
+    {
+        "name": "Level 8 Entrance",
+        "type": "static",
+        "img": "images/l8.png",
+        "codes": "op_l8"
+    },
+    {
+        "name": "Level 9 Entrance",
+        "type": "static",
+        "img": "images/l9.png",
+        "codes": "op_l9"
+    },
+    {
+        "name": "Level 10 Entrance",
+        "type": "static",
+        "img": "images/l10.png",
+        "codes": "op_l10"
+    },
+    {
+        "name": "Level 11 Entrance",
+        "type": "static",
+        "img": "images/l11.png",
+        "codes": "op_l11"
+    },
+    {
+        "name": "Level 12 Entrance",
+        "type": "static",
+        "img": "images/l12.png",
+        "codes": "op_l12"
+    },
+    {
+        "name": "Level 13 Entrance",
+        "type": "static",
+        "img": "images/l13.png",
+        "codes": "op_l13"
+    },
+    {
+        "name": "Level 14 Entrance",
+        "type": "static",
+        "img": "images/l14.png",
+        "codes": "op_l14"
+    },
+    {
+        "name": "Level 15 Entrance",
+        "type": "static",
+        "img": "images/l15.png",
+        "codes": "op_l15"
+    },
+    {
+        "name": "Level 16 Entrance",
+        "type": "static",
+        "img": "images/l16.png",
+        "codes": "op_l16"
+    },
+    {
+        "name": "Level 17 Entrance",
+        "type": "static",
+        "img": "images/l17.png",
+        "codes": "op_l17"
+    },
+    {
+        "name": "Level 18 Entrance",
+        "type": "static",
+        "img": "images/l18.png",
+        "codes": "op_l18"
+    },
+    {
+        "name": "Level 19 Entrance",
+        "type": "static",
+        "img": "images/l19.png",
+        "codes": "op_l19"
+    },
+    {
+        "name": "Boss 1 Entrance",
+        "type": "static",
+        "img": "images/b1.png",
+        "codes": "op_b1"
+    },
+    {
+        "name": "Boss 2 Entrance",
+        "type": "static",
+        "img": "images/b2.png",
+        "codes": "op_b2"
+    },
+    {
+        "name": "Boss 3 Entrance",
+        "type": "static",
+        "img": "images/b3.png",
+        "codes": "op_b3"
+    },
+    {
+        "name": "Boss 4 Entrance",
+        "type": "static",
+        "img": "images/b4.png",
+        "codes": "op_b4"
+    },
+    {
+        "name": "Level 1 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot1",
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_1unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_1johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_1pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_1ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_1bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_1oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_1wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_1funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_1fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_1crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_1gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_1deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_1golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_1thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_1peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_1ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_1rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_1pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_1dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_1war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 2 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot2",
+        "initial_stage_idx": 2,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_2unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_2johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_2pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_2ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_2bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_2oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_2wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_2funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_2fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_2crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_2gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_2deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_2golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_2thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_2peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_2ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_2rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_2pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_2dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_2war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 3 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot3",
+        "initial_stage_idx": 3,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_3unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_3johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_3pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_3ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_3bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_3oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_3wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_3funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_3fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_3crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_3gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_3deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_3golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_3thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_3peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_3ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_3rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_3pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_3dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_3war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 4 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot4",
+        "initial_stage_idx": 4,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_4unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_4johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_4pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_4ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_4bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_4oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_4wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_4funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_4fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_4crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_4gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_4deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_4golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_4thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_4peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_4ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_4rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_4pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_4dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_4war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 5 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot5",
+        "initial_stage_idx": 5,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_5unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_5johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_5pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_5ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_5bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_5oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_5wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_5funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_5fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_5crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_5gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_5deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_5golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_5thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_5peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_5ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_5rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_5pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_5dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_5war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 6 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot6",
+        "initial_stage_idx": 6,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_6unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_6johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_6pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_6ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_6bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_6oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_6wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_6funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_6fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_6crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_6gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_6deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_6golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_6thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_6peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_6ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_6rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_6pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_6dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_6war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 7 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot7",
+        "initial_stage_idx": 7,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_7unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_7johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_7pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_7ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_7bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_7oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_7wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_7funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_7fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_7crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_7gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_7deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_7golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_7thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_7peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_7ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_7rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_7pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_7dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_7war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 8 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot8",
+        "initial_stage_idx": 8,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_8unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_8johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_8pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_8ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_8bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_8oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_8wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_8funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_8fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_8crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_8gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_8deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_8golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_8thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_8peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_8ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_8rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_8pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_8dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_8war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 9 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot9",
+        "initial_stage_idx": 9,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_9unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_9johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_9pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_9ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_9bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_9joreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_9wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_9funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_9fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_9crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_9gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_9deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_9golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_9thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_9peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_9ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_9rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_9pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_9dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_9war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 10 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot10",
+        "initial_stage_idx": 10,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_10unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_10johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_10pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_10ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_10bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_10oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_10wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_10funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_10fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_10crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_10gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_10deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_10golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_10thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_10peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_10ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_10rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_10pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_10dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_10war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 11 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot11",
+        "initial_stage_idx": 11,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_11unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_11johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_11pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_11ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_11bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_11oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_11wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_11funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_11fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_11crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_11gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_11deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_11golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_11thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_11peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_11ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_11rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_11pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_11dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_11war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 12 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot12",
+        "initial_stage_idx": 12,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_12unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_12johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_12pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_12ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_12bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_12oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_12wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_12funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_12fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_12crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_12gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_12deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_12golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_12thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_12peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_12ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_12rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_12pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_12dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_12war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 13 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot13",
+        "initial_stage_idx": 13,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_13unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_13johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_13pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_13ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_13bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_13oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_13wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_13funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_13fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_13crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_13gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_13deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_13golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_13thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_13peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_13ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_13rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_13pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_13dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_13war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 14 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot14",
+        "initial_stage_idx": 14,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_14unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_14johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_14pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_14ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_14bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_14oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_14wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_14funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_14fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_14crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_14gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_14deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_14golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_14thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_14peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_14ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_14rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_14pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_14dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_14war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 15 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot15",
+        "initial_stage_idx": 15,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_15unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_15johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_15pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_15ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_15bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_15oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_15wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_15funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_15fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_15crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_15gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_15deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_15golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_15thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_15peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_15ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_15rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_15pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_15dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_15war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 16 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot16",
+        "initial_stage_idx": 16,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_16unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_10johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_16pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_16ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_10bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_16oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_16wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_16funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_16fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_16crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_16gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_16deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_16golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_16thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_16peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_16ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_16rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_16pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_16dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_16war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 17 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot17",
+        "initial_stage_idx": 17,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_17unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_17johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_17pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_17ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_17bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_17oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_17wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_17funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_17fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_17crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_17gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_17deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_17golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_17thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_17peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_17ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_17rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_17pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_17dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_17war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 18 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot18",
+        "initial_stage_idx": 18,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_18unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_18johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_18pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_18ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_18bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_18joreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_18wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_18funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_18fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_18crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_18gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_18deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_18golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_18thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_18peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_18ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_18rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_18pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_18dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_18war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level 19 Slot",
+        "type": "progressive",
+        "codes": "op_lvlslot19",
+        "initial_stage_idx": 19,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_19unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "John Gutter",
+                "img": "images/JohnGutter.png",
+                "codes": "op_19johngutter",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScape",
+                "img": "images/Pizzascape.png",
+                "codes": "op_19pizzascape",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ancient Cheese",
+                "img": "images/AncientCheese.png",
+                "codes": "op_19ancientcheese",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bloodsauce Dungeon",
+                "img": "images/BloodsauceDungeon.png",
+                "codes": "op_19bloodsaucedungeon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oregano Desert",
+                "img": "images/OreganoDesert.png",
+                "codes": "op_19oreganodesert",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wasteyard",
+                "img": "images/Wasteyard.png",
+                "codes": "op_19wasteyard",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fun Farm",
+                "img": "images/FunFarm.png",
+                "codes": "op_19funfarm",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fastfood Saloon",
+                "img": "images/FastFoodSaloon.png",
+                "codes": "op_19fastfoodsaloon",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crust Cove",
+                "img": "images/CrustCove.png",
+                "codes": "op_19crustcove",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gnome Forest",
+                "img": "images/GnomeForest.png",
+                "codes": "op_19gnomeforest",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deep-Dish 9",
+                "img": "images/DeepDish9.png",
+                "codes": "op_19deepdish9",
+                "inherit_codes": false
+            },
+            {
+                "name": "GOLF",
+                "img": "images/Golf.png",
+                "codes": "op_19golf",
+                "inherit_codes": false
+            },
+            {
+                "name": "The Pig City",
+                "img": "images/ThePigCity.png",
+                "codes": "op_19thepigcity",
+                "inherit_codes": false
+            },
+            {
+                "name": "Peppibot Factory",
+                "img": "images/PeppibotFactory.png",
+                "codes": "op_19peppibotfactory",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oh Shit!",
+                "img": "images/OhShit.png",
+                "codes": "op_19ohshit",
+                "inherit_codes": false
+            },
+            {
+                "name": "Refrigerator-Refrigerador-Freezerator",
+                "img": "images/RRFreezerator.png",
+                "codes": "op_19rrfreezerator",
+                "inherit_codes": false
+            },
+            {
+                "name": "PizzaScare",
+                "img": "images/Pizzascare.png",
+                "codes": "op_19pizzascare",
+                "inherit_codes": false
+            },
+            {
+                "name": "Don't Make A Sound",
+                "img": "images/DontMakeASound.png",
+                "codes": "op_19dontmakeasound",
+                "inherit_codes": false
+            },
+            {
+                "name": "WAR",
+                "img": "images/War.png",
+                "codes": "op_19war",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 1 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot1",
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b1unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b1pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b1vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b1noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b1fakepepp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 2 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot2",
+        "initial_stage_idx": 2,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b2unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b2pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b2vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b2noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b2fakepepp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 3 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot3",
+        "initial_stage_idx": 3,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b3unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b3pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b3vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b3noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b3fakepepp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss 4 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot4",
+        "initial_stage_idx": 4,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b4unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b4pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b4vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b4noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b4fakepepp",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

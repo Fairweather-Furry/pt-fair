@@ -13,22 +13,55 @@
 					"margin": "0,0,0,0",
 					"content": [
 						{
-							"type": "group",
-							"header": "Collected Items",
+							"type": "tabbed",
 							"dock": "top",
-							"content": {
-								"type": "layout",
-								"key": "item_grid"
-							}
-						},
-						{
-							"type": "group",
-							"header": "YAML Options",
-							"dock": "top",
-							"content": {
-								"type": "layout",
-								"key": "ap_options"
-							}
+							"tabs":[
+								{
+									"title": "Items",
+									"content":[
+										{
+											"type": "dock",
+											"dock": "left",
+											"v_alignment": "stretch",
+											"margin": "0,0,0,0",
+											"content": [
+												{
+													"type": "group",
+													"header": "Collected Items",
+													"dock": "top",
+													"content": {
+														"type": "layout",
+														"key": "item_grid"
+													}
+												},
+												{
+													"type": "group",
+													"header": "YAML Options",
+													"dock": "top",
+													"content": {
+														"type": "layout",
+														"key": "ap_options"
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"title": "Entrances",
+									"content":[
+										{
+											"type": "group",
+											"header": "Entrances",
+											"dock": "top",
+											"content": {
+												"type": "layout",
+												"key": "entrance_rando"
+											}
+										}
+									]
+								}
+							]
 						}
 					]
 				},

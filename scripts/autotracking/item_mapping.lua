@@ -98,3 +98,29 @@ ITEM_MAPPING = {
 --    [347] = {"clothes",""},
 --    [348] = {"clothes",""}
 }
+
+ENTRY_MAPPING = {
+    ["entrance"] = {"op_lvlslot1",1},
+    ["medieval"] = {"op_lvlslot2",2},
+    ["ruin"] = {"op_lvlslot3",3},
+    ["dungeon"] = {"op_lvlslot4",4},
+    ["badland"] = {"op_lvlslot5",5},
+    ["graveyard"] = {"op_lvlslot6",6},
+    ["farm"] = {"op_lvlslot7",7},
+    ["saloon"] = {"op_lvlslot8",8},
+    ["plage"] = {"op_lvlslot9",9},
+    ["forest"] = {"op_lvlslot10",10},
+    ["space"] = {"op_lvlslot11",11},
+    ["minigolf"] = {"op_lvlslot12",12},
+    ["street"] = {"op_lvlslot13",13},
+    ["industrial"] = {"op_lvlslot14",14},
+    ["sewer"] = {"op_lvlslot15",15},
+    ["freezer"] = {"op_lvlslot16",16},
+    ["chateau"] = {"op_lvlslot17",17},
+    ["kidsparty"] = {"op_lvlslot18",18},
+    ["war"] = {"op_lvlslot19",19},
+    ["boss_pepperman"] = {"op_bossslot1",1},
+    ["boss_vigilante"] = {"op_bossslot2",2},
+    ["boss_noise"] = {"op_bossslot3",3},
+    ["boss_fakepep"] = {"op_bossslot4",4}
+}
