@@ -675,7 +675,7 @@ end
 
 function reach_gnome_forest()
   return(
-    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder2"))
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3"))
   )
 end
 
@@ -717,7 +717,7 @@ end
 
 function reach_deep_dish_9()
   return(
-    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("op_ladder2") or has("op_noise"))
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("op_ladder3") or has("op_noise"))
   )
 end
 
@@ -784,7 +784,7 @@ end
 
 function reach_golf()
   return(
-    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder2") )
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder3") )
   )
 end
 
