@@ -1520,7 +1520,7 @@
                     {
                         "name": "Chef Task: Strike!",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pig_city_pepp_com,rkick", "$pig_city_norm_noise_com", "$pig_city_exp_noise_com", "$pig_city_swap_ct2"],
+                        "access_rules": ["$pig_city_pepp_com,rkick", "$pig_city_norm_noise_com,$not_swap", "$pig_city_exp_noise_com,$not_swap", "$pig_city_swap_ct2"],
                         "item_count": 1
                     },
                     {
