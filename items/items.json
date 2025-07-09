@@ -416,6 +416,12 @@
         "codes": "op_entrandman"
     },
     {
+        "name": "Lap 2 Portal",
+        "type": "toggle",
+        "img": "images/Portal.png",
+        "codes": "op_portal"
+    },
+    {
         "name": "Level 1 Entrance",
         "type": "static",
         "img": "images/l1.png",
