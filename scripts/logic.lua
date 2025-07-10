@@ -928,7 +928,7 @@ end
 
 function pig_city_norm_noise_sau()
   return(
-    has("op_noise") and has("op_diff_norm") and has("bodyslam") and (has("sjump") or has("wbounce"))
+    has("op_noise") and has("op_diff_norm") and (has("bodyslam") or has("crush")) and (has("sjump") or has("wbounce"))
   )
 end
 
@@ -994,7 +994,7 @@ end
 
 function peppibot_factory_exp_pepp_pin()
   return(
-    (peppibot_factory_pepp_mus() and has("op_diff_exp") and has("ucut")) or (has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut")))
+    (peppibot_factory_pepp_mus() and has("op_diff_exp")) or (has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut")))
   )
 end
 
@@ -1028,13 +1028,14 @@ function peppibot_factory_norm_noise_com()
   )
 end
 
-function peppibot_factory_exp_noise_com()
+
+function peppibot_factory_exp_noise_pin()
   return(
     peppibot_factory_noise_pin() or (has("op_noise") and has("op_diff_exp") and (has("crush") or has("ucut")))
   )
 end
 
-function peppibot_factory_exp_noise_s3()
+function peppibot_factory_exp_noise_com()
   return(
     has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
   )
@@ -1151,6 +1152,12 @@ end
 function freezerator_exp_noise_s2()
   return (
     has("op_noise") and has("op_diff_exp") and has("staunt")
+  )
+end
+
+function freezerator_exp_noise_ct2()
+  return(
+    freezerator_exp_noise_s2() or (has("op_noise") and has("op_diff_exp") and has("grab"))
   )
 end
 
