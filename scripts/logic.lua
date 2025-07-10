@@ -459,7 +459,7 @@ end
 
 function oregano_desert_exp_noise_s1()
   return(
-    oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and (has("sjump") or has("crush")))
+    oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and has("sjump"))
   )
 end
 
@@ -541,33 +541,33 @@ function fun_farm_exp_noise_sau()
   )
 end
 
-function fastfood_saloon_pepp_mus()
+function fastfood_saloon_norm_pepp_mus()
   return(
-    has("op_pepp") and has("sjump")
+    has("op_pepp") and has("op_diff_norm") and has("sjump")
   )
 end
 
-function fastfood_saloon_pepp_com()
+function fastfood_saloon_norm_pepp_che()
   return(
-    fastfood_saloon_pepp_mus() and has("grab")
+    fastfood_saloon_norm_pepp_mus() and has("grab")
   )
 end
 
-function fastfood_saloon_norm_pepp_s3()
+function fastfood_saloon_norm_pepp_com()
   return(
-    fastfood_saloon_pepp_com() and has("op_diff_norm") and has("wclimb")
+    fastfood_saloon_norm_pepp_che() and has("wclimb")
   )
 end
 
 function fastfood_saloon_exp_pepp_mus()
   return(
-    fastfood_saloon_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and has("wclimb"))
+    (has("op_pepp") and has("op_diff_exp") and has("sjump")) or (has("op_pepp") and has("op_diff_exp") and has("wclimb"))
   )
 end
 
 function fastfood_saloon_exp_pepp_com()
   return (
-    fastfood_saloon_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and has("wclimb"))
+    fastfood_saloon_exp_pepp_mus() and has("grab")
   )
 end
 
