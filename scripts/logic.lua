@@ -48,6 +48,12 @@ function calculate_floor_cost(floor_count)
   end
 end
 
+function lap2()
+  return(
+    (not has("op_portal")) or (has("op_portal") and has("portal"))
+  )
+end
+
 function tutorial_mus()
   return(
     (has("op_pepp") and has("bodyslam"))
@@ -105,7 +111,7 @@ end
 
 function john_gutter_exp_pepp_tom()
   return (
-    john_gutter_pepp_tom() or (has("op_pepp") and has("op_diff_exp") and has("grab"))
+    john_gutter_pepp_tom() or (has("op_pepp") and has("op_diff_exp") and (has("grab") or has("bodyslam")))
   )
 end
 
@@ -171,7 +177,7 @@ end
 
 function pizzascape_exp_pepp_com()
   return(
-    pizzascape_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or has("ucut")))
+    pizzascape_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or (has("ucut") and (has("sjump") or has("wclimb")))))
   )
 end
 
@@ -277,6 +283,12 @@ function ancient_cheese_exp_pepp_che()
   )
 end
 
+function ancient_cheese_exp_pepp_tre()
+  return(
+    has("op_pepp") and has("op_diff_exp") and ((has("ucut") or has("grab")) and (has("wclimb") or has("sjump")))
+  )
+end
+
 function ancient_cheese_norm_noise_com()
   return(
     has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") and (has("bodyslam") or has("nado") or has("crush")))
@@ -291,7 +303,7 @@ end
 
 function ancient_cheese_exp_noise_com()
   return(
-    has("op_noise") and has("op_diff_exp") and has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))
+    has("op_noise") and has("op_diff_exp") and ((has("ucut") and (has("sjump") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush"))) or (has("grab") and has("sjump") and (has("bodyslam") or has("nado") or has("crush"))))
   )
 end
 
@@ -301,9 +313,15 @@ function ancient_cheese_exp_noise_che()
   )
 end
 
-function ancient_cheese_exp_noise_s2()
+function ancient_cheese_exp_noise_tom()
   return(
-    has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("sjump") or has("wbounce") or has("crush"))))
+    has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("sjump") or has("wbounce"))))
+  )
+end
+
+function ancient_cheese_exp_noise_pin()
+  return(
+    has("op_noise") and has("op_diff_exp") and ((has("grab") and (has("wbounce") or has("sjump")) and (has("bodyslam") or has("nado") or has("crush"))) or (has("ucut") and (has("bodyslam") or has("nado") or has("crush"))))
   )
 end
 
