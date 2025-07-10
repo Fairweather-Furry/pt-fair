@@ -661,9 +661,9 @@ function crust_cove_exp_pepp_ct1()
   )
 end
 
-function crust_cove_noise_com()
+function crust_cove_norm_noise_com()
   return(
-    has("op_noise") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
+    has("op_noise") and has("op_diff_norm") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
   )
 end
 
@@ -685,9 +685,15 @@ function crust_cove_noise_che()
   )
 end
 
-function crust_cove_exp_noise_s3()
+function crust_cove_exp_noise_che()
   return(
-    crust_cove_exp_noise_com() and has("taunt")
+    crust_cove_noise_che() or (has("op_noise") and has("op_diff_exp") and has("crush"))
+  )
+end
+
+function crust_cove_exp_noise_com()
+  return(
+    has("op_noise") and has("op_diff_exp") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado") or has("wbounce"))))
   )
 end
 
@@ -721,15 +727,27 @@ function gnome_forest_exp_pepp_com()
   )
 end
 
-function gnome_forest_exp_noise_com()
+function gnome_forest_noise_che()
   return(
-    has("op_noise") and has("op_diff_exp") and has("crush")
+    has("op_noise") and has("crush")
   )
 end
 
 function gnome_forest_norm_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("crush") or has("nado")) and (has("sjump") or has("wbounce")))
+    gnome_forest_noise_che() and has("op_diff_norm") and (has("wbounce") or has("sjump"))
+  )
+end
+
+function gnome_forest_norm_noise_pin()
+  return(
+    gnome_forest_norm_noise_com() or (has("op_noise") and has("op_diff_norm") and has("ucut") and has("crush"))
+  )
+end
+
+function gnome_forest_exp_noise_che()
+  return(
+    gnome_forest_noise_che() or  (has("op_noise") and has("op_diff_exp") and (has("grab") and has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
   )
 end
 
@@ -741,19 +759,31 @@ end
 
 function deep_dish_9_pepp_com()
   return(
-    has("op_pepp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+    has("op_pepp") and has("bodyslam") and has("wclimb")
+  )
+end
+
+function deep_dish_9_exp_pepp_com()
+  return(
+    deep_dish_9_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has ("bodyslam") and has("sjump"))
+  )
+end
+
+function deep_dish_9_pepp_pin()
+  return(
+    deep_dish_9_pepp_com() or (has("op_pepp") and has("bodyslam") and has("sjump"))
   )
 end
 
 function deep_dish_9_norm_pepp_che()
   return(
-    deep_dish_9_pepp_com() or (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("ucut"))
+    deep_dish_9_pepp_pin() or (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("ucut"))
   )
 end
 
-function deep_dish_9_norm_pepp_mus()
+function deep_dish_9_pepp_mus()
   return(
-    has("op_pepp") and has("op_diff_norm") and has("bodyslam")
+    has("op_pepp") and has("bodyslam")
   )
 end
 
@@ -812,6 +842,12 @@ function golf_norm_pepp_com()
   )
 end
 
+function golf_norm_pepp_tre()
+  return(
+    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump"))
+  )
+end
+
 function golf_exp_pepp_com()
   return(
     has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("bodyslam") or has("wclimb") or has("ucut"))
@@ -820,7 +856,7 @@ end
 
 function golf_exp_pepp_tre()
   return(
-    has("op_pepp") and has("op_diff_exp") and (has("sjump") or (has("wclimb") and has("grab")))
+    has("op_pepp") and has("op_diff_exp") and (has("sjump") or (has("wclimb") and (has("grab") or has("bodyslam"))))
   )
 end
 
@@ -1738,7 +1774,7 @@ function s_p_ranked(slot)
   elseif level == 9 then
     return(crust_cove_exp_pepp_com() or crust_cove_exp_noise_com())
   elseif level == 10 then
-    return(gnome_forest_norm_pepp_com() or gnome_forest_exp_pepp_pin() or gnome_forest_norm_noise_com() or gnome_forest_exp_noise_com())
+    return(gnome_forest_norm_pepp_com() or gnome_forest_exp_pepp_pin() or gnome_forest_norm_noise_com() or (gnome_forest_noise_che() and has("op_diff_exp")))
   elseif level == 11 then
     return(deep_dish_9_pepp_com() or deep_dish_9_norm_noise_com() or deep_dish_9_exp_noise_com())
   elseif level == 12 then
