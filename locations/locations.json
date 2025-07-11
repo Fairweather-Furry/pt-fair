@@ -847,7 +847,7 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com,$lap2", "$fastfood_saloon_exp_pepp_s3", "$fastfood_saloon_exp_noise_com,$lap2"],
+                        "access_rules": ["$fastfood_saloon_norm_pepp_com,$lap2", "$fastfood_saloon_exp_pepp_s3", "$fastfood_saloon_exp_noise_com,$lap2", "$fastfood_saloon_exp_noise_com,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -1005,13 +1005,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_exp_noise_com,portal"],
+                        "access_rules": ["$crust_cove_exp_pepp_s3,$lap2", "$crust_cove_norm_noise_com,taunt,$lap2", "$crust_cove_exp_noise_com,taunt,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crust_cove_exp_pepp_com,portal", "$crust_cove_exp_noise_com,portal"],
+                        "access_rules": ["$crust_cove_exp_pepp_s3,$lap2", "$crust_cove_norm_noise_com,taunt,$lap2", "$crust_cove_exp_noise_com,taunt,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1102,13 +1102,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com,portal", "$gnome_forest_exp_pepp_com,portal", "$gnome_forest_norm_noise_com,portal", "$gnome_forest_noise_che,op_diff_exp,portal"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com,$lap2", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com,$lap2", "$gnome_forest_noise_che,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com,portal", "$gnome_forest_exp_pepp_com,portal", "$gnome_forest_norm_noise_com,portal", "$gnome_forest_noise_che,op_diff_exp,portal"],
+                        "access_rules": ["$gnome_forest_norm_pepp_com,$lap2", "$gnome_forest_exp_pepp_com,$lap2", "$gnome_forest_norm_noise_com,$lap2", "$gnome_forest_noise_che,op_diff_exp,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1199,13 +1199,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$deep_dish_9_pepp_com,portal", "$deep_dish_9_norm_noise_com,portal", "$deep_dish_9_exp_noise_com,portal"],
+                        "access_rules": ["$deep_dish_9_pepp_com,$lap2", "$deep_dish_9_norm_noise_com,$lap2", "$deep_dish_9_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$deep_dish_9_pepp_com,portal", "$deep_dish_9_norm_noise_com,portal", "$deep_dish_9_exp_noise_com,portal"],
+                        "access_rules": ["$deep_dish_9_pepp_com,$lap2", "$deep_dish_9_norm_noise_com,$lap2", "$deep_dish_9_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1296,13 +1296,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$golf_norm_pepp_com,portal", "$golf_exp_pepp_com,portal", "$golf_norm_noise_com,portal", "$golf_exp_noise_com,portal"],
+                        "access_rules": ["$golf_norm_pepp_tre,$lap2", "$golf_exp_pepp_tre,$lap2", "$golf_norm_noise_com,$lap2", "$golf_exp_noise_tre,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$golf_norm_pepp_com,portal", "$golf_exp_pepp_com,portal", "$golf_norm_noise_com,portal", "$golf_exp_noise_com,portal"],
+                        "access_rules": ["$golf_norm_pepp_tre,$lap2", "$golf_exp_pepp_tre,$lap2", "$golf_norm_noise_com,$lap2", "$golf_exp_noise_tre,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1408,13 +1408,13 @@
                     {
                         "name": "S Ranked #3",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$s_p_ranked|op_lvlslot9,$s_p_ranked|op_lvlslot10,$s_p_ranked|op_lvlslot11,$s_p_ranked|op_lvlslot12,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot9,$s_p_ranked|op_lvlslot10,$s_p_ranked|op_lvlslot11,$s_p_ranked|op_lvlslot12"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #3",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$s_p_ranked|op_lvlslot9,$s_p_ranked|op_lvlslot10,$s_p_ranked|op_lvlslot11,$s_p_ranked|op_lvlslot12,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot9,$s_p_ranked|op_lvlslot10,$s_p_ranked|op_lvlslot11,$s_p_ranked|op_lvlslot12,$lap2"],
                         "item_count": 1 
                     }
                 ],
@@ -1502,13 +1502,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pig_city_pepp_com,portal", "$pig_city_norm_noise_com,portal", "$pig_city_exp_noise_com,portal"],
+                        "access_rules": ["$pig_city_pepp_srank,$lap2", "$pig_city_norm_noise_srank,$lap2", "$pig_city_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pig_city_pepp_com,portal", "$pig_city_norm_noise_com,portal", "$pig_city_exp_noise_com,portal"],
+                        "access_rules": ["$pig_city_pepp_srank,$lap2", "$pig_city_norm_noise_srank,$lap2", "$pig_city_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1599,13 +1599,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$peppibot_factory_norm_pepp_com,portal", "$peppibot_factory_exp_pepp_com,portal", "$peppibot_factory_norm_noise_com,portal", "$peppibot_factory_exp_noise_com,op_diff_exp,portal"],
+                        "access_rules": ["$peppibot_factory_norm_pepp_com,$lap2", "$peppibot_factory_exp_pepp_com", "$peppibot_factory_norm_noise_com,$lap2", "$peppibot_factory_exp_noise_com,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$peppibot_factory_norm_pepp_com,portal", "$peppibot_factory_exp_pepp_com,portal", "$peppibot_factory_norm_noise_com,portal", "$peppibot_factory_exp_noise_com,op_diff_exp,portal"],
+                        "access_rules": ["$peppibot_factory_norm_pepp_com,$lap2", "$peppibot_factory_exp_pepp_com,$lap2", "$peppibot_factory_norm_noise_com,$lap2", "$peppibot_factory_exp_noise_com,op_diff_exp,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1696,13 +1696,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$oh_shit_pepp_com,portal", "$oh_shit_norm_noise_com,portal", "$oh_shit_exp_noise_com,portal"],
+                        "access_rules": ["$oh_shit_pepp_com,$lap2", "$oh_shit_norm_noise_com,$lap2", "$oh_shit_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$oh_shit_pepp_com,portal", "$oh_shit_norm_noise_com,portal", "$oh_shit_exp_noise_com,portal"],
+                        "access_rules": ["$oh_shit_pepp_com,$lap2", "$oh_shit_norm_noise_com,$lap2", "$oh_shit_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1793,13 +1793,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$freezerator_norm_pepp_com,portal", "$freezerator_exp_pepp_com,portal", "op_noise,portal"],
+                        "access_rules": ["$freezerator_norm_pepp_com,$lap2", "$freezerator_exp_pepp_com", "$freezerator_noise_srank,$lap2", "$freezerator_noise_srank,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$freezerator_norm_pepp_com,portal", "$freezerator_exp_pepp_com,portal", "op_noise,portal"],
+                        "access_rules": ["$freezerator_norm_pepp_com,$lap2", "$freezerator_exp_pepp_com,$lap2", "$freezerator_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -1872,13 +1872,13 @@
                     {
                         "name": "S Ranked #4",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$s_p_ranked|op_lvlslot13,$s_p_ranked|op_lvlslot14,$s_p_ranked|op_lvlslot15,$s_p_ranked|op_lvlslot16,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot13,$s_p_ranked|op_lvlslot14,$s_p_ranked|op_lvlslot15,$s_p_ranked|op_lvlslot16"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #4",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$s_p_ranked|op_lvlslot13,$s_p_ranked|op_lvlslot14,$s_p_ranked|op_lvlslot15,$s_p_ranked|op_lvlslot16,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot13,$s_p_ranked|op_lvlslot14,$s_p_ranked|op_lvlslot15,$s_p_ranked|op_lvlslot16,$lap2"],
                         "item_count": 1 
                     }
                 ],
@@ -1951,13 +1951,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pizzascare_exp_pep_com,portal", "$pizzascare_norm_noise_com,portal", "$pizzascare_exp_noise_com,portal"],
+                        "access_rules": ["$pizzascare_exp_pep_com,$lap2", "$pizzascare_exp_pep_com,op_diff_exp", "$pizzascare_norm_noise_com,$lap2", "$pizzascare_exp_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascare_exp_pep_com,portal", "$pizzascare_norm_noise_com,portal", "$pizzascare_exp_noise_com,portal"],
+                        "access_rules": ["$pizzascare_exp_pep_com,$lap2", "$pizzascare_norm_noise_com,$lap2", "$pizzascare_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -2046,13 +2046,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com,portal", "$dont_make_sound_exp_pepp_com,portal", "$dont_make_sound_norm_noise_com,portal", "$dont_make_sound_exp_noise_com,portal"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com,$lap2", "$dont_make_sound_exp_pepp_com,$lap2", "$dont_make_sound_norm_noise_com,$lap2", "$dont_make_sound_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com,portal", "$dont_make_sound_exp_pepp_com,portal", "$dont_make_sound_norm_noise_com,portal", "$dont_make_sound_exp_noise_com,portal"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com,$lap2", "$dont_make_sound_exp_pepp_com,$lap2", "$dont_make_sound_norm_noise_com,$lap2", "$dont_make_sound_exp_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -2143,13 +2143,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$war_exp_pepp_com,portal", "$war_norm_noise_com,op_diff_norm,portal", "$war_exp_noise_com,portal"],
+                        "access_rules": ["$war_pepp_com,op_diff_norm,$lap2", "$war_exp_pepp_com,$lap2", "$war_norm_noise_com,op_diff_norm,$lap2", "war_exp_noise_ct1,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$war_exp_pepp_com,portal", "$war_norm_noise_com,op_diff_norm,portal", "$war_exp_noise_com,portal"],
+                        "access_rules": ["$war_pepp_com,op_diff_norm,$lap2","$war_exp_pepp_com,$lap2", "$war_norm_noise_com,op_diff_norm,$lap2", "$war_exp_noise_ct1,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -2210,13 +2210,13 @@
                     {
                         "name": "S Ranked #5",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$s_p_ranked|op_lvlslot17,$s_p_ranked|op_lvlslot18,$s_p_ranked|op_lvlslot19,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot17,$s_p_ranked|op_lvlslot18,$s_p_ranked|op_lvlslot19"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Ranked #5",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$s_p_ranked|op_lvlslot17,$s_p_ranked|op_lvlslot18,$s_p_ranked|op_lvlslot19,portal"],
+                        "access_rules": ["$s_p_ranked|op_lvlslot17,$s_p_ranked|op_lvlslot18,$s_p_ranked|op_lvlslot19,$lap2"],
                         "item_count": 1 
                     }
                 ],

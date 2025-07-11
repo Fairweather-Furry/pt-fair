@@ -925,6 +925,12 @@ function pig_city_pepp_che()
   )
 end
 
+function pig_city_pepp_srank()
+  return(
+    has("op_pepp") and has("bodyslam") and has("djump") and (has("sjump") or has("wclimb") or has("ucut"))
+  )
+end
+
 function pig_city_noise_che()
   return(
     has("op_noise") and (has("sjump"))
@@ -940,6 +946,12 @@ end
 function pig_city_norm_noise_sau()
   return(
     has("op_noise") and has("op_diff_norm") and (has("bodyslam") or has("crush")) and (has("sjump") or has("wbounce"))
+  )
+end
+
+function pig_city_norm_noise_srank()
+  return(
+    has("op_noise") and has("op_diff_norm") and has("sjump") and (has("bodyslam") or has("crush"))
   )
 end
 
@@ -1127,6 +1139,12 @@ end
 function freezerator_pepp_mus()
   return(
     has("op_pepp") and (has("wclimb") or has("sjump"))
+  )
+end
+
+function freezerator_noise_srank()
+  return(
+    has("op_noise") and (has("bodyslam") or has("crush") or has("nado") or has("wbounce"))
   )
 end
 
@@ -1799,31 +1817,39 @@ function s_p_ranked(slot)
   elseif level == 7 then
     return((fun_farm_exp_pepp_com() or fun_farm_noise_com()) and lap2())
   elseif level == 8 and has("op_diff_exp") then
-    return(fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_s3() or fastfood_saloon_exp_noise_com())
+    return(fastfood_saloon_exp_pepp_s3() or fastfood_saloon_exp_noise_com())
   elseif level == 8 and has("op_diff_norm") then
-    return((fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_s3() or fastfood_saloon_exp_noise_com()) and lap2())
+    return((fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_noise_com()) and lap2())
   elseif level == 9 then
-    return(crust_cove_exp_pepp_com() or crust_cove_exp_noise_com())
-  elseif level == 10 then
-    return(gnome_forest_norm_pepp_com() or gnome_forest_exp_pepp_pin() or gnome_forest_norm_noise_com() or (gnome_forest_noise_che() and has("op_diff_exp")))
+    return((crust_cove_exp_pepp_s3() or (crust_cove_norm_noise_com() and has("taunt")) or (crust_cove_exp_noise_com() and has("taunt")) and lap2()))
+  elseif level == 10 and has("op_diff_exp") then
+    return(gnome_forest_exp_pepp_pin() or (gnome_forest_noise_che() and has("op_diff_exp")))
+  elseif level == 10 and has("op_diff_norm") then
+    return((gnome_forest_norm_pepp_com() or gnome_forest_norm_noise_com()) and lap2())
   elseif level == 11 then
-    return(deep_dish_9_pepp_com() or deep_dish_9_norm_noise_com() or deep_dish_9_exp_noise_com())
+    return((deep_dish_9_pepp_com() or deep_dish_9_norm_noise_com() or deep_dish_9_exp_noise_com()) and lap2())
   elseif level == 12 then
-    return(golf_norm_pepp_com() or golf_exp_pepp_com() or golf_norm_noise_com() or golf_exp_noise_com())
+    return((golf_norm_pepp_com() or golf_exp_pepp_com() or golf_norm_noise_com() or golf_exp_noise_com()) and lap2())
   elseif level == 13 then
-    return(pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_com())
-  elseif level == 14 then
-    return(peppibot_factory_norm_pepp_com() or peppibot_factory_exp_pepp_com() or peppibot_factory_norm_noise_com() or (peppibot_factory_exp_noise_com() and has("op_diff_exp")))
+    return((pig_city_pepp_srank() or pig_city_norm_noise_srank() or pig_city_exp_noise_com()) and lap2())
+  elseif level == 14 and has("op_diff_exp") then
+    return(peppibot_factory_exp_pepp_com() or (peppibot_factory_exp_noise_com() and has("op_diff_exp")))
+   elseif level == 14 and has("op_diff_norm") then
+    return((peppibot_factory_norm_pepp_com() or peppibot_factory_norm_noise_com()) and lap2())
   elseif level == 15 then
-    return(oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com())
-  elseif level == 16 then
-    return(freezerator_norm_pepp_com() or freezerator_exp_pepp_com() or has("op_noise"))
-  elseif level == 17 then
-    return(pizzascare_exp_pep_com() or pizzascare_norm_noise_com() or pizzascare_exp_noise_com())
+    return((oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com()) and lap2())
+  elseif level == 16 and has("op_diff_exp") then
+    return(freezerator_exp_pepp_com() or freezerator_noise_srank())
+  elseif level == 16 and has("op_diff_norm") then
+    return((freezerator_norm_pepp_com() or freezerator_noise_srank()) and lap2())
+  elseif level == 17 and has("op_diff_exp") then
+    return((pizzascare_exp_pep_com() and has("op_diff_exp")) or pizzascare_exp_noise_com())
+  elseif level == 17 and has("op_diff_norm") then
+    return((pizzascare_exp_pep_com() or pizzascare_norm_noise_com()) and lap2())
   elseif level == 18 then
-    return(dont_make_sound_norm_pepp_com() or dont_make_sound_exp_pepp_com() or dont_make_sound_norm_noise_com() or dont_make_sound_exp_noise_com())
+    return((dont_make_sound_norm_pepp_com() or dont_make_sound_exp_pepp_com() or dont_make_sound_norm_noise_com() or dont_make_sound_exp_noise_com()) and lap2())
   elseif level == 19 then
-    return(war_exp_pepp_com() or (war_norm_noise_com() or war_exp_noise_com()))
+    return(((war_pepp_com() and has("op_diff_norm")) or war_exp_pepp_com() or (war_norm_noise_com() and has("op_diff_norm")) or war_exp_noise_ct1()) and lap2())
   else
     return false
   end
