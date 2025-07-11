@@ -1785,21 +1785,23 @@ end
 function s_p_ranked(slot)
   level = Tracker:FindObjectForCode(slot).CurrentStage
   if level == 1 then
-    return(john_gutter_exp_pepp_com() or john_gutter_exp_noise_com())
+    return(((john_gutter_exp_pepp_com() and has("op_diff_exp")) or (john_gutter_pepp_com() and has("bodyslam")) or (john_gutter_exp_noise_com() and has("op_diff_exp")) or john_gutter_nom_noise_s2()) and lap2())
   elseif level == 2 then
-    return(pizzascape_exp_pepp_com() or pizzascape_norm_noise_com() or pizzascape_exp_noise_com())
+    return((pizzascape_exp_pepp_com() or pizzascape_exp_noise_s3()) and lap2())
   elseif level == 3 then
-    return(ancient_cheese_exp_pepp_com() or ancient_cheese_norm_noise_com() or ancient_cheese_exp_noise_com())
+    return((ancient_cheese_exp_pepp_com() or ancient_cheese_norm_noise_com() or ancient_cheese_exp_noise_com()) and lap2())
   elseif level == 4 then
-    return(bloodsauce_dungeon_pepp_com() or bloodsauce_dungeon_exp_noise_com())
+    return((bloodsauce_dungeon_pepp_com() or bloodsauce_dungeon_exp_noise_com()) and lap2())
   elseif level == 5 then
-    return(oregano_desert_exp_pepp_com() or oregano_desert_noise_com())
+    return((oregano_desert_exp_pepp_com() or oregano_desert_exp_noise_s1()) and lap2())
   elseif level == 6 then
-    return(wasteyard_pepp_com() or wasteyard_exp_noise_com())
+    return((wasteyard_pepp_com() or wasteyard_noise_com() or (wasteyard_noise_com() and has("op_diff_exp"))) and lap2())
   elseif level == 7 then
-    return(fun_farm_exp_pepp_com() or fun_farm_noise_com())
-  elseif level == 8 then
-    return(fastfood_saloon_exp_pepp_com() or fastfood_saloon_exp_noise_com())
+    return((fun_farm_exp_pepp_com() or fun_farm_noise_com()) and lap2())
+  elseif level == 8 and has("op_diff_exp") then
+    return(fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_s3() or fastfood_saloon_exp_noise_com())
+  elseif level == 8 and has("op_diff_norm") then
+    return((fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_s3() or fastfood_saloon_exp_noise_com()) and lap2())
   elseif level == 9 then
     return(crust_cove_exp_pepp_com() or crust_cove_exp_noise_com())
   elseif level == 10 then
