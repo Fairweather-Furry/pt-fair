@@ -9,7 +9,7 @@
                 "item_margin": "1,1",
                 "item_size": "4,4",
                 "rows": [
-                    ["toppins", "prog_key", "portal"],
+                    ["toppins", "pumpkins", "prog_key", "portal"],
                     ["grab","mach4","ucut","sjump"],
                     ["taunt","staunt","bodyslam","bdance"],
                     ["wclimb","djump","rkick","spin"],
@@ -29,8 +29,9 @@
                 "rows": [
                     ["op_char","op_oworld","op_ladder","op_diff"],
                     ["op_f1_cost","op_f2_cost","op_f3_cost","op_f4_cost"],
-                    ["op_f5_cost","op_task","op_entrandman", "op_portal"],
-                    ["op_secret","op_srank","op_prank","op_treasure"]
+                    ["op_f5_cost", "op_tt_cost", "op_treasure", "op_secret"],
+                    ["op_srank","op_prank","op_task", "op_pumpkin"],
+                    ["op_portal", "op_entrandman"]
                 ]
             }
         ]

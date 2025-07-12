@@ -227,6 +227,13 @@
         "codes": "toppins"
     },
     {
+        "name": "Pumpkins",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "img": "images/Pumpkin.png",
+        "codes": "pumpkins"
+    },
+    {
         "name": "Lap 2 Portals",
         "type": "toggle",
         "img": "images/Portal.png",
@@ -308,6 +315,14 @@
         "codes": "op_f5_cost"
     },
     {
+        "name": "Tricky Treat Cost",
+        "type": "consumable",
+        "max_quantity": 50,
+        "initial_quantity": 20,
+        "img": "images/PumpkinGate.png",
+        "codes": "op_tt_cost"
+    },
+    {
         "name": "Treasure Checks",
         "type": "toggle",
         "img": "images/Treasure.png",
@@ -336,6 +351,12 @@
         "type": "toggle",
         "img": "images/ChefTasks.png",
         "codes": "op_task"
+    },
+    {
+        "name": "Pumpkin Checks",
+        "type": "toggle",
+        "img": "images/Pumpkin.png",
+        "codes": "op_pumpkin"
     },
     {
         "name": "Open World",
