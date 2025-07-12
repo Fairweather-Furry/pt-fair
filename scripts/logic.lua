@@ -1057,6 +1057,12 @@ function peppibot_factory_exp_pepp_tre()
   )
 end
 
+function peppibot_factory_exp_pepp_pum()
+  return(
+    has("op_pepp") and has("op_diff_exp") and ((has("sjump") or has("ucut")) or (has("wclimb") and (has("grab") and has("ucut"))))
+  )
+end
+
 function peppibot_factory_noise_pin()
   return(
     has("op_noise") and has("sjump")
@@ -1235,6 +1241,12 @@ end
 function pizzascare_pepp_mus()
   return(
     pizzascare_pepp_com() or (has("op_pepp") and has("sjump") and has("bodyslam"))
+  )
+end
+
+function pizzascare_pepp_pum()
+  return(
+    has("op_pepp") and (has("sjump") or has("wclimb"))
   )
 end
 
@@ -1454,6 +1466,12 @@ function reach_pizzaface()
   )
 end
 
+function crumbling_tower_pepp_pum()
+  return(
+    has("op_pepp") and has("grab") and has("bodyslam")
+  )
+end
+
 function crumbling_tower_norm_pepp_com()
   return(
     has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("sjump") and has("wclimb")
@@ -1466,6 +1484,18 @@ function crumbling_tower_exp_pepp_com()
   )
 end
 
+function crumbling_tower_exp_pepp_pum()
+  return(
+    crumbling_tower_pepp_pum() or (has("op_pepp") and has("op_diff_exp") and has("ucut") and has("bodyslam"))
+  )
+end
+
+function crumbling_tower_noise_pum()
+  return(
+    has("op_noise") and has("grab") and (has("bodyslam") or ahs("nado") or has("crush"))
+  )
+end
+
 function crumbling_tower_norm_noise_com()
   return(
     has("op_noise") and has("op_diff_norm") and has("grab") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
@@ -1475,6 +1505,12 @@ end
 function crumbling_tower_exp_noise_com()
   return(
     has("op_noise") and has("op_diff_exp") and has("grab") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado")) or has("wbounce")))
+  )
+end
+
+function crumbling_tower_exp_noise_pum()
+  return(
+    crumbling_tower_noise_pum() or (has("op_noise") and has("op_diff_exp") and ((has("grab") and has("wbounce")) or (has("ucut") and (has("bodyslam") or has("nado") or has("crush") or has("wbounce")))))
   )
 end
 
@@ -1883,17 +1919,17 @@ function pumpkin_munckin()
     (wasteyard_access() and (wasteyard_exp_pepp_pin() or wasteyard_noise_com())) and 
     (fun_farm_access() and (fun_farm_exp_pepp_com() or fun_farm_norm_noise_sau() or fun_farm_exp_noise_sau())) and 
     (fastfood_saloon_access() and (fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_com() or fastfood_saloon_exp_noise_com())) and 
-    (crust_cove_access() and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) and 
-    ( and ()) 
+    (crust_cove_access() and ((crust_cove_pepp_com() and has("sjump")) or crust_cove_norm_noise_com() or crust_cove_exp_noise_com() or (has("op_noise") and has("op_diff_norm") and has("sjump") and has("wbounce")))) and 
+    (gnome_forest_access() and (gnome_forest_norm_pepp_pin() or gnome_forest_exp_pepp_pin() or gnome_forest_exp_noise_che())) and 
+    (deep_dish_9_access() and (deep_dish_9_pepp_pin() or deep_dish_9_norm_noise_com() or (deep_dish_9_exp_noise_tom() or has("op_diff_exp")))) and 
+    (golf_access() and (golf_norm_pepp_com() or has("op_diff_exp") or golf_norm_noise_com())) and 
+    (pig_city_access() and (pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_tom())) and 
+    (peppibot_factory_access() and (peppibot_factory_norm_pepp_sau() or peppibot_factory_exp_pepp_pum() or peppibot_factory_exp_noise_pin())) and 
+    (oh_shit_access() and (oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com())) and 
+    (freezerator_access() and (freezerator_norm_pepp_com() or freezerator_exp_pepp_com() or has("op_noise"))) and 
+    (pizzascare_access() and (pizzascare_pepp_pum() or has("op_diff_exp") or has("op_noise"))) and 
+    (dont_make_sound_access() and (dont_make_sound_exp_pepp_che() or dont_make_sound_norm_noise_sau() or (dont_make_sound_noise_che() and has("op_diff_exp")))) and 
+    (war_access() and (war_norm_pepp_sau() or (war_exp_pepp_com() and has("op_diff_exp")) or (war_noise_che() and has("op_diff_norm")) or war_exp_noise_sau())) and 
+    (reach_pizzaface() and ((has("op_pepp") and has("grab")) or (has("op_noise") and has("bomb"))) and (crumbling_tower_exp_pepp_pum() or crumbling_tower_exp_noise_pum())) 
   )
 end

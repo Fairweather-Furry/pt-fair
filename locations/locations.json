@@ -1083,7 +1083,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$crust_cove_pepp_com,sjump", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com", "op_noise,op_diff_norm,sjump,wbounce"],
                         "item_count": 1
                     }
                 ],
@@ -1186,7 +1186,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_exp_noise_che"],
                         "item_count": 1
                     }
                 ],
@@ -1289,7 +1289,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
                         "item_count": 1
                     }
                 ],
@@ -1392,7 +1392,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
                         "item_count": 1
                     }
                 ],
@@ -1604,7 +1604,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$pig_city_pepp_com", "$pig_city_norm_noise_com", "$pig_city_exp_noise_tom"],
                         "item_count": 1
                     }
                 ],
@@ -1707,7 +1707,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$peppibot_factory_norm_pepp_sau", "$peppibot_factory_exp_pepp_pum", "$peppibot_factory_exp_noise_pin"],
                         "item_count": 1
                     }
                 ],
@@ -1810,7 +1810,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
                     }
                 ],
@@ -1913,7 +1913,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
                         "item_count": 1
                     }
                 ],
@@ -2077,7 +2077,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$pizzascare_pepp_pum", "op_diff_exp", "op_noise"],
                         "item_count": 1
                     }
                 ],
@@ -2178,7 +2178,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$dont_make_sound_exp_pepp_che", "$dont_make_sound_norm_noise_sau", "$dont_make_sound_noise_che,op_diff_exp"],
                         "item_count": 1
                     }
                 ],
@@ -2281,7 +2281,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$war_norm_pepp_sau", "$war_exp_pepp_com,op_diff_exp", "$war_noise_che,op_diff_norm", "$war_exp_noise_sau"],
                         "item_count": 1
                     }
                 ],
@@ -2366,7 +2366,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": [],
+                        "access_rules": ["$crumbling_tower_exp_pepp_pum", "$crumbling_tower_exp_noise_pum"],
                         "item_count": 1
                     }
                 ],
