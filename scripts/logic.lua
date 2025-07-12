@@ -158,7 +158,7 @@ end
 
 function john_gutter_exp_noise_tom()
   return(
-    john_gutter_noise_tom() or (has("op_noise") and has("op_diff_exp") and (has("grab") or has("bodyslam")))
+    john_gutter_noise_tom() or (has("op_noise") and has("op_diff_exp") and (has("grab")))
   )
 end
 
@@ -231,6 +231,12 @@ end
 function pizzascape_norm_noise_com()
   return(
     pizzascape_noise_com() or (has("op_noise") and has("op_diff_norm") and has("grab") and has("ucut"))
+  )
+end
+
+function pizzascape_norm_noise_pum()
+  return(
+    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("wbounce") or has("ucut"))
   )
 end
 
@@ -522,9 +528,21 @@ function fun_farm_pepp_ct2()
   )
 end
 
+function fun_farm_pepp_srank()
+  return(
+    has("op_pepp") and has("bodyslam") and has("sjump")
+  )
+end
+
 function fun_farm_exp_pepp_com()
   return(
     fun_farm_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and has("bodyslam") and has("ucut"))
+  )
+end
+
+function fun_farm_exp_pepp_srank()
+  return(
+    fun_farm_pepp_srank() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("grab") and has("wclimb"))
   )
 end
 
@@ -1815,7 +1833,7 @@ function s_p_ranked(slot)
   elseif level == 6 then
     return((wasteyard_pepp_com() or wasteyard_noise_com() or (wasteyard_noise_com() and has("op_diff_exp"))) and lap2())
   elseif level == 7 then
-    return((fun_farm_exp_pepp_com() or fun_farm_noise_com()) and lap2())
+    return((fun_farm_exp_pepp_srank() or fun_farm_noise_com()) and lap2())
   elseif level == 8 and has("op_diff_exp") then
     return(fastfood_saloon_exp_pepp_s3() or fastfood_saloon_exp_noise_com())
   elseif level == 8 and has("op_diff_norm") then
@@ -1853,4 +1871,29 @@ function s_p_ranked(slot)
   else
     return false
   end
+end
+
+function pumpkin_munckin()
+  return(
+    (john_gutter_access() and (john_gutter_pepp_tom() or (has("op_diff_exp") and has("grab")) or john_gutter_noise_tom())) and 
+    (pizzascape_access() and (pizzascape_pepp_tre() or pizzascape_exp_noise_s3() or pizzascape_norm_noise_pum())) and 
+    (ancient_cheese_access() and (ancient_cheese_exp_pepp_com() or ancient_cheese_norm_noise_com() or ancient_cheese_exp_noise_pin())) and
+    (bloodsauce_dungeon_access() and (bloodsauce_dungeon_pepp_pin() or bloodsauce_dungeon_exp_noise_pin() or (has("op_noise") and has("wbounce")))) and 
+    (oregano_desert_access() and (oregano_desert_exp_pepp_com() or oregano_desert_noise_com())) and 
+    (wasteyard_access() and (wasteyard_exp_pepp_pin() or wasteyard_noise_com())) and 
+    (fun_farm_access() and (fun_farm_exp_pepp_com() or fun_farm_norm_noise_sau() or fun_farm_exp_noise_sau())) and 
+    (fastfood_saloon_access() and (fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_com() or fastfood_saloon_exp_noise_com())) and 
+    (crust_cove_access() and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) and 
+    ( and ()) 
+  )
 end

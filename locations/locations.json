@@ -142,6 +142,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$john_gutter_exp_pepp_com,$lap2", "$john_gutter_exp_noise_com,$lap2"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$john_gutter_pepp_tom", "op_diff_exp,grab", "$john_gutter_noise_tom"],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -237,6 +243,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["grab", "ucut,op_diff_exp"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$pizzascape_pepp_tre", "$pizzascape_exp_noise_s3", "$pizzascape_norm_noise_pum"],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -330,6 +342,12 @@
                     {
                         "name": "Chef Task: Delicacy",
                         "visibility_rules": ["op_task"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$ancient_cheese_exp_pepp_com", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_pin"],
                         "item_count": 1
                     }
                 ],
@@ -425,6 +443,12 @@
                         "name": "Chef Task: Unsliced Pizzaman",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_pin", "$bloodsauce_dungeon_exp_noise_pin", "op_noise,wbounce"],
                         "item_count": 1
                     }
                 ],
@@ -583,6 +607,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$oregano_desert_exp_pepp_com", "$oregano_desert_noise_com"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$oregano_desert_exp_pepp_com", "$oregano_desert_noise_com"],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -679,6 +709,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -750,13 +786,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$fun_farm_exp_pepp_com,$lap2", "$fun_farm_noise_com,$lap2"],
+                        "access_rules": ["$fun_farm_exp_pepp_srank,$lap2", "$fun_farm_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$fun_farm_exp_pepp_com,$lap2", "$fun_farm_noise_com,$lap2"],
+                        "access_rules": ["$fun_farm_exp_pepp_srank,$lap2", "$fun_farm_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -775,6 +811,12 @@
                         "name": "Chef Task: Good Egg",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": ["$fun_farm_exp_pepp_com","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
                         "item_count": 1
                     }
                 ],
@@ -871,6 +913,12 @@
                     {
                         "name": "Chef Task: Royal Flush",
                         "visibility_rules": ["op_task"],
+                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
                         "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
                         "item_count": 1
                     }
@@ -1031,6 +1079,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1127,6 +1181,12 @@
                         "name": "Chef Task: Bullseye",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["taunt"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
                         "item_count": 1
                     }
                 ],
@@ -1225,6 +1285,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_exp_noise_ct3"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1321,6 +1387,12 @@
                         "name": "Chef Task: Helpful Burger",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
                         "item_count": 1
                     }
                 ],
@@ -1528,6 +1600,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pig_city_pepp_com,taunt", "$pig_city_norm_noise_com,taunt", "$pig_city_exp_noise_ct1,taunt"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1569,7 +1647,7 @@
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$peppibot_factory_norm_pepp_com", "$peppibot_factory_exp_pepp_pin", "$peppibot_factory_exp_noise_pin"],
+                        "access_rules": ["$peppibot_factory_norm_pepp_sau", "$peppibot_factory_exp_pepp_pin", "$peppibot_factory_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
@@ -1624,6 +1702,12 @@
                         "name": "Chef Task: There Can Only Be One",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$peppibot_factory_norm_pepp_com,$lap2", "$peppibot_factory_exp_pepp_com,$lap2", "$peppibot_factory_norm_noise_com,$lap2", "$peppibot_factory_exp_noise_com,$lap2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
                         "item_count": 1
                     }
                 ],
@@ -1722,6 +1806,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$oh_shit_norm_pepp_s3", "$oh_shit_pepp_com,op_diff_exp", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1818,6 +1908,12 @@
                         "name": "Chef Task: Ice Climber",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
                         "item_count": 1
                     }
                 ],
@@ -1977,6 +2073,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -2071,6 +2173,12 @@
                         "name": "Chef Task: Jumpspared",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
                         "item_count": 1
                     }
                 ],
@@ -2169,6 +2277,12 @@
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$war_pepp_com,op_diff_norm", "$war_exp_pepp_ct1", "$war_norm_noise_com", "$war_exp_noise_ct1"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -2248,6 +2362,12 @@
                         "visibility_rules": ["op_prank"],
                         "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com","$crumbling_tower_exp_noise_com"],
                         "item_count": 1 
+                    },
+                    {
+                        "name": "Pumpkin",
+                        "visibility_rules": ["op_pumpkin"],
+                        "access_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
