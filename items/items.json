@@ -437,7 +437,7 @@
         "codes": "op_entrandman"
     },
     {
-        "name": "Lap 2 Portal",
+        "name": "Lap 2 Portal Shuffle",
         "type": "toggle",
         "img": "images/Portal.png",
         "codes": "op_portal"

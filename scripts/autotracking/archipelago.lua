@@ -106,6 +106,7 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_f5_cost").AcquiredCount = tonumber(slot_data["floor_5_toppins"])
     end
     
+    Tracker:FindObjectForCode("op_tt_cost").AcquiredCount = tonumber(slot_data["pumpkin_count"])
     Tracker:FindObjectForCode("op_oworld").Active = slot_data["open_world"]
     Tracker:FindObjectForCode("op_diff").Active = slot_data["difficulty"]
     Tracker:FindObjectForCode("op_treasure").Active = slot_data["treasure_checks"]
@@ -113,6 +114,8 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("op_prank").Active = slot_data["prank_checks"]
     Tracker:FindObjectForCode("op_task").Active = slot_data["cheftask_checks"]
     Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
+    Tracker:FindObjectForCode("op_portal").Active = slot_data["shuffle_lap2"]
+    Tracker:FindObjectForCode("op_pumpkin").Active = slot_data["pumpkin_checks"]
 
     -- Starting Moves
     for i, val in pairs(MOVE_MAPPING) do
