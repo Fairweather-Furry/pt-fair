@@ -48,6 +48,14 @@ function calculate_floor_cost(floor_count)
   end
 end
 
+function reach_tt()
+  if Tracker:ProviderCountForCode("pumpkins") >= Tracker:ProviderCountForCode("op_tt_cost") then
+    return true
+  else
+    return false
+  end
+end
+
 function lap2()
   return(
     (not has("op_portal")) or (has("op_portal") and has("portal"))
