@@ -1067,7 +1067,7 @@ end
 
 function peppibot_factory_exp_pepp_pum()
   return(
-    has("op_pepp") and has("op_diff_exp") and ((has("sjump") or has("ucut")) or (has("wclimb") and (has("grab") and has("ucut"))))
+    has("op_pepp") and has("op_diff_exp") and ((has("sjump") or has("ucut")) or (has("wclimb") and (has("grab") or has("ucut"))))
   )
 end
 
@@ -1200,7 +1200,7 @@ end
 
 function freezerator_exp_pepp_com()
   return(
-    has("op_noise") and has("op_diff_exp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and (has("sjump") or has("wclimb"))
   )
 end
 
@@ -1387,6 +1387,12 @@ end
 function dont_make_sound_exp_noise_s3()
   return (
     dont_make_sound_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("crush") or has("wbounce")))
+  )
+end
+
+function dont_make_sound_exp_noise_srank()
+  return(
+    has("op_noise") and has("op_diff_exp") and ((has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or ((has("crush") or has("wbounce")) and (has("grab") or has("ucut"))))
   )
 end
 
@@ -1909,7 +1915,7 @@ function s_p_ranked(slot)
   elseif level == 17 and has("op_diff_norm") then
     return((pizzascare_exp_pep_com() or pizzascare_norm_noise_com()) and lap2())
   elseif level == 18 then
-    return((dont_make_sound_norm_pepp_com() or dont_make_sound_exp_pepp_com() or dont_make_sound_norm_noise_com() or dont_make_sound_exp_noise_com()) and lap2())
+    return((dont_make_sound_norm_pepp_com() or (dont_make_sound_exp_pepp_com() and has("bodyslam")) or dont_make_sound_norm_noise_com() or dont_make_sound_exp_noise_srank()) and has("taunt") and lap2())
   elseif level == 19 then
     return(((war_pepp_com() and has("op_diff_norm")) or war_exp_pepp_com() or (war_norm_noise_com() and has("op_diff_norm")) or war_exp_noise_ct1()) and lap2())
   else

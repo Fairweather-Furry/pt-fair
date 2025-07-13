@@ -2148,13 +2148,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com,$lap2", "$dont_make_sound_exp_pepp_com,$lap2", "$dont_make_sound_norm_noise_com,$lap2", "$dont_make_sound_exp_noise_com,$lap2"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com,taunt,$lap2", "$dont_make_sound_exp_pepp_com,bodyslam,taunt,$lap2", "$dont_make_sound_norm_noise_com,taunt,$lap2", "$dont_make_sound_exp_noise_srank,taunt,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com,$lap2", "$dont_make_sound_exp_pepp_com,$lap2", "$dont_make_sound_norm_noise_com,$lap2", "$dont_make_sound_exp_noise_com,$lap2"],
+                        "access_rules": ["$dont_make_sound_norm_pepp_com,taunt,$lap2", "$dont_make_sound_exp_pepp_com,bodyslam,taunt,$lap2", "$dont_make_sound_norm_noise_com,taunt,$lap2", "$dont_make_sound_exp_noise_srank,taunt,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -2206,7 +2206,7 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$war_norm_pepp_sau", "$war_exp_pepp_com,op_diff_exp", "$war_noise_che,op_diff_norm", "$war_exp_noise_sau"],
+                        "access_rules": ["$war_exp_pepp_com", "$war_noise_che,op_diff_norm", "$war_exp_noise_sau"],
                         "item_count": 1
                     },
                     {
