@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.3 AP",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.3/pt-fair.zip",
+            "sha256": "b04770d7d2416d8a716fef223fc93d04781d303b1f484dde9311549633633eb0",
+            "changelog": [
+                "Tricksy Treat, Lap 2 Portals, And More",
+                "Multiple logic changes and fixes for various levels.",
+                "Added Tricksy Treat and pumpkins, along with option toggle.",
+                "Added Lap 2 Portal options toggles."
+            ]
+        },
+        {
             "package_version": "0.2 AP",
             "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.2/pt-fair.zip",
             "sha256": "7e13e9b592b48908a96077b8b4bb09c85bda8541b0066745d79d38e9ae171d68",
