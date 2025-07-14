@@ -2380,21 +2380,18 @@
             },
             {
                 "name": "Tricky Treat",
-                "access_rules": ["op_pumpkin"],
+                "access_rules": ["op_pumpkin,$reach_tt"],
                 "sections": [
                     {
                         "name": "Main Path Pumpkin 1",
-                        "access_rules": ["$reach_tt"],
                         "item_count": 1
                     },
                     {
                         "name": "Main Path Pumpkin 2",
-                        "visibility_rules": ["$reach_tt"],
                         "item_count": 1
                     },
                     {
                         "name": "Main Path Pumpkin 3",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pum3", "$tricky_treat_noise_pum3"],
                         "item_count": 1
                     },
@@ -2406,37 +2403,31 @@
                     },
                     {
                         "name": "Main Path Pumpkin 5",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum5"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 1",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pum3", "$tricky_treat_noise_pum3"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 2",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pumS4", "$tricky_treat_noise_pum3"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 3",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pum3", "$tricky_treat_noise_pum3"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 4",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pumS4", "$tricky_treat_norm_noise_pum4", "$tricky_treat_noise_pum3,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 5",
-                        "visibility_rules": ["$reach_tt"],
                         "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum4"],
                         "item_count": 1
                     },
@@ -2448,7 +2439,7 @@
                     },
                     {
                         "name": "Chef Task: Tricksy",
-                        "visibility_rules": ["op_task,$reach_tt"],
+                        "visibility_rules": ["op_task"],
                         "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum5"],
                         "item_count": 1
                     }

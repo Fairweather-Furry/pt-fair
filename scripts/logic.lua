@@ -1998,6 +1998,7 @@ function pumpkin_munckin()
     (pizzascare_access() and (pizzascare_pepp_pum() or has("op_diff_exp") or has("op_noise"))) and 
     (dont_make_sound_access() and (dont_make_sound_exp_pepp_che() or dont_make_sound_norm_noise_sau() or (dont_make_sound_noise_che() and has("op_diff_exp")))) and 
     (war_access() and (war_norm_pepp_sau() or (war_exp_pepp_com() and has("op_diff_exp")) or (war_noise_che() and has("op_diff_norm")) or war_exp_noise_sau())) and 
-    (reach_pizzaface() and ((has("op_pepp") and has("grab")) or (has("op_noise") and has("bomb"))) and (crumbling_tower_exp_pepp_pum() or crumbling_tower_exp_noise_pum())) 
+    (reach_pizzaface() and ((has("op_pepp") and has("grab")) or (has("op_noise") and has("bomb"))) and (crumbling_tower_exp_pepp_pum() or crumbling_tower_exp_noise_pum())) and
+    (reach_tt() and (tricky_treat_pepp_pum5() or tricky_treat_exp_noise_pum5()))
   )
 end
