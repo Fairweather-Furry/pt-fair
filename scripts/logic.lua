@@ -508,7 +508,7 @@ end
 
 function wasteyard_noise_com()
   return(
-    wasteyard_noise_s1() or (has("op_noise") and has("ucut"))
+    wasteyard_noise_s1() or (has("op_noise") and (has("ucut") or has("crush")))
   )
 end
 
@@ -1506,7 +1506,7 @@ end
 
 function crumbling_tower_noise_pum()
   return(
-    has("op_noise") and has("grab") and (has("bodyslam") or ahs("nado") or has("crush"))
+    has("op_noise") and has("grab") and (has("bodyslam") or has("nado") or has("crush"))
   )
 end
 
