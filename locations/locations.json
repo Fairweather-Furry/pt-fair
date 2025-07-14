@@ -2380,7 +2380,8 @@
             },
             {
                 "name": "Tricky Treat",
-                "access_rules": ["op_pumpkin,$reach_tt"],
+                "visibility_rules": ["op_pumpkin"],
+                "access_rules": ["$reach_tt"],
                 "sections": [
                     {
                         "name": "Main Path Pumpkin 1",
