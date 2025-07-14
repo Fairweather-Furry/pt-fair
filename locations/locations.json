@@ -2398,7 +2398,7 @@
                     },
                     {
                         "name": "Main Path Pumpkin 4",
-                        "access_rules": ["$tricky_treat_pepp_pum5,$reach_tt", "$tricky_treat_exp_noise_pum4,$reach_tt"],
+                        "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum4"],
                         "item_count": 1
                     },
                     {
