@@ -326,6 +326,12 @@ function ancient_cheese_norm_noise_che()
   )
 end
 
+function ancient_cheese_norm_noise_pin()
+  return(
+    has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))
+  )
+end
+
 function ancient_cheese_exp_noise_com()
   return(
     has("op_noise") and has("op_diff_exp") and ((has("ucut") and (has("sjump") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush"))) or (has("grab") and has("sjump") and (has("bodyslam") or has("nado") or has("crush"))))
