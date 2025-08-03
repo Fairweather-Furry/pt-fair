@@ -1661,7 +1661,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_9joreganodesert",
+                "codes": "op_9oreganodesert",
                 "inherit_codes": false
             },
             {
@@ -2831,7 +2831,7 @@
             {
                 "name": "Oregano Desert",
                 "img": "images/OreganoDesert.png",
-                "codes": "op_18joreganodesert",
+                "codes": "op_18oreganodesert",
                 "inherit_codes": false
             },
             {
