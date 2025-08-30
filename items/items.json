@@ -98,85 +98,85 @@
     {
         "name": "Ball",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Ball.png",
         "codes": "ball"
     },
     {
         "name": "Knight",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Knight.png",
         "codes": "knight"
     },
     {
         "name": "Fire Mouth",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Firemouth.png",
         "codes": "fmouth"
     },
     {
         "name": "Ghost",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Ghost.png",
         "codes": "ghost"
     },
     {
         "name": "Mort",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Mort.png",
         "codes": "mort"
     },
     {
         "name": "Weenie",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Weenie.png",
         "codes": "weenie"
     },
     {
         "name": "Barrel",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Barrel.png",
         "codes": "barrel"
     },
     {
         "name": "Olive Bubble",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Olive.png",
         "codes": "obubble"
     },
     {
         "name": "Rocket",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Rocket.png",
         "codes": "rocket"
     },
     {
         "name": "Pizzabox",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Box.png",
         "codes": "pbox"
     },
     {
         "name": "Sticky Cheese",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Sticky.png",
         "codes": "scheese"
     },
     {
         "name": "Satan's Choice",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Satan.png",
         "codes": "schoice"
     },
     {
         "name": "Shotgun",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Shotgun.png",
         "codes": "sgun"
     },
     {
         "name": "Revolver",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Revolver.png",
         "codes": "revolve"
     },
     {
@@ -367,13 +367,13 @@
     {
         "name": "Movement Rando",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Grab.png",
         "codes": "op_moverando"
     },
     {
         "name": "Transformation Rando",
         "type": "toggle",
-        "img": "images/Bomb.png",
+        "img": "images/Knight.png",
         "codes": "op_tfrando"
     },
     {
