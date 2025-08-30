@@ -10,12 +10,12 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$tutorial_exp_com", "$tutorial_noise"],
+                        "access_rules": ["$tutorial_pepp_com", "$tutorial_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Complete in under 2 minutes",
-                        "access_rules": ["$tutorial_norm_com20", "$tutorial_exp_com,op_diff_exp", "$tutorial_noise"],
+                        "access_rules": ["$tutorial_pepp_com", "$tutorial_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -27,25 +27,25 @@
                     {
                         "name": "Cheese Toppin",
                         "visibility_rules": ["$not_noise"],
-                        "access_rules": ["$tutorial_exp_sau"],
+                        "access_rules": ["$tutorial_tom"],
 						"item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
                         "visibility_rules": ["$not_noise"],
-                        "access_rules": ["$tutorial_exp_sau"],
+                        "access_rules": ["$tutorial_tom"],
 						"item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
                         "visibility_rules": ["$not_noise"],
-                        "access_rules": ["$tutorial_sau,op_diff_norm", "$tutorial_exp_sau,op_diff_exp"],
+                        "access_rules": ["$tutorial_sau"],
 						"item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
                         "visibility_rules": ["$not_noise"],
-                        "access_rules": ["$tutorial_exp_com,op_diff_norm", "$tutorial_exp_sau,op_diff_exp"],
+                        "access_rules": ["$tutorial_pepp_com"],
 						"item_count": 1
                     }
                 ],
@@ -63,90 +63,90 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$john_gutter_exp_pepp_mus", "$john_gutter_exp_noise_tom"],
+                        "access_rules": ["$john_gutter_pepp_mus", "$john_gutter_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$john_gutter_exp_pepp_tom", "$john_gutter_exp_noise_tom"],
+                        "access_rules": ["$john_gutter_pepp_tom", "$john_gutter_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$john_gutter_exp_pepp_tom", "$john_gutter_exp_noise_tom"],
+                        "access_rules": ["$john_gutter_pepp_tom", "$john_gutter_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$john_gutter_exp_pepp_mus", "$john_gutter_exp_noise_tom"],
+                        "access_rules": ["$john_gutter_pepp_tom", "$john_gutter_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,op_diff_exp", "$john_gutter_pepp_com,bodyslam", "$john_gutter_exp_noise_com,op_diff_exp", "$john_gutter_nom_noise_s2"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,op_diff_exp,$lap2", "$john_gutter_pepp_com,bodyslam,$lap2", "$john_gutter_exp_noise_com,op_diff_exp,$lap2", "$john_gutter_nom_noise_s2,$lap2"]
+                        "access_rules": ["$john_gutter_pepp_com,$lap2", "$john_gutter_noise_com,$lap2"]
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,op_diff_exp,$lap2", "$john_gutter_pepp_com,bodyslam,$lap2", "$john_gutter_exp_noise_com,op_diff_exp,$lap2", "$john_gutter_nom_noise_s2,$lap2"]
+                        "access_rules": ["$john_gutter_pepp_com,$lap2", "$john_gutter_noise_com,$lap2"]
                     },
                     {
                         "name": "Chef Task: John Gutted",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$john_gutter_exp_pepp_com", "$john_gutter_exp_noise_com"],
+                        "access_rules": ["$john_gutter_pepp_com", "$john_gutter_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Let's Make This Quick",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,op_diff_exp", "$john_gutter_pepp_com,mach4", "$john_gutter_exp_noise_com,op_diff_exp", "op_noise,op_diff_norm,sjump,mach4"],
+                        "access_rules": ["$john_gutter_pepp_ct3", "$john_gutter_noise_ct3"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Primate Rage",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$john_gutter_exp_pepp_com,$lap2", "$john_gutter_exp_noise_com,$lap2"],
+                        "access_rules": ["$john_gutter_pepp_com,$lap2", "$john_gutter_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$john_gutter_pepp_tom", "op_diff_exp,grab", "$john_gutter_noise_tom"],
+                        "access_rules": ["$john_gutter_pepp_pum", "$john_gutter_noise_pum"],
                         "item_count": 1
                     }
                 ],

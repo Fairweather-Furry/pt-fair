@@ -232,109 +232,91 @@ end
 
 function tutorial_mus()
   return(
-    (has("op_pepp") and has("bodyslam"))
+    has("op_pepp") and slam()
   )
 end
 
 function tutorial_tom()
   return(
-    tutorial_mus() and has("wclimb")
+    has("op_pepp") and slam() and (climb() or (has("op_diff_exp") and sjump() and grab()))
   )
 end
 
 function tutorial_sau()
   return(
-    tutorial_tom() and has("sjump")
+    has("op_pepp") and slam() and ((climb() and sjump()) or (has("op_diff_exp") and grab() and (sjump() or climb())))
   )
 end
 
 function tutorial_pepp_com()
   return(
-    tutorial_mus() and has("sjump") and has("grab")
+    has("op_pepp") and slam() and grab() and ((climb() and sjump()) or (has("op_diff_exp") and (sjump() or climb())))
   )
 end
 
-function tutorial_norm_com20()
+function tutorial_noise_com()
   return(
-    tutorial_pepp_com() and has("wclimb")
+    has("op_noise") and ((sjump() and (slam() or torn() or bounce())) or (has("op_diff_exp") and crush()))
   )
 end
 
-function tutorial_exp_sau()
+function john_gutter_pepp_mus()
   return(
-    tutorial_tom() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and has("grab"))
-  )
-end
-
-function tutorial_exp_com()
-  return(
-    tutorial_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("wclimb") and has("grab"))
-  )
-end
-
-function tutorial_noise()
-  return(
-    has("op_noise") and ((has("sjump") and (has("bodyslam") or has("nado"))) or (has("crush") and (has("sjump") or has("op_diff_exp"))) or (has("sjump") and has("wbounce") and has("op_diff_exp"))) 
-  )
-end
-
-function john_gutter_pepp_com()
-  return(
-    has("op_pepp") and has("sjump")
+    has("op_pepp") and (sjump() or climb() or upper() or (has("op_diff_exp") and (grab() or slam())))
   )
 end
 
 function john_gutter_pepp_tom()
   return(
-    john_gutter_pepp_com() or (has("op_pepp") and (has("wclimb") or has("ucut")))
+    has("op_pepp") and ((slam() and (sjump() or climb() or upper())) or (has("op_diff_exp") and (sjump() or climb() or upper() or grab() or slam())))
   )
 end
 
-function john_gutter_exp_pepp_com()
+function john_gutter_pepp_com()
   return(
-    john_gutter_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("wclimb"))
+    has("op_pepp") and ((sjump() and slam()) or (has("op_diff_exp") and (sjump() or climb())))
   )
 end
 
-function john_gutter_exp_pepp_tom()
-  return (
-    john_gutter_pepp_tom() or (has("op_pepp") and has("op_diff_exp") and (has("grab") or has("bodyslam")))
-  )
-end
-
-function john_gutter_exp_pepp_mus()
-  return (
-    john_gutter_pepp_tom() or (has("op_pepp") and has("op_diff_exp") and (has("grab") or has("bodyslam")))
-  )
-end
-
-function john_gutter_noise_com()
+function john_gutter_pepp_ct3()
   return(
-    has("op_noise") and has("sjump")
+    has("op_pepp") and ((climb() and sjump() and mach4() and slam()) or (has("op_diff_exp") and (sjump() or climb())))
+  )
+end
+
+function john_gutter_pepp_pum()
+  return(
+    has("op_pepp") and (sjump() or climb() or upper() or (has("op_diff_exp") and grab()))
+  )
+end
+
+function john_gutter_noise_mus()
+  return(
+    has("op_noise") and (sjump() or bounce() or crush() or upper() or (has("op_diff_exp") and (grab() or slam())))
   )
 end
 
 function john_gutter_noise_tom()
   return(
-    john_gutter_noise_com() or (has("op_noise") and (has("wbounce") or has("crush") or has("ucut")))
+    has("op_noise") and (crush() or (slam() and (sjump() or bounce() or upper())) or (has("op_diff_exp") and (sjump() or upper() or bounce() or grab() or slam())))
   )
 end
 
-function john_gutter_nom_noise_s2()
+function john_gutter_noise_com()
   return(
-    has("op_noise") and has("op_diff_norm") and has("sjump") and (has("bodyslam") or has("crush") or has("nado"))
+    has("op_noise") and ((sjump() and (slam() or crush())) or (has("op_diff_exp") and (sjump() or upper() or crush() or bounce())))
   )
 end
 
-function john_gutter_exp_noise_com()
-  return (
-    john_gutter_noise_com() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("crush") or has("wbounce")))
-  )
-end
-
-function john_gutter_exp_noise_tom()
+function john_gutter_noise_ct3()
   return(
-    john_gutter_noise_tom() or (has("op_noise") and has("op_diff_exp") and (has("grab")))
+    has("op_noise") and ((sjump() and mach4() and (slam() or crush())) or (has("op_diff_exp") and (sjump() or upper() or crush() or bounce())))
+  )
+end
+
+function john_gutter_noise_pum()
+  return(
+    has("op_noise") and (sjump() or bounce() or crush() or upper() or (has("op_diff_exp") and grab()))
   )
 end
 
@@ -2099,7 +2081,7 @@ end
 function s_p_ranked(slot)
   level = Tracker:FindObjectForCode(slot).CurrentStage
   if level == 1 then
-    return(((john_gutter_exp_pepp_com() and has("op_diff_exp")) or (john_gutter_pepp_com() and has("bodyslam")) or (john_gutter_exp_noise_com() and has("op_diff_exp")) or john_gutter_nom_noise_s2()) and lap2())
+    return((john_gutter_pepp_com() or john_gutter_noise_com()) and lap2())
   elseif level == 2 then
     return((pizzascape_exp_pepp_com() or pizzascape_exp_noise_s3()) and lap2())
   elseif level == 3 then
