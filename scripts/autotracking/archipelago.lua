@@ -1,6 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/start_move_mapping.lua")
+-- ScriptHost:LoadScript("scripts/autotracking/start_move_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/ap_slot.lua")
 
 CUR_INDEX = -1
@@ -118,9 +118,10 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("op_pumpkin").Active = slot_data["pumpkin_checks"]
 
     -- Starting Moves
-    for i, val in pairs(MOVE_MAPPING) do
-        Tracker:FindObjectForCode(val).Active = (slot_data["starting_moves"] >> i) % 2 == 1
-    end
+--    for i, val in pairs(MOVE_MAPPING) do
+--        Tracker:FindObjectForCode(val).Active = (slot_data["starting_moves"] >> i) % 2 == 1
+--    end
+    -- Commenting this out, starting inventory should make this redundant and inactive. To be removed later. -Plushie
 end
 
 -- called when an item gets collected

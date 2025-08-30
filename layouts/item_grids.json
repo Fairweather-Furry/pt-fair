@@ -13,7 +13,11 @@
                     ["grab","mach4","ucut","sjump"],
                     ["taunt","staunt","bodyslam","bdance"],
                     ["wclimb","djump","rkick","spin"],
-                    ["wbounce","nado","crush","bomb"]
+                    ["wbounce","nado","crush","bomb"],
+                    ["ball","knight","fmouth","ghost"],
+                    ["mort","weenie","barrel","obubble"],
+                    ["rocket","pbox","scheese","schoice"],
+                    ["sgun","revolve"]
                 ]
             }		
         ]
@@ -31,7 +35,7 @@
                     ["op_f1_cost","op_f2_cost","op_f3_cost","op_f4_cost"],
                     ["op_f5_cost", "op_tt_cost", "op_treasure", "op_secret"],
                     ["op_srank","op_prank","op_task", "op_pumpkin"],
-                    ["op_portal", "op_entrandman"]
+                    ["op_portal", "op_entrandman","op_moverando","op_tfrando"]
                 ]
             }
         ]

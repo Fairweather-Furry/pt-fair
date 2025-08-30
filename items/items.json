@@ -138,10 +138,10 @@
         "codes": "barrel"
     },
     {
-        "name": "Anti-Grav Bubble",
+        "name": "Olive Bubble",
         "type": "toggle",
         "img": "images/Bomb.png",
-        "codes": "antigbubble"
+        "codes": "obubble"
     },
     {
         "name": "Rocket",
@@ -363,6 +363,18 @@
         "type": "progressive",
         "img": "images/OpenWorld.png",
         "codes": "op_oworld"
+    },
+    {
+        "name": "Movement Rando",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "op_moverando"
+    },
+    {
+        "name": "Transformation Rando",
+        "type": "toggle",
+        "img": "images/Bomb.png",
+        "codes": "op_tfrando"
     },
     {
         "name": "Bonus Ladders",
