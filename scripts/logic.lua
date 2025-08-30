@@ -48,6 +48,174 @@ function calculate_floor_cost(floor_count)
   end
 end
 
+function grab()
+  return(
+    has("grab") or not has("op_moverando")
+  )
+end
+
+function mach4()
+  return(
+    has("mach4") or not has("op_moverando")
+  )
+end
+
+function upper()
+  return(
+    has("ucut") or not has("op_moverando")
+  )
+end
+
+function sjump()
+  return(
+    has("sjump") or not has("op_moverando")
+  )
+end
+
+function taunt()
+  return(
+    has("taunt") or not has("op_moverando")
+  )
+end
+
+function staunt()
+  return(
+    has("staunt") or not has("op_moverando")
+  )
+end
+
+function slam()
+  return(
+    has("bodyslam") or not has("op_moverando")
+  )
+end
+
+function climb()
+  return(
+    has("wclimb") or not has("op_moverando")
+  )
+end
+
+function djump()
+  return(
+    has("djump") or not has("op_moverando")
+  )
+end
+
+function kick()
+  return(
+    has("rkick") or not has("op_moverando")
+  )
+end
+
+function spin()
+  return(
+    has("spin") or not has("op_moverando")
+  )
+end
+
+function bounce()
+  return(
+    has("wbounce") or not has("op_moverando")
+  )
+end
+
+function torn()
+  return(
+    has("nado") or not has("op_moverando")
+  )
+end
+
+function crush()
+  return(
+    has("crush") or not has("op_moverando")
+  )
+end
+
+function bomb()
+  return(
+    has("bomb") or not has("op_moverando")
+  )
+end
+
+function ball()
+  return(
+    has("ball") or not has("op_tfrando")
+  )
+end
+
+function knight()
+  return(
+    has("knight") or not has("op_tfrando")
+  )
+end
+
+function fire()
+  return(
+    has("fmouth") or not has("op_tfrando")
+  )
+end
+
+function ghost()
+  return(
+    has("ghost") or not has("op_tfrando")
+  )
+end
+
+function mort()
+  return(
+    has("mort") or not has("op_tfrando")
+  )
+end
+
+function ween()
+  return(
+    has("weenie") or not has("op_tfrando")
+  )
+end
+
+function barr()
+  return(
+    has("barrel") or not has("op_tfrando")
+  )
+end
+
+function bubb()
+  return(
+    has("obubble") or not has("op_tfrando")
+  )
+end
+
+function rocket()
+  return(
+    has("rocket") or not has("op_tfrando")
+  )
+end
+
+function box()
+  return(
+    has("pbox") or not has("op_tfrando")
+  )
+end
+
+function sticky()
+  return(
+    has("scheese") or not has("op_tfrando")
+  )
+end
+
+function satan()
+  return(
+    has("schoice") or not has("op_tfrando")
+  )
+end
+
+function shotgun()
+  return(
+    has("sgun") or not has("op_tfrando")
+  )
+end
+
 function reach_tt()
   if Tracker:ProviderCountForCode("pumpkins") >= Tracker:ProviderCountForCode("op_tt_cost") then
     return true
