@@ -394,7 +394,7 @@ end
 
 function pizzascape_noise_com()
   return(
-    knight() and ((noise_grab() and sjump()) or (has("op_diff_exp") and (upper() or (grab() and (bounce() or crush())))))
+    has("op_noise") and knight() and ((noise_grab() and sjump()) or (has("op_diff_exp") and (upper() or (grab() and (bounce() or crush())))))
   )
 end
 
@@ -500,48 +500,6 @@ function bloodsauce_dungeon_noise_pin()
   )
 end
 
---function bloodsauce_dungeon_pepp_s2()
---  return(
---    pepp_slam() and sjump()
---  )
---end
---
---function bloodsauce_dungeon_norm_pepp_mus()
---  return(
---    has("op_pepp") and has("op_diff_norm") and (has("sjump") or has("wclimb"))
---  )
---end
---
---function bloodsauce_dungeon_noise_com()
---  return(
---    has("op_noise") and has("sjump") and (has("bodyslam") or has("nado") or has("crush"))
---  )
---end
---
---function bloodsauce_dungeon_noise_pin()
---  return(
---    has("op_noise") and (has("bodyslam") or has("nado") or has("crush"))
---  )
---end
---
---function bloodsauce_dungeon_norm_noise_mus()
---  return(
---    has("op_noise") and has("op_diff_norm") and (has("sjump")  or has("wbounce") or has("ucut") or has("crush"))
---  )
---end
---
---function bloodsauce_dungeon_exp_noise_com()
---  return(
---    bloodsauce_dungeon_noise_com() or (has("op_noise") and has("op_diff_exp") and (has("sjump") and has("wbounce")))
---  )
---end
---
---function bloodsauce_dungeon_exp_noise_pin()
---  return(
---    bloodsauce_dungeon_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
---  )
---end
-
 function reach_pepperman()
   return(
     calculate_floor_cost("op_f1_cost")
@@ -573,53 +531,66 @@ function reach_floor2()
   )
 end
 
+function oregano_desert_pepp_mus()
+  return(
+    has("op_pepp") and (sjump() or climb() or (has("op_diff_exp") and upper()))
+  )
+end
+
 function oregano_desert_pepp_com()
   return(
-    has("op_pepp") and has("wclimb")
+    fire() and (climb() or (has("op_diff_exp") and pepp_grab() and (sjump() or upper())))
   )
 end
 
-function oregano_desert_pepp_che()
-  return(
-    oregano_desert_pepp_com() or (has("op_pepp") and has("sjump"))
-  )
-end
 
-function oregano_desert_exp_pepp_com()
-  return(
-    oregano_desert_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and (has("sjump") or has("ucut")))
-  )
-end
-
-function oregano_desert_exp_pepp_che()
-  return(
-    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and (has("ucut") and has("grab")))
-  )
-end
-
-function oregano_desert_exp_pepp_mus()
-  return(
-    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
-  )
-end
-
-function oregano_desert_noise_s1()
-  return(
-    has("op_noise") and has("wbounce")
-  )
-end
-
-function oregano_desert_noise_com()
-  return(
-    oregano_desert_noise_s1() or (has("op_noise") and (has("sjump") or has("ucut") or has("crush")))
-  )
-end
-
-function oregano_desert_exp_noise_s1()
-  return(
-    oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and has("sjump"))
-  )
-end
+--function oregano_desert_pepp_com()
+--  return(
+--    has("op_pepp") and has("wclimb")
+--  )
+--end
+--
+--function oregano_desert_pepp_che()
+--  return(
+--    oregano_desert_pepp_com() or (has("op_pepp") and has("sjump"))
+--  )
+--end
+--
+--function oregano_desert_exp_pepp_com()
+--  return(
+--    oregano_desert_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and (has("sjump") or has("ucut")))
+--  )
+--end
+--
+--function oregano_desert_exp_pepp_che()
+--  return(
+--    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and (has("ucut") and has("grab")))
+--  )
+--end
+--
+--function oregano_desert_exp_pepp_mus()
+--  return(
+--    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+--  )
+--end
+--
+--function oregano_desert_noise_s1()
+--  return(
+--    has("op_noise") and has("wbounce")
+--  )
+--end
+--
+--function oregano_desert_noise_com()
+--  return(
+--    oregano_desert_noise_s1() or (has("op_noise") and (has("sjump") or has("ucut") or has("crush")))
+--  )
+--end
+--
+--function oregano_desert_exp_noise_s1()
+--  return(
+--    oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and has("sjump"))
+--  )
+--end
 
 function wasteyard_pepp_com()
   return(
