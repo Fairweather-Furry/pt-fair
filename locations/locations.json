@@ -466,19 +466,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$pepp_grab", "$boss_norm_noise"],
+                        "access_rules": ["$pepp_grab", "$bomb_or_grab"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pepp_grab", "$boss_norm_noise"],
+                        "access_rules": ["$pepp_grab", "$bomb_or_grab"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pepp_grab", "$boss_norm_noise"],
+                        "access_rules": ["$pepp_grab", "$bomb_or_grab"],
                         "item_count": 1 
                     }
                 ],
@@ -496,7 +496,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: The Critic",
-                        "access_rules": ["$pepp_grab,$pepperman_access", "$boss_norm_noise,$pepperman_access"],
+                        "access_rules": ["$pepp_grab,$pepperman_access", "$bomb_or_grab,$pepperman_access"],
                         "item_count": 1 
                     },
                     {
@@ -937,19 +937,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$revolver", "$boss_noise"],
+                        "access_rules": ["$revolver", "$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$revolver", "$boss_noise"],
+                        "access_rules": ["$revolver", "$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$revolver", "$boss_noise"],
+                        "access_rules": ["$revolver", "$bomb"],
                         "item_count": 1 
                     }
                 ],
@@ -968,7 +968,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: The Ugly",
-                        "access_rules": ["$revolver,$vigilante_access", "$boss_noise,$vigilante_access"],
+                        "access_rules": ["$revolver,$vigilante_access", "$bomb,$vigilante_access"],
                         "item_count": 1 
                     },
                     {
@@ -1442,19 +1442,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,op_swap,$upper", "op_diff_exp", "op_diff_norm,$bomb"],
+                        "access_rules": ["$grab","$bomb","op_swap,$upper","op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,op_swap,$upper", "op_diff_exp", "op_diff_norm,$bomb"],
+                        "access_rules": ["$grab", "$bomb", "op_swap,$upper", "op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,op_swap,$upper", "op_diff_exp", "op_diff_norm,$bomb"],
+                        "access_rules": ["$grab", "$bomb", "op_swap,$upper", "op_diff_exp"],
                         "item_count": 1 
                     }
                 ],
@@ -1473,8 +1473,8 @@
                 "sections": [
                     {
                         "name": "Chef Task: Denoise",
-                        "access_rules": ["op_pepp,op_diff_norm,grab,$noise_access", "op_pepp,op_diff_norm,ucut,$noise_access", "op_pepp,op_diff_exp,$noise_access",
-                                        "op_diff_norm,op_swap,grab,$noise_access", "op_diff_norm,op_swap,ucut,$noise_access", "op_diff_exp,op_noise,$noise_access", "op_diff_exp,op_swap,$noise_access", "op_diff_norm,op_noise,bomb,$noise_access", "op_diff_norm,op_noise,grab,$noise_access"],
+                        "access_rules": ["$grab,$noise_access", "op_pepp,$upper,$noise_access","op_diff_exp,$noise_access",
+                                        "op_swap,$upper,$noise_access", "$bomb,$noise_access"],
                         "item_count": 1 
                     },
                     {
@@ -1931,19 +1931,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "$bomb"],
+                        "access_rules": ["$grab", "op_pepp,$upper", "op_diff_exp", "$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "$bomb"],
+                        "access_rules": ["$grab", "op_pepp,$upper", "op_diff_exp", "$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "$bomb"],
+                        "access_rules": ["$grab", "op_pepp,$upper", "op_diff_exp", "$bomb"],
                         "item_count": 1 
                     }
                 ],
@@ -1962,7 +1962,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: Faker",
-                        "access_rules": ["$grab,$fake_pepp_access", "op_pepp,op_diff_norm,ucut,$fake_pepp_access", "op_diff_exp,$fake_pepp_access", "$bomb,$fake_pepp_access"],
+                        "access_rules": ["$grab,$fake_pepp_access", "op_pepp,$upper,$fake_pepp_access", "op_diff_exp,$fake_pepp_access", "$bomb,$fake_pepp_access"],
                         "item_count": 1 
                     },
                     {

@@ -212,7 +212,7 @@ end
 
 function shotgun()
   return(
-    grab() and (has("sgun") or not has("op_tfrando"))
+    (grab() or (has("op_diff_exp") and upper())) and (has("sgun") or not has("op_tfrando"))
   )
 end
 
@@ -251,6 +251,12 @@ end
 function climb_or_jump()
   return(
     climb() or (has("op_pepp") and sjump())
+  )
+end
+
+function bomb_or_grab()
+  return(
+    bomb() or noise_grab()
   )
 end
 
@@ -507,17 +513,17 @@ function reach_pepperman()
 end
 
 
-function boss_noise()
-  return(
-    has("op_noise") and has("bomb")
-  )
-end
+--function boss_noise()
+--  return(
+--    has("op_noise") and has("bomb")
+--  )
+--end
 
-function boss_norm_noise()
-  return(
-    boss_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
-  )
-end
+--function boss_norm_noise()
+--  return(
+--    boss_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
+--  )
+--end
 
 function reach_elevator_1()
   return(
