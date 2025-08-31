@@ -416,6 +416,12 @@ function ancient_cheese_pepp_tom()
   )
 end
 
+function reach_floor1_upper()
+  return(
+    sjump() or climb() or noise_upper() or crush() or bounce()
+  )
+end
+
 function ancient_cheese_pepp_com()
   return(
     slam() and (grab() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and upper())
@@ -2054,11 +2060,11 @@ function s_p_ranked(slot)
   if level == 1 then
     return((john_gutter_pepp_com() or john_gutter_noise_com()) and lap2())
   elseif level == 2 then
-    return((pizzascape_exp_pepp_com() or pizzascape_exp_noise_s3()) and lap2())
+    return((pizzascape_pepp_srank() or pizzascape_noise_com()) and lap2())
   elseif level == 3 then
-    return((ancient_cheese_exp_pepp_com() or ancient_cheese_norm_noise_com() or ancient_cheese_exp_noise_com()) and lap2())
+    return((ancient_cheese_pepp_com() or ancient_cheese_noise_com() or ancient_cheese_exp_noise_com()) and lap2())
   elseif level == 4 then
-    return((bloodsauce_dungeon_pepp_com() or bloodsauce_dungeon_exp_noise_com()) and lap2())
+    return((bloodsauce_dungeon_pepp_srank() or (bloodsauce_dungeon_noise_pin() and has("sjump"))) and lap2())
   elseif level == 5 then
     return((oregano_desert_exp_pepp_com() or oregano_desert_exp_noise_s1()) and lap2())
   elseif level == 6 then

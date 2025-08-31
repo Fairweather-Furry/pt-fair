@@ -496,7 +496,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: The Critic",
-                        "access_rules": ["$boss_pepp,$pepperman_access", "$boss_norm_noise,$pepperman_access"],
+                        "access_rules": ["$pepp_grab,$pepperman_access", "$boss_norm_noise,$pepperman_access"],
                         "item_count": 1 
                     },
                     {
