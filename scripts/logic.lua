@@ -146,7 +146,7 @@ end
 
 function knight()
   return(
-    has("knight") or not has("op_tfrando")
+    (grab() or (has("op_diff_exp") and upper())) and (has("knight") or not has("op_tfrando"))
   )
 end
 
