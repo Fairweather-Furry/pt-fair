@@ -490,7 +490,7 @@ end
 
 function bloodsauce_dungeon_noise_mus()
   return(
-    has("op_noise") and (sjump() or bounce() or upper() or crush() or has("op_noise_exp"))
+    has("op_noise") and (bounce_or_jump() or upper() or crush() or has("op_noise_exp"))
   )
 end
 
@@ -533,7 +533,7 @@ end
 
 function oregano_desert_pepp_mus()
   return(
-    has("op_pepp") and (sjump() or climb() or (has("op_diff_exp") and upper()))
+    has("op_pepp") and (climb_or_jump() or (has("op_diff_exp") and upper()))
   )
 end
 
@@ -551,7 +551,7 @@ end
 
 function oregano_desert_noise_mus()
   return(
-    has("op_noise") and (sjump() or upper() or crush() or bounce())
+    has("op_noise") and (bounce_or_jump() or upper() or crush())
   )
 end
 
@@ -575,117 +575,118 @@ end
 
 function wasteyard_noise_che()
   return(
-    has("op_noise") and ghost() and (sjump() or upper() or crush() or bounce() or has("op_diff_exp"))
+    has("op_noise") and ghost() and (bounce_or_jump() or upper() or crush() or has("op_diff_exp"))
   )
 end
 
 function wasteyard_noise_pin()
   return(
-    has("op_noise") and ghost() and (sjump() or upper() or crush() or bounce())
+    has("op_noise") and ghost() and (bounce_or_jump() or upper() or crush())
   )
 end
 
 function wasteyard_noise_com()
   return(
-    has("op_noise") and ghost() and (sjump() or upper() or (crush() and has("op_diff_exp")) or bounce())
+    has("op_noise") and ghost() and (bounce_or_jump() or upper() or (crush() and has("op_diff_exp")) )
   )
 end
 
 function wasteyard_noise_srank()
   return(
-    has("op_noise") and ghost() and (sjump() or bounce() or ((crush() or upper()) and has("op_diff_exp")))
-  )
-end
-
---function wasteyard_pepp_com()
---  return(
---    has("op_pepp") and (has("sjump") or has("wclimb"))
---  )
---end
---
---function wasteyard_exp_pepp_pin()
---  return(
---    wasteyard_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
---  )
---end
---
---function wasteyard_noise_s1()
---  return(
---    has("op_noise") and (has("sjump") or has("wbounce"))
---  )
---end
---
---function wasteyard_noise_com()
---  return(
---    wasteyard_noise_s1() or (has("op_noise") and (has("ucut") or has("crush")))
---  )
---end
---
---function wasteyard_exp_noise_com()
---  return(
---    wasteyard_noise_com() or (has("op_noise") and has("op_diff_exp") and has("crush"))
---  )
---end
-
-function fun_farm_pepp_com()
-  return(
-    pepp_slam() and (sjump() or climb())
+    has("op_noise") and ghost() and (bounce_or_jump() or ((crush() or upper()) and has("op_diff_exp")))
   )
 end
 
 function fun_farm_pepp_che()
   return(
-    fun_farm_pepp_com() or (pepp_slam() and upper())
+    pepp_slam() and mort() and (climb_or_jump() or upper())
+  )
+end
+
+function fun_farm_pepp_com()
+  return(
+    pepp_slam() and mort() and (climb() or (has("op_diff_exp") and (sjump() or (upper() and grab()))))
   )
 end
 
 function fun_farm_pepp_ct2()
   return(
-    fun_farm_pepp_com() and has("staunt")
+    pepp_slam() and mort() and staunt() and (climb() or (has("op_diff_exp") and sjump()))
   )
 end
 
-function fun_farm_pepp_srank()
-  return(
-    pepp_slam() and has("sjump")
-  )
-end
-
-function fun_farm_exp_pepp_com()
-  return(
-    fun_farm_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and has("bodyslam") and has("ucut"))
-  )
-end
-
-function fun_farm_exp_pepp_srank()
-  return(
-    fun_farm_pepp_srank() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("grab") and has("wclimb"))
-  )
-end
 
 function fun_farm_noise_com()
   return(
-    has("op_noise") and (has("crush") or (has("bodyslam") and (has("wbounce") or has("ucut") or has("sjump"))))
+    mort() and (crush() or (noise_slam() and (bounce_or_jump() or upper())))
   )
 end
 
-function fun_farm_noise_ct2()
+function fun_farm_noise_s1()
   return(
-    fun_farm_noise_com() and has("staunt")
+    has("op_noise") and ((crush() or ((bounce_or_jump() or upper()) and (slam() or torn()))) or (has("op_diff_exp") and (bounce() or ((sjump() or uppper()) and (slam() or torn())))))
   )
 end
 
-function fun_farm_norm_noise_sau()
-  return(
-    (fun_farm_noise_com() and has("op_diff_norm")) or (has("op_noise") and has("op_diff_norm") and has("nado") and (has("wbounce") or has("ucut") or has("sjump")))
-  )
-end
-
-function fun_farm_exp_noise_sau()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
-  )
-end
+--function fun_farm_pepp_com()
+--  return(
+--    pepp_slam() and (sjump() or climb())
+--  )
+--end
+--
+--function fun_farm_pepp_che()
+--  return(
+--    fun_farm_pepp_com() or (pepp_slam() and upper())
+--  )
+--end
+--
+--function fun_farm_pepp_ct2()
+--  return(
+--    fun_farm_pepp_com() and has("staunt")
+--  )
+--end
+--
+--function fun_farm_pepp_srank()
+--  return(
+--    pepp_slam() and has("sjump")
+--  )
+--end
+--
+--function fun_farm_exp_pepp_com()
+--  return(
+--    fun_farm_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and has("bodyslam") and has("ucut"))
+--  )
+--end
+--
+--function fun_farm_exp_pepp_srank()
+--  return(
+--    fun_farm_pepp_srank() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("grab") and has("wclimb"))
+--  )
+--end
+--
+--function fun_farm_noise_com()
+--  return(
+--    has("op_noise") and (has("crush") or (has("bodyslam") and (has("wbounce") or has("ucut") or has("sjump"))))
+--  )
+--end
+--
+--function fun_farm_noise_ct2()
+--  return(
+--    fun_farm_noise_com() and has("staunt")
+--  )
+--end
+--
+--function fun_farm_norm_noise_sau()
+--  return(
+--    (fun_farm_noise_com() and has("op_diff_norm")) or (has("op_noise") and has("op_diff_norm") and has("nado") and (has("wbounce") or has("ucut") or has("sjump")))
+--  )
+--end
+--
+--function fun_farm_exp_noise_sau()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+--  )
+--end
 
 function fastfood_saloon_norm_pepp_mus()
   return(

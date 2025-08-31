@@ -731,92 +731,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
+                        "access_rules": ["$fun_farm_pepp_com", "$fun_farm_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$fun_farm_pepp_che", "$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_che", "$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$fun_farm_pepp_che","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_che","$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$fun_farm_exp_pepp_com","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$fun_farm_exp_pepp_com","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fun_farm_pepp_che","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_che","$fun_farm_noise_s1"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fun_farm_exp_pepp_com","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$fun_farm_exp_pepp_srank,$lap2", "$fun_farm_noise_com,$lap2"],
+                        "access_rules": ["$fun_farm_pepp_com,$lap2", "$fun_farm_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$fun_farm_exp_pepp_srank,$lap2", "$fun_farm_noise_com,$lap2"],
+                        "access_rules": ["$fun_farm_pepp_com,$lap2", "$fun_farm_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: No One Is Safe",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$fun_farm_pepp_ct2", "$fun_farm_noise_ct2"],
+                        "access_rules": ["$fun_farm_pepp_ct2","$fun_farm_noise_s1,$mort,$staunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Cube Menace",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$fun_farm_pepp_che", "$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_che","$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Good Egg",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$fun_farm_exp_pepp_com", "$fun_farm_noise_com"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$fun_farm_exp_pepp_com","$fun_farm_norm_noise_sau", "$fun_farm_exp_noise_sau"],
+                        "access_rules": ["$fun_farm_pepp_com","$fun_farm_noise_s1,$mort"],
                         "item_count": 1
                     }
                 ],
