@@ -526,32 +526,32 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$oregano_desert_pepp_mus", "$"],
+                        "access_rules": ["$oregano_desert_pepp_mus", "$oregano_desert_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$oregano_desert_pepp_mus,$fire", "$"],
+                        "access_rules": ["$oregano_desert_pepp_mus,$fire", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
@@ -563,55 +563,55 @@
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$climb,$fire", "$"],
+                        "access_rules": ["$climb,$fire", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$,$lap2", "$,$lap2"],
+                        "access_rules": ["$oregano_desert_pepp_srank,$lap2", "$oregano_desert_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$,$lap2", "$,$lap2"],
+                        "access_rules": ["$oregano_desert_pepp_srank,$lap2", "$oregano_desert_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Peppino's Rain Dance",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$oregano_desert_pepp_mus", "$"],
+                        "access_rules": ["$oregano_desert_pepp_mus", "$oregano_desert_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Unnecessary Violence",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$climb,$fire", "$"],
+                        "access_rules": ["$climb,$fire", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Alien Cow",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$oregano_desert_pepp_com", "$"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     }
                 ],
