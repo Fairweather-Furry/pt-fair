@@ -205,13 +205,13 @@
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_pepp_com", "$pizzascape_noise_com"],
+                        "access_rules": ["$pizzascape_pepp_s3", "$pizzascape_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$pizzascape_pepp_tre", "$pizzascape_noise_com"],
+                        "access_rules": ["$pizzascape_pepp_s3", "$knight,$grab,$climb", "$pizzascape_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -247,7 +247,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$pizzascape_pepp_tre", "$pizzascape_noise_pum"],
+                        "access_rules": ["$pizzascape_pepp_s3", "$knight,$grab,$climb", "$pizzascape_noise_pum"],
                         "item_count": 1
                     }
                 ],

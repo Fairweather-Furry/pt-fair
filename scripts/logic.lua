@@ -374,9 +374,9 @@ function pizzascape_pepp_com()
   )
 end
 
-function pizzascape_pepp_tre()
+function pizzascape_pepp_s3()
   return(
-    knight() and climb_or_jump() and (grab() or (has("op_diff_exp") and upper()))
+    knight() and ((pepp_grab() and sjump()) or (has("op_diff_exp") and ((upper() and climb_or_jump()) or (grab() and climb()))))
   )
 end
 
