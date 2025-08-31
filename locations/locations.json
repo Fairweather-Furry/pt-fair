@@ -365,7 +365,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {

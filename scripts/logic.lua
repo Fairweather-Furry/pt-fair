@@ -478,7 +478,7 @@ end
 
 function bloodsauce_dungeon_pepp_com()
   return(
-    pepp_slam() and ((has("op_diff_exp") and has("sjump")) or has("wclimb"))
+    pepp_slam() and ((has("op_diff_exp") and sjump()) or climb())
   )
 end
 
@@ -490,7 +490,7 @@ end
 
 function bloodsauce_dungeon_pepp_srank()
   return(
-    noise_slam() and ((climb() and sjump()) or (has("op_noise_exp") and climb_or_jump()))
+    pepp_slam() and ((climb() and sjump()) or (has("op_pepp_exp") and climb_or_jump()))
   )
 end
 
@@ -527,7 +527,7 @@ end
 
 function reach_elevator_1()
   return(
-    has("sjump") or has("wclimb") or (has("op_noise") and has("ucut")) or  has("crush") or has("wbounce") or has("op_ladder1")
+    sjump() or climb() or (has("op_noise") and upper()) or crush() or bounce() or has("op_ladder1")
   )
 end
 
