@@ -254,11 +254,23 @@ function climb_or_jump()
   )
 end
 
---function tutorial_mus()
---  return(
---    has("op_pepp") and slam()
---  )
---end
+function noise_grab()
+  return(
+    has("op_noise") and grab()
+  )
+end
+
+function noise_slam()
+  return(
+    has("op_noise") and slam()
+  )
+end
+
+function noise_upper()
+  return(
+    has("op_noise") and upper()
+  )
+end
 
 function tutorial_tom()
   return(
@@ -344,107 +356,109 @@ function john_gutter_noise_pum()
   )
 end
 
-function pizzascape_pepp_com()
+function pizzascape_pepp_pin()
   return(
-    has("op_pepp") and ((grab() and climb()) or (has("op_diff_exp") and (climb_or_jump() or upper() or (sjump() and grab()))))
+    knight() and (pepp_grab() or (has("op_pepp") and has("op_diff_exp") and upper()))
   )
 end
 
---function pizzascape_pepp_pin()
---  return(
---    has("op_pepp") and has("grab")
---  )
---end
-
-function pizzascape_pepp_s3()
+function pizzascape_pepp_com()
   return(
-    (pepp_grab() and sjump()) or (has("op_diff_exp") and ((upper() and climb_or_jump()) or (climb() and grab())))
+    has("op_pepp") and knight() and ((grab() and climb()) or (has("op_diff_exp") and ((climb_or_jump() and upper()) or (sjump() and grab()))))
   )
 end
 
 function pizzascape_pepp_tre()
   return(
-    pizzascape_pepp_s3() or (grab() and climb()) or (has("op_diff_exp") and upper() and climb_or_jump())
+    knight() and climb_or_jump() and (grab() or (has("op_diff_exp") and upper()))
   )
 end
 
---function pizzascape_exp_pepp_com()
---  return(
---    pizzascape_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or (has("ucut") and (has("sjump") or climb()))))
---  )
---end
-
-function pizzascape_pepp_pin()
+function pizzascape_pepp_srank()
   return(
-    pepp_grab() or (has("op_pepp") and has("op_diff_exp") and upper())
-  )
-end
-
---function pizzascape_exp_pepp_s3()
---  return(
---    pizzascape_pepp_s3() or (has("op_diff_exp") and ((upper() and climb_or_jump()) or (climb() and grab())))
---  )
---end
-
---function pizzascape_exp_pepp_tre()
---  return(
---    pizzascape_pepp_tre() or (has("op_pepp") and has("op_diff_exp") and upper() and climb_or_jump())
---  )
---end
-
-function pizzascape_noise_com()
-  return(
-    has("op_noise") and has("grab") and (has("sjump") or has("wbounce") or has("crush"))
+    knight() and ((pepp_grab() and climb() and sjump()) or (has("op_diff_exp") and (climb_or_jump() and (upper() or grab()))))
   )
 end
 
 function pizzascape_noise_pin()
   return(
-    has("op_noise") and has("grab")
+    knight() and (noise_grab() or (has("op_diff_exp") and noise_upper()))
   )
 end
 
-function pizzascape_noise_s3()
+function pizzascape_noise_com()
   return(
-    has("op_noise") and has("grab") and has("sjump")
+    knight() and ((noise_grab() and sjump()) or (has("op_diff_exp") and (upper() or (grab() and (bounce() or crush())))))
   )
 end
 
-function pizzascape_norm_noise_com()
+function pizzascape_noise_ct1()
   return(
-    pizzascape_noise_com() or (has("op_noise") and has("op_diff_norm") and has("grab") and has("ucut"))
+    knight() and ((has("op_diff_norm") and noise_grab() and (upper() or sjump() or bounce() or crush())) or (has("op_diff_exp") and (noise_grab() or noise_upper())))
   )
 end
 
-function pizzascape_norm_noise_pum()
+function pizzascape_noise_pum()
   return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("wbounce") or has("ucut"))
+    knight() and ((noise_grab() and (sjump() or bounce())) or (noise_upper() and (grab() or has("op_diff_exp"))) or (grab() and crush()))
   )
 end
 
-function pizzascape_exp_noise_com()
-  return(
-    pizzascape_noise_com() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
-  )
-end
+--function pizzascape_noise_com()
+--  return(
+--    has("op_noise") and has("grab") and (has("sjump") or has("wbounce") or has("crush"))
+--  )
+--end
+--
+--function pizzascape_noise_pin()
+--  return(
+--    has("op_noise") and has("grab")
+--  )
+--end
+--
+--function pizzascape_noise_s3()
+--  return(
+--    has("op_noise") and has("grab") and has("sjump")
+--  )
+--end
+--
+--function pizzascape_norm_noise_com()
+--  return(
+--    pizzascape_noise_com() or (has("op_noise") and has("op_diff_norm") and has("grab") and has("ucut"))
+--  )
+--end
+--
+--function pizzascape_norm_noise_pum()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("wbounce") or has("ucut"))
+--  )
+--end
+--
+--function pizzascape_exp_noise_com()
+--  return(
+--    pizzascape_noise_com() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
+--  )
+--end
+--
+--function pizzascape_exp_noise_pin()
+--  return(
+--    pizzascape_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
+--  )
+--end
+--
+--function pizzascape_exp_noise_s3()
+--  return(
+--    pizzascape_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wbounce") or has("crush")))))
+--  )
+--end
+--
+--function reach_floor1_upper()
+--  return(
+--    has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder1") 
+--  )
+--end
+--
 
-function pizzascape_exp_noise_pin()
-  return(
-    pizzascape_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
-  )
-end
-
-function pizzascape_exp_noise_s3()
-  return(
-    pizzascape_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wbounce") or has("crush")))))
-  )
-end
-
-function reach_floor1_upper()
-  return(
-    has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder1") 
-  )
-end
 
 function ancient_cheese_pepp_com()
   return(
