@@ -241,7 +241,7 @@
                     {
                         "name": "Chef Task: Spherical",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$grab,$knight,$ball"],
+                        "access_rules": ["$grab,$knight,$ball", "op_diff_exp,$upper,$knight,$ball"],
                         "item_count": 1
                     },
                     {
@@ -834,92 +834,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$fastfood_saloon_norm_pepp_mus", "$fastfood_saloon_exp_pepp_mus", "$fastfood_saloon_exp_noise_mus"],
+                        "access_rules": ["$sjump", "$climb,op_diff_exp", "$upper,op_noise,op_diff_exp", "$crush,op_diff_exp", "$bounce,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$fastfood_saloon_norm_pepp_che", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_s3", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com,$lap2", "$fastfood_saloon_exp_pepp_s3", "$fastfood_saloon_exp_noise_com,$lap2", "$fastfood_saloon_exp_noise_com,op_diff_exp"],
+                        "access_rules": ["$fastfood_saloon_pepp_srank,$lap2", "$fastfood_saloon_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com,$lap2", "$fastfood_saloon_exp_pepp_s3,$lap2", "$fastfood_saloon_exp_noise_com,$lap2"],
+                        "access_rules": ["$fastfood_saloon_pepp_srank,$lap2", "$fastfood_saloon_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Non-Alcoholic",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Already Pressed",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Royal Flush",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$fastfood_saloon_norm_pepp_com", "$fastfood_saloon_exp_pepp_com", "$fastfood_saloon_exp_noise_com"],
+                        "access_rules": ["$fastfood_saloon_pepp_com", "$fastfood_saloon_noise_com"],
                         "item_count": 1
                     }
                 ],
