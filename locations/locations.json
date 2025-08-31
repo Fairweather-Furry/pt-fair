@@ -265,7 +265,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$ancient_cheese_exp_pepp_com", "$ancient_cheese_norm_noise_com", "$ancient_cheese_exp_noise_com"],
+                        "access_rules": ["$ancient_cheese_pepp_com", "$ancient_cheese_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -274,22 +274,22 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$ancient_cheese_exp_pepp_che", "$ancient_cheese_norm_noise_che", "$ancient_cheese_exp_noise_che"],
+                        "access_rules": ["$pepp_grab", "$ancient_cheese_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_tom"],
+                        "access_rules": ["$ancient_cheese_pepp_tom", "$ancient_cheese_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$ancient_cheese_exp_pepp_pin", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_tom,bodyslam", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$ancient_cheese_exp_pepp_pin", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_tom,bodyslam", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     },
                     {
@@ -300,43 +300,43 @@
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_tom"],
+                        "access_rules": ["$ancient_cheese_pepp_tom", "$ancient_cheese_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$ancient_cheese_exp_pepp_pin", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_tom,bodyslam", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tre", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_tom"],
+                        "access_rules": ["$ancient_cheese_pepp_tre", "$ancient_cheese_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$ancient_cheese_exp_pepp_com,$lap2", "$ancient_cheese_norm_noise_com,$lap2", "$ancient_cheese_exp_noise_com,$lap2"],
+                        "access_rules": ["$ancient_cheese_pepp_com,$lap2", "$ancient_cheese_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$ancient_cheese_exp_pepp_com,$lap2", "$ancient_cheese_norm_noise_com,$lap2", "$ancient_cheese_exp_noise_com,$lap2"],
+                        "access_rules": ["$ancient_cheese_pepp_com,$lap2", "$ancient_cheese_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Thrill Seeker",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$ancient_cheese_exp_pepp_com", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_com"],
+                        "access_rules": ["$ancient_cheese_pepp_tre,bodyslam", "$ancient_cheese_noise_ct1"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Volleybomb",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$ancient_cheese_pepp_com,op_diff_norm", "$ancient_cheese_exp_pepp_tom", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_tom"],
+                        "access_rules": ["$ancient_cheese_pepp_tom", "$ancient_cheese_noise_tom"],
                         "item_count": 1
                     },
                     {
@@ -347,7 +347,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$ancient_cheese_exp_pepp_com", "$ancient_cheese_norm_noise_pin", "$ancient_cheese_exp_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_com", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     }
                 ],

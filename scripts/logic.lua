@@ -272,6 +272,12 @@ function noise_upper()
   )
 end
 
+function bounce_or_jump()
+  return(
+    bounce() or (has("op_noise") and sjump())
+  )
+end
+
 function tutorial_tom()
   return(
     slam() and (climb() or (has("op_diff_exp") and sjump() and grab()))
@@ -404,143 +410,51 @@ function pizzascape_noise_pum()
   )
 end
 
---function pizzascape_noise_com()
---  return(
---    has("op_noise") and has("grab") and (has("sjump") or has("wbounce") or has("crush"))
---  )
---end
---
---function pizzascape_noise_pin()
---  return(
---    has("op_noise") and has("grab")
---  )
---end
---
---function pizzascape_noise_s3()
---  return(
---    has("op_noise") and has("grab") and has("sjump")
---  )
---end
---
---function pizzascape_norm_noise_com()
---  return(
---    pizzascape_noise_com() or (has("op_noise") and has("op_diff_norm") and has("grab") and has("ucut"))
---  )
---end
---
---function pizzascape_norm_noise_pum()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("wbounce") or has("ucut"))
---  )
---end
---
---function pizzascape_exp_noise_com()
---  return(
---    pizzascape_noise_com() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
---  )
---end
---
---function pizzascape_exp_noise_pin()
---  return(
---    pizzascape_noise_pin() or (has("op_noise") and has("op_diff_exp") and has("ucut"))
---  )
---end
---
---function pizzascape_exp_noise_s3()
---  return(
---    pizzascape_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wbounce") or has("crush")))))
---  )
---end
---
---function reach_floor1_upper()
---  return(
---    has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder1") 
---  )
---end
---
-
+function ancient_cheese_pepp_tom()
+  return(
+    (grab() and slam() and climb_or_jump()) or (has("op_diff_exp") and (upper() or (grab() or climb_or_jump())))
+  )
+end
 
 function ancient_cheese_pepp_com()
   return(
-    grab() and slam() and climb_or_jump()
+    slam() and (grab() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and upper())
   )
 end
 
---function ancient_cheese_pepp_che()
---  return(
---    has("op_pepp") and has("grab")
---  )
---end
-
-function ancient_cheese_exp_pepp_com()
+function ancient_cheese_pepp_tre()
   return(
-    ancient_cheese_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut") and has("bodyslam") and climb_or_jump())
+    (grab() and slam() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and (grab() or upper()))
   )
 end
 
-function ancient_cheese_exp_pepp_pin()
+function ancient_cheese_noise_che()
   return(
-    ancient_cheese_pepp_com() or (has("op_pepp") and has("op_diff_exp") and (has("ucut") and has("bodyslam")))
+    (noise_grab() and (sjump() or upper() or bounce() or crush() or has("op_diff_exp"))) or (has("op_diff_exp") and noise_upper())
   )
 end
 
-function ancient_cheese_exp_pepp_tom()
+function ancient_cheese_noise_tom()
   return(
-    has("op_pepp") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("wclimb") or has("sjump"))))
+    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and (upper() or (grab() and bounce_or_jump())))
   )
 end
 
-function ancient_cheese_exp_pepp_che()
+function ancient_cheese_noise_pin()
   return(
-    pepp_grab() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and ((noise_slam() or torn() or crush()) and (upper() or (grab() and bounce_or_jump()))))
   )
 end
 
-function ancient_cheese_exp_pepp_tre()
+function ancient_cheese_noise_com()
   return(
-    has("op_pepp") and has("op_diff_exp") and ((has("ucut") or has("grab")) and (has("wclimb") or has("sjump")))
+    (noise_grab() and sjump() and (slam() or torn() or crush())) or (has("op_diff_exp") and (noise_slam() or torn() or crush()) and upper() and bounce_or_jump())
   )
 end
 
-function ancient_cheese_norm_noise_com()
+function ancient_cheese_noise_ct1()
   return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") and (has("bodyslam") or has("nado") or has("crush")))
-  )
-end
-
-function ancient_cheese_norm_noise_che()
-  return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("ucut") or has("wbounce") or has("crush"))
-  )
-end
-
-function ancient_cheese_norm_noise_pin()
-  return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and ((has("sjump") or has("ucut") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush")))
-  )
-end
-
-function ancient_cheese_exp_noise_com()
-  return(
-    has("op_noise") and has("op_diff_exp") and ((has("ucut") and (has("sjump") or has("wbounce")) and (has("bodyslam") or has("nado") or has("crush"))) or (has("grab") and has("sjump") and (has("bodyslam") or has("nado") or has("crush"))))
-  )
-end
-
-function ancient_cheese_exp_noise_che()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("grab") or has("ucut"))
-  )
-end
-
-function ancient_cheese_exp_noise_tom()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("ucut") or (has("grab") and (has("sjump") or has("wbounce"))))
-  )
-end
-
-function ancient_cheese_exp_noise_pin()
-  return(
-    has("op_noise") and has("op_diff_exp") and ((has("grab") and (has("wbounce") or has("sjump")) and (has("bodyslam") or has("nado") or has("crush"))) or (has("ucut") and (has("bodyslam") or has("nado") or has("crush"))))
+    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) and (has("op_diff_exp") and (slam() or torn() or crush()) and upper() and bounce_or_jump())
   )
 end
 
@@ -549,13 +463,6 @@ function bloodsauce_dungeon_pepp_com()
     pepp_slam() and (has("sjump") or has("wclimb"))
   )
 end
-
---function bloodsauce_dungeon_pepp_pin()
---  return(
---    has("op_pepp") and has("bodyslam")
---  )
---end
-  -- Replace these with pepp_slam()
 
 function bloodsauce_dungeon_pepp_s2()
   return(
