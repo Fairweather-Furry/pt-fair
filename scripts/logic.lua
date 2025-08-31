@@ -561,83 +561,71 @@ function oregano_desert_noise_srank()
   )
 end
 
---function oregano_desert_pepp_com()
---  return(
---    has("op_pepp") and has("wclimb")
---  )
---end
---
---function oregano_desert_pepp_che()
---  return(
---    oregano_desert_pepp_com() or (has("op_pepp") and has("sjump"))
---  )
---end
---
---function oregano_desert_exp_pepp_com()
---  return(
---    oregano_desert_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("grab") and (has("sjump") or has("ucut")))
---  )
---end
---
---function oregano_desert_exp_pepp_che()
---  return(
---    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and (has("ucut") and has("grab")))
---  )
---end
---
---function oregano_desert_exp_pepp_mus()
---  return(
---    oregano_desert_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
---  )
---end
---
---function oregano_desert_noise_s1()
---  return(
---    has("op_noise") and has("wbounce")
---  )
---end
---
---function oregano_desert_noise_com()
---  return(
---    oregano_desert_noise_s1() or (has("op_noise") and (has("sjump") or has("ucut") or has("crush")))
---  )
---end
---
---function oregano_desert_exp_noise_s1()
---  return(
---    oregano_desert_noise_s1() or (has("op_noise") and has("op_diff_exp") and has("sjump"))
---  )
---end
+function wasteyard_pepp_che()
+  return(
+    has("op_pepp") and ghost() and (sjump() or climb() or has("op_diff_exp"))
+  )
+end
 
 function wasteyard_pepp_com()
   return(
-    has("op_pepp") and (has("sjump") or has("wclimb"))
+    ghost() and climb_or_jump()
   )
 end
 
-function wasteyard_exp_pepp_pin()
+function wasteyard_noise_che()
   return(
-    wasteyard_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+    has("op_noise") and ghost() and (sjump() or upper() or crush() or bounce() or has("op_diff_exp"))
   )
 end
 
-function wasteyard_noise_s1()
+function wasteyard_noise_pin()
   return(
-    has("op_noise") and (has("sjump") or has("wbounce"))
+    has("op_noise") and ghost() and (sjump() or upper() or crush() or bounce())
   )
 end
 
 function wasteyard_noise_com()
   return(
-    wasteyard_noise_s1() or (has("op_noise") and (has("ucut") or has("crush")))
+    has("op_noise") and ghost() and (sjump() or upper() or (crush() and has("op_diff_exp")) or bounce())
   )
 end
 
-function wasteyard_exp_noise_com()
+function wasteyard_noise_srank()
   return(
-    wasteyard_noise_com() or (has("op_noise") and has("op_diff_exp") and has("crush"))
+    has("op_noise") and ghost() and (sjump() or bounce() or ((crush() or upper()) and has("op_diff_exp")))
   )
 end
+
+--function wasteyard_pepp_com()
+--  return(
+--    has("op_pepp") and (has("sjump") or has("wclimb"))
+--  )
+--end
+--
+--function wasteyard_exp_pepp_pin()
+--  return(
+--    wasteyard_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+--  )
+--end
+--
+--function wasteyard_noise_s1()
+--  return(
+--    has("op_noise") and (has("sjump") or has("wbounce"))
+--  )
+--end
+--
+--function wasteyard_noise_com()
+--  return(
+--    wasteyard_noise_s1() or (has("op_noise") and (has("ucut") or has("crush")))
+--  )
+--end
+--
+--function wasteyard_exp_noise_com()
+--  return(
+--    wasteyard_noise_com() or (has("op_noise") and has("op_diff_exp") and has("crush"))
+--  )
+--end
 
 function fun_farm_pepp_com()
   return(
@@ -2056,7 +2044,7 @@ function s_p_ranked(slot)
   elseif level == 5 then
     return((oregano_desert_pepp_srank() or oregano_desert_noise_srank()) and lap2())
   elseif level == 6 then
-    return((wasteyard_pepp_com() or wasteyard_noise_com() or (wasteyard_noise_com() and has("op_diff_exp"))) and lap2())
+    return((wasteyard_pepp_com() or wasteyard_noise_srank()) and lap2())
   elseif level == 7 then
     return((fun_farm_exp_pepp_srank() or fun_farm_noise_com()) and lap2())
   elseif level == 8 then

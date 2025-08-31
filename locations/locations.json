@@ -629,7 +629,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_exp_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -638,82 +638,82 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$wasteyard_pepp_com", "op_diff_exp", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_che", "$wasteyard_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com", "$wasteyard_noise_com,op_diff_exp"],
+                        "access_rules": ["$sjump", "$climb", "$bounce", "$crush", "$upper,op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$wasteyard_pepp_com,$lap2", "$wasteyard_noise_com,$lap2", "$wasteyard_noise_com,op_diff_exp,$lap2"],
+                        "access_rules": ["$wasteyard_pepp_com,$lap2", "$wasteyard_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$wasteyard_pepp_com,$lap2", "$wasteyard_noise_com,$lap2", "$wasteyard_noise_com,op_diff_exp,$lap2"],
+                        "access_rules": ["$wasteyard_pepp_com,$lap2", "$wasteyard_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Ghosted",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_exp_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Pretend Ghost",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_exp_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Alive and Well",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$wasteyard_exp_pepp_pin", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_com", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
                         "item_count": 1
                     }
                 ],
