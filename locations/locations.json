@@ -235,13 +235,13 @@
                     {
                         "name": "Chef Task: Spoonknight",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["taunt"],
+                        "access_rules": ["$taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Spherical",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["grab,$knight,$ball"],
+                        "access_rules": ["$grab,$knight,$ball"],
                         "item_count": 1
                     },
                     {

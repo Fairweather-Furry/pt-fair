@@ -146,7 +146,7 @@ end
 
 function knight()
   return(
-    grab() and (has("knight") or not has("op_tfrando"))
+    has("knight") or not has("op_tfrando")
   )
 end
 
@@ -2062,7 +2062,7 @@ function s_p_ranked(slot)
   elseif level == 2 then
     return((pizzascape_pepp_srank() or pizzascape_noise_com()) and lap2())
   elseif level == 3 then
-    return((ancient_cheese_pepp_com() or ancient_cheese_noise_com() or ancient_cheese_exp_noise_com()) and lap2())
+    return((ancient_cheese_pepp_com() or ancient_cheese_noise_com()) and lap2())
   elseif level == 4 then
     return((bloodsauce_dungeon_pepp_srank() or (bloodsauce_dungeon_noise_pin() and has("sjump"))) and lap2())
   elseif level == 5 then
