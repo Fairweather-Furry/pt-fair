@@ -21,7 +21,7 @@
                     {
                         "name": "Mushroom Toppin",
                         "visibility_rules": ["$not_noise"],
-                        "access_rules": ["$tutorial_mus"],
+                        "access_rules": ["$pepp_slam"],
 						"item_count": 1
                     },
                     {
@@ -164,7 +164,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$pizzascape_exp_pepp_com", "$pizzascape_norm_noise_com", "$pizzascape_exp_noise_com"],
+                        "access_rules": ["$pizzascape_pepp_com", "$pizzascape_norm_noise_com", "$pizzascape_exp_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -177,59 +177,59 @@
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
+                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
+                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
+                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
+                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_exp_noise_pin"],
+                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascape_exp_pepp_s3", "$pizzascape_exp_noise_s3"],
+                        "access_rules": ["$pizzascape_pepp_s3", "$pizzascape_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$pizzascape_exp_pepp_tre", "$pizzascape_exp_noise_s3"],
+                        "access_rules": ["$pizzascape_pepp_tre", "$pizzascape_exp_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pizzascape_exp_pepp_com,$lap2", "$pizzascape_exp_noise_s3,$lap2"],
+                        "access_rules": ["$pizzascape_pepp_com,$lap2", "$pizzascape_exp_noise_s3,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascape_exp_pepp_com,$lap2", "$pizzascape_exp_noise_s3,$lap2"],
+                        "access_rules": ["$pizzascape_pepp_com,$lap2", "$pizzascape_exp_noise_s3,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Shining Armor",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascape_exp_pepp_pin", "$pizzascape_norm_noise_com,op_diff_norm", "$pizzascape_exp_pepp_pin,op_diff_exp"],
+                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_norm_noise_com,op_diff_norm"],
                         "item_count": 1
                     },
                     {
@@ -379,17 +379,17 @@
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$bloodsauce_dungeon_pepp_pin", "$bloodsauce_dungeon_exp_noise_pin"],
+                        "access_rules": ["$pepp_slam", "$bloodsauce_dungeon_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$bloodsauce_dungeon_pepp_pin", "$bloodsauce_dungeon_exp_noise_pin"],
+                        "access_rules": ["$pepp_slam", "$bloodsauce_dungeon_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$bloodsauce_dungeon_pepp_pin", "$bloodsauce_dungeon_exp_noise_pin"],
+                        "access_rules": ["$pepp_slam", "$bloodsauce_dungeon_exp_noise_pin"],
                         "item_count": 1
                     },
                     {
@@ -448,7 +448,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_pin", "$bloodsauce_dungeon_exp_noise_pin", "op_noise,wbounce"],
+                        "access_rules": ["$pepp_slam", "$bloodsauce_dungeon_exp_noise_pin", "op_noise,wbounce"],
                         "item_count": 1
                     }
                 ],
@@ -466,19 +466,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
+                        "access_rules": ["$pepp_grab", "$boss_norm_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
+                        "access_rules": ["$pepp_grab", "$boss_norm_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$boss_pepp", "$boss_norm_noise"],
+                        "access_rules": ["$pepp_grab", "$boss_norm_noise"],
                         "item_count": 1 
                     }
                 ],
@@ -937,19 +937,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$boss_pepp", "$boss_noise"],
+                        "access_rules": ["$revolver", "$boss_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$boss_pepp", "$boss_noise"],
+                        "access_rules": ["$revolver", "$boss_noise"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$boss_pepp", "$boss_noise"],
+                        "access_rules": ["$revolver", "$boss_noise"],
                         "item_count": 1 
                     }
                 ],
@@ -968,7 +968,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: The Ugly",
-                        "access_rules": ["$boss_pepp,$vigilante_access", "$boss_noise,$vigilante_access"],
+                        "access_rules": ["$revolver,$vigilante_access", "$boss_noise,$vigilante_access"],
                         "item_count": 1 
                     },
                     {
@@ -1209,7 +1209,7 @@
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$deep_dish_9_pepp_mus",  "$deep_dish_9_exp_noise_tom"],
+                        "access_rules": ["$pepp_slam",  "$deep_dish_9_exp_noise_tom"],
                         "item_count": 1
                     },
                     {
@@ -1411,19 +1411,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
+                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,$upper", "op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
+                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,$upper", "op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_pepp,op_diff_exp"],
+                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,$upper", "op_diff_exp"],
                         "item_count": 1 
                     }
                 ],
@@ -1442,19 +1442,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,op_swap,$upper", "op_diff_exp", "op_diff_norm,$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,op_swap,$upper", "op_diff_exp", "op_diff_norm,$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["op_diff_norm,op_swap,grab", "op_diff_norm,op_swap,ucut", "op_diff_exp,op_noise", "op_diff_exp,op_swap", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,op_swap,$upper", "op_diff_exp", "op_diff_norm,$bomb"],
                         "item_count": 1 
                     }
                 ],
@@ -1535,7 +1535,7 @@
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$pig_city_pepp_tom", "$pig_city_norm_noise_com", "$pig_city_exp_noise_tom"],
+                        "access_rules": ["$pepp_slam", "$pig_city_norm_noise_com", "$pig_city_exp_noise_tom"],
                         "item_count": 1
                     },
                     {
@@ -1730,7 +1730,7 @@
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$oh_shit_pepp_mus", "$oh_shit_exp_noise_mus"],
+                        "access_rules": ["$pepp_slam", "$oh_shit_exp_noise_mus"],
                         "item_count": 1
                     },
                     {
@@ -1756,7 +1756,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$oh_shit_pepp_mus", "$oh_shit_exp_noise_mus"],
+                        "access_rules": ["$pepp_slam", "$oh_shit_exp_noise_mus"],
                         "item_count": 1
                     },
                     {
@@ -1931,19 +1931,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "access_rules": ["$grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "access_rules": ["$grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "$bomb"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["op_pepp,op_diff_norm,grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "op_diff_norm,op_noise,bomb", "op_diff_norm,op_noise,grab"],
+                        "access_rules": ["$grab", "op_pepp,op_diff_norm,ucut", "op_diff_exp", "$bomb"],
                         "item_count": 1 
                     }
                 ],
@@ -1962,7 +1962,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: Faker",
-                        "access_rules": ["op_pepp,op_diff_norm,grab,$fake_pepp_access", "op_pepp,op_diff_norm,ucut,$fake_pepp_access", "op_diff_exp,$fake_pepp_access", "op_diff_norm,op_noise,bomb,$fake_pepp_access", "op_diff_norm,op_noise,grab,$fake_pepp_access"],
+                        "access_rules": ["$grab,$fake_pepp_access", "op_pepp,op_diff_norm,ucut,$fake_pepp_access", "op_diff_exp,$fake_pepp_access", "$bomb,$fake_pepp_access"],
                         "item_count": 1 
                     },
                     {
@@ -2299,7 +2299,7 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["op_pepp,grab", "op_noise,bomb"],
+                        "access_rules": ["$revolver", "$bomb"],
                         "item_count": 1 
                     }
                 ],
@@ -2318,7 +2318,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: Face Off",
-                        "access_rules": ["op_pepp,grab,$reach_pizzaface", "op_noise,bomb,$reach_pizzaface"],
+                        "access_rules": ["$revolver,$reach_pizzaface", "$bomb,$reach_pizzaface"],
                         "item_count": 1 
                     },
                     {

@@ -92,49 +92,49 @@ end
 
 function climb()
   return(
-    has("wclimb") or not has("op_moverando")
+    has("op_pepp") and (has("wclimb") or not has("op_moverando"))
   )
 end
 
 function djump()
   return(
-    has("djump") or not has("op_moverando")
+    has("op_pepp") and (has("djump") or not has("op_moverando"))
   )
 end
 
 function kick()
   return(
-    has("rkick") or not has("op_moverando")
+    has("op_pepp") and (has("rkick") or not has("op_moverando"))
   )
 end
 
 function spin()
   return(
-    has("spin") or not has("op_moverando")
+    has("op_pepp") and (has("spin") or not has("op_moverando"))
   )
 end
 
 function bounce()
   return(
-    has("wbounce") or not has("op_moverando")
+    has("op_noise") and (has("wbounce") or not has("op_moverando"))
   )
 end
 
 function torn()
   return(
-    has("nado") or not has("op_moverando")
+    has("op_noise") and (has("nado") or not has("op_moverando"))
   )
 end
 
 function crush()
   return(
-    has("crush") or not has("op_moverando")
+    has("op_noise") and (has("crush") or not has("op_moverando"))
   )
 end
 
 function bomb()
   return(
-    has("bomb") or not has("op_moverando")
+    has("op_noise") and (has("bomb") or not has("op_moverando"))
   )
 end
 
@@ -146,7 +146,7 @@ end
 
 function knight()
   return(
-    has("knight") or not has("op_tfrando")
+    grab() and (has("knight") or not has("op_tfrando"))
   )
 end
 
@@ -170,7 +170,7 @@ end
 
 function ween()
   return(
-    has("weenie") or not has("op_tfrando")
+    grab() and (has("weenie") or not has("op_tfrando"))
   )
 end
 
@@ -212,7 +212,13 @@ end
 
 function shotgun()
   return(
-    has("sgun") or not has("op_tfrando")
+    grab() and (has("sgun") or not has("op_tfrando"))
+  )
+end
+
+function revolver()
+  return(
+    grab() and has("op_pepp") and (has("revolve") or not has("op_tfrando"))
   )
 end
 
@@ -230,27 +236,45 @@ function lap2()
   )
 end
 
-function tutorial_mus()
+function pepp_slam()
   return(
     has("op_pepp") and slam()
   )
 end
 
+function pepp_grab()
+  return(
+    has("op_pepp") and grab()
+  )
+end
+
+function climb_or_jump()
+  return(
+    climb() or (has("op_pepp") and sjump())
+  )
+end
+
+--function tutorial_mus()
+--  return(
+--    has("op_pepp") and slam()
+--  )
+--end
+
 function tutorial_tom()
   return(
-    has("op_pepp") and slam() and (climb() or (has("op_diff_exp") and sjump() and grab()))
+    slam() and (climb() or (has("op_diff_exp") and sjump() and grab()))
   )
 end
 
 function tutorial_sau()
   return(
-    has("op_pepp") and slam() and ((climb() and sjump()) or (has("op_diff_exp") and grab() and (sjump() or climb())))
+    (slam() and climb() and sjump()) or (has("op_diff_exp") and grab() and climb_or_jump())
   )
 end
 
 function tutorial_pepp_com()
   return(
-    has("op_pepp") and slam() and grab() and ((climb() and sjump()) or (has("op_diff_exp") and (sjump() or climb())))
+    pepp_slam() and grab() and ((climb() and sjump()) or (has("op_diff_exp") and climb_or_jump()))
   )
 end
 
@@ -262,31 +286,31 @@ end
 
 function john_gutter_pepp_mus()
   return(
-    has("op_pepp") and (sjump() or climb() or upper() or (has("op_diff_exp") and (grab() or slam())))
+    has("op_pepp") and (climb_or_jump() or upper() or (has("op_diff_exp") and (grab() or slam())))
   )
 end
 
 function john_gutter_pepp_tom()
   return(
-    has("op_pepp") and ((slam() and (sjump() or climb() or upper())) or (has("op_diff_exp") and (sjump() or climb() or upper() or grab() or slam())))
+    has("op_pepp") and ((slam() and (climb_or_jump() or upper())) or (has("op_diff_exp") and (climb_or_jump() or upper() or grab() or slam())))
   )
 end
 
 function john_gutter_pepp_com()
   return(
-    has("op_pepp") and ((sjump() and slam()) or (has("op_diff_exp") and (sjump() or climb())))
+    has("op_pepp") and ((sjump() and slam()) or (has("op_diff_exp") and (climb_or_jump())))
   )
 end
 
 function john_gutter_pepp_ct3()
   return(
-    has("op_pepp") and ((climb() and sjump() and mach4() and slam()) or (has("op_diff_exp") and (sjump() or climb())))
+    has("op_pepp") and ((climb() and sjump() and mach4() and slam()) or (has("op_diff_exp") and (climb_or_jump())))
   )
 end
 
 function john_gutter_pepp_pum()
   return(
-    has("op_pepp") and (sjump() or climb() or upper() or (has("op_diff_exp") and grab()))
+    has("op_pepp") and (climb_or_jump() or upper() or (has("op_diff_exp") and grab()))
   )
 end
 
@@ -322,51 +346,51 @@ end
 
 function pizzascape_pepp_com()
   return(
-    has("op_pepp") and has("grab") and has("wclimb")
+    has("op_pepp") and ((grab() and climb()) or (has("op_diff_exp") and (climb_or_jump() or upper() or (sjump() and grab()))))
   )
 end
 
-function pizzascape_pepp_pin()
-  return(
-    has("op_pepp") and has("grab")
-  )
-end
+--function pizzascape_pepp_pin()
+--  return(
+--    has("op_pepp") and has("grab")
+--  )
+--end
 
 function pizzascape_pepp_s3()
   return(
-    has("op_pepp") and has("grab") and has("sjump")
+    (pepp_grab() and sjump()) or (has("op_diff_exp") and ((upper() and climb_or_jump()) or (climb() and grab())))
   )
 end
 
 function pizzascape_pepp_tre()
   return(
-    pizzascape_pepp_s3() or (has("op_pepp") and has("grab") and has("wclimb"))
+    pizzascape_pepp_s3() or (grab() and climb()) or (has("op_diff_exp") and upper() and climb_or_jump())
   )
 end
 
-function pizzascape_exp_pepp_com()
+--function pizzascape_exp_pepp_com()
+--  return(
+--    pizzascape_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or (has("ucut") and (has("sjump") or climb()))))
+--  )
+--end
+
+function pizzascape_pepp_pin()
   return(
-    pizzascape_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ((has("sjump") and has("grab")) or (has("ucut") and (has("sjump") or has("wclimb")))))
+    pepp_grab() or (has("op_pepp") and has("op_diff_exp") and upper())
   )
 end
 
-function pizzascape_exp_pepp_pin()
-  return(
-    pizzascape_pepp_pin() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
-  )
-end
+--function pizzascape_exp_pepp_s3()
+--  return(
+--    pizzascape_pepp_s3() or (has("op_diff_exp") and ((upper() and climb_or_jump()) or (climb() and grab())))
+--  )
+--end
 
-function pizzascape_exp_pepp_s3()
-  return(
-    pizzascape_pepp_s3() or (has("op_pepp") and has("op_diff_exp") and ((has("ucut") and (has("sjump") or has("wclimb"))) or (has("grab") and has("wclimb"))))
-  )
-end
-
-function pizzascape_exp_pepp_tre()
-  return(
-    pizzascape_pepp_tre() or (has("op_pepp") and has("op_diff_exp") and has("ucut") and (has("sjump") or has("wclimb")))
-  )
-end
+--function pizzascape_exp_pepp_tre()
+--  return(
+--    pizzascape_pepp_tre() or (has("op_pepp") and has("op_diff_exp") and upper() and climb_or_jump())
+--  )
+--end
 
 function pizzascape_noise_com()
   return(
@@ -424,19 +448,19 @@ end
 
 function ancient_cheese_pepp_com()
   return(
-    has("op_pepp") and has("grab") and has("bodyslam") and (has("sjump") or has("wclimb"))
+    grab() and slam() and climb_or_jump()
   )
 end
 
-function ancient_cheese_pepp_che()
-  return(
-    has("op_pepp") and has("grab")
-  )
-end
+--function ancient_cheese_pepp_che()
+--  return(
+--    has("op_pepp") and has("grab")
+--  )
+--end
 
 function ancient_cheese_exp_pepp_com()
   return(
-    ancient_cheese_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut") and has("bodyslam") and (has("wclimb") or has("sjump")))
+    ancient_cheese_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("ucut") and has("bodyslam") and climb_or_jump())
   )
 end
 
@@ -454,7 +478,7 @@ end
 
 function ancient_cheese_exp_pepp_che()
   return(
-    ancient_cheese_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
+    pepp_grab() or (has("op_pepp") and has("op_diff_exp") and has("ucut"))
   )
 end
 
@@ -508,19 +532,20 @@ end
 
 function bloodsauce_dungeon_pepp_com()
   return(
-    has("op_pepp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+    pepp_slam() and (has("sjump") or has("wclimb"))
   )
 end
 
-function bloodsauce_dungeon_pepp_pin()
-  return(
-    has("op_pepp") and has("bodyslam")
-  )
-end
+--function bloodsauce_dungeon_pepp_pin()
+--  return(
+--    has("op_pepp") and has("bodyslam")
+--  )
+--end
+  -- Replace these with pepp_slam()
 
 function bloodsauce_dungeon_pepp_s2()
   return(
-    has("op_pepp") and has("bodyslam") and has("sjump")
+    pepp_slam() and sjump()
   )
 end
 
@@ -566,11 +591,11 @@ function reach_pepperman()
   )
 end
 
-function boss_pepp()
-  return(
-    has("op_pepp") and has("grab")
-  )
-end
+--function boss_pepp()
+--  return(
+--    has("op_pepp") and has("grab")
+--  )
+--end
 
 function boss_noise()
   return(
@@ -676,13 +701,13 @@ end
 
 function fun_farm_pepp_com()
   return(
-    has("op_pepp") and has("bodyslam") and (has("sjump") or has("wclimb"))
+    pepp_slam() and (sjump() or climb())
   )
 end
 
 function fun_farm_pepp_che()
   return(
-    fun_farm_pepp_com() or (has("op_pepp") and has("bodyslam") and has("ucut"))
+    fun_farm_pepp_com() or (pepp_slam() and upper())
   )
 end
 
@@ -694,7 +719,7 @@ end
 
 function fun_farm_pepp_srank()
   return(
-    has("op_pepp") and has("bodyslam") and has("sjump")
+    pepp_slam() and has("sjump")
   )
 end
 
@@ -814,7 +839,7 @@ end
 
 function crust_cove_pepp_com()
   return(
-    has("op_pepp") and has("wclimb") and has("bodyslam")
+    pepp_slam() and has("wclimb")
   )
 end
 
@@ -952,7 +977,7 @@ end
 
 function deep_dish_9_pepp_com()
   return(
-    has("op_pepp") and has("bodyslam") and has("wclimb")
+    pepp_slam() and has("wclimb")
   )
 end
 
@@ -974,11 +999,11 @@ function deep_dish_9_norm_pepp_che()
   )
 end
 
-function deep_dish_9_pepp_mus()
-  return(
-    has("op_pepp") and has("bodyslam")
-  )
-end
+--function deep_dish_9_pepp_mus()
+--  return(
+--    has("op_pepp") and has("bodyslam")
+--  )
+--end
 
 function deep_dish_9_noise_mus()
   return(
@@ -1089,15 +1114,15 @@ function reach_floor4_lower()
   )
 end
 
-function pig_city_pepp_tom()
-  return(
-    has("op_pepp") and has("bodyslam")
-  )
-end
+--function pig_city_pepp_tom()
+--  return(
+--    has("op_pepp") and has("bodyslam")
+--  )
+--end
 
 function pig_city_pepp_com()
   return(
-    pig_city_pepp_tom() and has("djump")
+    pepp_slam() and has("djump")
   )
 end
 
@@ -1109,7 +1134,7 @@ end
 
 function pig_city_pepp_srank()
   return(
-    has("op_pepp") and has("bodyslam") and has("djump") and (has("sjump") or has("wclimb") or has("ucut"))
+    pepp_slam() and has("djump") and (has("sjump") or has("wclimb") or has("ucut"))
   )
 end
 
@@ -1252,21 +1277,21 @@ function peppibot_factory_exp_noise_com()
   )
 end
 
-function oh_shit_pepp_mus()
-  return(
-    has("op_pepp") and has("bodyslam")
-  )
-end
+--function oh_shit_pepp_mus()
+--  return(
+--    has("op_pepp") and has("bodyslam")
+--  )
+--end
 
 function oh_shit_pepp_com()
   return(
-    oh_shit_pepp_mus() and has("wclimb")
+    pepp_slam() and has("wclimb")
   )
 end
 
 function oh_shit_pepp_che()
   return(
-    oh_shit_pepp_com() or (has("op_pepp") and has("bodyslam") and (has("sjump") or has("ucut")))
+    oh_shit_pepp_com() or (pepp_slam() and (has("sjump") or has("ucut")))
   )
 end
 
@@ -1398,13 +1423,13 @@ end
 
 function pizzascare_pepp_com()
   return(
-    has("op_pepp") and has("wclimb") and has("bodyslam")
+    pepp_slam() and has("wclimb")
   )
 end
 
 function pizzascare_pepp_mus()
   return(
-    pizzascare_pepp_com() or (has("op_pepp") and has("sjump") and has("bodyslam"))
+    pizzascare_pepp_com() or (pepp_slam() and has("sjump"))
   )
 end
 
@@ -1560,13 +1585,13 @@ end
 
 function war_pepp_com()
   return(
-    has("op_pepp") and has("grab") and has("sjump") and has("bodyslam")
+    pepp_slam() and has("grab") and has("sjump")
   )
 end
 
 function war_pepp_mus()
   return(
-    has("op_pepp") and has("grab") and (has("sjump") or has("wclimb"))
+    pepp_grab() and (has("sjump") or has("wclimb"))
   )
 end
 
@@ -1584,7 +1609,7 @@ end
 
 function war_exp_pepp_pin()
   return(
-    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and (has("grab") or has("ucut"))
+    pepp_slam() and has("op_diff_exp") and (has("grab") or has("ucut"))
   )
 end
 
@@ -1638,7 +1663,7 @@ end
 
 function crumbling_tower_pepp_pum()
   return(
-    has("op_pepp") and has("grab") and has("bodyslam")
+    pepp_slam() and has("grab")
   )
 end
 

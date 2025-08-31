@@ -116,6 +116,8 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("op_secret").Active = slot_data["secret_checks"]
     Tracker:FindObjectForCode("op_portal").Active = slot_data["shuffle_lap2"]
     Tracker:FindObjectForCode("op_pumpkin").Active = slot_data["pumpkin_checks"]
+    Tracker:FindObjectForCode("op_moverando").Active = slot_data["do_move_rando"]
+    Tracker:FindObjectForCode("op_tfrando").Active = slot_data["do_transfo_rando"]
 
     -- Starting Moves
 --    for i, val in pairs(MOVE_MAPPING) do
