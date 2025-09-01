@@ -760,11 +760,27 @@ function deep_dish_9_pepp_s1()
   )
 end
 
-
+function deep_dish_9_noise_mus()
+  return(
+    rocket() and ((bubb() and (noise_slam() or crush() or torn())) or (has("op_diff_exp") and (crush() or ((sjump() and bubb()) and (noise_slam() or torn() or bounce())))))
+  )
+end
 
 function deep_dish_9_noise_tom()
   return(
-    (rocket() and bubble() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and rocket() and (crush() or ((noise_slam() or torn() or bounce()) and (sjump() or bubb()))))
+    rocket() and ((bubble() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or ((noise_slam() or torn() or bounce()) and (sjump() or bubb())))))
+  )
+end
+
+function deep_dish_9_noise_com()
+  return(
+    rocket() and (bubble() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or (noise_slam() or torn() or bounce()) and (sjump() or (bubb() and upper()))))
+  )
+end
+
+function deep_dish_9_noise_ct3()
+  return(
+    rocket() and ((bubb() and noise_slam() and (sjump() or bounce() or upper())) or (has("op_diff_exp") and (crush() or (sjump() and (noise_slam() or torn() or bounce())) or (bubb() and ((noise_slam() and upper()) or (torn() and upper()) or bounce())))))
   )
 end
 
@@ -1921,7 +1937,7 @@ function s_p_ranked(slot)
   elseif level == 10 and has("op_diff_norm") then
     return((gnome_forest_pepp_com() or gnome_forest_noise_com()) and lap2())
   elseif level == 11 then
-    return((deep_dish_9_pepp_com() or deep_dish_9_norm_noise_com() or deep_dish_9_exp_noise_com()) and lap2())
+    return((deep_dish_9_pepp_com() or deep_dish_9_noise_com()) and lap2())
   elseif level == 12 then
     return((golf_norm_pepp_com() or golf_exp_pepp_com() or golf_norm_noise_com() or golf_exp_noise_com()) and lap2())
   elseif level == 13 then
@@ -1957,7 +1973,7 @@ function pumpkin_munckin()
     (fastfood_saloon_access() and (fastfood_saloon_pepp_com() or fastfood_saloon_noise_com())) and 
     (crust_cove_access() and ((climb() and slam() and sjump() and barr()) or crust_cove_noise_pum())) and 
     (gnome_forest_access() and (gnome_forest_pepp_pin() or gnome_forest_noise_che())) and 
-    (deep_dish_9_access() and (deep_dish_9_pepp_pin() or deep_dish_9_norm_noise_com() or (deep_dish_9_exp_noise_tom() or has("op_diff_exp")))) and 
+    (deep_dish_9_access() and (deep_dish_9_pepp_pin() or deep_dish_9_noise_com())) and 
     (golf_access() and (golf_norm_pepp_com() or has("op_diff_exp") or golf_norm_noise_com())) and 
     (pig_city_access() and (pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_tom())) and 
     (peppibot_factory_access() and (peppibot_factory_norm_pepp_sau() or peppibot_factory_exp_pepp_pum() or peppibot_factory_exp_noise_pin())) and 
