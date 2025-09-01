@@ -768,13 +768,13 @@ end
 
 function deep_dish_9_noise_tom()
   return(
-    rocket() and ((bubble() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or ((noise_slam() or torn() or bounce()) and (sjump() or bubb())))))
+    rocket() and ((bubb() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or ((noise_slam() or torn() or bounce()) and (sjump() or bubb())))))
   )
 end
 
 function deep_dish_9_noise_com()
   return(
-    rocket() and (bubble() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or (noise_slam() or torn() or bounce()) and (sjump() or (bubb() and upper()))))
+    rocket() and (bubb() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or (noise_slam() or torn() or bounce()) and (sjump() or (bubb() and upper()))))
   )
 end
 
