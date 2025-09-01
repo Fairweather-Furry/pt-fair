@@ -1733,11 +1733,11 @@ function s_p_ranked(slot)
   elseif level == 6 then
     return((wasteyard_pepp_com() or wasteyard_noise_srank()) and lap2())
   elseif level == 7 then
-    return((fun_farm_exp_pepp_srank() or fun_farm_noise_com()) and lap2())
+    return((fun_farm_pepp_com() or fun_farm_noise_com()) and lap2())
   elseif level == 8 then
     return((fastfood_saloon_pepp_srank() or fastfood_saloon_noise_com()) and lap2())
   elseif level == 9 then
-    return((crust_cove_exp_pepp_s3() or (crust_cove_norm_noise_com() and has("taunt")) or (crust_cove_exp_noise_com() and has("taunt")) and lap2()))
+    return(((crust_cove_pepp_com() and taunt()) or (crust_cove_noise_com() and taunt())) and lap2())
   elseif level == 10 and has("op_diff_exp") then
     return(gnome_forest_pepp_com() or gnome_forest_noise_com())
   elseif level == 10 and has("op_diff_norm") then

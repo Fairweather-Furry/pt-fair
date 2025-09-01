@@ -1053,13 +1053,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crust_cove_pepp_com,$taunt,$lap2", "$,$lap2"],
+                        "access_rules": ["$crust_cove_pepp_com,$taunt,$lap2", "$crust_cove_noise_com,$taunt,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crust_cove_pepp_com,$taunt,$lap2", "$,$lap2"],
+                        "access_rules": ["$crust_cove_pepp_com,$taunt,$lap2", "$crust_cove_noise_com,$taunt,$lap2"],
                         "item_count": 1
                     },
                     {
