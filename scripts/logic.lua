@@ -418,7 +418,7 @@ end
 
 function ancient_cheese_pepp_tom()
   return(
-    (grab() and slam() and climb_or_jump()) or (has("op_diff_exp") and (upper() or (grab() or climb_or_jump())))
+    (grab() and slam() and climb_or_jump()) or (has("op_diff_exp") and (upper() or (grab() and climb_or_jump())))
   )
 end
 
@@ -454,7 +454,7 @@ end
 
 function ancient_cheese_noise_pin()
   return(
-    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and ((noise_slam() or torn() or crush()) and (upper() or (grab() and bounce_or_jump()))))
+    has("op_noise") and ((noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and ((noise_slam() or torn() or crush()) and (upper() or (grab() and bounce_or_jump())))))
   )
 end
 
@@ -691,6 +691,12 @@ end
 function crust_cove_noise_ct3()
   return(
     has("op_noise") and ((barr() and sjump() and (slam() or crush())) or (has("op_diff_exp") and (crush() or (slam() and (bounce_or_jump() or upper())))))
+  )
+end
+
+function crust_cove_noise_pum()
+  return(
+    has("op_noise") and barr() and ((sjump() and (torn() or slam() or bounce() or crush())) or (has("op_diff_exp") and crush()))
   )
 end
 

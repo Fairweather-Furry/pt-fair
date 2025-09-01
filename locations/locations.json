@@ -284,12 +284,12 @@
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$ancient_cheese_pepp_tom,bodyslam", "$ancient_cheese_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_tom,$slam", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$ancient_cheese_pepp_tom,bodyslam", "$ancient_cheese_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_tom,$slam", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     },
                     {
@@ -306,7 +306,7 @@
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$ancient_cheese_pepp_tom,bodyslam", "$ancient_cheese_noise_pin"],
+                        "access_rules": ["$ancient_cheese_pepp_tom,$slam", "$ancient_cheese_noise_pin"],
                         "item_count": 1
                     },
                     {
@@ -330,7 +330,7 @@
                     {
                         "name": "Chef Task: Thrill Seeker",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$ancient_cheese_pepp_tre,bodyslam", "$ancient_cheese_noise_ct1"],
+                        "access_rules": ["$ancient_cheese_pepp_tre,$slam", "$ancient_cheese_noise_ct1"],
                         "item_count": 1
                     },
                     {
@@ -1083,7 +1083,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$climb,$slam,$sjump,$barr", "$"],
+                        "access_rules": ["$climb,$slam,$sjump,$barr", "$crust_cove_noise_pum"],
                         "item_count": 1
                     }
                 ],
