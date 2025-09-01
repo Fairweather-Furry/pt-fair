@@ -912,154 +912,81 @@ end
 
 function peppibot_factory_noise_srank()
   return(
-    box() and ((grab() and sjump() and (noise_slam() or torn() or crush())) and (has("op_diff_exp") and ((crush() and (grab() or upper())) or (upper() and (bounce() or torn())) or (sjump() and bounce() and grab()))))
-  )
-end
-
---function peppibot_factory_pepp_mus()
---  return(
---    has("op_pepp") and has("sjump")
---  )
---end
---
---function peppibot_factory_norm_pepp_sau()
---  return(
---    peppibot_factory_pepp_mus() and has("op_diff_norm") and (has("wclimb") or has("ucut"))
---  )
---end
---
---function peppibot_factory_norm_pepp_com()
---  return(
---    peppibot_factory_norm_pepp_sau() and has("bodyslam")
---  )
---end
---
---function peppibot_factory_norm_pepp_s2()
---  return(
---    peppibot_factory_norm_pepp_sau() and has("ucut")
---  )
---end
---
---function peppibot_factory_exp_pepp_mus()
---  return(
---    peppibot_factory_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut")))
---  )
---end
---
---function peppibot_factory_exp_pepp_pin()
---  return(
---    (peppibot_factory_pepp_mus() and has("op_diff_exp")) or (has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut")))
---  )
---end
---
---function peppibot_factory_exp_pepp_com()
---  return(
---    peppibot_factory_exp_pepp_pin() and has("bodyslam")
---  )
---end
---
---function peppibot_factory_exp_pepp_s1()
---  return(
---    peppibot_factory_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and has("wclimb"))
---  )
---end
---
---function peppibot_factory_exp_pepp_tre()
---  return(
---    peppibot_factory_exp_pepp_s1() and has("bodyslam") and has("op_diff_exp")
---  )
---end
---
---function peppibot_factory_exp_pepp_pum()
---  return(
---    has("op_pepp") and has("op_diff_exp") and ((has("sjump") or has("ucut")) or (has("wclimb") and (has("grab") or has("ucut"))))
---  )
---end
---
---function peppibot_factory_noise_pin()
---  return(
---    has("op_noise") and has("sjump")
---  )
---end
---
---function peppibot_factory_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and (has("sjump") and (has("bodyslam") or has("nado") or has("crush")))
---  )
---end
---
---
---function peppibot_factory_exp_noise_pin()
---  return(
---    peppibot_factory_noise_pin() or (has("op_noise") and has("op_diff_exp") and (has("crush") or has("ucut")))
---  )
---end
---
---function peppibot_factory_exp_noise_com()
---  return(
---    has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
---  )
---end
-
---function oh_shit_pepp_mus()
---  return(
---    has("op_pepp") and has("bodyslam")
---  )
---end
-
-function oh_shit_pepp_com()
-  return(
-    pepp_slam() and has("wclimb")
+    box() and ((grab() and sjump() and (noise_slam() or torn() or crush())) or (has("op_diff_exp") and ((crush() and (grab() or upper())) or (upper() and (bounce() or torn())) or (sjump() and bounce() and grab()))))
   )
 end
 
 function oh_shit_pepp_che()
   return(
-    oh_shit_pepp_com() or (pepp_slam() and (has("sjump") or has("ucut")))
+    pepp_slam() and (climb() or sjump() or upper())
   )
 end
 
-function oh_shit_pepp_s2()
+function oh_shit_noise_che()
   return(
-    (oh_shit_pepp_com() and has("op_diff_norm") and has("taunt")) or (oh_shit_pepp_che() and has("op_diff_exp") and has("taunt"))
+    crush() or ((bounce() or sjump() or upper()) and (noise_slam() or torn())) or (has("op_diff_exp") and bounce())
   )
 end
 
-function oh_shit_norm_pepp_s3()
+function oh_shit_noise_com()
   return(
-    oh_shit_pepp_com() and has("op_diff_norm") and has("sjump")
+    sticky() and (((noise_slam() or torn() or crush()) and (bounce_or_jump() or upper())) or (has("op_diff_exp") and (bounce() or crush())))
   )
 end
 
-function oh_shit_noise_mus()
-  return(
-    has("op_noise") and (has("bodyslam") or has("nado") or has("crush"))
-  )
-end
-
-function oh_shit_norm_noise_che()
-  return(
-    has("op_noise") and has("op_diff_norm") and (has("crush") or ((has("bodyslam") or has("nado")) and (has("wbounce") or has("sjump") or has("ucut"))))
-  )
-end
-
-function oh_shit_norm_noise_com()
-  return(
-    has("op_noise") and has("op_diff_norm") and (((has("bodyslam") or has("nado") or has("crush")) and (has("wbounce") or has("sjump") or has("ucut"))))
-  )
-end
-
-function oh_shit_exp_noise_mus()
-  return(
-    oh_shit_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
-  )
-end
-
-function oh_shit_exp_noise_com()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
-  )
-end
+--function oh_shit_pepp_com()
+--  return(
+--    pepp_slam() and has("wclimb")
+--  )
+--end
+--
+--function oh_shit_pepp_che()
+--  return(
+--    oh_shit_pepp_com() or (pepp_slam() and (has("sjump") or has("ucut")))
+--  )
+--end
+--
+--function oh_shit_pepp_s2()
+--  return(
+--    (oh_shit_pepp_com() and has("op_diff_norm") and has("taunt")) or (oh_shit_pepp_che() and has("op_diff_exp") and has("taunt"))
+--  )
+--end
+--
+--function oh_shit_norm_pepp_s3()
+--  return(
+--    oh_shit_pepp_com() and has("op_diff_norm") and has("sjump")
+--  )
+--end
+--
+--function oh_shit_noise_mus()
+--  return(
+--    has("op_noise") and (has("bodyslam") or has("nado") or has("crush"))
+--  )
+--end
+--
+--function oh_shit_norm_noise_che()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and (has("crush") or ((has("bodyslam") or has("nado")) and (has("wbounce") or has("sjump") or has("ucut"))))
+--  )
+--end
+--
+--function oh_shit_norm_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and (((has("bodyslam") or has("nado") or has("crush")) and (has("wbounce") or has("sjump") or has("ucut"))))
+--  )
+--end
+--
+--function oh_shit_exp_noise_mus()
+--  return(
+--    oh_shit_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
+--  )
+--end
+--
+--function oh_shit_exp_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+--  )
+--end
 
 function reach_freezerator()
   return(
@@ -1860,7 +1787,7 @@ function s_p_ranked(slot)
   elseif level == 14 then
     return((peppibot_factory_pepp_srank() or peppibot_factory_noise_srank()) and lap2())
   elseif level == 15 then
-    return((oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com()) and lap2())
+    return(((slam() and climb() and sticky()) or oh_shit_noise_com()) and lap2())
   elseif level == 16 and has("op_diff_exp") then
     return(freezerator_exp_pepp_com() or freezerator_noise_srank())
   elseif level == 16 and has("op_diff_norm") then
@@ -1892,7 +1819,7 @@ function pumpkin_munckin()
     (golf_access() and (ball() and (golf_pepp_mus() or golf_noise_mus()))) and 
     (pig_city_access() and ((slam() and djump()) or pig_city_noise_tom())) and 
     (peppibot_factory_access() and (peppibot_factory_pepp_pum() or (has("op_noise") and sjump() and box()) or (has("op_diff_exp") and crush() and box()) or (has("op_diff_exp") and noise_upper() and box()))) and 
-    (oh_shit_access() and (oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com())) and 
+    (oh_shit_access() and ((slam() and climb() and sticky()) or oh_shit_noise_com())) and 
     (freezerator_access() and (freezerator_norm_pepp_com() or freezerator_exp_pepp_com() or has("op_noise"))) and 
     (pizzascare_access() and (pizzascare_pepp_pum() or has("op_diff_exp") or has("op_noise"))) and 
     (dont_make_sound_access() and (dont_make_sound_exp_pepp_che() or dont_make_sound_norm_noise_sau() or (dont_make_sound_noise_che() and has("op_diff_exp")))) and 

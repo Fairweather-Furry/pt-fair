@@ -1725,92 +1725,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$pepp_slam", "$oh_shit_exp_noise_mus"],
+                        "access_rules": ["$slam", "$torn", "$crush", "$bounce,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$oh_shit_pepp_che", "$oh_shit_norm_noise_che", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$oh_shit_pepp_che", "$oh_shit_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pepp_slam", "$oh_shit_exp_noise_mus"],
+                        "access_rules": ["$slam", "$torn", "$crush", "$bounce,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$oh_shit_pepp_com,$lap2", "$oh_shit_norm_noise_com,$lap2", "$oh_shit_exp_noise_com,$lap2"],
+                        "access_rules": ["$slam,$climb,$sticky,$lap2", "$oh_shit_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$oh_shit_pepp_com,$lap2", "$oh_shit_norm_noise_com,$lap2", "$oh_shit_exp_noise_com,$lap2"],
+                        "access_rules": ["$slam,$climb,$sticky,$lap2", "$oh_shit_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Can't Fool Me",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Food Clan",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$oh_shit_pepp_s2", "$oh_shit_norm_noise_che,taunt", "$oh_shit_exp_noise_com,taunt"],
+                        "access_rules": ["$slam,$climb,$sticky,$taunt", "$oh_shit_noise_com,$taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Penny Pincher",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$oh_shit_norm_pepp_s3", "$oh_shit_pepp_com,op_diff_exp", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky,$sjump", "$slam,$climb,$sticky,op_diff_exp", "$oh_shit_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$oh_shit_pepp_com", "$oh_shit_norm_noise_com", "$oh_shit_exp_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky", "$oh_shit_noise_com"],
                         "item_count": 1
                     }
                 ],
