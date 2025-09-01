@@ -430,7 +430,7 @@ end
 
 function ancient_cheese_pepp_com()
   return(
-    slam() and (grab() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and upper())
+    pepp_slam() and (grab() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and upper())
   )
 end
 
@@ -736,132 +736,102 @@ function gnome_forest_noise_com()
   )
 end
 
---function gnome_forest_norm_pepp_com()
---  return(
---    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and ((has("spin") or has("rkick")) and (has("sjump") or has("wclimb")))
---  )
---end
---
---function gnome_forest_norm_pepp_pin()
---  return(
---    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and (has("spin") or has("rkick"))
---  )
---end
---
---function gnome_forest_exp_pepp_pin()
---  return(
---    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("djump")
---  )
---end
---
---function gnome_forest_exp_pepp_com()
---  return(
---    gnome_forest_exp_pepp_pin() and (has("sjump") or has("wclimb"))
---  )
---end
---
---function gnome_forest_noise_che()
---  return(
---    has("op_noise") and has("crush")
---  )
---end
---
---function gnome_forest_norm_noise_com()
---  return(
---    gnome_forest_noise_che() and has("op_diff_norm") and (has("wbounce") or has("sjump"))
---  )
---end
---
---function gnome_forest_norm_noise_pin()
---  return(
---    gnome_forest_norm_noise_com() or (has("op_noise") and has("op_diff_norm") and has("ucut") and has("crush"))
---  )
---end
---
---function gnome_forest_exp_noise_che()
---  return(
---    gnome_forest_noise_che() or  (has("op_noise") and has("op_diff_exp") and (has("grab") and has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
---  )
---end
-
 function reach_deep_dish_9()
   return(
     reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("op_ladder3") or has("op_noise"))
   )
 end
 
-function deep_dish_9_pepp_com()
-  return(
-    pepp_slam() and has("wclimb")
-  )
-end
-
-function deep_dish_9_exp_pepp_com()
-  return(
-    deep_dish_9_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has ("bodyslam") and has("sjump"))
-  )
-end
-
 function deep_dish_9_pepp_pin()
   return(
-    deep_dish_9_pepp_com() or (has("op_pepp") and has("bodyslam") and has("sjump"))
+    pepp_slam() and rocket() and bubb() and climb_or_jump()
   )
 end
 
-function deep_dish_9_norm_pepp_che()
+function deep_dish_9_pepp_com()
   return(
-    deep_dish_9_pepp_pin() or (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("ucut"))
+    pepp_slam() and rocket() and bubb() and (climb() or (has("op_diff_exp") and sjump() and grab()))
   )
 end
 
---function deep_dish_9_pepp_mus()
+function deep_dish_9_pepp_s1()
+  return(
+    pepp_slam() and rocket() and bubb() and (climb_or_jump() or upper() or has("op_diff_exp"))
+  )
+end
+
+--function deep_dish_9_pepp_com()
 --  return(
---    has("op_pepp") and has("bodyslam")
+--    pepp_slam() and has("wclimb")
 --  )
 --end
-
-function deep_dish_9_noise_mus()
-  return(
-    has("op_noise") and (has("bodyslam") or has("crush") or has("nado"))
-  )
-end
-
-function deep_dish_9_noise_ct3()
-  return(
-    has("op_noise") and has("bodyslam") and (has("sjump") or has("ucut") or has("wbounce"))
-  )
-end
-
-function deep_dish_9_norm_noise_com()
-  return(
-    has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("nado") or has("crush")) and (has("sjump") or has("wbounce") or has("ucut")))
-  )
-end
-
-
-function deep_dish_9_exp_noise_tom()
-  return(
-    deep_dish_9_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
-  )
-end
-
-function deep_dish_9_exp_noise_com()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
-  )
-end
-
-function deep_dish_9_exp_noise_pin()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
-  )
-end
-
-function deep_dish_9_exp_noise_ct3()
-  return(
-    deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("crush") and has("bodyslam"))
-  )
-end
+--
+--function deep_dish_9_exp_pepp_com()
+--  return(
+--    deep_dish_9_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has ("bodyslam") and has("sjump"))
+--  )
+--end
+--
+--function deep_dish_9_pepp_pin()
+--  return(
+--    deep_dish_9_pepp_com() or (has("op_pepp") and has("bodyslam") and has("sjump"))
+--  )
+--end
+--
+--function deep_dish_9_norm_pepp_che()
+--  return(
+--    deep_dish_9_pepp_pin() or (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("ucut"))
+--  )
+--end
+--
+----function deep_dish_9_pepp_mus()
+----  return(
+----    has("op_pepp") and has("bodyslam")
+----  )
+----end
+--
+--function deep_dish_9_noise_mus()
+--  return(
+--    has("op_noise") and (has("bodyslam") or has("crush") or has("nado"))
+--  )
+--end
+--
+--function deep_dish_9_noise_ct3()
+--  return(
+--    has("op_noise") and has("bodyslam") and (has("sjump") or has("ucut") or has("wbounce"))
+--  )
+--end
+--
+--function deep_dish_9_norm_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("nado") or has("crush")) and (has("sjump") or has("wbounce") or has("ucut")))
+--  )
+--end
+--
+--
+--function deep_dish_9_exp_noise_tom()
+--  return(
+--    deep_dish_9_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
+--  )
+--end
+--
+--function deep_dish_9_exp_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+--  )
+--end
+--
+--function deep_dish_9_exp_noise_pin()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
+--  )
+--end
+--
+--function deep_dish_9_exp_noise_ct3()
+--  return(
+--    deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("crush") and has("bodyslam"))
+--  )
+--end
 
 function reach_golf()
   return(

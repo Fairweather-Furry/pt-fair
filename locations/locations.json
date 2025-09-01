@@ -1204,92 +1204,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$deep_dish_9_exp_pepp_com", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_com"],
+                        "access_rules": ["$deep_dish_9_pepp_com", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$pepp_slam",  "$deep_dish_9_exp_noise_tom"],
+                        "access_rules": ["$pepp_slam,$rocket,$bubb",  "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$deep_dish_9_norm_pepp_che", "$deep_dish_9_norm_pepp_che", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_pin"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_pin"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$deep_dish_9_norm_pepp_che", "bodyslam,op_diff_exp", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
+                        "access_rules": ["$deep_dish_9_pepp_s1", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_pin"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$deep_dish_9_exp_pepp_com", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_com"],
+                        "access_rules": ["$deep_dish_9_pepp_com", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$deep_dish_9_exp_pepp_com", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_com"],
+                        "access_rules": ["$deep_dish_9_pepp_com", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$deep_dish_9_pepp_com,$lap2", "$deep_dish_9_norm_noise_com,$lap2", "$deep_dish_9_exp_noise_com,$lap2"],
+                        "access_rules": ["$deep_dish_9_pepp_com,$lap2", "$,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$deep_dish_9_pepp_com,$lap2", "$deep_dish_9_norm_noise_com,$lap2", "$deep_dish_9_exp_noise_com,$lap2"],
+                        "access_rules": ["$deep_dish_9_pepp_com,$lap2", "$,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Turbo Tunnel",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_pin"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Blast'Em Asteroids",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$deep_dish_9_exp_pepp_com", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_com"],
+                        "access_rules": ["$deep_dish_9_pepp_com", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Man Meteor",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_exp_noise_ct3"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_norm_noise_com", "$deep_dish_9_exp_noise_tom,op_diff_exp"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
                         "item_count": 1
                     }
                 ],
