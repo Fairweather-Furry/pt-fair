@@ -490,7 +490,7 @@ end
 
 function bloodsauce_dungeon_pepp_srank()
   return(
-    pepp_slam() and ((climb() and sjump()) or (has("op_pepp_exp") and climb_or_jump()))
+    pepp_slam() and ((climb() and sjump()) or (has("op_diff_exp") and climb_or_jump()))
   )
 end
 
