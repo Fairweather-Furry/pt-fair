@@ -1071,7 +1071,7 @@
                     {
                         "name": "Chef Task: X",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_pepp_ct3", "$"],
+                        "access_rules": ["$crust_cove_pepp_ct3", "$crust_cove_noise_ct3"],
                         "item_count": 1
                     },
                     {
