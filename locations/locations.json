@@ -1622,92 +1622,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_com", "$peppibot_factory_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$sjump", "$slimb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_tom", "$sjump,op_noise", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_tom", "$sjump,op_noise", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_tom,$box", "$sjump,op_noise,$box", "$crush,op_diff_exp,$box", "$noise_upper,op_diff_exp,$box"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_tom,$box", "$sjump,op_noise,$box", "$crush,op_diff_exp,$box", "$noise_upper,op_diff_exp,$box"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$sjump", "$climb,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_s2", "$sjump,op_noise", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_com", "$peppibot_factory_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_com", "$peppibot_factory_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$,$lap2", "$,$lap2"],
+                        "access_rules": ["$peppibot_factory_pepp_srank,$lap2", "$peppibot_factory_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$,$lap2", "$,$lap2"],
+                        "access_rules": ["$peppibot_factory_pepp_srank,$lap2", "$peppibot_factory_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Unflattering",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_com", "$peppibot_factory_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Whoop This!",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$sjump", "$slimb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: There Can Only Be One",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_com,$lap2", "$peppibot_factory_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$", "$"],
+                        "access_rules": ["$peppibot_factory_pepp_pum", "$sjump,op_noise,$box", "$crush,op_diff_exp,$box", "$noise_upper,op_diff_exp,$box"],
                         "item_count": 1
                     }
                 ],
