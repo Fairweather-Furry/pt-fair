@@ -1976,9 +1976,9 @@ function pumpkin_munckin()
     (oregano_desert_access() and (oregano_desert_pepp_com() or (oregano_desert_noise_mus() and fire()))) and 
     (wasteyard_access() and (wasteyard_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ghost() and upper()) or wasteyard_noise_pin())) and 
     (fun_farm_access() and (fun_farm_pepp_com() or (fun_farm_noise_s1() and mort()))) and 
-    (fastfood_saloon_access() and (fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_com() or fastfood_saloon_exp_noise_com())) and 
-    (crust_cove_access() and ((crust_cove_pepp_com() and has("sjump")) or crust_cove_norm_noise_com() or crust_cove_exp_noise_com() or (has("op_noise") and has("op_diff_norm") and has("sjump") and has("wbounce")))) and 
-    (gnome_forest_access() and (gnome_forest_norm_pepp_pin() or gnome_forest_exp_pepp_pin() or gnome_forest_exp_noise_che())) and 
+    (fastfood_saloon_access() and (fastfood_saloon_pepp_com() or fastfood_saloon_noise_com())) and 
+    (crust_cove_access() and ((climb() and slam() and sjump() and barr()) or crust_cove_noise_pum())) and 
+    (gnome_forest_access() and (gnome_forest_pepp_pin() or gnome_forest_noise_che())) and 
     (deep_dish_9_access() and (deep_dish_9_pepp_pin() or deep_dish_9_norm_noise_com() or (deep_dish_9_exp_noise_tom() or has("op_diff_exp")))) and 
     (golf_access() and (golf_norm_pepp_com() or has("op_diff_exp") or golf_norm_noise_com())) and 
     (pig_city_access() and (pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_tom())) and 
