@@ -430,7 +430,7 @@ end
 
 function ancient_cheese_pepp_com()
   return(
-    pepp_slam() and (grab() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and upper())
+    pepp_slam() and ((grab() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump() and upper()))
   )
 end
 
