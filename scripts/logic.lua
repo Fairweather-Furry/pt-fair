@@ -466,7 +466,7 @@ end
 
 function ancient_cheese_noise_ct1()
   return(
-    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) and (has("op_diff_exp") and (slam() or torn() or crush()) and upper() and bounce_or_jump())
+    ((noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and upper() and (slam() or torn() or crush()) and bounce_or_jump()))
   )
 end
 
@@ -1969,13 +1969,13 @@ end
 
 function pumpkin_munckin()
   return(
-    (john_gutter_access() and (john_gutter_pepp_tom() or (has("op_diff_exp") and has("grab")) or john_gutter_noise_tom())) and 
-    (pizzascape_access() and (pizzascape_pepp_tre() or pizzascape_exp_noise_s3() or pizzascape_norm_noise_pum())) and 
-    (ancient_cheese_access() and (ancient_cheese_exp_pepp_com() or ancient_cheese_norm_noise_com() or ancient_cheese_exp_noise_pin())) and
-    (bloodsauce_dungeon_access() and (bloodsauce_dungeon_pepp_pin() or bloodsauce_dungeon_exp_noise_pin() or (has("op_noise") and has("wbounce")))) and 
-    (oregano_desert_access() and (oregano_desert_exp_pepp_com() or oregano_desert_noise_com())) and 
-    (wasteyard_access() and (wasteyard_exp_pepp_pin() or wasteyard_noise_com())) and 
-    (fun_farm_access() and (fun_farm_exp_pepp_com() or fun_farm_norm_noise_sau() or fun_farm_exp_noise_sau())) and 
+    (john_gutter_access() and (john_gutter_pepp_pum() or john_gutter_noise_pum())) and 
+    (pizzascape_access() and (pizzascape_pepp_s3() or (knight() and climb()) or pizzascape_noise_pum())) and 
+    (ancient_cheese_access() and (ancient_cheese_pepp_com() or ancient_cheese_noise_pin())) and
+    (bloodsauce_dungeon_access() and (pepp_slam() or bloodsauce_dungeon_noise_pin() or bounce())) and 
+    (oregano_desert_access() and (oregano_desert_pepp_com() or (oregano_desert_noise_mus() and fire()))) and 
+    (wasteyard_access() and (wasteyard_pepp_com() or (has("op_pepp") and has("op_diff_exp") and ghost() and upper()) or wasteyard_noise_pin())) and 
+    (fun_farm_access() and (fun_farm_pepp_com() or (fun_farm_noise_s1() and mort()))) and 
     (fastfood_saloon_access() and (fastfood_saloon_norm_pepp_com() or fastfood_saloon_exp_pepp_com() or fastfood_saloon_exp_noise_com())) and 
     (crust_cove_access() and ((crust_cove_pepp_com() and has("sjump")) or crust_cove_norm_noise_com() or crust_cove_exp_noise_com() or (has("op_noise") and has("op_diff_norm") and has("sjump") and has("wbounce")))) and 
     (gnome_forest_access() and (gnome_forest_norm_pepp_pin() or gnome_forest_exp_pepp_pin() or gnome_forest_exp_noise_che())) and 
