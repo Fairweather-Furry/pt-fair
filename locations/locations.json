@@ -1101,92 +1101,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_com", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_com", "$gnome_forest_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_exp_noise_che"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_exp_noise_che"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_pin", "$gnome_forest_exp_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_pin", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_com", "$upper,$crush"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_pin", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_com", "$upper,$crush"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_pin", "$gnome_forest_exp_noise_che"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_norm_noise_pin", "$gnome_forest_exp_noise_che"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_com", "$gnome_forest_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_com", "$gnome_forest_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com,$lap2", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com,$lap2", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_com,$lap2", "$gnome_forest_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com,$lap2", "$gnome_forest_exp_pepp_com,$lap2", "$gnome_forest_norm_noise_com,$lap2", "$gnome_forest_noise_che,op_diff_exp,$lap2"],
+                        "access_rules": ["$gnome_forest_pepp_com,$lap2", "$gnome_forest_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Bee Nice",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["taunt"],
+                        "access_rules": ["$taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Lumberjack",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$gnome_forest_norm_pepp_com", "$gnome_forest_exp_pepp_com", "$gnome_forest_norm_noise_com", "$gnome_forest_noise_che,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_com", "$gnome_forest_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Bullseye",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["taunt"],
+                        "access_rules": ["$taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$gnome_forest_norm_pepp_pin", "$gnome_forest_exp_pepp_pin", "$gnome_forest_exp_noise_che"],
+                        "access_rules": ["$gnome_forest_pepp_pin", "$gnome_forest_noise_che"],
                         "item_count": 1
                     }
                 ],

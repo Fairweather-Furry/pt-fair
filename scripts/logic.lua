@@ -448,7 +448,7 @@ end
 
 function ancient_cheese_noise_tom()
   return(
-    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and (upper() or (grab() and bounce_or_jump())))
+    (noise_grab() and (upper() or bounce_or_jump()) and (slam() or torn() or crush())) or (has("op_diff_exp") and (noise_upper() or (grab() and bounce_or_jump())))
   )
 end
 
@@ -700,138 +700,89 @@ function crust_cove_noise_pum()
   )
 end
 
-
---function crust_cove_pepp_com()
---  return(
---    pepp_slam() and has("wclimb")
---  )
---end
---
---function crust_cove_pepp_che()
---  return(
---    has("op_pepp") and (has("sjump") or has("wclimb"))
---  )
---end
---
---function crust_cove_pepp_s3()
---  return(
---    crust_cove_pepp_com() and has("taunt")
---  )
---end
---
---function crust_cove_pepp_ct1()
---  return(
---    crust_cove_pepp_che() and has("taunt")
---  )
---end
---
---function crust_cove_exp_pepp_com()
---  return(
---    crust_cove_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and has("ucut"))
---  )
---end
---
---function crust_cove_exp_pepp_s3()
---  return(
---    crust_cove_pepp_s3() or (has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("sjump") and has("ucut") and has("taunt"))
---  )
---end
---
---function crust_cove_exp_pepp_ct1()
---  return(
---    crust_cove_pepp_ct1() and has("bodyslam")
---  )
---end
---
---function crust_cove_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
---  )
---end
---
---function crust_cove_norm_noise_ct2()
---  return(
---    has("op_noise") and has("op_diff_norm") and ((has("sjump") and has("bodyslam")) or has("crush"))
---  )
---end
---
---function crust_cove_exp_noise_com()
---  return(
---    crust_cove_noise_com() or (has("op_noise") and has("op_diff_exp") and has("sjump") and has("wbounce"))
---  )
---end
---
---function crust_cove_noise_che()
---  return(
---    has("op_noise") and has("sjump")
---  )
---end
---
---function crust_cove_exp_noise_che()
---  return(
---    crust_cove_noise_che() or (has("op_noise") and has("op_diff_exp") and has("crush"))
---  )
---end
---
---function crust_cove_exp_noise_com()
---  return(
---    has("op_noise") and has("op_diff_exp") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado") or has("wbounce"))))
---  )
---end
-
 function reach_gnome_forest()
   return(
     reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3"))
   )
 end
 
-function gnome_forest_norm_pepp_com()
+function gnome_forest_pepp_pin()
   return(
-    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and ((has("spin") or has("rkick")) and (has("sjump") or has("wclimb")))
+    slam() and djump() and (spin() or kick() or has("op_diff_exp"))
   )
 end
 
-function gnome_forest_norm_pepp_pin()
+function gnome_forest_pepp_com()
   return(
-    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and (has("spin") or has("rkick"))
-  )
-end
-
-function gnome_forest_exp_pepp_pin()
-  return(
-    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("djump")
-  )
-end
-
-function gnome_forest_exp_pepp_com()
-  return(
-    gnome_forest_exp_pepp_pin() and (has("sjump") or has("wclimb"))
+    slam() and djump() and ((climb_or_jump() and (spin() or kick() or has("op_diff_exp"))))
   )
 end
 
 function gnome_forest_noise_che()
   return(
-    has("op_noise") and has("crush")
+    crush() or (has("op_diff_exp") and noise_grab() and slam() and (bounce_or_jump() or upper()))
   )
 end
 
-function gnome_forest_norm_noise_com()
+function gnome_forest_noise_tom()
   return(
-    gnome_forest_noise_che() and has("op_diff_norm") and (has("wbounce") or has("sjump"))
+    (crush() and (bounce_or_jump() or upper() or has("op_diff_exp"))) or (has("op_diff_exp") and noise_grab() and slam() and (bounce_or_jump() or upper()))
   )
 end
 
-function gnome_forest_norm_noise_pin()
+function gnome_forest_noise_com()
   return(
-    gnome_forest_norm_noise_com() or (has("op_noise") and has("op_diff_norm") and has("ucut") and has("crush"))
+    crush() and (bounce_or_jump() or has("op_diff_exp"))
   )
 end
 
-function gnome_forest_exp_noise_che()
-  return(
-    gnome_forest_noise_che() or  (has("op_noise") and has("op_diff_exp") and (has("grab") and has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
-  )
-end
+--function gnome_forest_norm_pepp_com()
+--  return(
+--    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and ((has("spin") or has("rkick")) and (has("sjump") or has("wclimb")))
+--  )
+--end
+--
+--function gnome_forest_norm_pepp_pin()
+--  return(
+--    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("djump") and (has("spin") or has("rkick"))
+--  )
+--end
+--
+--function gnome_forest_exp_pepp_pin()
+--  return(
+--    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("djump")
+--  )
+--end
+--
+--function gnome_forest_exp_pepp_com()
+--  return(
+--    gnome_forest_exp_pepp_pin() and (has("sjump") or has("wclimb"))
+--  )
+--end
+--
+--function gnome_forest_noise_che()
+--  return(
+--    has("op_noise") and has("crush")
+--  )
+--end
+--
+--function gnome_forest_norm_noise_com()
+--  return(
+--    gnome_forest_noise_che() and has("op_diff_norm") and (has("wbounce") or has("sjump"))
+--  )
+--end
+--
+--function gnome_forest_norm_noise_pin()
+--  return(
+--    gnome_forest_norm_noise_com() or (has("op_noise") and has("op_diff_norm") and has("ucut") and has("crush"))
+--  )
+--end
+--
+--function gnome_forest_exp_noise_che()
+--  return(
+--    gnome_forest_noise_che() or  (has("op_noise") and has("op_diff_exp") and (has("grab") and has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
+--  )
+--end
 
 function reach_deep_dish_9()
   return(
@@ -1988,9 +1939,9 @@ function s_p_ranked(slot)
   elseif level == 9 then
     return((crust_cove_exp_pepp_s3() or (crust_cove_norm_noise_com() and has("taunt")) or (crust_cove_exp_noise_com() and has("taunt")) and lap2()))
   elseif level == 10 and has("op_diff_exp") then
-    return(gnome_forest_exp_pepp_pin() or gnome_forest_noise_che())
+    return(gnome_forest_pepp_com() or gnome_forest_noise_com())
   elseif level == 10 and has("op_diff_norm") then
-    return((gnome_forest_norm_pepp_com() or gnome_forest_norm_noise_com()) and lap2())
+    return((gnome_forest_pepp_com() or gnome_forest_noise_com()) and lap2())
   elseif level == 11 then
     return((deep_dish_9_pepp_com() or deep_dish_9_norm_noise_com() or deep_dish_9_exp_noise_com()) and lap2())
   elseif level == 12 then
