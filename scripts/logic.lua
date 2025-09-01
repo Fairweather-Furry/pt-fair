@@ -948,7 +948,7 @@ end
 
 function freezerator_pepp_ct2()
   return(
-    satan() and staunt() pepp_slam() and ((climb() and sjump() and grab()) or (has("op_diff_exp") and climb_or_jump()))
+    satan() and staunt() and pepp_slam() and ((climb() and sjump() and grab()) or (has("op_diff_exp") and climb_or_jump()))
   )
 end
 
