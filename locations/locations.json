@@ -1828,92 +1828,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$freezerator_pepp_mus,op_diff_norm", "op_pepp,op_diff_exp", "op_noise"],
+                        "access_rules": ["$climb", "$sjump", "op_diff_exp", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$freezerator_exp_pepp_che", "op_noise"],
+                        "access_rules": ["$climb", "$sjump,op_diff_exp", "$upper,op_diff_exp", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,$box", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,box", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$freezerator_norm_pepp_com,$lap2", "$freezerator_exp_pepp_com", "$freezerator_noise_srank,$lap2", "$freezerator_noise_srank,op_diff_exp"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan,$lap2", "$freezerator_pepp_pin,$satan,op_diff_exp", "$freezerator_noise_srank,$lap2", "$freezerator_noise_srank,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$freezerator_norm_pepp_com,$lap2", "$freezerator_exp_pepp_com,$lap2", "$freezerator_noise_srank,$lap2"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan,$lap2", "$freezerator_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Frozen Nuggets",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Season's Greetings",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$freezerator_norm_pepp_s2", "$freezerator_norm_noise_s2", "$freezerator_exp_noise_ct2"],
+                        "access_rules": ["$freezerator_pepp_ct2", "op_noise,$staunt", "$noise_grab"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Ice Climber",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$freezerator_norm_pepp_com", "$freezerator_exp_pepp_com", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin", "op_noise"],
                         "item_count": 1
                     }
                 ],
