@@ -780,82 +780,9 @@ end
 
 function deep_dish_9_noise_ct3()
   return(
-    rocket() and ((bubb() and noise_slam() and (sjump() or bounce() or upper())) or (has("op_diff_exp") and (crush() or (sjump() and (noise_slam() or torn() or bounce())) or (bubb() and ((noise_slam() and upper()) or (torn() and upper()) or bounce())))))
+    rocket() and ((bubb() and noise_slam() and (bounce_or_jump() or upper())) or (has("op_diff_exp") and (crush() or (sjump() and (noise_slam() or torn() or bounce())) or (bubb() and ((noise_slam() and upper()) or (torn() and upper()) or bounce())))))
   )
 end
-
---function deep_dish_9_pepp_com()
---  return(
---    pepp_slam() and has("wclimb")
---  )
---end
---
---function deep_dish_9_exp_pepp_com()
---  return(
---    deep_dish_9_pepp_com() or (has("op_pepp") and has("op_diff_exp") and has ("bodyslam") and has("sjump"))
---  )
---end
---
---function deep_dish_9_pepp_pin()
---  return(
---    deep_dish_9_pepp_com() or (has("op_pepp") and has("bodyslam") and has("sjump"))
---  )
---end
---
---function deep_dish_9_norm_pepp_che()
---  return(
---    deep_dish_9_pepp_pin() or (has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("ucut"))
---  )
---end
---
-----function deep_dish_9_pepp_mus()
-----  return(
-----    has("op_pepp") and has("bodyslam")
-----  )
-----end
---
---function deep_dish_9_noise_mus()
---  return(
---    has("op_noise") and (has("bodyslam") or has("crush") or has("nado"))
---  )
---end
---
---function deep_dish_9_noise_ct3()
---  return(
---    has("op_noise") and has("bodyslam") and (has("sjump") or has("ucut") or has("wbounce"))
---  )
---end
---
---function deep_dish_9_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and ((has("bodyslam") or has("nado") or has("crush")) and (has("sjump") or has("wbounce") or has("ucut")))
---  )
---end
---
---
---function deep_dish_9_exp_noise_tom()
---  return(
---    deep_dish_9_noise_mus() or (has("op_noise") and has("op_diff_exp") and has("wbounce"))
---  )
---end
---
---function deep_dish_9_exp_noise_com()
---  return(
---    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
---  )
---end
---
---function deep_dish_9_exp_noise_pin()
---  return(
---    has("op_noise") and has("op_diff_exp") and (has("crush") or ((has("sjump") or has("ucut")) and (has("wbounce") or has("nado"))))
---  )
---end
---
---function deep_dish_9_exp_noise_ct3()
---  return(
---    deep_dish_9_noise_ct3() or (has("op_noise") and has("op_diff_exp") and has("crush") and has("bodyslam"))
---  )
---end
 
 function reach_golf()
   return(
@@ -863,47 +790,72 @@ function reach_golf()
   )
 end
 
-function golf_norm_pepp_com()
+function golf_pepp_mus()
   return(
-    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump") or has("ucut"))
+    (pepp_grab() and (climb_or_jump() or upper())) or (has("op_pepp") and has("op_diff_exp"))
   )
 end
 
-function golf_norm_pepp_tre()
+function golf_pepp_tre()
   return(
-    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump"))
+    ball() and ((grab() and climb_or_jump()) or (has("op_pepp") and has("op_diff_exp") and (sjump() or (climb() and (grab() or slam()))))) 
   )
 end
 
-function golf_exp_pepp_com()
+function golf_noise_mus()
   return(
-    has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("bodyslam") or has("wclimb") or has("ucut"))
+    (noise_grab() and (bounce_or_jump() or crush() or upper())) or (has("op_noise") and has("op_diff_exp"))
   )
 end
 
-function golf_exp_pepp_tre()
+function golf_noise_tre()
   return(
-    has("op_pepp") and has("op_diff_exp") and (has("sjump") or (has("wclimb") and (has("grab") or has("bodyslam"))))
+    ball() and ((grab() or has("op_diff_exp")) and (bounce_or_jump() or crush() or noise_upper()))
   )
 end
 
-function golf_norm_noise_com()
-  return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("crush") or has("ucut") or has("wbounce"))
-  )
-end
 
-function golf_exp_noise_tre()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("sjump") or has("wbounce") or has("ucut") or has("crush"))
-  )
-end
-
-function golf_exp_noise_com()
-  return(
-    golf_exp_noise_tre() or (has("op_noise") and has("op_diff_exp") and has("bodyslam"))
-  )
-end
+--function golf_norm_pepp_com()
+--  return(
+--    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump") or has("ucut"))
+--  )
+--end
+--
+--function golf_norm_pepp_tre()
+--  return(
+--    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump"))
+--  )
+--end
+--
+--function golf_exp_pepp_com()
+--  return(
+--    has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("bodyslam") or has("wclimb") or has("ucut"))
+--  )
+--end
+--
+--function golf_exp_pepp_tre()
+--  return(
+--    has("op_pepp") and has("op_diff_exp") and (has("sjump") or (has("wclimb") and (has("grab") or has("bodyslam"))))
+--  )
+--end
+--
+--function golf_norm_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("crush") or has("ucut") or has("wbounce"))
+--  )
+--end
+--
+--function golf_exp_noise_tre()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("sjump") or has("wbounce") or has("ucut") or has("crush"))
+--  )
+--end
+--
+--function golf_exp_noise_com()
+--  return(
+--    golf_exp_noise_tre() or (has("op_noise") and has("op_diff_exp") and has("bodyslam"))
+--  )
+--end
 
 function reach_noise()
   return(
@@ -1939,7 +1891,7 @@ function s_p_ranked(slot)
   elseif level == 11 then
     return((deep_dish_9_pepp_com() or deep_dish_9_noise_com()) and lap2())
   elseif level == 12 then
-    return((golf_norm_pepp_com() or golf_exp_pepp_com() or golf_norm_noise_com() or golf_exp_noise_com()) and lap2())
+    return((golf_pepp_tre() or golf_noise_tre()) and lap2())
   elseif level == 13 then
     return((pig_city_pepp_srank() or pig_city_norm_noise_srank() or pig_city_exp_noise_com()) and lap2())
   elseif level == 14 then
@@ -1974,7 +1926,7 @@ function pumpkin_munckin()
     (crust_cove_access() and ((climb() and slam() and sjump() and barr()) or crust_cove_noise_pum())) and 
     (gnome_forest_access() and (gnome_forest_pepp_pin() or gnome_forest_noise_che())) and 
     (deep_dish_9_access() and (deep_dish_9_pepp_pin() or deep_dish_9_noise_com())) and 
-    (golf_access() and (golf_norm_pepp_com() or has("op_diff_exp") or golf_norm_noise_com())) and 
+    (golf_access() and (ball() and (golf_pepp_mus() or golf_noise_mus()))) and 
     (pig_city_access() and (pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_tom())) and 
     (peppibot_factory_access() and (peppibot_factory_norm_pepp_sau() or peppibot_factory_exp_pepp_pum() or peppibot_factory_exp_noise_pin())) and 
     (oh_shit_access() and (oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com())) and 

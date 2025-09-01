@@ -1307,92 +1307,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball",  "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus", "$golf_noise_mus"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$golf_norm_pepp_tre", "$golf_exp_pepp_tre", "$golf_norm_noise_com", "$golf_exp_noise_tre"],
+                        "access_rules": ["$golf_pepp_tre", "$golf_noise_tre"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$golf_norm_pepp_tre,$lap2", "$golf_exp_pepp_tre,$lap2", "$golf_norm_noise_com,$lap2", "$golf_exp_noise_tre,$lap2"],
+                        "access_rules": ["$golf_pepp_tre,$lap2", "$golf_noise_tre,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$golf_norm_pepp_tre,$lap2", "$golf_exp_pepp_tre,$lap2", "$golf_norm_noise_com,$lap2", "$golf_exp_noise_tre,$lap2"],
+                        "access_rules": ["$golf_pepp_tre,$lap2", "$golf_noise_tre,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Primo Golf",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Nice Shot",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Helpful Burger",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$golf_norm_pepp_com", "op_diff_exp", "$golf_norm_noise_com"],
+                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     }
                 ],
