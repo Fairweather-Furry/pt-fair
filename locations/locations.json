@@ -998,92 +998,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_com", "$crust_cove_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$sjump", "$climb", "$crush,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$crust_cove_pepp_che",  "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$sjump,$barr", "$climb,$barr", "$crush,$barr,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$crust_cove_exp_pepp_com",  "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_com",  "$crust_cove_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$crust_cove_exp_pepp_com",  "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_com",  "$crust_cove_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$crust_cove_exp_pepp_com",  "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_com",  "$crust_cove_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$sjump,$barr", "$climb,$barr", "$crush,$barr,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_com", "$crust_cove_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$crust_cove_exp_pepp_s3", "$crust_cove_norm_noise_com,taunt", "$crust_cove_exp_noise_com,taunt"],
+                        "access_rules": ["$crust_cove_pepp_com,$taunt", "$crust_cove_noise_com,$taunt"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$crust_cove_pepp_che", "$crust_cove_exp_noise_che"],
+                        "access_rules": ["$sjump", "$climb", "$crush,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crust_cove_exp_pepp_s3,$lap2", "$crust_cove_norm_noise_com,taunt,$lap2", "$crust_cove_exp_noise_com,taunt,$lap2"],
+                        "access_rules": ["$crust_cove_pepp_com,$taunt,$lap2", "$,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crust_cove_exp_pepp_s3,$lap2", "$crust_cove_norm_noise_com,taunt,$lap2", "$crust_cove_exp_noise_com,taunt,$lap2"],
+                        "access_rules": ["$crust_cove_pepp_com,$taunt,$lap2", "$,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Blowback",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_exp_pepp_ct1", "$crust_cove_exp_noise_che,taunt"],
+                        "access_rules": ["$sjump,$taunt", "$climb,$taunt", "$crush,$taunt,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: X",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_ct3", "$"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Demolitian Expert",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$crust_cove_exp_pepp_com", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com"],
+                        "access_rules": ["$crust_cove_pepp_com", "$crust_cove_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$crust_cove_pepp_com,sjump", "$crust_cove_norm_noise_com", "$crust_cove_exp_noise_com", "op_noise,op_diff_norm,sjump,wbounce"],
+                        "access_rules": ["$climb,$slam,$sjump,$barr", "$"],
                         "item_count": 1
                     }
                 ],
