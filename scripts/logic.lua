@@ -496,13 +496,13 @@ end
 
 function bloodsauce_dungeon_noise_mus()
   return(
-    has("op_noise") and (bounce_or_jump() or upper() or crush() or has("op_noise_exp"))
+    has("op_noise") and (bounce_or_jump() or upper() or crush() or has("op_diff_exp"))
   )
 end
 
 function bloodsauce_dungeon_noise_pin()
   return(
-    has("op_noise") and (slam() or torn() or crush() or (has("op_noise_exp") and bounce()))
+    has("op_noise") and (slam() or torn() or crush() or (has("op_diff_exp") and bounce()))
   )
 end
 
@@ -757,6 +757,14 @@ end
 function deep_dish_9_pepp_s1()
   return(
     pepp_slam() and rocket() and bubb() and (climb_or_jump() or upper() or has("op_diff_exp"))
+  )
+end
+
+
+
+function deep_dish_9_noise_tom()
+  return(
+    (rocket() and bubble() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and rocket() and (crush() or ((noise_slam() or torn() or bounce()) and (sjump() or bubb()))))
   )
 end
 

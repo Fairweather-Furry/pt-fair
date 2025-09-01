@@ -1214,12 +1214,12 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$deep_dish_9_pepp_pin", "$"],
+                        "access_rules": ["$deep_dish_9_pepp_pin", "$deep_dish_9_noise_tom"],
                         "item_count": 1
                     },
                     {
