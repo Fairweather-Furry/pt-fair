@@ -814,49 +814,6 @@ function golf_noise_tre()
   )
 end
 
-
---function golf_norm_pepp_com()
---  return(
---    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump") or has("ucut"))
---  )
---end
---
---function golf_norm_pepp_tre()
---  return(
---    has("op_pepp") and has("op_diff_norm") and has("grab") and (has("wclimb") or has("sjump"))
---  )
---end
---
---function golf_exp_pepp_com()
---  return(
---    has("op_pepp") and has("op_diff_exp") and (has("sjump") or has("bodyslam") or has("wclimb") or has("ucut"))
---  )
---end
---
---function golf_exp_pepp_tre()
---  return(
---    has("op_pepp") and has("op_diff_exp") and (has("sjump") or (has("wclimb") and (has("grab") or has("bodyslam"))))
---  )
---end
---
---function golf_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("grab") and (has("sjump") or has("crush") or has("ucut") or has("wbounce"))
---  )
---end
---
---function golf_exp_noise_tre()
---  return(
---    has("op_noise") and has("op_diff_exp") and (has("sjump") or has("wbounce") or has("ucut") or has("crush"))
---  )
---end
---
---function golf_exp_noise_com()
---  return(
---    golf_exp_noise_tre() or (has("op_noise") and has("op_diff_exp") and has("bodyslam"))
---  )
---end
-
 function reach_noise()
   return(
     reach_elevator_2() and calculate_floor_cost("op_f3_cost") and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3")) 
@@ -875,83 +832,125 @@ function reach_floor4_lower()
   )
 end
 
+function pig_city_pepp_srank()
+  return(
+    slam() and djump() and climb_or_jump() and (spin() or kick() or has("op_diff_exp"))
+  )
+end
+
+function pig_city_noise_tom()
+  return(
+    crush() or (noise_slam() and (bounce_or_jump() or upper() or has("op_diff_exp")))
+  )
+end
+
+function pig_city_noise_sau()
+  return(
+    (bounce_or_jump() and (slam() or crush())) or (has("op_diff_exp") and (bounce() or crush() or (sjump() and torn()) or (noise_upper() and (slam() or torn()))))
+  )
+end
+
+function pig_city_noise_com()
+  return(
+    (crush() or (noise_slam() and (bounce_or_jump() or upper()))) and (has("op_diff_exp") and (bounce() or (sjump() and torn()) or (upper() and torn())))
+  )
+end
+
+function pig_city_noise_ct2()
+  return(
+    crush() or (noise_slam() and (bounce_or_jump() or upper()))
+  )
+end
+
+function pig_city_noise_srank()
+  return(
+    (sjump() and (noise_slam() or crush())) or (has("op_diff_exp") and (bounce() or crush() or (sjump() and torn()) or (noise_upper() and (slam() and torn()))))
+  )
+end
+
+function pig_city_swap_ct3()
+  return(
+    has("op_swap") and kick() and (crush() or (slam() and (sjump() or bounce() or djump() or upper())))
+  )
+end
+
 --function pig_city_pepp_tom()
 --  return(
 --    has("op_pepp") and has("bodyslam")
 --  )
 --end
-
-function pig_city_pepp_com()
-  return(
-    pepp_slam() and has("djump")
-  )
-end
-
-function pig_city_pepp_che()
-  return(
-    has("op_pepp") and (has("sjump") or has("wclimb"))
-  )
-end
-
-function pig_city_pepp_srank()
-  return(
-    pepp_slam() and has("djump") and (has("sjump") or has("wclimb") or has("ucut"))
-  )
-end
-
-function pig_city_noise_che()
-  return(
-    has("op_noise") and (has("sjump"))
-  )
-end
-
-function pig_city_norm_noise_com()
-  return(
-    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
-  )
-end
-
-function pig_city_norm_noise_sau()
-  return(
-    has("op_noise") and has("op_diff_norm") and (has("bodyslam") or has("crush")) and (has("sjump") or has("wbounce"))
-  )
-end
-
-function pig_city_norm_noise_srank()
-  return(
-    has("op_noise") and has("op_diff_norm") and has("sjump") and (has("bodyslam") or has("crush"))
-  )
-end
-
-function pig_city_exp_noise_che()
-  return(
-    pig_city_noise_che() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("wbounce") or has("crush")))
-  )
-end
-
-function pig_city_exp_noise_tom()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("crush") or has("bodyslam"))
-  )
-end
-
-function pig_city_exp_noise_com()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
-  )
-end
-
-function pig_city_exp_noise_ct1()
-  return(
-    has("op_noise") and has("op_diff_exp") and (has("crush") or (has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
-  )
-end
-
-function pig_city_swap_ct2()
-  return(
-    has("op_swap") and has("rkick") and (has("crush") or (has("bodyslam") and (has("djump") or has("wbounce") or has("ucut") or has("sjump"))))
-  )
-end
+--
+--function pig_city_pepp_com()
+--  return(
+--    pepp_slam() and has("djump")
+--  )
+--end
+--
+--function pig_city_pepp_che()
+--  return(
+--    has("op_pepp") and (has("sjump") or has("wclimb"))
+--  )
+--end
+--
+--function pig_city_pepp_srank()
+--  return(
+--    pepp_slam() and has("djump") and (has("sjump") or has("wclimb") or has("ucut"))
+--  )
+--end
+--
+--function pig_city_noise_che()
+--  return(
+--    has("op_noise") and (has("sjump"))
+--  )
+--end
+--
+--function pig_city_norm_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and (has("crush") or (has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
+--  )
+--end
+--
+--function pig_city_norm_noise_sau()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and (has("bodyslam") or has("crush")) and (has("sjump") or has("wbounce"))
+--  )
+--end
+--
+--function pig_city_norm_noise_srank()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and has("sjump") and (has("bodyslam") or has("crush"))
+--  )
+--end
+--
+--function pig_city_exp_noise_che()
+--  return(
+--    pig_city_noise_che() or (has("op_noise") and has("op_diff_exp") and (has("ucut") or has("wbounce") or has("crush")))
+--  )
+--end
+--
+--function pig_city_exp_noise_tom()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("crush") or has("bodyslam"))
+--  )
+--end
+--
+--function pig_city_exp_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("wbounce") or has("crush") or ((has("sjump") or has("ucut")) and (has("bodyslam") or has("nado"))))
+--  )
+--end
+--
+--function pig_city_exp_noise_ct1()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and (has("crush") or (has("bodyslam") and (has("sjump") or has("wbounce") or has("ucut"))))
+--  )
+--end
+--
+--function pig_city_swap_ct2()
+--  return(
+--    has("op_swap") and has("rkick") and (has("crush") or (has("bodyslam") and (has("djump") or has("wbounce") or has("ucut") or has("sjump"))))
+--  )
+--end
 
 function peppibot_factory_pepp_mus()
   return(
@@ -1893,7 +1892,7 @@ function s_p_ranked(slot)
   elseif level == 12 then
     return((golf_pepp_tre() or golf_noise_tre()) and lap2())
   elseif level == 13 then
-    return((pig_city_pepp_srank() or pig_city_norm_noise_srank() or pig_city_exp_noise_com()) and lap2())
+    return((pig_city_pepp_srank() or pig_city_noise_srank()) and lap2())
   elseif level == 14 then
     return((peppibot_factory_norm_pepp_com() or peppibot_factory_norm_noise_com()) and lap2())
   elseif level == 15 then
@@ -1927,7 +1926,7 @@ function pumpkin_munckin()
     (gnome_forest_access() and (gnome_forest_pepp_pin() or gnome_forest_noise_che())) and 
     (deep_dish_9_access() and (deep_dish_9_pepp_pin() or deep_dish_9_noise_com())) and 
     (golf_access() and (ball() and (golf_pepp_mus() or golf_noise_mus()))) and 
-    (pig_city_access() and (pig_city_pepp_com() or pig_city_norm_noise_com() or pig_city_exp_noise_tom())) and 
+    (pig_city_access() and ((slam() and djump()) or pig_city_noise_tom())) and 
     (peppibot_factory_access() and (peppibot_factory_norm_pepp_sau() or peppibot_factory_exp_pepp_pum() or peppibot_factory_exp_noise_pin())) and 
     (oh_shit_access() and (oh_shit_pepp_com() or oh_shit_norm_noise_com() or oh_shit_exp_noise_com())) and 
     (freezerator_access() and (freezerator_norm_pepp_com() or freezerator_exp_pepp_com() or has("op_noise"))) and 
