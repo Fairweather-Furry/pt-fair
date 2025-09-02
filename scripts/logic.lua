@@ -1018,199 +1018,132 @@ function dont_make_sound_noise_com()
   )
 end
 
-
-
---function dont_make_sound_pepp_che()
---  return(
---    has("op_pepp") and has("wclimb")
---  )
---end
---
---function dont_make_sound_pepp_tom()
---  return(
---    dont_make_sound_pepp_che() and has("bodyslam")
---  )
---end
---
---function dont_make_sound_pepp_sau()
---  return(
---    dont_make_sound_pepp_tom() or (has("op_pepp") and has("wclimb") and has("sjump"))
---  )
---end
---
---function dont_make_sound_norm_pepp_com()
---  return(
---    has("op_pepp") and has("op_diff_norm") and has("wclimb") and has("bodyslam") and has("grab")
---  )
---end
---
---function dont_make_sound_exp_pepp_che()
---  return(
---    dont_make_sound_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("sjump"))
---  )
---end
---
---function dont_make_sound_exp_pepp_tom()
---  return(
---    dont_make_sound_pepp_tom() or (has("op_pepp") and has("op_diff_exp") and has("sjump") and has("bodyslam"))
---  )
---end
---
---function dont_make_sound_exp_pepp_com()
---  return(
---    has("op_pepp") and has("op_diff_exp") and has("wclimb") and (has("grab") or has("ucut"))
---  )
---end
---
---function dont_make_sound_exp_pepp_s2()
---  return(
---    dont_make_sound_pepp_che() or (has("op_pepp") and has("op_diff_exp") and has("sjump") and has("ucut"))
---  )
---end
---
---function dont_make_sound_noise_che()
---  return(
---    has("op_noise") and (has("sjump") or has("ucut") or has("crush") or has("wbounce"))
---  )
---end
---
---function dont_make_sound_noise_tom()
---  return(
---    has("op_noise") and has("sjump") and (has("nado") or has("bodyslam"))
---  )
---end
---
---function dont_make_sound_noise_s3()
---  return(
---    has("op_noise") and has("sjump")
---  )
---end
---
---function dont_make_sound_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("grab") and (has("crush") or (has("bodyslam") and has("sjump")))
---  )
---end
---
---function dont_make_sound_norm_noise_tom()
---  return(
---    dont_make_sound_noise_tom() or (has("op_noise") and has("op_diff_norm") and has("sjump") and has("crush")) 
---  )
---end
---
---function dont_make_sound_norm_noise_sau()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("sjump")
---  )
---end
---
---function dont_make_sound_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("sjump") and has("bodyslam") and has("grab")
---  )
---end
---
---function dont_make_sound_exp_noise_tom()
---  return(
---    dont_make_sound_noise_tom() or (has("op_noise") and has("op_diff_exp") and (has("crush") or has("wbounce")))
---  )
---end
---
---function dont_make_sound_exp_noise_com()
---  return(
---    has("op_noise") and has("op_diff_exp") and (has("sjump") or has("crush") or has("wbounce")) and (has("grab") or has("ucut"))
---  )
---end
---
---function dont_make_sound_exp_noise_s3()
---  return (
---    dont_make_sound_noise_s3() or (has("op_noise") and has("op_diff_exp") and (has("crush") or has("wbounce")))
---  )
---end
---
---function dont_make_sound_exp_noise_srank()
---  return(
---    has("op_noise") and has("op_diff_exp") and ((has("sjump") and ((has("grab") or has("ucut")) and (has("bodyslam") or has("nado")))) or ((has("crush") or has("wbounce")) and (has("grab") or has("ucut"))))
---  )
---end
-
 function reach_war()
   return(
     reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (has("sjump")  or has("crush") or has("op_ladder5"))
   )
 end
 
-function war_pepp_com()
-  return(
-    pepp_slam() and has("grab") and has("sjump")
-  )
-end
-
 function war_pepp_mus()
   return(
-    pepp_grab() and (has("sjump") or has("wclimb"))
+    shotgun() and rocket() and (climb_or_jump() or (has("op_diff_exp") and pepp_slam()))
   )
 end
 
-function war_norm_pepp_sau()
+function war_pepp_sau()
   return(
-    war_pepp_mus() and has("op_diff_norm") and has("bodyslam")
+    shotgun() and rocket() and ((slam() and climb_or_jump()) or (has("op_diff_exp") and (climb_or_jump() or pepp_slam())))
   )
 end
 
-function war_exp_pepp_com()
+function war_pepp_com()
   return(
-    war_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and ((has("grab") and has("bodyslam")) or (has("ucut") and (has("sjump") or has("wclimb") or has("bodyslam")))))
+    shotgun() and rocket() and ((sjump() and pepp_slam()) or (has("op_diff_exp") and (climb_or_jump() or pepp_slam())))
+  ) 
+end
+
+function war_pepp_ct1()
+  return(
+    shotgun() and rocket() and ((sjump() and pepp_slam()) or (has("op_diff_exp") and (climb_or_jump() or (pepp_slam() and mach4()))))
+  ) 
+end
+
+function war_pepp_ct2()
+  return(
+    shotgun() and rocket() and ((sjump() and pepp_slam()) or (has("op_diff_exp") and (climb_or_jump())))
   )
 end
 
-function war_exp_pepp_pin()
+function war_pepp_srank()
   return(
-    pepp_slam() and has("op_diff_exp") and (has("grab") or has("ucut"))
+    shotgun() and rocket() and ((sjump() and climb() and slam()) or (has("op_diff_exp") and (climb_or_jump() or pepp_slam())))
   )
 end
 
-function war_exp_pepp_ct1()
+function war_noise_mus()
   return(
-    has("op_pepp") and has("op_diff_exp") and ((has("grab") or has("ucut")) and (has("sjump") or has("wclimb") or (has("bodyslam") and has("mach4"))))
+    shotgun() and (bounce_or_jump() or (has("op_diff_exp") and (crush() or noise_slam())))
   )
 end
 
-function war_noise_che()
+function war_noise_sau()
   return(
-    has("op_noise") and has("grab") and (has("wbounce") or has("sjump"))
+    shotgun() and rocket() and (((slam() or crush() or torn()) and bounce_or_jump()) or (has("op_diff_exp") and (crush() or bounce_or_jump() or noise_slam())))
   )
 end
 
-function war_norm_noise_sau()
-  return(
-    war_noise_che() and has("op_diff_norm") and (has("bodyslam") or has("crush") or has("nado"))
-  )
-end
 
-function war_norm_noise_com()
-  return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and has("sjump") and (has("bodyslam") or has("crush") or has("nado"))
-  )
-end
-
-function war_exp_noise_ct1()
-  return(
-    has("op_noise") and has("op_diff_exp") and ((has("grab") or has("ucut")) and (has("sjump") or has("crush")))
-  )
-end
-
-function war_exp_noise_com()
-  return(
-    war_exp_noise_ct1() or (has("op_noise") and has("op_diff_exp") and has("bodyslam") and (has("grab") or has("ucut")))
-  )
-end
-
-function war_exp_noise_sau()
-  return(
-    war_exp_noise_com() or (has("op_noise") and has("op_diff_exp") and has("wbounce") and (has("grab") or has("ucut")))
-  )
-end
+--function war_pepp_com()
+--  return(
+--    pepp_slam() and has("grab") and has("sjump")
+--  )
+--end
+--
+--function war_pepp_mus()
+--  return(
+--    pepp_grab() and (has("sjump") or has("wclimb"))
+--  )
+--end
+--
+--function war_norm_pepp_sau()
+--  return(
+--    war_pepp_mus() and has("op_diff_norm") and has("bodyslam")
+--  )
+--end
+--
+--function war_exp_pepp_com()
+--  return(
+--    war_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and ((has("grab") and has("bodyslam")) or (has("ucut") and (has("sjump") or has("wclimb") or has("bodyslam")))))
+--  )
+--end
+--
+--function war_exp_pepp_pin()
+--  return(
+--    pepp_slam() and has("op_diff_exp") and (has("grab") or has("ucut"))
+--  )
+--end
+--
+--function war_exp_pepp_ct1()
+--  return(
+--    has("op_pepp") and has("op_diff_exp") and ((has("grab") or has("ucut")) and (has("sjump") or has("wclimb") or (has("bodyslam") and has("mach4"))))
+--  )
+--end
+--
+--function war_noise_che()
+--  return(
+--    has("op_noise") and has("grab") and (has("wbounce") or has("sjump"))
+--  )
+--end
+--
+--function war_norm_noise_sau()
+--  return(
+--    war_noise_che() and has("op_diff_norm") and (has("bodyslam") or has("crush") or has("nado"))
+--  )
+--end
+--
+--function war_norm_noise_com()
+--  return(
+--    has("op_noise") and has("op_diff_norm") and has("grab") and has("sjump") and (has("bodyslam") or has("crush") or has("nado"))
+--  )
+--end
+--
+--function war_exp_noise_ct1()
+--  return(
+--    has("op_noise") and has("op_diff_exp") and ((has("grab") or has("ucut")) and (has("sjump") or has("crush")))
+--  )
+--end
+--
+--function war_exp_noise_com()
+--  return(
+--    war_exp_noise_ct1() or (has("op_noise") and has("op_diff_exp") and has("bodyslam") and (has("grab") or has("ucut")))
+--  )
+--end
+--
+--function war_exp_noise_sau()
+--  return(
+--    war_exp_noise_com() or (has("op_noise") and has("op_diff_exp") and has("wbounce") and (has("grab") or has("ucut")))
+--  )
+--end
 
 function reach_pizzaface()
   return(
