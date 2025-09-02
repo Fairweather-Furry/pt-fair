@@ -1992,92 +1992,92 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$pizzascare_pepp_mus", "$pizzascare_norm_noise_che", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom", "$sjump,$pepp_slam", "$pizzascare_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_che", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom", "$pizzascare_noise_che"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom", "$pizzascare_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_s3", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pizzascare_exp_pep_com,$lap2", "$pizzascare_exp_pep_com,op_diff_exp", "$pizzascare_norm_noise_com,$lap2", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball,$lap2", "$pizzascare_noise_tom,$ball,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascare_exp_pep_com,$lap2", "$pizzascare_norm_noise_com,$lap2", "$pizzascare_exp_noise_com,$lap2"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball,$lap2", "$pizzascare_noise_tom,$ball,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Cross To Bare",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Haunted Playground",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Skullsplitter",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascare_exp_pep_com", "$pizzascare_norm_noise_com", "$pizzascare_exp_noise_com"],
+                        "access_rules": ["$pizzascare_pepp_tom,$ball", "$pizzascare_noise_tom,$ball"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$pizzascare_pepp_pum", "op_diff_exp", "op_noise"],
+                        "access_rules": ["$sjump", "$climb", "op_diff_exp", "$bounce", "$upper", "$crush"],
                         "item_count": 1
                     }
                 ],
