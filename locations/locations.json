@@ -2095,7 +2095,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_pepp_com", "$dont_make_sound_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -2104,22 +2104,22 @@
                     },
                     {
                         "name": "Cheese Toppin",
-                        "access_rules": ["$dont_make_sound_exp_pepp_che", "$dont_make_sound_noise_che"],
+                        "access_rules": ["$climb", "$sjump,op_diff_exp", "$bounce_or_jump", "$crush", "$noise_upper"],
                         "item_count": 1
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$dont_make_sound_exp_pepp_tom", "$dont_make_sound_exp_noise_tom", "$dont_make_sound_norm_noise_tom"],
+                        "access_rules": ["$climb,$slam", "$sjump,$pepp_slam,op_diff_exp", "$dont_make_sound_noise_tom"],
                         "item_count": 1
                     },
                     {
                         "name": "Sausage Toppin",
-                        "access_rules": ["$dont_make_sound_exp_pepp_che", "$dont_make_sound_norm_noise_sau", "$dont_make_sound_noise_che,op_diff_exp"],
+                        "access_rules": ["$climb", "$sjump,op_diff_exp", "$sjump,op_noise", "$bounce,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_pepp_com", "$dont_make_sound_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -2130,55 +2130,55 @@
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$dont_make_sound_exp_pepp_s2", "$dont_make_sound_noise_che"],
+                        "access_rules": ["$climb", "$sjump,$upper,op_peppino,op_diff_exp", "$bounce_or_jump", "$crush", "$noise_upper"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$dont_make_sound_exp_pepp_s2", "$dont_make_sound_exp_noise_s3"],
+                        "access_rules": ["$climb", "$sjump,$upper,op_peppino,op_diff_exp", "$sjump,op_noise", "$bounce,op_diff_exp", "$crush,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_pepp_com", "$dont_make_sound_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com,taunt,$lap2", "$dont_make_sound_exp_pepp_com,bodyslam,taunt,$lap2", "$dont_make_sound_norm_noise_com,taunt,$lap2", "$dont_make_sound_exp_noise_srank,taunt,$lap2"],
+                        "access_rules": ["$dont_make_sound_pepp_com,$taunt,$lap2", "$,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com,taunt,$lap2", "$dont_make_sound_exp_pepp_com,bodyslam,taunt,$lap2", "$dont_make_sound_norm_noise_com,taunt,$lap2", "$dont_make_sound_exp_noise_srank,taunt,$lap2"],
+                        "access_rules": ["$dont_make_sound_pepp_com,$taunt,$lap2", "$dont_make_sound_noise_com,$taunt,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: And This... Is My Gun On A Stick!",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_pepp_com", "$dont_make_sound_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Let Them Sleep",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_pepp_com", "$dont_make_sound_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Jumpspared",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$dont_make_sound_norm_pepp_com", "$dont_make_sound_exp_pepp_com", "$dont_make_sound_norm_noise_com", "$dont_make_sound_exp_noise_com"],
+                        "access_rules": ["$dont_make_sound_pepp_com", "$dont_make_sound_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$dont_make_sound_exp_pepp_che", "$dont_make_sound_norm_noise_sau", "$dont_make_sound_noise_che,op_diff_exp"],
+                        "access_rules": ["$climb", "$sjump,op_diff_exp", "$sjump,op_noise", "$bounce,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     }
                 ],
