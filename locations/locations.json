@@ -400,49 +400,49 @@
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pepp_slam,sjump", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$pepp_slam,$sjump", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_s3", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_s3", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_s3", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_s3", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_srank,$lap2", "$bloodsauce_dungeon_noise_pin,sjump,$lap2"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_srank,$lap2", "$bloodsauce_dungeon_noise_pin,$sjump,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_srank,$lap2", "$bloodsauce_dungeon_noise_pin,sjump,$lap2"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_srank,$lap2", "$bloodsauce_dungeon_noise_pin,$sjump,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Very Very Hot Sauce",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Eruption Man",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pepp_slam,sjump", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$pepp_slam,$sjump", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Unsliced Pizzaman",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_noise_pin,sjump"],
+                        "access_rules": ["$bloodsauce_dungeon_pepp_com", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
@@ -1411,19 +1411,19 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,$upper", "op_diff_exp"],
+                        "access_rules": ["$grab", "$upper", "op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,$upper", "op_diff_exp"],
+                        "access_rules": ["$grab", "$upper", "op_diff_exp"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["op_diff_norm,$grab", "op_diff_norm,$upper", "op_diff_exp"],
+                        "access_rules": ["$grab", "$upper", "op_diff_exp"],
                         "item_count": 1 
                     }
                 ],
@@ -1627,7 +1627,7 @@
                     },
                     {
                         "name": "Mushroom Toppin",
-                        "access_rules": ["$sjump", "$slimb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
+                        "access_rules": ["$sjump", "$climb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -1695,7 +1695,7 @@
                     {
                         "name": "Chef Task: Whoop This!",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$sjump", "$slimb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
+                        "access_rules": ["$sjump", "$climb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
