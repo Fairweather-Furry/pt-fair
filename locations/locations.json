@@ -2227,13 +2227,13 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$war_pepp_sau", "$"],
+                        "access_rules": ["$war_pepp_sau", "$war_noise_sau"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$war_pepp_sau", "$"],
+                        "access_rules": ["$war_pepp_sau", "$war_noise_sau"],
                         "item_count": 1
                     },
                     {
