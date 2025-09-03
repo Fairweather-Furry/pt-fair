@@ -2389,6 +2389,7 @@
                     },
                     {
                         "name": "Main Path Pumpkin 2",
+                        "access_rules": ["$ghost"],
                         "item_count": 1
                     },
                     {
@@ -2398,22 +2399,22 @@
                     },
                     {
                         "name": "Main Path Pumpkin 4",
-                        "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum4"],
+                        "access_rules": ["$ghost,$ball,$climb", "$tricky_treat_noise_pum4"],
                         "item_count": 1
                     },
                     {
                         "name": "Main Path Pumpkin 5",
-                        "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum5"],
+                        "access_rules": ["$ghost,$ball,$climb", "$tricky_treat_noise_pum5"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 1",
-                        "access_rules": ["$tricky_treat_pepp_pum3", "$tricky_treat_noise_pum3"],
+                        "access_rules": ["$upper", "$climb", "$bounce_or_jump", "$crush"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 2",
-                        "access_rules": ["$tricky_treat_pepp_pumS4", "$tricky_treat_noise_pum3"],
+                        "access_rules": ["$climb_or_jump,$ghost", "$tricky_treat_noise_pum3"],
                         "item_count": 1
                     },
                     {
@@ -2423,12 +2424,12 @@
                     },
                     {
                         "name": "Side Path Pumpkin 4",
-                        "access_rules": ["$tricky_treat_pepp_pumS4", "$tricky_treat_norm_noise_pum4", "$tricky_treat_noise_pum3,op_diff_exp"],
+                        "access_rules": ["$climb,$ghost", "$sjump,$ghost", "op_noise,$upper,$ghost", "$bounce,$ghost", "$crush,$ghost,op_diff_exp"],
                         "item_count": 1
                     },
                     {
                         "name": "Side Path Pumpkin 5",
-                        "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum4"],
+                        "access_rules": ["$ghost,$ball,$climb", "$tricky_treat_noise_pum4"],
                         "item_count": 1
                     },
                     {
@@ -2440,7 +2441,7 @@
                     {
                         "name": "Chef Task: Tricksy",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$tricky_treat_pepp_pum5", "$tricky_treat_exp_noise_pum5"],
+                        "access_rules": ["$ghost,$ball,$climb", "$tricky_treat_noise_pum5"],
                         "item_count": 1
                     }
                 ],

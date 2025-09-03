@@ -1120,59 +1120,85 @@ function crumbling_tower_noise_pum()
   )
 end
 
-function tricky_treat_pepp_pum5()
-  return(
-    has("op_pepp") and has("wclimb")
-  )
-end
-
-function tricky_treat_pepp_pumS4()
-  return(
-    tricky_treat_pepp_pum5() or (has("op_pepp") and has("sjump"))
-  )
-end
 
 function tricky_treat_pepp_pum3()
   return(
-    tricky_treat_pepp_pumS4() or (has("op_pepp") and has("ucut"))
-  )
-end
-
-function tricky_treat_noise_pum4()
-  return(
-    has("op_noise") and (has("wbounce") or has("sjump"))
+    has("op_pepp") and ghost() and (upper() or climb_or_jump())
   )
 end
 
 function tricky_treat_noise_pum3()
   return(
-    tricky_treat_noise_pum4() or (has("op_noise") and (has("ucut") or has("crush")))
+    has("op_noise") and ghost() and (upper() or bounce_or_jump() or crush())
+  )
+end
+
+function tricky_treat_noise_pum4()
+  return(
+    ghost() and ball() and (bounce_or_jump() or (has("op_diff_exp") and crush()))
   )
 end
 
 function tricky_treat_noise_pum5()
   return(
-    has("op_noise") and ((has("wbounce") and has("ucut")) or has("sjump"))
+    has("op_noise") and ghost() and ball() and (((bounce() and upper()) or sjump()) or (has("op_diff_exp") and crush()))
   )
 end
 
-function tricky_treat_norm_noise_pum4()
-  return(
-    tricky_treat_noise_pum4() or (has("op_noise") and has("ucut"))
-  )
-end
 
-function tricky_treat_exp_noise_pum4()
-  return(
-    tricky_treat_noise_pum4() or (has("op_noise") and has("op_diff_exp") and has("crush"))
-  )
-end
-
-function tricky_treat_exp_noise_pum5()
-  return(
-    tricky_treat_noise_pum5() or (has("op_noise") and has("op_diff_exp") and has("crush"))
-  )
-end
+--function tricky_treat_pepp_pum5()
+--  return(
+--    has("op_pepp") and has("wclimb")
+--  )
+--end
+--
+--function tricky_treat_pepp_pumS4()
+--  return(
+--    tricky_treat_pepp_pum5() or (has("op_pepp") and has("sjump"))
+--  )
+--end
+--
+--function tricky_treat_pepp_pum3()
+--  return(
+--    tricky_treat_pepp_pumS4() or (has("op_pepp") and has("ucut"))
+--  )
+--end
+--
+--function tricky_treat_noise_pum4()
+--  return(
+--    has("op_noise") and (has("wbounce") or has("sjump"))
+--  )
+--end
+--
+--function tricky_treat_noise_pum3()
+--  return(
+--    tricky_treat_noise_pum4() or (has("op_noise") and (has("ucut") or has("crush")))
+--  )
+--end
+--
+--function tricky_treat_noise_pum5()
+--  return(
+--    has("op_noise") and ((has("wbounce") and has("ucut")) or has("sjump"))
+--  )
+--end
+--
+--function tricky_treat_norm_noise_pum4()
+--  return(
+--    tricky_treat_noise_pum4() or (has("op_noise") and has("ucut"))
+--  )
+--end
+--
+--function tricky_treat_exp_noise_pum4()
+--  return(
+--    tricky_treat_noise_pum4() or (has("op_noise") and has("op_diff_exp") and has("crush"))
+--  )
+--end
+--
+--function tricky_treat_exp_noise_pum5()
+--  return(
+--    tricky_treat_noise_pum5() or (has("op_noise") and has("op_diff_exp") and has("crush"))
+--  )
+--end
 
 function john_gutter_access()
   return(
