@@ -1072,6 +1072,29 @@ function war_noise_sau()
   )
 end
 
+function war_noise_com()
+  return(
+    shotgun() and rocket() and ((sjump() and (noise_slam() or torn() or crush())) or (has("op_noise") and has("op_diff_exp") and (sjump() or slam() or crush())))
+  )
+end
+
+function war_noise_s3()
+  return(
+    shotgun() and rocket() and ((sjump() and (noise_slam() or torn() or crush())) or (has("op_noise") and has("op_diff_exp") and (sjump() or slam() or crush() or bounce())))
+  )
+end
+
+function war_noise_ct1()
+  return(
+    shotgun() and rocket() and ((sjump() and (noise_slam() or torn() or crush()) or (has("op_noise") and has("op_diff_exp") and (sjump() or crush()))))
+  )
+end
+
+function war_noise_srank()
+  return(
+    shotgun() and rocket() and ((sjump() and bounce() and (noise_slam() or torn() or crush()) or (has("op_noise") and has("op_diff_exp") and (sjump() or crush()))))
+  )
+end
 
 --function war_pepp_com()
 --  return(
@@ -1636,7 +1659,7 @@ function s_p_ranked(slot)
   elseif level == 18 then
     return((dont_make_sound_pepp_com() or dont_make_sound_noise_com()) and taunt() and lap2())
   elseif level == 19 then
-    return(((war_pepp_com() and has("op_diff_norm")) or war_exp_pepp_com() or (war_norm_noise_com() and has("op_diff_norm")) or war_exp_noise_ct1()) and lap2())
+    return((war_pepp_srank() or war_noise_srank()) and lap2())
   else
     return false
   end
@@ -1662,7 +1685,7 @@ function pumpkin_munckin()
     (freezerator_access() and (freezerator_pepp_pin() or has("op_noise"))) and 
     (pizzascare_access() and (sjump() or climb() or bounce() or upper() or crush() or has("op_diff_exp"))) and 
     (dont_make_sound_access() and (climb() or (sjump() and (has("op_diff_exp") or has("op_noise"))) or (has("op_diff_exp") and (bounce() or crush() or upper())))) and 
-    (war_access() and (war_norm_pepp_sau() or (war_exp_pepp_com() and has("op_diff_exp")) or (war_noise_che() and has("op_diff_norm")) or war_exp_noise_sau())) and 
+    (war_access() and (war_pepp_sau() or (war_noise_mus() and rocket()))) and 
     (reach_pizzaface() and ((has("op_pepp") and has("grab")) or (has("op_noise") and has("bomb"))) and (crumbling_tower_exp_pepp_pum() or crumbling_tower_exp_noise_pum())) and
     (reach_tt() and (tricky_treat_pepp_pum5() or tricky_treat_exp_noise_pum5()))
   )

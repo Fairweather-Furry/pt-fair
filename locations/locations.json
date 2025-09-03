@@ -2196,7 +2196,7 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$war_pepp_com", "$mach4"],
+                        "access_rules": ["$war_pepp_com", "$war_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -2221,7 +2221,7 @@
                     },
                     {
                         "name": "Pineapple Toppin",
-                        "access_rules": ["$war_pepp_com", "$mach4"],
+                        "access_rules": ["$war_pepp_com", "$war_noise_com"],
                         "item_count": 1
                     },
                     {
@@ -2239,49 +2239,49 @@
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$war_pepp_com", "$mach4"],
+                        "access_rules": ["$war_pepp_com", "$war_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$war_pepp_com", "$mach4"],
+                        "access_rules": ["$war_pepp_com", "$war_noise_s3"],
                         "item_count": 1
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$war_pepp_srank,$lap2", "$mach4,$lap2"],
+                        "access_rules": ["$war_pepp_srank,$lap2", "$war_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$war_pepp_srank,$lap2", "$mach4,$lap2"],
+                        "access_rules": ["$war_pepp_srank,$lap2", "$war_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Decorated Veteran",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$war_pepp_com", "$mach4"],
+                        "access_rules": ["$war_pepp_com", "$war_noise_com"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Sharpshooter",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$war_pepp_ct2", "$mach4"],
+                        "access_rules": ["$war_pepp_ct2", "$war_noise_ct1"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Trip to The Warzone",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$war_pepp_ct1", "$mach4"],
+                        "access_rules": ["$war_pepp_ct1", "$war_noise_ct1"],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$war_pepp_sau", "$mach4"],
+                        "access_rules": ["$war_pepp_sau", "$war_noise_mus,$rocket"],
                         "item_count": 1
                     }
                 ],
