@@ -987,6 +987,12 @@ function pizzascare_noise_tom()
   )
 end
 
+function pizzascare_noise_s3()
+  return(
+    ball() and ((sjump() and (noise_slam() or torn() or crush())) or (has("op_diff_exp") and (crush() or bounce() or (upper() and (noise_slam() or torn())))))
+  )
+end
+
 function dont_make_sound_pepp_com()
   return(
     shotgun() and climb() and (slam() or has("op_diff_exp"))
@@ -1511,7 +1517,7 @@ function s_p_ranked(slot)
   elseif level == 16 and has("op_diff_norm") then
     return(((freezerator_pepp_pin() and satan()) or freezerator_noise_srank()) and lap2())
   elseif level == 17 then
-    return(((pizzascare_pepp_tom() and ball()) or (pizzascare_noise_tom() and ball())) and lap2())
+    return(((pizzascare_pepp_tom() and ball()) or pizzascare_noise_s3() ) and lap2())
   elseif level == 18 then
     return((dont_make_sound_pepp_com() or dont_make_sound_noise_com()) and taunt() and lap2())
   elseif level == 19 then
