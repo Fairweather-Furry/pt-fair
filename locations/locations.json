@@ -2344,7 +2344,7 @@
             },
             {
                 "name": "The Crumbling Tower of Pizza",
-                "access_rules": ["op_pepp,grab,$reach_pizzaface", "op_noise,bomb,$reach_pizzaface"],
+                "access_rules": ["op_pepp,$grab,$reach_pizzaface", "op_noise,$bomb,$reach_pizzaface"],
                 "sections": [
                     {
                         "name": "Complete",
