@@ -1096,129 +1096,27 @@ function war_noise_srank()
   )
 end
 
---function war_pepp_com()
---  return(
---    pepp_slam() and has("grab") and has("sjump")
---  )
---end
---
---function war_pepp_mus()
---  return(
---    pepp_grab() and (has("sjump") or has("wclimb"))
---  )
---end
---
---function war_norm_pepp_sau()
---  return(
---    war_pepp_mus() and has("op_diff_norm") and has("bodyslam")
---  )
---end
---
---function war_exp_pepp_com()
---  return(
---    war_pepp_mus() or (has("op_pepp") and has("op_diff_exp") and ((has("grab") and has("bodyslam")) or (has("ucut") and (has("sjump") or has("wclimb") or has("bodyslam")))))
---  )
---end
---
---function war_exp_pepp_pin()
---  return(
---    pepp_slam() and has("op_diff_exp") and (has("grab") or has("ucut"))
---  )
---end
---
---function war_exp_pepp_ct1()
---  return(
---    has("op_pepp") and has("op_diff_exp") and ((has("grab") or has("ucut")) and (has("sjump") or has("wclimb") or (has("bodyslam") and has("mach4"))))
---  )
---end
---
---function war_noise_che()
---  return(
---    has("op_noise") and has("grab") and (has("wbounce") or has("sjump"))
---  )
---end
---
---function war_norm_noise_sau()
---  return(
---    war_noise_che() and has("op_diff_norm") and (has("bodyslam") or has("crush") or has("nado"))
---  )
---end
---
---function war_norm_noise_com()
---  return(
---    has("op_noise") and has("op_diff_norm") and has("grab") and has("sjump") and (has("bodyslam") or has("crush") or has("nado"))
---  )
---end
---
---function war_exp_noise_ct1()
---  return(
---    has("op_noise") and has("op_diff_exp") and ((has("grab") or has("ucut")) and (has("sjump") or has("crush")))
---  )
---end
---
---function war_exp_noise_com()
---  return(
---    war_exp_noise_ct1() or (has("op_noise") and has("op_diff_exp") and has("bodyslam") and (has("grab") or has("ucut")))
---  )
---end
---
---function war_exp_noise_sau()
---  return(
---    war_exp_noise_com() or (has("op_noise") and has("op_diff_exp") and has("wbounce") and (has("grab") or has("ucut")))
---  )
---end
-
 function reach_pizzaface()
   return(
     reach_elevator_4() and calculate_floor_cost("op_f5_cost") and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("crush") or has("op_ladder5")) 
   )
 end
 
-function crumbling_tower_pepp_pum()
+function crumbling_tower_pepp_com()
   return(
-    pepp_slam() and has("grab")
+    pepp_slam() and shotgun() and ween() and rocket() and bubb() and ((climb() and sjump()) or (has("op_diff_exp") and climb_or_jump()))
   )
 end
 
-function crumbling_tower_norm_pepp_com()
+function crumbling_tower_noise_com()
   return(
-    has("op_pepp") and has("op_diff_norm") and has("bodyslam") and has("sjump") and has("wclimb")
-  )
-end
-
-function crumbling_tower_exp_pepp_com()
-  return(
-    has("op_pepp") and has("op_diff_exp") and has("bodyslam") and has("grab") and (has("sjump") or has("wclimb"))
-  )
-end
-
-function crumbling_tower_exp_pepp_pum()
-  return(
-    crumbling_tower_pepp_pum() or (has("op_pepp") and has("op_diff_exp") and has("ucut") and has("bodyslam"))
+    has("op_noise") and shotgun() and ween() and rocket() and bubb() and ((sjump() and (slam() or torn() or ween())) or (has("op_diff_exp") and ((sjump() and bounce()) or crush())))
   )
 end
 
 function crumbling_tower_noise_pum()
   return(
-    has("op_noise") and has("grab") and (has("bodyslam") or has("nado") or has("crush"))
-  )
-end
-
-function crumbling_tower_norm_noise_com()
-  return(
-    has("op_noise") and has("op_diff_norm") and has("grab") and has("sjump") and (has("crush") or has("bodyslam") or has("nado"))
-  )
-end
-
-function crumbling_tower_exp_noise_com()
-  return(
-    has("op_noise") and has("op_diff_exp") and has("grab") and (has("crush") or (has("sjump") and (has("bodyslam") or has("nado")) or has("wbounce")))
-  )
-end
-
-function crumbling_tower_exp_noise_pum()
-  return(
-    crumbling_tower_noise_pum() or (has("op_noise") and has("op_diff_exp") and ((has("grab") and has("wbounce")) or (has("ucut") and (has("bodyslam") or has("nado") or has("crush") or has("wbounce")))))
+    shotgun() and (noise_slam() or torn() or crush() or (bounce() and has("op_diff_exp")))
   )
 end
 
@@ -1686,7 +1584,7 @@ function pumpkin_munckin()
     (pizzascare_access() and (sjump() or climb() or bounce() or upper() or crush() or has("op_diff_exp"))) and 
     (dont_make_sound_access() and (climb() or (sjump() and (has("op_diff_exp") or has("op_noise"))) or (has("op_diff_exp") and (bounce() or crush() or upper())))) and 
     (war_access() and (war_pepp_sau() or (war_noise_mus() and rocket()))) and 
-    (reach_pizzaface() and ((has("op_pepp") and has("grab")) or (has("op_noise") and has("bomb"))) and (crumbling_tower_exp_pepp_pum() or crumbling_tower_exp_noise_pum())) and
+    (reach_pizzaface() and ((shotgun() and pepp_slam()) or crumbling_tower_noise_pum())) and
     (reach_tt() and (tricky_treat_pepp_pum5() or tricky_treat_exp_noise_pum5()))
   )
 end

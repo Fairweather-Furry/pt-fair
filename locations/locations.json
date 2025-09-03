@@ -2348,25 +2348,25 @@
                 "sections": [
                     {
                         "name": "Complete",
-                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com", "$crumbling_tower_exp_noise_com"],
+                        "access_rules": ["$crumbling_tower_pepp_com", "$crumbling_tower_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com", "$crumbling_tower_exp_noise_com"],
+                        "access_rules": ["$crumbling_tower_pepp_com", "$crumbling_tower_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$crumbling_tower_norm_pepp_com", "$crumbling_tower_exp_pepp_com", "$crumbling_tower_norm_noise_com","$crumbling_tower_exp_noise_com"],
+                        "access_rules": ["$crumbling_tower_pepp_com", "$crumbling_tower_noise_com"],
                         "item_count": 1 
                     },
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$crumbling_tower_exp_pepp_pum", "$crumbling_tower_exp_noise_pum"],
+                        "access_rules": ["$shotgun,$pepp_slam", "$crumbling_tower_noise_pum"],
                         "item_count": 1
                     }
                 ],
