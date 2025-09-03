@@ -424,7 +424,7 @@ end
 
 function reach_floor1_upper()
   return(
-    sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder1")
+    climb() or sjump() or noise_upper() or crush() or bounce() or has("op_ladder1")
   )
 end
 
@@ -511,19 +511,6 @@ function reach_pepperman()
     calculate_floor_cost("op_f1_cost")
   )
 end
-
-
---function boss_noise()
---  return(
---    has("op_noise") and has("bomb")
---  )
---end
-
---function boss_norm_noise()
---  return(
---    boss_noise() or (has("op_noise") and has("op_diff_norm") and has("grab"))
---  )
---end
 
 function reach_elevator_1()
   return(
@@ -702,7 +689,7 @@ end
 
 function reach_gnome_forest()
   return(
-    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3"))
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (sjump() or climb() or upper() or crush() or bounce() or has("op_ladder3"))
   )
 end
 
@@ -738,7 +725,7 @@ end
 
 function reach_deep_dish_9()
   return(
-    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("op_ladder3") or has("op_noise"))
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and ((bubb() and (sjump() or climb() or noise_upper() or crush() or bounce())) or has("op_ladder3"))
   )
 end
 
@@ -786,7 +773,7 @@ end
 
 function reach_golf()
   return(
-    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder3") )
+    reach_elevator_2() and (has("prog_key_2") or has("op_oworld")) and (sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder3"))
   )
 end
 
@@ -816,7 +803,7 @@ end
 
 function reach_noise()
   return(
-    reach_elevator_2() and calculate_floor_cost("op_f3_cost") and (has("prog_key_2") or has("op_oworld")) and (has("sjump") or has("wclimb") or has("ucut") or has("crush") or has("wbounce") or has("op_ladder3")) 
+    reach_elevator_2() and calculate_floor_cost("op_f3_cost") and (has("prog_key_2") or has("op_oworld")) and (sjump() or climb() or upper() or crush() or bounce() or has("op_ladder3")) 
   )
 end
 
@@ -936,7 +923,7 @@ end
 
 function reach_freezerator()
   return(
-    reach_elevator_3() and (has("prog_key_3") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
+    reach_elevator_3() and (has("prog_key_3") or has("op_oworld")) and (sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder4")) 
   )
 end
 
@@ -960,7 +947,7 @@ end
 
 function reach_fake_pepp()
   return(
-    reach_elevator_3() and calculate_floor_cost("op_f4_cost") and (has("prog_key_3") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder4")) 
+    reach_elevator_3() and calculate_floor_cost("op_f4_cost") and (has("prog_key_3") or has("op_oworld")) and (sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder4"))  
   )
 end
 
@@ -972,7 +959,7 @@ end
 
 function reach_floor5_lower()
   return(
-    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("wclimb") or (has("ucut") and has("op_noise")) or has("crush") or has("wbounce") or has("op_ladder5"))
+    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder5"))
   )
 end
 
@@ -1020,7 +1007,7 @@ end
 
 function reach_war()
   return(
-    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (has("sjump")  or has("crush") or has("op_ladder5"))
+    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (sjump() or crush() or has("op_ladder5"))
   )
 end
 
@@ -1098,7 +1085,7 @@ end
 
 function reach_pizzaface()
   return(
-    reach_elevator_4() and calculate_floor_cost("op_f5_cost") and (has("prog_key_4") or has("op_oworld")) and (has("sjump") or has("crush") or has("op_ladder5")) 
+    reach_elevator_4() and calculate_floor_cost("op_f5_cost") and (has("prog_key_4") or has("op_oworld")) and (sjump() or crush() or has("op_ladder5")) 
   )
 end
 
@@ -1144,61 +1131,6 @@ function tricky_treat_noise_pum5()
     has("op_noise") and ghost() and ball() and (((bounce() and upper()) or sjump()) or (has("op_diff_exp") and crush()))
   )
 end
-
-
---function tricky_treat_pepp_pum5()
---  return(
---    has("op_pepp") and has("wclimb")
---  )
---end
---
---function tricky_treat_pepp_pumS4()
---  return(
---    tricky_treat_pepp_pum5() or (has("op_pepp") and has("sjump"))
---  )
---end
---
---function tricky_treat_pepp_pum3()
---  return(
---    tricky_treat_pepp_pumS4() or (has("op_pepp") and has("ucut"))
---  )
---end
---
---function tricky_treat_noise_pum4()
---  return(
---    has("op_noise") and (has("wbounce") or has("sjump"))
---  )
---end
---
---function tricky_treat_noise_pum3()
---  return(
---    tricky_treat_noise_pum4() or (has("op_noise") and (has("ucut") or has("crush")))
---  )
---end
---
---function tricky_treat_noise_pum5()
---  return(
---    has("op_noise") and ((has("wbounce") and has("ucut")) or has("sjump"))
---  )
---end
---
---function tricky_treat_norm_noise_pum4()
---  return(
---    tricky_treat_noise_pum4() or (has("op_noise") and has("ucut"))
---  )
---end
---
---function tricky_treat_exp_noise_pum4()
---  return(
---    tricky_treat_noise_pum4() or (has("op_noise") and has("op_diff_exp") and has("crush"))
---  )
---end
---
---function tricky_treat_exp_noise_pum5()
---  return(
---    tricky_treat_noise_pum5() or (has("op_noise") and has("op_diff_exp") and has("crush"))
---  )
---end
 
 function john_gutter_access()
   return(
