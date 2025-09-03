@@ -809,7 +809,7 @@ end
 
 function reach_elevator_3()
   return(
-    reach_elevator_2() and (has("sjump") or has("ucut") or has("wclimb") or has("crush") or has("wbounce") or has("op_ladder3"))
+    reach_elevator_2() and (sjump() or upper() or climb() or crush() or bounce() or has("op_ladder3"))
   )
 end
 
