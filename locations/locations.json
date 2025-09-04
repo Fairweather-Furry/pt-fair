@@ -2047,13 +2047,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$pizzascare_pepp_tom,$ball,$lap2", "$pizzascare_noise_s3,$ball,$lap2"],
+                        "access_rules": ["$pizzascare_pepp_s3,$lap2", "$pizzascare_noise_s3,$ball,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$pizzascare_pepp_tom,$ball,$lap2", "$pizzascare_noise_s3,$ball,$lap2"],
+                        "access_rules": ["$pizzascare_pepp_s3,$lap2", "$pizzascare_noise_s3,$ball,$lap2"],
                         "item_count": 1
                     },
                     {
