@@ -909,6 +909,12 @@ function oh_shit_pepp_che()
   )
 end
 
+function oh_shit_pepp_ct1()
+  return(
+    pepp_slam() and taunt() and sticky() and (climb() or (has("op_diff_exp") and (sjump() or upper())))
+  )
+end
+
 function oh_shit_noise_che()
   return(
     crush() or ((bounce() or sjump() or upper()) and (noise_slam() or torn())) or (has("op_diff_exp") and bounce())

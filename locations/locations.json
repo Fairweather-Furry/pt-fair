@@ -1798,7 +1798,7 @@
                     {
                         "name": "Chef Task: Food Clan",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$slam,$climb,$sticky,$taunt", "$oh_shit_noise_com,$taunt"],
+                        "access_rules": ["$oh_shit_pepp_ct1", "$oh_shit_noise_com,$taunt"],
                         "item_count": 1
                     },
                     {
