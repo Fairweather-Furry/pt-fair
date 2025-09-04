@@ -1156,7 +1156,7 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$gnome_forest_pepp_com,$lap2", "$gnome_forest_pepp_com,op_diff_exp", "$gnome_forest_noise_com,$lap2", "$gnome_forest_noise_com,op_diff_exp"],
+                        "access_rules": ["$gnome_forest_pepp_com,op_diff_exp", "$gnome_forest_noise_com,op_diff_exp", "$gnome_forest_pepp_com,$lap2", "$gnome_forest_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {

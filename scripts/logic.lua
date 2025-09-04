@@ -875,7 +875,7 @@ end
 
 function peppibot_factory_pepp_s2()
   return(
-    has("op_pepp") and ((sjump() and (upper() and has("op_diff_exp"))) or (has("op_diff_exp") and (climb() and (grab() or upper()))))
+    has("op_pepp") and ((sjump() and (upper() or has("op_diff_exp"))) or (has("op_diff_exp") and (climb() and (grab() or upper()))))
   )
 end
 
