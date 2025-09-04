@@ -2130,13 +2130,13 @@
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$climb", "$sjump,$upper,op_peppino,op_diff_exp", "$bounce_or_jump", "$crush", "$noise_upper"],
+                        "access_rules": ["$climb", "$sjump,$upper,op_pepp,op_diff_exp", "$bounce_or_jump", "$crush", "$noise_upper"],
                         "item_count": 1
                     },
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$climb", "$sjump,$upper,op_peppino,op_diff_exp", "$sjump,op_noise", "$bounce,op_diff_exp", "$crush,op_diff_exp"],
+                        "access_rules": ["$climb", "$sjump,$upper,op_pepp,op_diff_exp", "$sjump,op_noise", "$bounce,op_diff_exp", "$crush,op_diff_exp"],
                         "item_count": 1
                     },
                     {
