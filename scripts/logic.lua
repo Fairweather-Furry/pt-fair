@@ -617,7 +617,7 @@ end
 
 function fun_farm_noise_s1()
   return(
-    has("op_noise") and ((crush() or ((bounce_or_jump() or upper()) and (slam() or torn()))) or (has("op_diff_exp") and (bounce() or ((sjump() or uppper()) and (slam() or torn())))))
+    has("op_noise") and ((crush() or ((bounce_or_jump() or upper()) and (slam() or torn()))) or (has("op_diff_exp") and (bounce() or ((sjump() or upper()) and (slam() or torn())))))
   )
 end
 
@@ -749,7 +749,7 @@ end
 
 function deep_dish_9_noise_mus()
   return(
-    rocket() and ((bubb() and (noise_slam() or crush() or torn())) or (has("op_diff_exp") and (crush() or ((sjump() and bubb()) and (noise_slam() or torn() or bounce())))))
+    rocket() and ((bubb() and (noise_slam() or crush() or torn())) or (has("op_diff_exp") and (crush() or ((sjump() or bubb()) and (noise_slam() or torn() or bounce())))))
   )
 end
 
@@ -761,7 +761,7 @@ end
 
 function deep_dish_9_noise_com()
   return(
-    rocket() and (bubb() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or (noise_slam() or torn() or bounce()) and (sjump() or (bubb() and upper()))))
+    rocket() and (bubb() and (slam() or torn() or crush()) and (bounce_or_jump() or noise_upper())) or (has("op_diff_exp") and (crush() or (sjump() and (noise_slam() or torn() or bounce())) or (bubb() and (bounce() or (noise_upper() and (slam() or torn()))))))
   )
 end
 
@@ -1549,6 +1549,6 @@ function pumpkin_munckin()
     (dont_make_sound_access() and (climb() or (sjump() and (has("op_diff_exp") or has("op_noise"))) or (has("op_diff_exp") and (bounce() or crush() or upper())))) and 
     (war_access() and (war_pepp_sau() or (war_noise_mus() and rocket()))) and 
     (reach_pizzaface() and ((shotgun() and pepp_slam()) or crumbling_tower_noise_pum())) and
-    (reach_tt() and (tricky_treat_pepp_pum5() or tricky_treat_exp_noise_pum5()))
+    (reach_tt() and ((ghost() and ball() and climb()) or tricky_treat_noise_pum5()))
   )
 end
