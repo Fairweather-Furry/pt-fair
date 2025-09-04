@@ -1019,7 +1019,7 @@ end
 
 function war_pepp_mus()
   return(
-    shotgun() and rocket() and (climb_or_jump() or (has("op_diff_exp") and pepp_slam()))
+    shotgun() and (climb_or_jump() or (has("op_diff_exp") and pepp_slam()))
   )
 end
 
