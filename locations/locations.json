@@ -1871,13 +1871,13 @@
                     {
                         "name": "Secret 3",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$freezerator_pepp_pin,$box", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan", "op_noise"],
                         "item_count": 1
                     },
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$freezerator_pepp_pin,box", "op_noise"],
+                        "access_rules": ["$freezerator_pepp_pin,$satan", "op_noise"],
                         "item_count": 1
                     },
                     {
