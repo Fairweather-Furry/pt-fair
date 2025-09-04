@@ -1156,7 +1156,7 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$gnome_forest_pepp_com,$lap2", "$gnome_forest_noise_com,$lap2"],
+                        "access_rules": ["$gnome_forest_pepp_com,$lap2", "$gnome_forest_pepp_com,op_diff_exp", "$gnome_forest_noise_com,$lap2", "$gnome_forest_noise_com,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -2148,7 +2148,7 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$dont_make_sound_pepp_com,$taunt,$lap2", "$,$lap2"],
+                        "access_rules": ["$dont_make_sound_pepp_com,$taunt,$lap2", "$dont_make_sound_noise_com,$taunt,$lap2"],
                         "item_count": 1
                     },
                     {
@@ -2344,7 +2344,7 @@
             },
             {
                 "name": "The Crumbling Tower of Pizza",
-                "access_rules": ["op_pepp,$grab,$reach_pizzaface", "op_noise,$bomb,$reach_pizzaface"],
+                "access_rules": ["$revolver,$reach_pizzaface", "$bomb,$reach_pizzaface"],
                 "sections": [
                     {
                         "name": "Complete",

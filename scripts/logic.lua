@@ -839,7 +839,7 @@ end
 
 function pig_city_noise_com()
   return(
-    (crush() or (noise_slam() and (bounce_or_jump() or upper()))) and (has("op_diff_exp") and (bounce() or (sjump() and torn()) or (upper() and torn())))
+    (crush() or (noise_slam() and (bounce_or_jump() or upper()))) or (has("op_diff_exp") and (bounce() or (sjump() and torn()) or (upper() and torn())))
   )
 end
 
