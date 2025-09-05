@@ -602,6 +602,12 @@ function fun_farm_pepp_com()
   )
 end
 
+function fun_farm_pepp_s1()
+  return(
+    pepp_slam() and (climb_or_jump() or upper())
+  )
+end
+
 function fun_farm_pepp_ct2()
   return(
     pepp_slam() and mort() and staunt() and (climb() or (has("op_diff_exp") and sjump()))

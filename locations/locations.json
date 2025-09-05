@@ -762,7 +762,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$fun_farm_pepp_che","$fun_farm_noise_s1"],
+                        "access_rules": ["$fun_farm_pepp_s1","$fun_farm_noise_s1"],
                         "item_count": 1
                     },
                     {
