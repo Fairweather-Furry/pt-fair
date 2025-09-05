@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.4 AP",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.4/pt-fair.zip",
+            "sha256": "92d93c7e972c71a5d436c82cb693e35a10c241b625d9ab01fc574ce61d4ef98c",
+            "changelog": [
+                "Transformation Rando!",
+                "Added all transformations and logic associated with transformation rando.",
+                "Extra toggles for turning movement rando and transformation rando on or off."
+            ]
+        },
+        {
             "package_version": "0.3 AP",
             "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.3/pt-fair.zip",
             "sha256": "b04770d7d2416d8a716fef223fc93d04781d303b1f484dde9311549633633eb0",
