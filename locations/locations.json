@@ -683,19 +683,19 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$wasteyard_pepp_com,$lap2", "$wasteyard_noise_srank,$lap2"],
+                        "access_rules": ["$climb,$ghost,$lap2", "$wasteyard_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$wasteyard_pepp_com,$lap2", "$wasteyard_noise_srank,$lap2"],
+                        "access_rules": ["$climb,$ghost,$lap2", "$wasteyard_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Ghosted",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$wasteyard_pepp_com", "$wasteyard_noise_com"],
+                        "access_rules": ["$climb,$ghost", "$wasteyard_noise_com"],
                         "item_count": 1
                     },
                     {

@@ -1509,7 +1509,7 @@ function s_p_ranked(slot)
   elseif level == 5 then
     return((oregano_desert_pepp_srank() or oregano_desert_noise_srank()) and lap2())
   elseif level == 6 then
-    return((wasteyard_pepp_com() or wasteyard_noise_srank()) and lap2())
+    return(((ghost() and climb()) or wasteyard_noise_srank()) and lap2())
   elseif level == 7 then
     return((fun_farm_pepp_com() or fun_farm_noise_com()) and lap2())
   elseif level == 8 then
