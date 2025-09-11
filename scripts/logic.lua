@@ -356,6 +356,12 @@ function john_gutter_noise_com()
   )
 end
 
+function john_gutter_noise_s1()
+  return(
+    has("op_noise") and (crush() or (slam() and (sjump() or upper() or has("op_diff_exp"))) or (has("op_diff_exp") and (sjump() or upper() or bounce() or grab())))
+  )
+end
+
 function john_gutter_noise_ct3()
   return(
     has("op_noise") and ((sjump() and mach4() and (slam() or crush())) or (has("op_diff_exp") and (sjump() or upper() or crush() or bounce())))

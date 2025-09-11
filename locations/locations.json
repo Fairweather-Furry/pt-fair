@@ -94,7 +94,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$john_gutter_pepp_tom", "$john_gutter_noise_mus"],
+                        "access_rules": ["$john_gutter_pepp_tom", "$john_gutter_noise_s1"],
                         "item_count": 1
                     },
                     {
