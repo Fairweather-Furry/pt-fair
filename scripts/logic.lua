@@ -334,7 +334,7 @@ end
 
 function john_gutter_pepp_pum()
   return(
-    has("op_pepp") and (climb_or_jump() or upper() or (has("op_diff_exp") and grab()))
+    has("op_pepp") and (((climb_or_jump() or upper()) and (slam() or has("op_diff_exp"))) or (has("op_diff_exp") and grab()))
   )
 end
 
@@ -370,7 +370,7 @@ end
 
 function john_gutter_noise_pum()
   return(
-    has("op_noise") and (sjump() or bounce() or crush() or upper() or (has("op_diff_exp") and grab()))
+    has("op_noise") and ((crush() or (sjump() or bounce() or upper()) and (slam() or has("op_diff_exp"))) or (has("op_diff_exp") and grab()))
   )
 end
 
