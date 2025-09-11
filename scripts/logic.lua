@@ -851,7 +851,7 @@ end
 
 function pig_city_noise_ct2()
   return(
-    crush() or (noise_slam() and (bounce_or_jump() or upper()))
+    crush() or (noise_slam() and (sjump() or upper() or (bounce() and has("op_diff_exp"))))
   )
 end
 
