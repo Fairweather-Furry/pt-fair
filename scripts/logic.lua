@@ -292,7 +292,7 @@ end
 
 function tutorial_sau()
   return(
-    (slam() and climb() and sjump()) or (has("op_diff_exp") and grab() and climb_or_jump())
+    slam() and ((climb() and sjump()) or (has("op_diff_exp") and grab() and climb_or_jump()))
   )
 end
 
