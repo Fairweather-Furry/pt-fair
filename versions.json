@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.4-2 AP",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.4-2/pt-fair.zip",
+            "sha256": "d88d5d70991625f1156adc1ca05f74451bb88b5681c7df2aca0b759506b6030a",
+            "changelog": [
+                "Small update 2",
+                "Logic tweak, file cleanup."
+            ]
+        },
+        {
             "package_version": "0.4-1 AP",
             "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.4-1/pt-fair.zip",
             "sha256": "0e808eec108c6018426149d8362c93da3ac4d4ade053050649031e3a114a4ff0",
