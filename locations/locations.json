@@ -786,13 +786,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$fun_farm_pepp_com,$lap2", "$fun_farm_noise_com,$lap2"],
+                        "access_rules": ["$fun_farm_pepp_lap2,$lap2", "$fun_farm_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$fun_farm_pepp_com,$lap2", "$fun_farm_noise_com,$lap2"],
+                        "access_rules": ["$fun_farm_pepp_lap2,$lap2", "$fun_farm_noise_com,$lap2"],
                         "item_count": 1
                     },
                     {
