@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.4-3 AP",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.4-3/pt-fair.zip",
+            "sha256": "722768b75fab3ebab494ef994b26f633126c7218d9edbccb45da3de66a6c340d",
+            "changelog": [
+                "Pig City Strike",
+                "Fixed Swap logic for chef task 'Strike!'"
+            ]
+        },
+        {
             "package_version": "0.4-2 AP",
             "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.4-2/pt-fair.zip",
             "sha256": "d88d5d70991625f1156adc1ca05f74451bb88b5681c7df2aca0b759506b6030a",
