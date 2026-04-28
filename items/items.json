@@ -180,6 +180,12 @@
         "codes": "revolve"
     },
     {
+        "name": "Snotty Gravestone",
+        "type": "toggle",
+        "img": "images/SnottyGrave.png",
+        "codes": "grave"
+    },
+    {
         "name": "Floor Keys",
         "type": "progressive",
         "codes": "prog_key",
