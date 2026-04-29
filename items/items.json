@@ -188,7 +188,7 @@
         "stages": [
             {
                 "name": "Crumbling Tower Of Pizza",
-                "img": "images/Key0.png",
+                "img": "images/ctop.png",
                 "codes": "op_goal_ctop",
                 "inherit_codes": false
             },
