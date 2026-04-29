@@ -398,6 +398,12 @@ function pizzascape_pepp_srank()
   )
 end
 
+function pizzascape_pepp_ct1()
+  return(
+    knight() and ((pepp_grab() and (sjump() or climb() or has("op_diff_exp"))) or (has("op_diff_exp") and upper()))
+  )
+end
+
 function pizzascape_noise_pin()
   return(
     knight() and (noise_grab() or (has("op_diff_exp") and noise_upper()))
@@ -538,13 +544,19 @@ end
 
 function oregano_desert_pepp_com()
   return(
-    fire() and (climb() or (has("op_diff_exp") and pepp_grab() and (sjump() or upper())))
+    fire() and (climb() or (has("op_diff_exp") and ((has("op_pepp") and upper()) or (sjump() and (pepp_grab() or pepp_slam())))))
   )
 end
 
 function oregano_desert_pepp_srank()
   return(
-    fire() and (climb() or (has("op_diff_exp") and sjump() and pepp_grab()))
+    fire() and (climb() or (has("op_diff_exp") and sjump() and (pepp_grab() or pepp_slam())))
+  )
+end
+
+function oregano_desert_pepp_pum()
+  return(
+    fire() and (climb() or (has("op_diff_exp") and ((has("op_pepp") and upper()) or (sjump() and pepp_grab()))))
   )
 end
 
@@ -568,7 +580,13 @@ end
 
 function wasteyard_pepp_com()
   return(
-    ghost() and climb_or_jump()
+    ghost() and ((has("op_pepp") and sjump()) or (climb() and (upper() or has("op_diff_exp"))))
+  )
+end
+
+function wasteyard_pepp_ct3()
+  return(
+    ghost() and ((climb() and (upper() or sjump() or has("op_diff_exp"))) or (has("op_pepp") and has("sjump") and has("op_diff_exp")))
   )
 end
 

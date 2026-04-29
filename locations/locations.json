@@ -229,7 +229,7 @@
                     {
                         "name": "Chef Task: Shining Armor",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$pizzascape_pepp_pin", "$pizzascape_noise_ct1"],
+                        "access_rules": ["$pizzascape_pepp_ct1", "$pizzascape_noise_ct1"],
                         "item_count": 1
                     },
                     {
@@ -400,7 +400,7 @@
                     {
                         "name": "Secret 2",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$pepp_slam,$sjump", "$bloodsauce_dungeon_noise_pin,$sjump"],
+                        "access_rules": ["$pepp_slam,$sjump", "$pepp_slam,$climb", "$bloodsauce_dungeon_noise_pin,$sjump"],
                         "item_count": 1
                     },
                     {
@@ -575,7 +575,7 @@
                     {
                         "name": "Treasure",
                         "visibility_rules": ["op_treasure"],
-                        "access_rules": ["$climb,$fire", "$oregano_desert_noise_mus,$fire"],
+                        "access_rules": ["$climb,$fire", "op_diff_exp,$sjump,$pepp_grab,$fire", "op_diff_exp,$sjump,$pepp_slam,$fire", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
@@ -599,7 +599,7 @@
                     {
                         "name": "Chef Task: Unnecessary Violence",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$climb,$fire", "$oregano_desert_noise_mus,$fire"],
+                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     },
                     {
@@ -611,7 +611,7 @@
                     {
                         "name": "Pumpkin",
                         "visibility_rules": ["op_pumpkin"],
-                        "access_rules": ["$oregano_desert_pepp_com", "$oregano_desert_noise_mus,$fire"],
+                        "access_rules": ["$oregano_desert_pepp_pum", "$oregano_desert_noise_mus,$fire"],
                         "item_count": 1
                     }
                 ],
@@ -643,7 +643,7 @@
                     },
                     {
                         "name": "Tomato Toppin",
-                        "access_rules": ["$wasteyard_pepp_com", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
+                        "access_rules": ["$ghost,$climb_or_jump", "op_pepp,op_diff_exp,$ghost,$upper", "$wasteyard_noise_pin"],
                         "item_count": 1
                     },
                     {
@@ -683,19 +683,19 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$climb,$ghost,$lap2", "$wasteyard_noise_srank,$lap2"],
+                        "access_rules": ["$wasteyard_pepp_ct3,$lap2", "$wasteyard_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$climb,$ghost,$lap2", "$wasteyard_noise_srank,$lap2"],
+                        "access_rules": ["$wasteyard_pepp_ct3,$lap2", "$wasteyard_noise_srank,$lap2"],
                         "item_count": 1
                     },
                     {
                         "name": "Chef Task: Ghosted",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$climb,$ghost", "$wasteyard_noise_com"],
+                        "access_rules": ["$wasteyard_pepp_ct3", "$wasteyard_noise_com"],
                         "item_count": 1
                     },
                     {
