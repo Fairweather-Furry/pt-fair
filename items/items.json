@@ -269,31 +269,31 @@
         "stages": [
             {
                 "name": "Floor 1",
-                "img": "images/Ladder1.png",
+                "img": "images/Snotty1.png",
                 "codes": "op_snotty_1",
                 "inherit_codes": true
             },
             {
                 "name": "Floor 2",
-                "img": "images/Ladder2.png",
+                "img": "images/Snotty2.png",
                 "codes": "op_snotty_2",
                 "inherit_codes": true
             },
             {
                 "name": "Floor 3",
-                "img": "images/Ladder3.png",
+                "img": "images/Snotty3.png",
                 "codes": "op_snotty_3",
                 "inherit_codes": true
             },
             {
                 "name": "Floor 4",
-                "img": "images/Ladder4.png",
+                "img": "images/Snotty4.png",
                 "codes": "op_snotty_4",
                 "inherit_codes": true
             },
             {
                 "name": "Floor 5",
-                "img": "images/Ladder5.png",
+                "img": "images/Snotty5.png",
                 "codes": "op_snotty_5",
                 "inherit_codes": true
             }
