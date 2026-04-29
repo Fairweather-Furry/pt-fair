@@ -1576,3 +1576,18 @@ function pumpkin_munckin()
     (reach_tt() and ((ghost() and ball() and climb()) or tricky_treat_noise_pum5()))
   )
 end
+
+function snotty_logic()
+  floor = Tracker:FindObjectForCode("op_snotty").CurrentStage
+  if (floor == 0) then
+    return true
+  elseif (floor == 1) then
+    return (reach_elevator_1() and (has("prog_key_1") or has("op_oworld")))
+  elseif (floor == 2) then
+    return (reach_elevator_2() and (has("prog_key_2") or has("op_oworld")))
+  elseif (floor == 3) then
+    return (reach_elevator_3() and (has("prog_key_3") or has("op_oworld")))
+  else
+    return (reach_elevator_4() and (has("prog_key_4") or has("op_oworld")))
+  end
+end

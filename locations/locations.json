@@ -1503,7 +1503,7 @@
                 "sections": [
                     {
                         "name": "Defeated",
-                        "access_rules": ["$reach_elevator_3,prog_key_3", "$reach_elevator_3,op_oworld"],
+                        "access_rules": ["$snotty_logic"],
                         "item_count": 1 
                     }
                 ],
