@@ -180,10 +180,25 @@
         "codes": "revolve"
     },
     {
-        "name": "Snotty Gravestone",
-        "type": "toggle",
-        "img": "images/SnottyGrave.png",
-        "codes": "grave"
+        "name": "Goal",
+        "type": "progressive",
+        "codes": "op_goal",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Crumbling Tower Of Pizza",
+                "img": "images/Key0.png",
+                "codes": "op_goal_ctop",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kill Snotty",
+                "img": "images/SnottyGrave.png",
+                "codes": "op_goal_ks",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Floor Keys",
@@ -244,6 +259,46 @@
         "type": "toggle",
         "img": "images/Portal.png",
         "codes": "portal"
+    },
+    {
+        "name": "Snotty Floor Location",
+        "type": "progressive",
+        "codes": "op_snotty",
+        "allow_disabled": false,
+        "loop": false,
+        "stages": [
+            {
+                "name": "Floor 1",
+                "img": "images/Ladder1.png",
+                "codes": "op_snotty_1",
+                "inherit_codes": true
+            },
+            {
+                "name": "Floor 2",
+                "img": "images/Ladder2.png",
+                "codes": "op_snotty_2",
+                "inherit_codes": true
+            },
+            {
+                "name": "Floor 3",
+                "img": "images/Ladder3.png",
+                "codes": "op_snotty_3",
+                "inherit_codes": true
+            },
+            {
+                "name": "Floor 4",
+                "img": "images/Ladder4.png",
+                "codes": "op_snotty_4",
+                "inherit_codes": true
+            },
+            {
+                "name": "Floor 5",
+                "img": "images/Ladder5.png",
+                "codes": "op_snotty_5",
+                "inherit_codes": true
+            }
+
+        ]
     },
     {
         "name": "Character",

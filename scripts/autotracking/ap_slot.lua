@@ -31,5 +31,13 @@ SLOT_CODES = {
 	character={
 		code="op_char",
 		mapping=laddermap
+	},
+	completion_goal={
+		code="op_goal",
+		mapping=laddermap
+	},
+	snotty_floor={
+		code="op_snotty",
+		mapping=laddermap
 	}
 }

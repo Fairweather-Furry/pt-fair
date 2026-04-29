@@ -35,7 +35,8 @@
                     ["op_f1_cost","op_f2_cost","op_f3_cost","op_f4_cost"],
                     ["op_f5_cost", "op_tt_cost", "op_treasure", "op_secret"],
                     ["op_srank","op_prank","op_task", "op_pumpkin"],
-                    ["op_portal", "op_entrandman","op_moverando","op_tfrando"]
+                    ["op_portal", "op_entrandman","op_moverando","op_tfrando"],
+                    ["op_goal","op_snotty"]
                 ]
             }
         ]
