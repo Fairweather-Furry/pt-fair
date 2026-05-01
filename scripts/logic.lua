@@ -869,13 +869,13 @@ end
 
 function pig_city_noise_sau()
   return(
-    (bounce_or_jump() and (slam() or crush())) or (has("op_diff_exp") and (bounce() or crush() or (sjump() and torn()) or (noise_upper() and (slam() or torn()))))
+    ((crush() and (bounce_or_jump() or has("op_diff_exp"))) or (noise_slam() and (bounce_or_jump() or (upper() and has("op_diff_noise")))))
   )
 end
 
 function pig_city_noise_com()
   return(
-    (crush() or (noise_slam() and (bounce_or_jump() or upper()))) or (has("op_diff_exp") and (bounce() or (sjump() and torn()) or (upper() and torn())))
+    crush() or (noise_slam() and (bounce_or_jump() or noise_upper()))
   )
 end
 
@@ -963,6 +963,12 @@ function oh_shit_noise_com()
   )
 end
 
+function oh_shit_noise_ct3()
+  return(
+    sticky() and ((sjump() or noise_upper()) and (noise_slam() or torn() or crush()) or (has("op_diff_exp") and ((bounce() and (sjump() or noise_upper())) or crush())))
+  )
+end
+
 function reach_freezerator()
   return(
     reach_elevator_3() and (has("prog_key_3") or has("op_oworld")) and (sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder4")) 
@@ -983,7 +989,7 @@ end
 
 function freezerator_noise_srank()
   return(
-    noise_slam() or crush() or torn() or bounce()
+    ((sjump() and (noise_slam() or crush() or torn() or bounce())) or (crush() and bounce() and has("op_diff_exp")))
   )
 end
 
@@ -999,7 +1005,7 @@ function reach_elevator_4()
   )
 end
 
-function reach_floor5_lower()
+function reach_pizzascare()
   return(
     reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (sjump() or climb() or noise_upper() or crush() or bounce() or has("op_ladder5"))
   )
@@ -1013,7 +1019,7 @@ end
 
 function pizzascare_pepp_s3()
   return(
-    pepp_slam() and ball() and ((sjump() and climb()) or (has("op_diff_exp") and climb_or_jump()))
+    pepp_slam() and ball() and ((sjump() and climb()) or (has("op_diff_exp") and (sjump() or (climb() and mach4()))))
   )
 end
 
@@ -1032,6 +1038,12 @@ end
 function pizzascare_noise_s3()
   return(
     ball() and ((sjump() and (noise_slam() or torn() or crush())) or (has("op_diff_exp") and (crush() or bounce() or (upper() and (noise_slam() or torn())))))
+  )
+end
+
+function reach_dmas()
+  return(
+    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (sjump() or climb() or bounce() or has("op_ladder5"))
   )
 end
 
@@ -1055,31 +1067,31 @@ end
 
 function reach_war()
   return(
-    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (sjump() or crush() or has("op_ladder5"))
+    reach_elevator_4() and (has("prog_key_4") or has("op_oworld")) and (sjump() or has("op_ladder5"))
   )
 end
 
 function war_pepp_mus()
   return(
-    shotgun() and (climb_or_jump() or (has("op_diff_exp") and pepp_slam()))
+    shotgun() and climb_or_jump()
   )
 end
 
 function war_pepp_sau()
   return(
-    shotgun() and rocket() and ((slam() and climb_or_jump()) or (has("op_diff_exp") and (climb_or_jump() or pepp_slam())))
+    shotgun() and rocket() and ((slam() and climb_or_jump()) or (has("op_diff_exp") and climb_or_jump()))
   )
 end
 
 function war_pepp_com()
   return(
-    shotgun() and rocket() and ((sjump() and pepp_slam()) or (has("op_diff_exp") and (climb_or_jump() or pepp_slam())))
+    shotgun() and rocket() and ((sjump() and pepp_slam()) or (has("op_diff_exp") and climb_or_jump()))
   ) 
 end
 
 function war_pepp_ct1()
   return(
-    shotgun() and rocket() and ((sjump() and pepp_slam()) or (has("op_diff_exp") and (climb_or_jump() or (pepp_slam() and mach4()))))
+    shotgun() and rocket() and ((sjump() and pepp_slam() and mach4()) or (has("op_diff_exp") and (climb_or_jump() or (pepp_slam() and mach4()))))
   ) 
 end
 
@@ -1091,7 +1103,7 @@ end
 
 function war_pepp_srank()
   return(
-    shotgun() and rocket() and ((sjump() and climb() and slam()) or (has("op_diff_exp") and (climb_or_jump() or pepp_slam())))
+    shotgun() and rocket() and ((sjump() and climb() and slam()) or (has("op_diff_exp") and pepp_slam() and climb_or_jump()))
   )
 end
 
@@ -1121,13 +1133,13 @@ end
 
 function war_noise_ct1()
   return(
-    shotgun() and rocket() and ((sjump() and (noise_slam() or torn() or crush()) or (has("op_noise") and has("op_diff_exp") and (sjump() or crush()))))
+    shotgun() and rocket() and ((sjump() and mach4() and (noise_slam() or torn() or crush())) or (has("op_noise") and has("op_diff_exp") and (sjump() or crush())))
   )
 end
 
 function war_noise_srank()
   return(
-    shotgun() and rocket() and ((sjump() and bounce() and (noise_slam() or torn() or crush()) or (has("op_noise") and has("op_diff_exp") and (sjump() or crush()))))
+    shotgun() and rocket() and ((sjump() and bounce() and (noise_slam() or torn() or crush()) or (has("op_noise") and has("op_diff_exp") and ((sjump() and (noise_slam() or bounce() or torn())) or crush()))))
   )
 end
 
@@ -1139,19 +1151,19 @@ end
 
 function crumbling_tower_pepp_com()
   return(
-    pepp_slam() and shotgun() and ween() and rocket() and bubb() and ((climb() and sjump()) or (has("op_diff_exp") and climb_or_jump()))
+    pepp_slam() and revolver() and shotgun() and ween() and rocket() and bubb() and ((climb() and sjump()) or (has("op_diff_exp") and climb_or_jump()))
   )
 end
 
 function crumbling_tower_noise_com()
   return(
-    has("op_noise") and shotgun() and ween() and rocket() and bubb() and ((sjump() and (slam() or torn() or ween())) or (has("op_diff_exp") and ((sjump() and bounce()) or crush())))
+    bomb() and shotgun() and ween() and rocket() and bubb() and ((sjump() and (slam() or torn() or ween())) or (has("op_diff_exp") and ((sjump() and bounce()) or crush())))
   )
 end
 
 function crumbling_tower_noise_pum()
   return(
-    shotgun() and (noise_slam() or torn() or crush() or (bounce() and has("op_diff_exp")))
+    bomb() and shotgun() and (noise_slam() or torn() or crush() or (bounce() and has("op_diff_exp")))
   )
 end
 
@@ -1191,7 +1203,8 @@ function john_gutter_access()
     (has("op_12johngutter") and reach_golf()) or
     ((has("op_13johngutter") or has("op_14johngutter") or has("op_15johngutter")) and reach_floor4_lower()) or
     (has("op_16johngutter") and reach_freezerator()) or
-    ((has("op_17johngutter") or has("op_18johngutter")) and reach_floor5_lower()) or
+    (has("op_17johngutter") and reach_pizzascare()) or
+    (has("op_18johngutter") and reach_dmas()) or
     (has("op_19johngutter") and reach_war())
   )
 end
@@ -1207,7 +1220,8 @@ function pizzascape_access()
     (has("op_12pizzascape") and reach_golf()) or
     ((has("op_13pizzascape") or has("op_14pizzascape") or has("op_15pizzascape")) and reach_floor4_lower()) or
     (has("op_16pizzascape") and reach_freezerator()) or
-    ((has("op_17pizzascape") or has("op_18pizzascape")) and reach_floor5_lower()) or
+    (has("op_17pizzascape") and reach_pizzascare()) or
+    (has("op_18pizzascape") and reach_dmas()) or
     (has("op_19pizzascape") and reach_war())
   )
 end
@@ -1223,7 +1237,8 @@ function ancient_cheese_access()
     (has("op_12ancientcheese") and reach_golf()) or
     ((has("op_13ancientcheese") or has("op_14ancientcheese") or has("op_15ancientcheese")) and reach_floor4_lower()) or
     (has("op_16ancientcheese") and reach_freezerator()) or
-    ((has("op_17ancientcheese") or has("op_18ancientcheese")) and reach_floor5_lower()) or
+    (has("op_17ancientcheese") and reach_pizzascare()) or
+    (has("op_18ancientcheese") and reach_dmas()) or
     (has("op_19ancientcheese") and reach_war())
   )
 end
@@ -1239,7 +1254,8 @@ function bloodsauce_dungeon_access()
     (has("op_12bloodsaucedungeon") and reach_golf()) or
     ((has("op_13bloodsaucedungeon") or has("op_14bloodsaucedungeon") or has("op_15bloodsaucedungeon")) and reach_floor4_lower()) or
     (has("op_16bloodsaucedungeon") and reach_freezerator()) or
-    ((has("op_17bloodsaucedungeon") or has("op_18bloodsaucedungeon")) and reach_floor5_lower()) or
+    (has("op_17bloodsaucedungeon") and reach_pizzascare()) or
+    (has("op_18bloodsaucedungeon") and reach_dmas()) or
     (has("op_19bloodsaucedungeon") and reach_war())
   )
 end
@@ -1255,7 +1271,8 @@ function oregano_desert_access()
     (has("op_12oreganodesert") and reach_golf()) or
     ((has("op_13oreganodesert") or has("op_14oreganodesert") or has("op_15oreganodesert")) and reach_floor4_lower()) or
     (has("op_16oreganodesert") and reach_freezerator()) or
-    ((has("op_17oreganodesert") or has("op_18oreganodesert")) and reach_floor5_lower()) or
+    (has("op_17oreganodesert") and reach_pizzascare()) or
+    (has("op_18oreganodesert") and reach_dmas()) or
     (has("op_19oreganodesert") and reach_war())
   )
 end
@@ -1271,7 +1288,8 @@ function wasteyard_access()
     (has("op_12wasteyard") and reach_golf()) or
     ((has("op_13wasteyard") or has("op_14wasteyard") or has("op_15wasteyard")) and reach_floor4_lower()) or
     (has("op_16wasteyard") and reach_freezerator()) or
-    ((has("op_17wasteyard") or has("op_18wasteyard")) and reach_floor5_lower()) or
+    (has("op_17wasteyard") and reach_pizzascare()) or
+    (has("op_18wasteyard") and reach_dmas()) or
     (has("op_19wasteyard") and reach_war())
   )
 end
@@ -1287,7 +1305,8 @@ function fun_farm_access()
     (has("op_12funfarm") and reach_golf()) or
     ((has("op_13funfarm") or has("op_14funfarm") or has("op_15funfarm")) and reach_floor4_lower()) or
     (has("op_16funfarm") and reach_freezerator()) or
-    ((has("op_17funfarm") or has("op_18funfarm")) and reach_floor5_lower()) or
+    (has("op_17funfarm") and reach_pizzascare()) or
+    (has("op_18funfarm") and reach_dmas()) or
     (has("op_19funfarm") and reach_war())
   )
 end
@@ -1303,7 +1322,8 @@ function fastfood_saloon_access()
     (has("op_12fastfoodsaloon") and reach_golf()) or
     ((has("op_13fastfoodsaloon") or has("op_14fastfoodsaloon") or has("op_15fastfoodsaloon")) and reach_floor4_lower()) or
     (has("op_16fastfoodsaloon") and reach_freezerator()) or
-    ((has("op_17fastfoodsaloon") or has("op_18fastfoodsaloon")) and reach_floor5_lower()) or
+    (has("op_17fastfoodsaloon") and reach_pizzascare()) or
+    (has("op_18fastfoodsaloon") and reach_dmas()) or
     (has("op_19fastfoodsaloon") and reach_war())
   )
 end
@@ -1319,7 +1339,8 @@ function crust_cove_access()
     (has("op_12crustcove") and reach_golf()) or
     ((has("op_13crustcove") or has("op_14crustcove") or has("op_15crustcove")) and reach_floor4_lower()) or
     (has("op_16crustcove") and reach_freezerator()) or
-    ((has("op_17crustcove") or has("op_18crustcove")) and reach_floor5_lower()) or
+    (has("op_17crustcove") and reach_pizzascare()) or
+    (has("op_18crustcove") and reach_dmas()) or
     (has("op_19crustcove") and reach_war())
   )
 end
@@ -1335,7 +1356,8 @@ function gnome_forest_access()
     (has("op_12gnomeforest") and reach_golf()) or
     ((has("op_13gnomeforest") or has("op_14gnomeforest") or has("op_15gnomeforest")) and reach_floor4_lower()) or
     (has("op_16gnomeforest") and reach_freezerator()) or
-    ((has("op_17gnomeforest") or has("op_18gnomeforest")) and reach_floor5_lower()) or
+    (has("op_17gnomeforest") and reach_pizzascare()) or
+    (has("op_18gnomeforest") and reach_dmas()) or
     (has("op_19gnomeforest") and reach_war())
   )
 end
@@ -1351,7 +1373,8 @@ function deep_dish_9_access()
     (has("op_12deepdish9") and reach_golf()) or
     ((has("op_13deepdish9") or has("op_14deepdish9") or has("op_15deepdish9")) and reach_floor4_lower()) or
     (has("op_16deepdish9") and reach_freezerator()) or
-    ((has("op_17deepdish9") or has("op_18deepdish9")) and reach_floor5_lower()) or
+    (has("op_17deepdish9") and reach_pizzascare()) or
+    (has("op_18deepdish9") and reach_dmas()) or
     (has("op_19deepdish9") and reach_war())
   )
 end
@@ -1367,7 +1390,8 @@ function golf_access()
     (has("op_12golf") and reach_golf()) or
     ((has("op_13golf") or has("op_14golf") or has("op_15golf")) and reach_floor4_lower()) or
     (has("op_16golf") and reach_freezerator()) or
-    ((has("op_17golf") or has("op_18golf")) and reach_floor5_lower()) or
+    (has("op_17golf") and reach_pizzascare()) or
+    (has("op_18golf") and reach_dmas()) or
     (has("op_19golf") and reach_war())
   )
 end
@@ -1383,7 +1407,8 @@ function pig_city_access()
     (has("op_12thepigcity") and reach_golf()) or
     ((has("op_13thepigcity") or has("op_14thepigcity") or has("op_15thepigcity")) and reach_floor4_lower()) or
     (has("op_16thepigcity") and reach_freezerator()) or
-    ((has("op_17thepigcity") or has("op_18thepigcity")) and reach_floor5_lower()) or
+    (has("op_17thepigcity") and reach_pizzascare()) or
+    (has("op_18thepigcity") and reach_dmas()) or
     (has("op_19thepigcity") and reach_war())
   )
 end
@@ -1399,7 +1424,8 @@ function peppibot_factory_access()
     (has("op_12peppibotfactory") and reach_golf()) or
     ((has("op_13peppibotfactory") or has("op_14peppibotfactory") or has("op_15peppibotfactory")) and reach_floor4_lower()) or
     (has("op_16peppibotfactory") and reach_freezerator()) or
-    ((has("op_17peppibotfactory") or has("op_18peppibotfactory")) and reach_floor5_lower()) or
+    (has("op_17peppibotfactory") and reach_pizzascare()) or
+    (has("op_18peppibotfactory") and reach_dmas()) or
     (has("op_19peppibotfactory") and reach_war())
   )
 end
@@ -1415,7 +1441,8 @@ function oh_shit_access()
     (has("op_12ohshit") and reach_golf()) or
     ((has("op_13ohshit") or has("op_14ohshit") or has("op_15ohshit")) and reach_floor4_lower()) or
     (has("op_16ohshit") and reach_freezerator()) or
-    ((has("op_17ohshit") or has("op_18ohshit")) and reach_floor5_lower()) or
+    (has("op_17ohshit") and reach_pizzascare()) or
+    (has("op_18ohshit") and reach_dmas()) or
     (has("op_19ohshit") and reach_war())
   )
 end
@@ -1431,7 +1458,8 @@ function freezerator_access()
     (has("op_12rrfreezerator") and reach_golf()) or
     ((has("op_13rrfreezerator") or has("op_14rrfreezerator") or has("op_15rrfreezerator")) and reach_floor4_lower()) or
     (has("op_16rrfreezerator") and reach_freezerator()) or
-    ((has("op_17rrfreezerator") or has("op_18rrfreezerator")) and reach_floor5_lower()) or
+    (has("op_17rrfreezerator") and reach_pizzascare()) or
+    (has("op_18rrfreezerator") and reach_dmas()) or
     (has("op_19rrfreezerator") and reach_war())
   )
 end
@@ -1447,7 +1475,8 @@ function pizzascare_access()
     (has("op_12pizzascare") and reach_golf()) or
     ((has("op_13pizzascare") or has("op_14pizzascare") or has("op_15pizzascare")) and reach_floor4_lower()) or
     (has("op_16pizzascare") and reach_freezerator()) or
-    ((has("op_17pizzascare") or has("op_18pizzascare")) and reach_floor5_lower()) or
+    (has("op_17pizzascare") and reach_pizzascare()) or
+    (has("op_18pizzascare") and reach_dmas()) or
     (has("op_19pizzascare") and reach_war())
   )
 end
@@ -1463,7 +1492,8 @@ function dont_make_sound_access()
     (has("op_12dontmakeasound") and reach_golf()) or
     ((has("op_13dontmakeasound") or has("op_14dontmakeasound") or has("op_15dontmakeasound")) and reach_floor4_lower()) or
     (has("op_16dontmakeasound") and reach_freezerator()) or
-    ((has("op_17dontmakeasound") or has("op_18dontmakeasound")) and reach_floor5_lower()) or
+    (has("op_17dontmakeasound") and reach_pizzascare()) or
+    (has("op_18dontmakeasound") and reach_dmas()) or
     (has("op_19dontmakeasound") and reach_war())
   )
 end
@@ -1479,7 +1509,8 @@ function war_access()
     (has("op_12war") and reach_golf()) or
     ((has("op_13war") or has("op_14war") or has("op_15war")) and reach_floor4_lower()) or
     (has("op_16war") and reach_freezerator()) or
-    ((has("op_17war") or has("op_18war")) and reach_floor5_lower()) or
+    (has("op_17war") and reach_pizzascare()) or
+    (has("op_18war") and reach_dmas()) or
     (has("op_19war") and reach_war())
   )
 end

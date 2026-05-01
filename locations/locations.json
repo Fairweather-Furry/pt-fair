@@ -1652,7 +1652,7 @@
                     {
                         "name": "Secret 1",
                         "visibility_rules": ["op_secret"],
-                        "access_rules": ["$sjump", "$climb,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
+                        "access_rules": ["$sjump", "$climb,$grab,op_diff_exp", "$climb,$upper,op_diff_exp", "$crush,op_diff_exp", "$noise_upper,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -1803,7 +1803,7 @@
                     {
                         "name": "Chef Task: Penny Pincher",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$slam,$climb,$sticky,$sjump", "$slam,$climb,$sticky,op_diff_exp", "$oh_shit_noise_com"],
+                        "access_rules": ["$slam,$climb,$sticky,$sjump", "$slam,$climb,$sticky,$upper,op_diff_exp", "$oh_shit_noise_ct3"],
                         "item_count": 1
                     },
                     {
@@ -1936,13 +1936,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$grab", "op_pepp,$upper", "op_diff_exp", "$bomb"],
+                        "access_rules": ["$grab", "op_pepp,$upper", "$slam", "$bomb", "$torn", "$crush"],
                         "item_count": 1 
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$grab", "op_pepp,$upper", "op_diff_exp", "$bomb"],
+                        "access_rules": ["$grab", "op_pepp,$upper", "$slam", "$bomb", "$torn", "$crush"], 
                         "item_count": 1 
                     }
                 ],
@@ -1961,7 +1961,7 @@
                 "sections": [
                     {
                         "name": "Chef Task: Faker",
-                        "access_rules": ["$grab,$fake_pepp_access", "op_pepp,$upper,$fake_pepp_access", "op_diff_exp,$fake_pepp_access", "$bomb,$fake_pepp_access"],
+                        "access_rules": ["$grab,$fake_pepp_access", "op_pepp,$upper,$fake_pepp_access", "$slam,$fake_pepp_access", "$bomb,$fake_pepp_access", "$torn,$fake_pepp_access", "$crush,$fake_pepp_access"],
                         "item_count": 1 
                     },
                     {
