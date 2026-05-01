@@ -1168,7 +1168,7 @@
                     {
                         "name": "Chef Task: Bee Nice",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$taunt"],
+                        "access_rules": ["$taunt", "$staunt,op_diff_exp"],
                         "item_count": 1
                     },
                     {
@@ -1380,7 +1380,6 @@
                     {
                         "name": "Chef Task: Nice Shot",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$golf_pepp_mus,$ball", "$golf_noise_mus,$ball"],
                         "item_count": 1
                     },
                     {

@@ -628,7 +628,7 @@ end
 
 function fun_farm_pepp_lap2()
   return(
-    pepp_slam() and mort() and (climb() and (grab() or sjump()) or (has("op_diff_exp") and (sjump() or ((upper() or climb()) and grab()))))
+    pepp_slam() and mort() and (climb() and (grab() or sjump()) or (has("op_diff_exp") and (sjump() or (upper() and grab()))))
   )
 end
 
@@ -803,7 +803,7 @@ end
 
 function deep_dish_9_noise_ct3()
   return(
-    rocket() and ((bubb() and noise_slam() and (bounce_or_jump() or upper())) or (has("op_diff_exp") and (crush() or (sjump() and (noise_slam() or torn() or bounce())) or (bubb() and ((noise_slam() and upper()) or (torn() and upper()) or bounce())))))
+    rocket() and ((bubb() and noise_slam() and (bounce_or_jump() or upper())) or (has("op_diff_exp") and has("op_noise") and (sjump() or crush() or (bubb() and (bounce() or noise_upper())))))
   )
 end
 
