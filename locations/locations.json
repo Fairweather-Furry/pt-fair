@@ -1168,7 +1168,7 @@
                     {
                         "name": "Chef Task: Bee Nice",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$taunt", "$staunt,op_diff_exp"],
+                        "access_rules": ["$taunt", "$staunt,slam,op_diff_exp", "$staunt,$torn,op_diff_exp", "$staunt,$bounce,op_diff_exp", "$staunt,$crush,op_diff_exp"],
                         "item_count": 1
                     },
                     {
