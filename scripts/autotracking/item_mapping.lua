@@ -119,9 +119,13 @@ ENTRY_MAPPING = {
     ["freezer"] = {"op_lvlslot16",16},
     ["chateau"] = {"op_lvlslot17",17},
     ["kidsparty"] = {"op_lvlslot18",18},
-    ["war"] = {"op_lvlslot19",19},
+    ["war"] = {"op_lvlslot19",19}
+}
+
+BOSS_MAPPING = {
     ["boss_pepperman"] = {"op_bossslot1",1},
     ["boss_vigilante"] = {"op_bossslot2",2},
     ["boss_noise"] = {"op_bossslot3",3},
-    ["boss_fakepep"] = {"op_bossslot4",4}
+    ["boss_fakepep"] = {"op_bossslot4",4},
+    ["boss_pizzaface"] = {"op_bossslot5",0}
 }

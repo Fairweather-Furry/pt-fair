@@ -3282,5 +3282,45 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Boss 5 Slot",
+        "type": "progressive",
+        "codes": "op_bossslot5",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Unknown",
+                "img": "images/Dots.png",
+                "codes": "op_b5unknown",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Pepperman",
+                "img": "images/Pepperman.png",
+                "codes": "op_b5pepperman",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Vigilante",
+                "img": "images/Vigilante.png",
+                "codes": "op_b5vigilante",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. The Noise/Doise",
+                "img": "images/NoiseBoss.png",
+                "codes": "op_b5noise",
+                "inherit_codes": false
+            },
+            {
+                "name": "VS. Fake Peppino",
+                "img": "images/FakePeppino.png",
+                "codes": "op_b5fakepepp",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

@@ -65,7 +65,7 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	
---	print(dump_table(slot_data))
+	print(dump_table(slot_data))
 
 	for k,v in pairs(slot_data) do
 		if SLOT_CODES[k] then
@@ -84,9 +84,9 @@ function onClear(slot_data)
     end
     for slt,lvl in pairs(slot_data["rando_bosses"]) do
         if has("op_entrandman") then
-            Tracker:FindObjectForCode(ENTRY_MAPPING[slt][1]).CurrentStage = 0
+            Tracker:FindObjectForCode(BOSS_MAPPING[slt][1]).CurrentStage = 0
         else
-            Tracker:FindObjectForCode(ENTRY_MAPPING[slt][1]).CurrentStage = ENTRY_MAPPING[lvl][2]
+            Tracker:FindObjectForCode(BOSS_MAPPING[slt][1]).CurrentStage = BOSS_MAPPING[lvl][2]
         end
     end
 
