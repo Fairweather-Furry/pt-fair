@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.5 AP",
+            "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.5/pt-fair.zip",
+            "sha256": "de809a0b2a710cb0d04225ea3807aff1fa2bd60c041433b26d69720d65993cfc",
+            "changelog": [
+                "Snotty Options/Goal",
+                "Added Snotty Floor option.",
+                "Added second goal of killing Snotty.",
+                "Various logic tweaks for locations."
+            ]
+        },
+        {
             "package_version": "0.4-3 AP",
             "download_url": "https://github.com/Fairweather-Furry/pt-fair/releases/download/v0.4-3/pt-fair.zip",
             "sha256": "722768b75fab3ebab494ef994b26f633126c7218d9edbccb45da3de66a6c340d",
