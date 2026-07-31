@@ -65,7 +65,7 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	
-	print(dump_table(slot_data))
+--	print(dump_table(slot_data))
 
 	for k,v in pairs(slot_data) do
 		if SLOT_CODES[k] then
