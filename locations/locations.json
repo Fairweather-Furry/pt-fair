@@ -1676,13 +1676,13 @@
                     {
                         "name": "S Rank",
                         "visibility_rules": ["op_srank"],
-                        "access_rules": ["$peppibot_factory_pepp_srank,$lap2", "$peppibot_factory_noise_srank,$lap2"],
+                        "access_rules": ["$peppibot_factory_pepp_srank,$lap2,grab", "$peppibot_factory_noise_srank,$lap2,grab"],
                         "item_count": 1
                     },
                     {
                         "name": "P Rank",
                         "visibility_rules": ["op_prank"],
-                        "access_rules": ["$peppibot_factory_pepp_srank,$lap2", "$peppibot_factory_noise_srank,$lap2"],
+                        "access_rules": ["$peppibot_factory_pepp_srank,$lap2,grab", "$peppibot_factory_noise_srank,$lap2,grab"],
                         "item_count": 1
                     },
                     {
@@ -1700,7 +1700,7 @@
                     {
                         "name": "Chef Task: There Can Only Be One",
                         "visibility_rules": ["op_task"],
-                        "access_rules": ["$peppibot_factory_pepp_com,$lap2", "$peppibot_factory_noise_com,$lap2"],
+                        "access_rules": ["$peppibot_factory_pepp_com,$lap2,grab", "$peppibot_factory_noise_com,$lap2,grab"],
                         "item_count": 1
                     },
                     {
