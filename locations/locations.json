@@ -1686,7 +1686,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chef Task: Unflattering",
+                        "name": "Chef Task: Unflattening",
                         "visibility_rules": ["op_task"],
                         "access_rules": ["$peppibot_factory_pepp_com", "$peppibot_factory_noise_com"],
                         "item_count": 1
